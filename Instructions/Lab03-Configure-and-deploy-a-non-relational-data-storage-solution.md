@@ -4,6 +4,6 @@ Lab:
     Module: 'Design data storage solutions'
 ---
 
-# Lab 02 - Configure and deploy a non-relational data storage solution 
+# Lab 03 - Configure and deploy a non-relational data storage solution 
 # Student lab manual
 ## Lab scenario
