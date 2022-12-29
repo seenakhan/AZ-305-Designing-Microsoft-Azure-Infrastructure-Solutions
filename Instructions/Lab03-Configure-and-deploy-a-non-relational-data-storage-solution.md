@@ -55,4 +55,6 @@ An Azure account
 
 ![image](media/str1.png)
 
+4. On the storage accounts please click create
 
+![image](media/str2.png)
