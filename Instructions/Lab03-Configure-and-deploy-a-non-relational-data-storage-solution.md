@@ -45,7 +45,7 @@ In this lab, we will:
 
 #### Task 1: Create Azure Storage account
 
-In this task, you will create a Management Group via the Azure portal.
+In this task, you will create an azure storage account.
 
 #### Pre-requisites for this task
 If you don't have an Azure subscription, create a free account before you begin by clicking [here](https://azure.microsoft.com/en-us/free/).
