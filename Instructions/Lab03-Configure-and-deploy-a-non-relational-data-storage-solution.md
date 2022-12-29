@@ -38,3 +38,14 @@ In this lab, we will:
 ## Architecture diagram
 
 ![image](media/arch1.png)
+
+## Instructions
+
+### Exercise 1
+
+#### Task 1: Create Azure Storage account
+
+In this task, you will create a Management Group via the Azure portal.
+
+#### Pre-requisites for this task
+If you don't have an Azure subscription, create a free account before you begin by clicking [here](https://azure.microsoft.com/en-us/free/).
