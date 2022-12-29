@@ -42,4 +42,17 @@ In this lab, we will:
 In this task, you will create an azure storage account.
 
 #### Pre-requisites for this task
-If you don't have an Azure subscription, create a free account before you begin by clicking [here](https://azure.microsoft.com/en-us/free/).
+
+An Azure account
+
+#### Steps
+
+1. Click on the Edge browser icon from desktop.
+
+2. Enter the login credentials.
+
+3. Once the portal opened completely, click on all services and select storage accounts
+
+![image](media/str1.png)
+
+
