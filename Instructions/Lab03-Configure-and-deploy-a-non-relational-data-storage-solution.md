@@ -47,7 +47,7 @@ An Azure account
 
 #### Steps
 
-1. Click on the Edge browser icon from the desktop.
+1. Double click on the Edge browser icon from the desktop.
 
 2. Enter the login credentials. For credentials, please see the environment details tab on the lab guide.
 
@@ -65,4 +65,14 @@ An Azure account
 
 ![image](media/str3.png)
 
+7.For Storage account name option please provide any name with small letter alphabets and numbers.
 
+8. Select the region option as East US
+
+9. On the performance options: Select standard
+
+10. Select Geo-Redundant storage on the redundancy option
+
+![image](media/str4.png)
+
+11. 
