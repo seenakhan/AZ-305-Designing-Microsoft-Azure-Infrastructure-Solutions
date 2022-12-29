@@ -15,18 +15,23 @@ In order to improve management of Azure resources in Contoso, you have been task
 
 - Azure Blob Storage allows you to store large amounts of unstructured object data. You can use Blob Storage to gather or expose media, content, or application data to users.
 
-- Assign Policies to enforce different rules over your resource configurations so the configurations stay compliant with corporate standards.
-- Cost Analysis - Microsoft Cost Management is a suite of tools that help organizations monitor, allocate, and optimize the cost of their Microsoft Cloud workloads. 
+- Configure a static website to aceess the blob container
+- Upload some files to the blob container and apply the lifecycle policy.
+- Secure blob storage and enable backup/soft delete
+- Configure Azure file  
 
 ## Objectives
 
 In this lab, we will:
 
-+ Task 1: Create Management Groups
-+ Task 2: Create Child Management Groups
-+ Task 3: Assign Subscriptions to management groups
-+ Task 4: Assign Policies and Governance to management groups
-+ Task 5: Review the cost data and explore the cost manager
++ Task 1: Create Azure Storage account
++ Task 2: Configure Azure Blob storage
++ Task 3: Configure a static website to access the blob container and upload files to the blob container
++ Task 4: Upload files to the blob container and apply the lifecycle policy
++ Task 5: Secure blob storage and enable backup/soft delete
++ Task 6: Configure Azure file
 
 ## Estimated timing: 30 minutes
 ## Architecture diagram
+
+![image](media/arch1.png)
