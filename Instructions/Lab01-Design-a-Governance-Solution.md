@@ -1,9 +1,3 @@
----
-Lab:
-    Title: '01 - Design a Governance Solution'
-    Module: 'Microsoft Azure Architect Design Prerequisites'
----
-
 # Lab 01 - Design a Governance Solution
 # Student lab manual
 ## Lab scenario
