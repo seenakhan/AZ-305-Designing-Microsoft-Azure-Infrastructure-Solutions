@@ -19,7 +19,7 @@ In order to improve management of Azure resources, you have been tasked with imp
 
 ## Objectives
 
-In this lab, we will:
+In this lab, you will:
 
 + Task 1: Create Azure Storage account
 + Task 2: Configure Azure Blob storage
@@ -47,14 +47,22 @@ An Azure account
 
 #### Steps
 
-1. Click on the Edge browser icon from desktop.
+1. Click on the Edge browser icon from the desktop.
 
-2. Enter the login credentials.
+2. Enter the login credentials. For credentials, please see the environment details tab on the lab guide.
 
-3. Once the portal opened completely, click on all services and select storage accounts
+3. Once the portal opened completely, click on all services on the left portal menu and select storage accounts
 
 ![image](media/str1.png)
 
-4. On the storage accounts please click create
+4. On the storage accounts page please select create, 
 
 ![image](media/str2.png)
+
+5. Create a Storage account page will open. You can see the options for your new storage account are organized into tabs in the Create a storage account page.
+
+6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the basic tab, select the subscription, if the default subscription is not using, then create a new resource group.
+
+![image](media/str3.png)
+
+
