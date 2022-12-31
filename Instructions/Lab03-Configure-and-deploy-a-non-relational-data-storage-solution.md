@@ -65,7 +65,7 @@ An Azure account
 
 ![image](media/str3.png)
 
-7.For Storage account name option please provide any name with small letter alphabets and numbers.
+7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
 8. Select the region option as East US
 
@@ -75,4 +75,16 @@ An Azure account
 
 ![image](media/str4.png)
 
-11. 
+11. Go to Advanced tab, review the options and the default values of it. Please dont change any values.
+
+12. Go to Networking tab, and review the options and the default values of it.
+
+13. Go to Data Protection tab, and review the options and the default values of it.
+
+14. Go to Encryption tab, and review the options and the values.
+
+15. After reviewing all tabs, select the review button from the bottom left of the page.
+
+![image](media/str5.png)
+
+16. 
