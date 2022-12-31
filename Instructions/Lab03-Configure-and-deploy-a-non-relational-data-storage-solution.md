@@ -87,4 +87,10 @@ An Azure account
 
 ![image](media/str5.png)
 
-16. 
+16. After completing the validation, please click on Create button from the bottom left of the page.
+
+![image](media/str6.png)
+
+17. After completing the deployment, Please click on Go to resource.
+
+![image](media/str7.png)
