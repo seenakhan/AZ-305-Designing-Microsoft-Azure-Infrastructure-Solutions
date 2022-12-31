@@ -63,7 +63,7 @@ An Azure account
 
 6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the basic tab, select the subscription, if the default subscription is not using, then create a new resource group.
 
-![image](media/str3.png)
+![image](media/str3a.png)
 
 7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
