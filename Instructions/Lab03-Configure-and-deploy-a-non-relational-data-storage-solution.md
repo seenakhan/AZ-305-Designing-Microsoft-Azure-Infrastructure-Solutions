@@ -39,7 +39,7 @@ In this lab, you will:
 
 #### Task 1: Create Azure Storage account
 
-In this task, you will create an azure storage account.
+In this task, you will learn how to use Azur portal to create an azure storage account.
 
 #### Pre-requisites for this task
 
@@ -63,7 +63,7 @@ An Azure account
 
 6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the basic tab, select the subscription, if the default subscription is not using, then create a new resource group.
 
-![image](media/str3a.png)
+![image](media/str3.png)
 
 7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
@@ -73,7 +73,7 @@ An Azure account
 
 10. Select Geo-Redundant storage on the redundancy option
 
-![image](media/str4.png)
+![image](media/str4a.png)
 
 11. Go to Advanced tab, review the options and the default values of it. Please dont change any values.
 
