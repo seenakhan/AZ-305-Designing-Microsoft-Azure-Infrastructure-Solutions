@@ -153,7 +153,54 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](media/str13.png)
 
-5. After completing the uploading process of block blobs, you can see the blobs listed in the container. If its not seeing, Please select the overview tab of the conmtainer and select refresh.
+5. After completing the uploading process of block blobs, you can see the blobs listed in the container. If its not seeing, Please select the overview tab of the container and select refresh.
 
 ![image](media/str14.png)
 
+#### Task 4: Configure a static website to access the blob container
+
+In this task, you will learn how to use the Azure portal to configure a static website to access the blob container.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). To configure a static website to access the blob container, follow these steps:
+
+#### Steps
+
+1. Launch Visual Studio Code by double click on Vscode icon from desktop.
+
+2. On the toolbar, click Extensions. Search for Azure Storage, and select the Azure Storage extension from the list. Then click the Install button to install the extension.
+
+![image](media/str15.png)
+
+3. Open the Azure portal in your web browser.
+
+4. Locate your storage account and display the account overview.
+
+![image](media/str8.png)
+
+5. Select Static website to display the configuration page for static websites under data management section.
+
+6. Select Enabled to enable static website hosting for the storage account.
+
+7. In the Index document name field, specify a default index page of index.html. The default index page is displayed when a user navigates to the root of your static website.
+
+8. In the Error document path field, specify a default error page of 404.html. The default error page is displayed when a user attempts to navigate to a page that does not exist in your static website. Click Save.
+
+![image](media/str16.png)
+
+9. The Azure portal now displays your static website endpoints (primary and secondary). Azure Storage automatically creates a container named $web. The $web container will contain the files for your static website.
+
+![image](media/str17.png)
+
+
+
+#### Task 4: Apply the lifecycle policy and Change the replication strategy
+
+In this task, you will learn how to use the Azure portal to Apply the lifecycle policy and Change the replication strategy of a storage account.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). 
+
+#### Steps
