@@ -91,6 +91,36 @@ An Azure account
 
 ![image](media/str6.png)
 
-17. After completing the deployment, Please click on Go to resource.
+17. After completing the deployment, Please click on **Go to resource**.
 
 ![image](media/str7.png)
+
+18. You can see the newly created Storage account, please go through the overview section.
+
+![image](media/str8.png)
+
+#### Task 2: Create a blob container
+
+In this task, you will learn how to use the Azure portal to create a blob container in a storage account.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account (Complete Task 1)
+
+#### Steps
+
+1. Navigate to your new storage account in the Azure portal.
+
+2. In the left menu for the storage account, scroll to the Data storage section, then select Containers.
+
+3. Select the + Container button.
+
+![image](media/str9.png)
+
+4. Type a name for your new container. The container name must be lowercase, must start with a letter or number, and can include only letters, numbers, and the dash (-) character. For more information about container and blob names, see Naming and referencing containers, blobs, and metadata.
+
+5. Set the level of public access to the container. The default level is Private (no anonymous access).
+
+6. Select Create to create the container.
+
+![image](media/str10.png)
