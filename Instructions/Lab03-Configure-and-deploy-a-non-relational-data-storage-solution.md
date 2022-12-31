@@ -5,13 +5,13 @@
 
 In order to improve management of Azure resources, you have been tasked with implementing the following functionality:
 
-- An Azure storage account contains all of your Azure Storage data objects: blobs, files, queues, and tables. The storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world over HTTP or HTTPS.
+- Configure an Azure Storage account. An Azure storage account contains all of your Azure Storage data objects: blobs, files, queues, and tables. The storage account provides a unique namespace for your Azure Storage data that is accessible from anywhere in the world over HTTP or HTTPS.
 
 - Configure an Azure blob storage. Azure Blob Storage allows you to store large amounts of unstructured object data. You can use Blob Storage to gather or expose media, content, or application data to users.
 
-- Configure a static website to aceess the blob container. You can serve static content (HTML, CSS, JavaScript, and image files) directly from a storage container. Azure Storage static website hosting is a great option in cases where you don't require a web server to render content. 
-
 - Upload some files to the blob container and apply the lifecycle policy. Azure Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle. A lifecycle policy acts on a base blob, and optionally on the blob's versions or snapshots.
+
+- Configure a static website to aceess the blob container. You can serve static content (HTML, CSS, JavaScript, and image files) directly from a storage container. Azure Storage static website hosting is a great option in cases where you don't require a web server to render content. 
 
 - Secure blob storage and enable backup/soft delete. Blob soft delete protects an individual blob, snapshot, or version from accidental deletes or overwrites by maintaining the deleted data in the system for a specified period of time. During the retention period, you can restore a soft-deleted object to its state at the time it was deleted. After the retention period has expired, the object is permanently deleted.
 
@@ -128,3 +128,27 @@ An Azure account, a storage account (Complete Task 1)
 7. After completing the deployment, you can see the newly created blob container on the container's section, If its not listed please refresh the page.
 
 ![image](media/str11.png)
+
+#### Task 3: Upload a block blob
+
+In this task, you will learn how to use the Azure portal to upload a block blob in your newly created blob container in a storage account.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). To upload a block blob to your new container in the Azure portal, follow these steps:
+
+#### Steps
+
+1. In the Azure portal, navigate to the container you created in the previous section.
+
+2. Select the container to show a list of blobs it contains. This container is new, so it won't yet contain any blobs.
+
+![image](media/str11.png)
+
+3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob. You can optionally expand the Advanced section to configure other settings for the upload operation.
+
+![image](media/str12a.png)
+
+After entering all the details, please select the upload button to upload the blob.
+
+![image](media/str13.png)
