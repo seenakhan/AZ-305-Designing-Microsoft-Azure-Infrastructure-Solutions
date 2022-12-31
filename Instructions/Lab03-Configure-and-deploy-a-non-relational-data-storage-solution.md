@@ -124,3 +124,7 @@ An Azure account, a storage account (Complete Task 1)
 6. Select Create to create the container.
 
 ![image](media/str10.png)
+
+7. After completing the deployment, you can see the newly created blob container on the container's section, If its not listed please refresh the page.
+
+![image](media/str11.png)
