@@ -139,16 +139,21 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 #### Steps
 
-1. In the Azure portal, navigate to the container you created in the previous section.
+1. In the Azure portal, navigate to the container you created in the previous task.
 
 2. Select the container to show a list of blobs it contains. This container is new, so it won't yet contain any blobs.
 
 ![image](media/str11.png)
 
-3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob. You can optionally expand the Advanced section to configure other settings for the upload operation.
+3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. 
 
 ![image](media/str12a.png)
 
-After entering all the details, please select the upload button to upload the blob.
+4. After entering all the details, please select the upload button to upload the blob.
 
 ![image](media/str13.png)
+
+5. After completing the uploading process of block blobs, you can see the blobs listed in the container. If its not seeing, Please select the overview tab of the conmtainer and select refresh.
+
+![image](media/str14.png)
+
