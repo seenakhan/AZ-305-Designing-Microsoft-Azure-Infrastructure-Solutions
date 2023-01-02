@@ -336,3 +336,11 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 4. For Encryption type, select the radio button for Customer-managed keys.
 
 5. For the Key selection, ensure the Select from key vault value is selected, then choose the link for Select a key vault and key.
+
+![image](media/life11.png)
+
+6. In the Select a key page, select the subscription, key store type, and key vault to store the customer-managed encryption key.
+
+![image](media/life12.png)
+
+7. If you have an existing key stored in the key vault, select the key from the dropdown. Otherwise, select Create a new key. This tutorial is going to create a new key.
