@@ -287,11 +287,13 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 1. Create a Key Vault if you don’t have an existing one available. Check out this quickstart on creating a key vault using the Azure portal.
 
-    1. From the Azure portal menu, or from the Home page, select Create a resource.
-    2. In the Search box, enter Key Vault.
+    1. Open Azure portal, in the Search box, enter Key Vault.
     3. From the results list, choose Key Vault.
-    4. On the Key Vault section, choose Create.
-    5. On the Create key vault section provide the following information:
+    
+    ![image](media/life6.png)
+    
+    5. On the Key Vault section, choose Create.
+    6. On the Create key vault section provide the following information:
         
         **Name: A unique name is required. For this quickstart, we use Contoso-vault2.**
         
@@ -316,6 +318,9 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 
 2. If creating a new Key Vault, place the Key Vault in the same region as the storage account and enable purge protection. If you have an existing key vault, go to the Key Vault’s Settings, then choose Properties to enable purge protection.
-In the storage account, navigate to Security + Networking, then choose Encryption.
-For Encryption type, select the radio button for Customer-managed keys.
-For the Key selection, ensure the Select from key vault value is selected, then choose the link for Select a key vault and key.
+
+3. In the storage account, navigate to Security + Networking, then choose Encryption.
+
+4. For Encryption type, select the radio button for Customer-managed keys.
+
+5. For the Key selection, ensure the Select from key vault value is selected, then choose the link for Select a key vault and key.
