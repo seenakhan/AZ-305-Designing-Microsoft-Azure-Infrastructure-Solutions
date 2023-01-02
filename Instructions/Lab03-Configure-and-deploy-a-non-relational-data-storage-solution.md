@@ -255,5 +255,9 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](media/life3a.png)
 
-3. 
+3. On the Add a rule page, under the Base blob tab, enter the following settings as per the image below:
+
+![image](media/life4.png)
+
+
 
