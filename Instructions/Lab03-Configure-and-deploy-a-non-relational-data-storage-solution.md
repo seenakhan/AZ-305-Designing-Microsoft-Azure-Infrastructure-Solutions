@@ -368,7 +368,7 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 ![image](media/life16.png)
 
-3. In the Shared access signature pane, choose the storage account services and options the shared access signature should have. This example gives Read and List permissions to Blobs in a container. Always use the principle of least privilege when assigning permissions to a SAS.
+3. In the Shared access signature pane, choose the storage account services and options the shared access signature should have. This example gives Read and List permissions to Blobs in a container. Always use the principle of least privilege when assigning permissions to a SAS. Please select the options as per the below image
 
 ![image](media/life17.png)
 
@@ -380,9 +380,12 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 7. Finally, choose which access key to sign the shared access signature. If you revoke the access key, any shared access signature created from the access key is invalidated.
 
-8. Once you configured all the options, select Generate SAS and connection string.
+8. Once you configured all the options, please see the below image then select Generate SAS and connection string.
 
 ![image](media/life18.png)
 
-
 9. The wizard produces three options for using the SAS: a connection string for applications, a SAS token, and a Blob service SAS URL.
+
+![image](media/life19.png)
+
+By providing the SAS, you can control what resources they have access to, what permissions they have on those resources, and how long they have access to the resources.
