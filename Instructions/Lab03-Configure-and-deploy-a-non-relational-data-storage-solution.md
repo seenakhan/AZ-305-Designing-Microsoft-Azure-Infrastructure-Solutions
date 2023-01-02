@@ -293,19 +293,28 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
     ![image](media/life6.png)
     
     5. On the Key Vault section, choose Create.
-    6. On the Create key vault section provide the following information:
+
+    ![image](media/life7.png)
+    
+    7. On the Create key vault section provide the following information:
         
-        **Name: A unique name is required. For this quickstart, we use Contoso-vault2.**
+        **Name: A unique name is required. For this quickstart, we use contoso-vault3.**
         
         **Subscription: Choose a subscription.**
         
-        **Under Resource Group, choose Create new and enter a resource group name.**
+        **Under Resource Group, select the previously created resource group.**
         
-        **In the Location pull-down menu, choose a location.**
+        **In the Location pull-down menu, choose a location (East US where your storage account located).**
+        
+        **Choose to enable purge protection.**
         
         **Leave the other options to their defaults.**
         
+    ![image](media/life8.png)   
+            
     6. After providing the information above, select Create.
+
+    ![image](media/life9.png)
    
    Take note of the two properties listed below:
 
