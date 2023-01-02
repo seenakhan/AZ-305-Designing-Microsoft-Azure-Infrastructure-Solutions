@@ -362,9 +362,27 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 #### Steps to configure shared access signatures as follows:
 
-1. Navigate to the storage account resource in the Azure portal.
+1. Navigate to the storage account in the Azure portal.
 
 2. In the storage account, navigate to Security + networking, then choose Shared access signature.
 
+![image](media/life16.png)
+
 3. In the Shared access signature pane, choose the storage account services and options the shared access signature should have. This example gives Read and List permissions to Blobs in a container. Always use the principle of least privilege when assigning permissions to a SAS.
 
+![image](media/life17.png)
+
+4. Choose a start and end time for how long the SAS should be valid.
+
+5. If needed, you can also limit what IP addresses can send requests to the storage account using the SAS.
+
+6. As a best practice, only allow the HTTPS protocol when using the SAS URI.
+
+7. Finally, choose which access key to sign the shared access signature. If you revoke the access key, any shared access signature created from the access key is invalidated.
+
+8. Once you configured all the options, select Generate SAS and connection string.
+
+![image](media/life18.png)
+
+
+9. The wizard produces three options for using the SAS: a connection string for applications, a SAS token, and a Blob service SAS URL.
