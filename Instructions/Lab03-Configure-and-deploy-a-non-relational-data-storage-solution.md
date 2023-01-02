@@ -13,7 +13,7 @@ In order to improve management of Azure resources, you have been tasked with imp
 
 - Configure a static website to aceess the blob container. You can serve static content (HTML, CSS, JavaScript, and image files) directly from a storage container. Azure Storage static website hosting is a great option in cases where you don't require a web server to render content. 
 
-- Secure blob storage and enable backup/soft delete. Blob soft delete protects an individual blob, snapshot, or version from accidental deletes or overwrites by maintaining the deleted data in the system for a specified period of time. During the retention period, you can restore a soft-deleted object to its state at the time it was deleted. After the retention period has expired, the object is permanently deleted.
+- Secure blob storage and enable backup/soft delete. To secure your blob storage you can use access keys, shared access signatures. Blob soft delete protects an individual blob, snapshot, or version from accidental deletes or overwrites by maintaining the deleted data in the system for a specified period of time. During the retention period, you can restore a soft-deleted object to its state at the time it was deleted. After the retention period has expired, the object is permanently deleted.
 
 - Configure Azure files. Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API. Azure file shares can be mounted concurrently by cloud or on-premises deployments. SMB Azure file shares are accessible from Windows, Linux, and macOS clients. 
 
@@ -354,3 +354,17 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 9. Back in the Encryption settings, click Save.
 
 ![image](media/life15.png)
+
+
+#### To secure your blob storage you can configure Shared Access Signatures (SAS)
+
+Shared access signatures work through a signed URI that includes a token and a set of query parameters. The token determines which resources the client can access. To create a shared access signature:
+
+#### Steps to configure shared access signatures as follows:
+
+1. Navigate to the storage account resource in the Azure portal.
+
+2. In the storage account, navigate to Security + networking, then choose Shared access signature.
+
+3. In the Shared access signature pane, choose the storage account services and options the shared access signature should have. This example gives Read and List permissions to Blobs in a container. Always use the principle of least privilege when assigning permissions to a SAS.
+
