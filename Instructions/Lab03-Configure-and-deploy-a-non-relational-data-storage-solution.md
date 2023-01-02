@@ -287,7 +287,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 1. If creating a new Key Vault, place the Key Vault in the same region as the storage account and enable purge protection. If you have an existing key vault, go to the Key Vault’s Settings, then choose Properties to enable purge protection.
 
-Create a Key Vault if you don’t have an existing one available. Check out the following quickstart on creating a key vault using the Azure portal.
+    Create a Key Vault if you don’t have an existing one available. Check out the following quickstart on creating a key vault using the Azure portal.
 
     1. Open Azure portal, in the Search box, enter Key Vault.
     
