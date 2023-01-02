@@ -193,6 +193,26 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](media/str17.png)
 
+Next, create a Hello World web page with Visual Studio Code and deploy it to the static website hosted in your Azure Storage account.
+
+10. Create an empty folder named mywebsite on your local file system.
+
+11. Launch Visual Studio Code, and open the folder that you just created from the Explorer panel, by selecting open folder option.
+
+![image](media/str18.png)
+
+12. Select Yes, I trust the authors Trust folder and enable all features.
+
+![image](media/str19.png)
+
+13. Create the default index file in the mywebsite folder, by selecting Add file option and provide the name index.html in the name box.
+
+![image](media/str20.png)
+
+14. Open index.html in the editor, paste the following text into the file, and save it:
+
+![image](media/str21.png)
+
 
 
 #### Task 4: Apply the lifecycle policy and Change the replication strategy
