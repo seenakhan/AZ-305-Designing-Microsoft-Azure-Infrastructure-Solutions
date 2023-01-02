@@ -235,12 +235,25 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ![image](media/str26.png)
 
-#### Task 4: Apply the lifecycle policy and Change the replication strategy
+#### Task 4: Apply the lifecycle Management Policy
 
-In this task, you will learn how to use the Azure portal to Apply the lifecycle policy and Change the replication strategy of a storage account.
+In this task, you will learn how to use the Azure portal to Apply the lifecycle management policy of a storage account. Azure Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle. A lifecycle policy acts on a base blob, and optionally on the blob's versions or snapshots. For example, if you have defined an action to move a blob from the hot tier to the cool tier if it has not been modified for 30 days, then the lifecycle management policy will move the blob 30 days after the last write operation to that blob.
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). 
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select configuration under settings to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
+
+![image](media/life1.png)
 
 #### Steps
+
+1. Go to Lifecycle management under Data management of the storage account created on the previous task. Please select Add rule.
+
+![image](media/life2.png)
+
+2. On the Add a rule page please enter the rule name as Testrule and keep the default settings as it is and select Next
+
+![image](media/life3a.png)
+
+3. 
+
