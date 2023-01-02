@@ -293,23 +293,23 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
     4. On the Key Vault section, choose Create.
     5. On the Create key vault section provide the following information:
         
-        Name: A unique name is required. For this quickstart, we use Contoso-vault2.
+        **Name: A unique name is required. For this quickstart, we use Contoso-vault2.**
         
-        Subscription: Choose a subscription.
+        **Subscription: Choose a subscription.**
         
-        Under Resource Group, choose Create new and enter a resource group name.
+        **Under Resource Group, choose Create new and enter a resource group name.**
         
-        In the Location pull-down menu, choose a location.
+        **In the Location pull-down menu, choose a location.**
         
-        Leave the other options to their defaults.
+        **Leave the other options to their defaults.**
         
     6. After providing the information above, select Create.
    
    Take note of the two properties listed below:
 
-      Vault Name: In the example, this is Contoso-Vault2. You will use this name for other steps.
+      **Vault Name: In the example, this is Contoso-Vault2. You will use this name for other steps.**
       
-      Vault URI: In the example, this is https://contoso-vault2.vault.azure.net/. Applications that use your vault through its REST API must use this URI.
+      **Vault URI: In the example, this is https://contoso-vault2.vault.azure.net/. Applications that use your vault through its REST API must use this URI.**
       
       At this point, your Azure account is the only one authorized to perform operations on this new vault.
 
