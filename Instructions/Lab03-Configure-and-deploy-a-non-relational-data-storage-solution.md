@@ -290,6 +290,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 Create a Key Vault if you don’t have an existing one available. Check out the following quickstart on creating a key vault using the Azure portal.
 
     1. Open Azure portal, in the Search box, enter Key Vault.
+    
     2. From the results list, choose Key Vault.
     
     ![image](media/life6.png)
@@ -300,17 +301,17 @@ Create a Key Vault if you don’t have an existing one available. Check out the 
     
     4. On the Create key vault section provide the following information:
         
-        **Name: A unique name is required. For this quickstart, we use contoso-vault3.**
+       **Name: A unique name is required. For this quickstart, we use contoso-vault3.**
         
-        **Subscription: Choose a subscription.**
+       **Subscription: Choose a subscription.**
         
-        **Under Resource Group, select the previously created resource group.**
+       **Under Resource Group, select the previously created resource group.**
         
-        **In the Location pull-down menu, choose a location (East US where your storage account located).**
+       **In the Location pull-down menu, choose a location (East US where your storage account located).**
         
-        **Choose to enable purge protection.**
+       **Choose to enable purge protection.**
         
-        **Leave the other options to their defaults.**
+       **Leave the other options to their defaults.**
         
     ![image](media/life8.png)   
             
@@ -324,11 +325,11 @@ Create a Key Vault if you don’t have an existing one available. Check out the 
    
    Take note of the two properties listed below:
 
-      **Vault Name: In the example, this is contoso-vault3. You will use this name for other steps.**
+   **Vault Name: In the example, this is contoso-vault3. You will use this name for other steps.**
       
-      **Vault URI: In the example, this is https://contoso-vault3.vault.azure.net/. Applications that use your vault through its REST API must use this URI.**
+   **Vault URI: In the example, this is https://contoso-vault3.vault.azure.net/. Applications that use your vault through its REST API must use this URI.**
       
-      At this point, your Azure account is the only one authorized to perform operations on this new vault
+    At this point, your Azure account is the only one authorized to perform operations on this new vault
 
 3. In the storage account, navigate to Security + Networking, then choose Encryption.
 
