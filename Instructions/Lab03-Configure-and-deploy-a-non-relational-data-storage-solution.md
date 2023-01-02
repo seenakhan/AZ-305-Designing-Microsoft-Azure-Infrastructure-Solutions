@@ -255,9 +255,67 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](media/life3a.png)
 
-3. On the Add a rule page, under the Base blob tab, enter the following settings as per the image below:
+3. On the Add a rule page, under the Base blob tab, enter the following settings as per the image below: and please select add button.
 
 ![image](media/life4.png)
 
+4. You have now created your lifecycle management policy for storage blobs, after 30 days, your storage blobs will be moved to the cool access tier.
+
+![image](media/life5.png)
+
+If you are not seeing newly created lifecycle management policy please select the lifecycle management and select refresh.
+
+#### Task 5: Secure blob storage and enable backup and soft delete
+
+In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2 & Task3). Securing access to your Blob storage is a critical step for any Azure administrator or engineer. The following steps outline available security features to help you configure your Blob storage to be secured.
+
+#### Steps
+
+By default, storage accounts encrypt the data using Microsoft-managed keys. You can continue using these Microsoft-managed keys for data encryption, or you can manage encryption using your keys.
+
+If you choose to use your own encryption keys, you have two options, and you can use either type of key management or both.
+
+Use a customer-managed key. These keys must be stored in an Azure Key Vault.
+
+Use a customer-provided key. These keys are used for Blob storage operations. A client who makes read or write requests against Blob storage can use an encryption key on the request. This method provides granular control over how blob data is encrypted and decrypted.
+
+To configure a storage account to use a customer-managed key stored in a Key Vault:
+
+1. Create a Key Vault if you don’t have an existing one available. Check out this quickstart on creating a key vault using the Azure portal.
+
+    1. From the Azure portal menu, or from the Home page, select Create a resource.
+    2. In the Search box, enter Key Vault.
+    3. From the results list, choose Key Vault.
+    4. On the Key Vault section, choose Create.
+    5. On the Create key vault section provide the following information:
+        
+        Name: A unique name is required. For this quickstart, we use Contoso-vault2.
+        
+        Subscription: Choose a subscription.
+        
+        Under Resource Group, choose Create new and enter a resource group name.
+        
+        In the Location pull-down menu, choose a location.
+        
+        Leave the other options to their defaults.
+        
+    6. After providing the information above, select Create.
+   
+   Take note of the two properties listed below:
+
+      Vault Name: In the example, this is Contoso-Vault2. You will use this name for other steps.
+      
+      Vault URI: In the example, this is https://contoso-vault2.vault.azure.net/. Applications that use your vault through its REST API must use this URI.
+      
+      At this point, your Azure account is the only one authorized to perform operations on this new vault.
 
 
+
+2. If creating a new Key Vault, place the Key Vault in the same region as the storage account and enable purge protection. If you have an existing key vault, go to the Key Vault’s Settings, then choose Properties to enable purge protection.
+In the storage account, navigate to Security + Networking, then choose Encryption.
+For Encryption type, select the radio button for Customer-managed keys.
+For the Key selection, ensure the Select from key vault value is selected, then choose the link for Select a key vault and key.
