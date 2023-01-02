@@ -213,7 +213,27 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ![image](media/str21.png)
 
+15. Create the default error file and name it 404.html.
 
+16. Open 404.html in the editor, paste the following text into the file, and save it:
+
+![image](media/str22.png)
+
+17. Click on the Azure logo where you will be asked to log in. Once you have authenticated to Azure with the extension, right-click on the $web storage container under  —>  –> Blob Containers as you can see below. You’ll then see an option to Deploy to Static Website. Select that option.
+
+![image](media/str23.png)
+
+18. Choose the folder containing the two files mentioned earlier. 
+
+![image](media/str24.png)
+
+19. Visual Studio Code will then deploy those files as your static page and return a success message to you. Please select  Browse to website button.Or Once the files have been uploaded, navigate to the primary endpoint you received earlier.
+
+![image](media/str25.png)
+
+20. This is the index.html page you uploaded through Visual studio code. Now you can see it in as Azure hosted static website.
+
+![image](media/str26.png)
 
 #### Task 4: Apply the lifecycle policy and Change the replication strategy
 
