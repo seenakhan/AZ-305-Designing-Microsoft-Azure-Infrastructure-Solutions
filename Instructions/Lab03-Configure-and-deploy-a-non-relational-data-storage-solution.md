@@ -435,5 +435,14 @@ To start configuring backup:
 
 ![image](media/back4.png)
 
-5. 
+5. On the Create Backup Vault, enter the following details:
+    
+    1. Resource Group : Select the resource group created for Storage account.
+    
+    2. Baukup Vault Name :  Provide a name, in this example provided the name as backupv1.
 
+    3. Region : Select the region used for creating storage account.
+
+    4. Backup Storage redundancy : Select Globally-redundant.
+
+![image](media/back5.png)
