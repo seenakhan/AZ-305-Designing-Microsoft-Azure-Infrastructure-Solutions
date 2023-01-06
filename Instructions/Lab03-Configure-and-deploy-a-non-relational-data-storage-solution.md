@@ -413,7 +413,55 @@ Azure Blob backup is configured at the storage account level. As a result, opera
 
 Using the Backup Center, you can configure backup for multiple storage accounts. You can also configure backup for a storage account using the Data Protection properties of the storage account. This section covers both methods for configuring backup.
 
-#### Steps
+Before Configuring backup, the storage account should have a Backup vault and Storage account backup contributor role.
+
+#### To configure the Backup vault please follow below steps:
+
+A backup vault is a management entity that stores recovery points that have been created over time and provides an interface for performing backup operations. These include on-demand backups, restores, and the creation of backup policies.
+
+1. Type Backup vaults in the search box.
+
+2. Under Services, select Backup vaults.
+
+![image](media/bvault1.png)
+
+3. On the Backup vaults page, select Add.
+
+![image](media/bvault2.png)
+
+4. Make sure the correct subscription is selected under Project details on the Basics tab, then select the resource group which you have created on the previous task.
+
+5. Under Instance details, type myVault for the Backup vault name and choose your region of choice, in this case East US for your Region.
+
+6. Now choose your Storage redundancy. Storage redundancy cannot be changed after protecting items to the vault.
+
+7. We recommend that if you're using Azure as a primary backup storage endpoint, continue to use the default Geo-redundant setting.
+
+**Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs. Learn more about geo and local redundancy.**
+
+![image](media/back5.png)
+
+#### To configure the Storage account backup contributor role please follow below steps:
+
+1. In the storage account that needs to be protected, navigate to the Access Control (IAM) tab on the left navigation pane.
+
+2. Select Add role assignments to assign the required role.
+
+![image](media/role1.png)
+
+3. In the Add role assignment pane:
+
+4. Under Role, choose Storage Account Backup Contributor.
+
+![image](media/role2.png)
+
+5. Under Assign access to, choose User, group or service principal.
+
+6. Search for the Backup vault you want to use for backing up blobs in this storage account, and then select it from the search results.
+
+7. Select Save.
+
+#### Steps to configure Backup
 
 #### Using Backup Center
 
@@ -480,3 +528,5 @@ To start configuring backup:
 14. Under Select resources to backup side screen, please select the storage account which you created on Task 1 and then select Select(1 item) button.
 
 ![image](media/back13.png)
+
+15. Backup verifies that the vault has sufficient permissions to allow backup configuration on the selected storage accounts. Validations take time to complete. Following validation, the Backup readiness column will indicate whether the Backup vault has sufficient permissions to configure backups for each storage account.
