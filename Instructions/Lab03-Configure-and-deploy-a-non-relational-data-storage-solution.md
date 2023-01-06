@@ -461,3 +461,12 @@ To start configuring backup:
 
 ![image](media/back8a.png)
 
+10. On the Create Backup policy page, under Basics tab, please provide Policy name as backvaultp1 (you can provide any name) and select Review+Create button.
+
+![image](media/back9.png)
+
+11. Please review the content, under Review+create tab and select Create button.
+
+![image](media/back10.png)
+
+12. 
