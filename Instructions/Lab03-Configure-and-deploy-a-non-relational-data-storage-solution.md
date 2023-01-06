@@ -390,7 +390,7 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 By providing the SAS, you can control what resources they have access to, what permissions they have on those resources, and how long they have access to the resources.
 
-#### Enable Backup and Soft delete
+#### Enable backup and Soft delete
 
 By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
 
@@ -406,4 +406,34 @@ By enabling Soft delete you can protect your data from accidental deletion, from
 
 4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
 Save your changes.
+
+#### Configure Backup for Azure Blob Storage
+
+Azure Blob backup is configured at the storage account level. As a result, operational backup protects all blobs in the storage account.
+
+Using the Backup Center, you can configure backup for multiple storage accounts. You can also configure backup for a storage account using the Data Protection properties of the storage account. This section covers both methods for configuring backup.
+
+#### Steps
+
+#### Using Backup Center
+
+To start configuring backup:
+
+1. Search for Backup Center in the search bar.
+
+![image](media/back1.png)
+
+2. Navigate to Overview -> +Backup.
+
+![image](media/back2.png)
+
+3. From the DataSource type dropdown list Select Azure Blobs (Azure Storage) as the DataSource type on the Initiate: Configure Backup tab and select continue button.
+
+![image](media/back3.png)
+
+4. On the Basics tab, specify Azure Blobs (Azure Storage) as the DataSource type, and select create vault to create a backup vault.
+
+![image](media/back4.png)
+
+5. 
 
