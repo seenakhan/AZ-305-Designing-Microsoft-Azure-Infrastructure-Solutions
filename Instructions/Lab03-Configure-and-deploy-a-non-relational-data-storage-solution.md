@@ -476,3 +476,7 @@ To start configuring backup:
 13. On Configure Backup page, under Datasources tab, please select +Add/Edit boption.
 
 ![image](media/back12.png)
+
+14. Under Select resources to backup side screen, please select the storage account which you created on Task 1 and then select Select(1 item) button.
+
+![image](media/back13.png)
