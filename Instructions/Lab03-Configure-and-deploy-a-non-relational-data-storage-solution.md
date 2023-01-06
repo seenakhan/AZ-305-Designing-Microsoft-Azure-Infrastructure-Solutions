@@ -445,4 +445,11 @@ To start configuring backup:
 
     4. Backup Storage redundancy : Select Globally-redundant.
 
+6. After entering all the details please select Review+Create.
+
 ![image](media/back5.png)
+
+7. Please select Create.
+
+![image](media/back6.png)
+
