@@ -433,13 +433,25 @@ A backup vault is a management entity that stores recovery points that have been
 
 5. Under Instance details, type myVault for the Backup vault name and choose your region of choice, in this case East US for your Region.
 
-6. Now choose your Storage redundancy. Storage redundancy cannot be changed after protecting items to the vault.
-
-7. We recommend that if you're using Azure as a primary backup storage endpoint, continue to use the default Geo-redundant setting.
+6. Now choose your Storage redundancy. Storage redundancy cannot be changed after protecting items to the vault. We recommend that if you're using Azure as a primary backup storage endpoint, continue to use the default Globally-redundant setting.
 
 **Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs. Learn more about geo and local redundancy.**
 
 ![image](media/back5.png)
+
+7. Please review the options and the values, and select Create button to create the backup vault.
+
+![image](media/back6.png)
+
+8. Please select Go to resource, to view the newly created backup vault.
+
+![image](media/bvault3.png)
+
+9. You can see the backup vault now.
+
+![image](media/bvault4.png)
+
+After creating the backup vault, you need to configure the storage account backup conrtibutor role.
 
 #### To configure the Storage account backup contributor role please follow below steps:
 
@@ -455,11 +467,25 @@ A backup vault is a management entity that stores recovery points that have been
 
 ![image](media/role2.png)
 
-5. Under Assign access to, choose User, group or service principal.
+5. Under Members tab, on the Assign access to option, choose User, group or service principal and select Next button.
 
-6. Search for the Backup vault you want to use for backing up blobs in this storage account, and then select it from the search results.
+![image](media/role3.png)
 
-7. Select Save.
+6. On the Members option, please select + Select members. Under Select members side screen, Please type name of the backup vault which you created on the previous task on the search box and select the back up vault by clicking on it.
+
+![image](media/role4.png)
+
+7. After selecting the backup vault, please select Select option.
+
+![image](media/role5.png)
+
+8. Please select Next button, then select Review + Assign button.
+
+![image](media/role6.png)
+
+9. After completing the assigning process, please select role assignments tab and you can see the newly configured storage account backup contributor role
+
+![image](media/role7.png)
 
 #### Steps to configure Backup
 
@@ -479,54 +505,49 @@ To start configuring backup:
 
 ![image](media/back3.png)
 
-4. On the Basics tab, specify Azure Blobs (Azure Storage) as the DataSource type, and select create vault to create a backup vault.
+4. On the Basics tab, please select Select vault option.
 
-![image](media/back4.png)
+![image](media/back4a.png)
 
-5. On the Create Backup Vault, enter the following details:
-    
-    1. Resource Group : Select the resource group created for Storage account.
-    
-    2. Baukup Vault Name :  Provide a name, in this example provided the name as backupv1.
+5. Please select the backup vault, and select Select button from the Select a Vault side screen.
 
-    3. Region : Select the region used for creating storage account.
+![image](media/back5a.png)
 
-    4. Backup Storage redundancy : Select Globally-redundant.
-
-6. After entering all the details please select Review+Create.
-
-![image](media/back5.png)
-
-7. Please select Create on the Create Backup Vault page.
-
-![image](media/back6.png)
-
-8. Once the backup vault created, please select the newly created backup vault and select Next button on the Configure Backup page under Basics tab.
-
-![image](media/back7.png)
-
-9. On the Configure Backup page, please select Create new for Backup policy option under Backup policy tab.
+6. On the Configure Backup page, please select Create new for Backup policy option under Backup policy tab.
 
 ![image](media/back8a.png)
 
-10. On the Create Backup policy page, under Basics tab, please provide Policy name as backvaultp1 (you can provide any name) and select Review+Create button.
+7. On the Create Backup policy page, under Basics tab, please provide Policy name as backvaultp1 (you can provide any name) and select Review+Create button.
 
 ![image](media/back9.png)
 
-11. Please review the content, under Review+create tab and select Create button.
+8. Please review the content, under Review+create tab and select Create button.
 
 ![image](media/back10.png)
 
-12. Once creates the backup policy, it will automatically selected on the backup policy option on Configure backup page under Backup policy tab.
+9. Once creates the backup policy, it will automatically selected on the backup policy option on Configure backup page under Backup policy tab.
 
 ![image](media/back11.png)
 
-13. On Configure Backup page, under Datasources tab, please select +Add/Edit boption.
+10. On Configure Backup page, under Datasources tab, please select +Add/Edit boption.
 
 ![image](media/back12.png)
 
-14. Under Select resources to backup side screen, please select the storage account which you created on Task 1 and then select Select(1 item) button.
+11. Under Select resources to backup side screen, please select the storage account which you created on Task 1 and then select Select(1 item) button.
 
 ![image](media/back13.png)
 
-15. Backup verifies that the vault has sufficient permissions to allow backup configuration on the selected storage accounts. Validations take time to complete. Following validation, the Backup readiness column will indicate whether the Backup vault has sufficient permissions to configure backups for each storage account.
+12. Backup verifies that the vault has sufficient permissions to allow backup configuration on the selected storage accounts. Validations take time to complete. Following validation, the Backup readiness column will indicate whether the Backup vault has sufficient permissions to configure backups for each storage account.
+Here, you can see the success status under Backup readiness tab, please select Next button.
+
+![image](media/back14.png)
+
+13. After completing the review successfully, please select configure backup button.
+
+![image](media/back15.png)
+
+14. Please wait for completing the configuration process, then select Vaults option under Manage pane on the Backup center page, you can see the backup vault successfully configured.
+
+![image](media/back16.png)
+
+
