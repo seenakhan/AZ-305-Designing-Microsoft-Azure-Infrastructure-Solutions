@@ -449,7 +449,15 @@ To start configuring backup:
 
 ![image](media/back5.png)
 
-7. Please select Create.
+7. Please select Create on the Create Backup Vault page.
 
 ![image](media/back6.png)
+
+8. Once the backup vault created, please select the newly created backup vault and select Next button on the Configure Backup page under Basics tab.
+
+![image](media/back7.png)
+
+9. On the Configure Backup page, please select Create new for Backup policy option under Backup policy tab.
+
+![image](media/back8a.png)
 
