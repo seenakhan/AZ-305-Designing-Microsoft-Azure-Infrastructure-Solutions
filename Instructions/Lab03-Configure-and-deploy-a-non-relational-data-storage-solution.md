@@ -380,7 +380,7 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 7. Finally, choose which access key to sign the shared access signature. If you revoke the access key, any shared access signature created from the access key is invalidated.
 
-8. Once you configured all the options, please see the below image then select Generate SAS and connection string.
+8. Once you configured all the options, then select Generate SAS and connection string.
 
 ![image](media/life18.png)
 
@@ -389,3 +389,21 @@ Shared access signatures work through a signed URI that includes a token and a s
 ![image](media/life19.png)
 
 By providing the SAS, you can control what resources they have access to, what permissions they have on those resources, and how long they have access to the resources.
+
+#### Enable Backup and Soft delete
+
+By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
+
+#### Steps
+
+1. In the Azure portal, navigate to your storage account which you created on previous task.
+
+2. Locate the Data Protection option under Data management.
+
+3. In the Recovery section, select Turn on soft delete for blobs.
+
+![image](media/life20.png)
+
+4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
+Save your changes.
+
