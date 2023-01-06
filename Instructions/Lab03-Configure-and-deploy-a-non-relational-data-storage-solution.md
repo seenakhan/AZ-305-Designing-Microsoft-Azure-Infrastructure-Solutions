@@ -469,4 +469,10 @@ To start configuring backup:
 
 ![image](media/back10.png)
 
-12. 
+12. Once creates the backup policy, it will automatically selected on the backup policy option on Configure backup page under Backup policy tab.
+
+![image](media/back11.png)
+
+13. On Configure Backup page, under Datasources tab, please select +Add/Edit boption.
+
+![image](media/back12.png)
