@@ -35,9 +35,9 @@ In this lab, you will:
 
 ## Instructions
 
-### Exercise 1
+## Exercise 1
 
-#### Task 1: Create Azure Storage account
+### Task 1: Create an Azure Storage account
 
 In this task, you will learn how to use Azur portal to create an azure storage account.
 
@@ -99,7 +99,7 @@ An Azure account
 
 ![image](media/str8.png)
 
-#### Task 2: Create a blob container
+### Task 2: Create a blob container
 
 In this task, you will learn how to use the Azure portal to create a blob container in a storage account.
 
@@ -129,7 +129,7 @@ An Azure account, a storage account (Complete Task 1)
 
 ![image](media/str11.png)
 
-#### Task 3: Upload a block blob
+### Task 3: Upload a block blob
 
 In this task, you will learn how to use the Azure portal to upload a block blob in your newly created blob container in a storage account.
 
@@ -157,7 +157,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](media/str14.png)
 
-#### Task 4: Configure a static website to access the blob container
+### Task 4: Configure a static website to access the blob container
 
 In this task, you will learn how to use the Azure portal to configure a static website to access the blob container.
 
@@ -235,7 +235,7 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ![image](media/str26.png)
 
-#### Task 4: Apply the lifecycle Management Policy
+### Task 5: Apply the lifecycle Management Policy
 
 In this task, you will learn how to use the Azure portal to Apply the lifecycle management policy of a storage account. Azure Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle. A lifecycle policy acts on a base blob, and optionally on the blob's versions or snapshots. For example, if you have defined an action to move a blob from the hot tier to the cool tier if it has not been modified for 30 days, then the lifecycle management policy will move the blob 30 days after the last write operation to that blob.
 
@@ -265,7 +265,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 If you are not seeing newly created lifecycle management policy please select the lifecycle management and select refresh.
 
-#### Task 5: Secure blob storage and enable backup and soft delete
+### Task 6: Secure blob storage and enable backup and soft delete
 
 In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
@@ -550,4 +550,18 @@ Here, you can see the success status under Backup readiness tab, please select N
 
 ![image](media/back16.png)
 
+### Task 7: Setup Azure File and access from a Virtual machine
 
+In this task, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
+
+#### Pre-requisites for this task
+
+Azure Files provides fully managed cloud file shares that can be accessed via the industry standard Server Message Block (SMB) or Network File System (NFS) protocols.
+
+An Azure account, a storage account (Complete Task 1). The following steps outline only one of many possible, viable approaches.
+
+#### Steps
+
+1. Select the Storage account which you have created on the previous task.
+
+![image](media/files1.png)
