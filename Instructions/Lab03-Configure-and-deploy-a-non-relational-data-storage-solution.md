@@ -574,3 +574,12 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](media/files2.png)
 
+3. On the New file share side screen enter the name as contosofiles, then the tier keep as Transaction optimized and select Create button.
+
+![image](media/files4.png)
+
+4. Select the newly created file share.
+
+![image](media/files5.png)
+
+5.
