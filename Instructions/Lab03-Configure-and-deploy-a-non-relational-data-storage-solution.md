@@ -562,6 +562,15 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 #### Steps
 
-1. Select the Storage account which you have created on the previous task.
+1. To select the storage account go to all services and select storage account.
 
-![image](media/files1.png)
+![image](media/files3a.png)
+
+2. From the list of storage accounts select the storage account whihc you have created on the previous task.
+
+![image](media/files3.png)
+
+2. Select the file shares under data storage pane and select + File share option.
+
+![image](media/files2.png)
+
