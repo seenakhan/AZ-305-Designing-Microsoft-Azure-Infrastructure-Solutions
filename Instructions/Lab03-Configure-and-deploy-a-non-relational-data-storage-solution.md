@@ -657,8 +657,48 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 20. On the **Connect to virtual machine** page, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**. A file will download on the bottom left of your screen.
 
-![image](media/files19.png)
+![image](media/files20a.png)
 
 21. **Open** the downloaded RDP file (located on the bottom left of your lab machine) and click **Connect** when prompted. 
 
+![image](media/files19.png)
+
+22. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd123!**. 
+
 ![image](media/files20.png)
+
+23. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+
+![image](media/files21.png)
+
+A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up (click "x" at top right). You should see the blue background of your virtual machine. **Congratulations!** You have deployed and connected to a Virtual Machine running Windows Server. Please dont close the vm window.
+
+24. In the Azure portal, navigate to the storage account which you created on the previous task and select fileshares and select **contosofiles**.
+
+![image](media/files22.png)
+
+25. On the overview section, please select connect.
+
+![image](media/files23.png)
+
+26. Select a drive letter then click on show script, then copy the contents of the show script and paste it in a Notepad.
+
+![image](media/files24.png)
+
+27. In the VM, open PowerShell and paste in the contents of the Notepad, then press enter to run the command. It should map the drive. You have successfully mapped the drive.
+
+![image](media/files25.png)
+
+28. Open the windows explorer in the virtual machine and double click on contosofiles, you can see the text file named welcome.txt created on fileshares  contosofiles in azure portal.
+
+### Clean up resources
+
+When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.
+
+1. Select Home and then Resource groups.
+
+2. Select the resource group you want to delete.
+
+3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
+
+4. Enter the name of the resource group, and then select Delete.
