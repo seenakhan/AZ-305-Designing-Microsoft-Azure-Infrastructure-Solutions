@@ -1,6 +1,6 @@
 ## Instructions
 
-## Exercise 1
+## Exercise 3
 
 ### Task 1: Setup Azure File and access from a Virtual machine
 
