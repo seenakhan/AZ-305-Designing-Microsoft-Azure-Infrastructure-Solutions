@@ -1,4 +1,8 @@
-### Task 7: Setup Azure File and access from a Virtual machine
+## Instructions
+
+## Exercise 1
+
+### Task 1: Setup Azure File and access from a Virtual machine
 
 In this task, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
 
