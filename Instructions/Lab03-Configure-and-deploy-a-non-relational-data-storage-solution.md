@@ -612,22 +612,53 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
     | Resource group | **Select the resource group name** |
     | Virtual machine name | **contosoVm** |
     | Region | **(US) East US**|
-    | Availability options | **No infrastructure redundancy options required**|
-    | Image | **Windows Server 2019 Datacenter - Gen2**|
+    | Availability options | **No infrastructure redundancy options required** |
+    | Image | **Windows Server 2019 Datacenter - Gen2** |
     | VM Architecture | **X64** |
-
-It looks like the below image:
 
 ![image](media/files12.png)
 
 
-12.     
+12. Please enter the following details under Basics tab:  
     
     | Settings | Values |
     |  -- | -- |
+    | Size | **Standard_DS1_v2 - 1 vcpu, 3.5 GiB memory** |
     | Administrator account username | **azureuser** |
-    | Administrator account password (type in carefully!) | **Pa$$w0rd1234**|
+    | Administrator account password (type in carefully!) | **Pa$$w0rd123!**|
     | Inbound port rules - | **Allow select ports **|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**| 
 
+![image](media/files13.png)
 
+13. After entering all the details on Basics tab please switch to Disks tab and enter the details as per the below image:
+
+![image](media/files14.png)
+
+14. Switch to the Networking tab to ensure **RDP (3389)** is selected in section **Select inbound ports**.
+
+15. Switch to the Monitoring tab and Select Disable option for Boot diagnostics under Diagnostics section.
+
+![image](media/files15.png)
+ 
+16. Leave the remaining values on the defaults and then click the **Review + create** button at the bottom of the page.
+
+17. After successfully completed the validation, please select Create.
+
+![image](media/files16.png)
+
+18.Once the deployment completed, please select Go to resources.
+
+![image](media/files17.png)
+
+19. On the ContosoVm virtual machine page, at the overview section, please select Connect.
+
+![image](media/files18.png)
+
+20. On the **Connect to virtual machine** page, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**. A file will download on the bottom left of your screen.
+
+![image](media/files19.png)
+
+21. **Open** the downloaded RDP file (located on the bottom left of your lab machine) and click **Connect** when prompted. 
+
+![image](media/files20.png)
