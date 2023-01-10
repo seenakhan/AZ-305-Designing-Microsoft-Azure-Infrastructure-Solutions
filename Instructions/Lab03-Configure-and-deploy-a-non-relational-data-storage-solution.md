@@ -501,7 +501,7 @@ To start configuring backup:
 
 ![image](media/back2.png)
 
-3. From the DataSource type dropdown list Select Azure Blobs (Azure Storage) as the DataSource type on the Initiate: Configure Backup tab and select continue button.
+3. From the DataSource type dropdown list Select Azure Blobs (Azure Storage) as the DataSource type and select continue button.
 
 ![image](media/back3.png)
 
