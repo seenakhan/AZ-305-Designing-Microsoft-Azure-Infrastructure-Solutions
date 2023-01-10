@@ -32,7 +32,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
     ![image](../media/life7.png)
     
-    4. On the Create key vault section provide the following information:
+    4. On the Create a key vault page provide the following information:
         
         | Settings | Values |
         |  -- | -- |
@@ -43,7 +43,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
                       
        ![image](../media/life8.png)          
               
-    5. **Choose to enable purge protection.** **Leave the other options to their defaults.** After providing the information above, select Review + Create.
+    5. **Choose to enable purge protection.** **Leave the other options to their defaults.** After providing the values, select Review + Create.
 
     ![image](../media/life9.png)
     
