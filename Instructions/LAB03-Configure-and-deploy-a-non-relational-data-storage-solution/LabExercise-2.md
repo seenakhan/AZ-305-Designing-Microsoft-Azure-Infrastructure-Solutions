@@ -1,4 +1,8 @@
-### Task 6: Secure blob storage and enable backup and soft delete
+## Instructions
+
+## Exercise 2
+
+### Task 1: Secure blob storage and enable backup and soft delete
 
 In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
