@@ -39,15 +39,11 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
         | Name | **A unique name is required. For this quickstart, we use contoso-vault3.** |
         | Subscription | **Choose a subscription** |
         | Resource group | **Select the previously created resource group** |       
-        | In the Location pull-down menu | **choose a location (East US where your storage account located)**|           
+        | Region | **choose a location (East US where your storage account located)**|           
                       
-       **Choose to enable purge protection.**
-        
-       **Leave the other options to their defaults.**
-        
-    ![image](../media/life8.png)   
-            
-    5. After providing the information above, select Review + Create.
+       ![image](../media/life8.png)          
+              
+    5. **Choose to enable purge protection.** **Leave the other options to their defaults.** After providing the information above, select Review + Create.
 
     ![image](../media/life9.png)
     
