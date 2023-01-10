@@ -595,3 +595,39 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 8. You can see the uploaded file in the azure file share, if its not visible please click on refresh button on the top menu.
 
 ![image](media/files8.png)
+
+9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure VM with Windows Server 2019 Datacenter. IN azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
+
+![image](media/files9.png)
+
+10. On the Virtual machines page, please select Create.
+
+![image](media/files10.png)
+
+11. On the Create a Virtual machine page under Basics tab, please enter the following details:
+
+    | Settings | Values |
+    |  -- | -- |
+    | Subscription | **Use default supplied** |
+    | Resource group | **Select the resource group name** |
+    | Virtual machine name | **contosoVm** |
+    | Region | **(US) East US**|
+    | Availability options | **No infrastructure redundancy options required**|
+    | Image | **Windows Server 2019 Datacenter - Gen2**|
+    | VM Architecture | **X64** |
+
+It looks like the below image:
+
+![image](media/files12.png)
+
+
+12.     
+    
+    | Settings | Values |
+    |  -- | -- |
+    | Administrator account username | **azureuser** |
+    | Administrator account password (type in carefully!) | **Pa$$w0rd1234**|
+    | Inbound port rules - | **Allow select ports **|
+    | Select inbound ports | **RDP (3389)** and **HTTP (80)**| 
+
+
