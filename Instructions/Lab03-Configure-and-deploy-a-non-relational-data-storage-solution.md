@@ -578,8 +578,20 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](media/files4.png)
 
-4. Select the newly created file share.
+4. Create a new txt file called welcome.txt on your local machine by opening notepad.
+
+5. Select the newly created file share.
 
 ![image](media/files5.png)
 
-5.
+6. On the overview section, select Upload option.
+
+![image](media/files6.png)
+
+7. On the Upload files side screen, please select browse button and then select the text file which you created on the previous step and select upload.
+
+![image](media/files7.png)
+
+8. You can see the uploaded file in the azure file share, if its not visible please click on refresh button on the top menu.
+
+![image](media/files8.png)
