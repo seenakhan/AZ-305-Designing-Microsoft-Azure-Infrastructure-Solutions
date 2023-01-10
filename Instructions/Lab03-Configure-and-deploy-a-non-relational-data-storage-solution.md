@@ -511,7 +511,7 @@ To start configuring backup:
 
 5. Please select the backup vault, and select Select button from the Select a Vault side screen.
 
-![image](media/back5a.png)
+![image](media/back5.png)
 
 6. On the Configure Backup page, please select Create new for Backup policy option under Backup policy tab.
 
