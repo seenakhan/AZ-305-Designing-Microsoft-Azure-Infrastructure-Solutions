@@ -1,6 +1,6 @@
 ## Instructions
 
-## Exercise 1
+## Exercise 1: Create Storage account and configure a static website to access the blob container and apply lifecycle management policy
 
 ### Task 1: Create an Azure Storage account
 
