@@ -19,14 +19,12 @@ In order to improve management of Azure resources, you have been tasked with imp
 
 ## Objectives
 
-In this lab, you will:
+In this lab, you will have:
 
-+ Task 1: Create Azure Storage account
-+ Task 2: Configure Azure Blob storage
-+ Task 3: Configure a static website to access the blob container and upload files to the blob container
-+ Task 4: Upload files to the blob container and apply the lifecycle policy
-+ Task 5: Secure blob storage and enable backup/soft delete
-+ Task 6: Configure Azure files
++ Exercise 1: Create Storage account and configure a static website to access the blob container and apply lifecycle management policy
++ Exercise 2: Secure blob storage and enable backup and soft delete
++ Exercise 3: Setup Azure File share and access from a Virtual machine
+
 
 ## Estimated timing: 30 minutes
 ## Architecture diagram
