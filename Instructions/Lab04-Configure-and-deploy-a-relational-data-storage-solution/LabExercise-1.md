@@ -54,10 +54,18 @@ An Azure account, a resource group
     | Server name | **contososerv** |
     | Want to use SQL elastic pool? | **No** |
     | Workload environment | **Production** |
-    | Compute + storage | **General Purpose - Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled** |
+    | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Geo-redundant backup storage** |
     
 ![image](../media/db6.png) 
 
-7.   
+7. On the Networking tab, for Connectivity method, select Public endpoint.
+
+8. For Firewall rules, set Add current client IP address to Yes. Leave Allow Azure services and resources to access this server set to No. 
+
+![image](../media/db7.png) 
+
+9. Under Connection policy, choose the Default connection policy, and leave the Minimum TLS version at the default of TLS 1.2.
+
+10. Select Next: Security at the bottom of the page.
 
