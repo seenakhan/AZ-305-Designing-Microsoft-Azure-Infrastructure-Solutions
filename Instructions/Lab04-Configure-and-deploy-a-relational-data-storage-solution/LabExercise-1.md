@@ -94,8 +94,12 @@ An Azure account, a resource group
     
 ![image](../media/db11.png)  
  
- 17. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
+ 17. After opening the Query editor, please expand tables and right click on **SalesLT.Product** table, then select **Select Top 1000 rows**.
 
 ![image](../media/db12.png) 
+ 
+ 18. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
+
+![image](../media/db13.png) 
 
 
