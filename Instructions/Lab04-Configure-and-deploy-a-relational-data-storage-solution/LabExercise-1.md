@@ -81,6 +81,21 @@ An Azure account, a resource group
 
 ![image](../media/db10.png)
 
-14. 
+14. After validation completed successfully, please select create.
+
+15. Once the deployment completed, please select Go to Resource.
+
+16. On the adventureworkscontoso database page please select Query Editor, then enter the following details:
+
+    | Settings | Values |
+    |  -- | -- |      
+    | Login | **contosoadmin** |
+    | Password | **Contoso@123** |
+    
+![image](../media/db11.png)  
+ 
+ 17. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
+
+![image](../media/db12.png) 
 
 
