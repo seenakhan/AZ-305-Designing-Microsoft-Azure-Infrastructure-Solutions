@@ -54,8 +54,8 @@ An Azure account, a resource group
     | Server name | **contososerv** |
     | Want to use SQL elastic pool? | **No** |
     | Workload environment | **Production** |
-    | Compute + storage | **General Purpose |
-                        |    Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled** |
+    | Compute + storage | **General Purpose** |
+                        | **Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled** |
     | Backup storage redundancy |  **Geo-redundant backup storage** |
     
 ![image](../media/db6.png) 
