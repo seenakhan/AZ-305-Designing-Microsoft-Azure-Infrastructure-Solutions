@@ -67,5 +67,20 @@ An Azure account, a resource group
 
 9. Under Connection policy, choose the Default connection policy, and leave the Minimum TLS version at the default of TLS 1.2.
 
-10. Select Next: Security at the bottom of the page.
+![image](../media/db8.png) 
+
+10. Select Next: Security at the bottom of the page, then keep the default settings as it is.
+
+11. Select Next: Additional settings at the bottom of the page.
+
+12. On the Additional settings tab, in the Data source section, select Sample for Use existing data and click ok on the AdventureWorksLT dialogue box. Instead of an empty blank database, this creates an AdventureWorksLT sample database with tables and data to query and experiment with.
+
+![image](../media/db9.png)
+
+13. After selecting AdventureWorksLT sample database, please select Review + Create.
+
+![image](../media/db10.png)
+
+14. 
+
 
