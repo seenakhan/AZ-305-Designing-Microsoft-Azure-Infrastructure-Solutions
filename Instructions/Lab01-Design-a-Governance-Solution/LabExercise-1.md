@@ -21,7 +21,7 @@ Any Azure AD user in the tenant can create a management group without the manage
 
 ![image](../media/magr.png)
 
-4. Select + Create.
+4. Select + Create. If the Create button is not visible, please select start using management groups 
 
 5. Enter the management group id and display name, then click submit.
 
