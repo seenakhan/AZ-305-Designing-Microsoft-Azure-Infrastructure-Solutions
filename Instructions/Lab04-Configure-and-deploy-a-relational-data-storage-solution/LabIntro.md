@@ -1,4 +1,4 @@
-# Lab 04 - 4.	Configure and deploy a relational data storage solution ( Azure SQL Database solution) 
+# Lab 04 - Configure and deploy a relational data storage solution ( Azure SQL Database solution) 
 
 # Student lab manual
 
