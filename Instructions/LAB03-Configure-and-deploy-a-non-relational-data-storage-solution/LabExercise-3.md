@@ -82,7 +82,7 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
     | Inbound port rules - | **Allow select ports **|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**| 
 
-![image](../media/files13.png)
+![image](../media/files13a.png)
 
 13. After entering all the details on Basics tab please switch to Disks tab and enter the details as per the below image:
 
@@ -142,7 +142,7 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
 ![image](../media/files25.png)
 
-28. Open the windows explorer in the virtual machine and double click on contosofiles, you can see the text file named welcome.txt created on fileshares  contosofiles in azure portal.
+28. Open the **File explorer** in the virtual machine and double click on contosofiles, you can see the text file created on fileshares named **contosofiles** in azure portal.
 
 ### Clean up resources
 
@@ -151,6 +151,8 @@ When you're done, delete the resource group. Deleting the resource group deletes
 1. Select Home and then Resource groups.
 
 2. Select the resource group you want to delete.
+
+3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
 
 3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
 
