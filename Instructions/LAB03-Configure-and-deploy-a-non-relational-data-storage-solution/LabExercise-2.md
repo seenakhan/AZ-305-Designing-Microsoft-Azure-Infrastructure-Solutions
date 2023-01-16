@@ -1,16 +1,10 @@
 ## Instructions
 
-## Exercise 2
+## Exercise 2: Secure blob storage and enable backup and soft delete
 
-### Task 1: Secure blob storage and enable backup and soft delete
+Securing access to your Blob storage is a critical step for any Azure administrator or engineer.In this exercise, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
-Securing access to your Blob storage is a critical step for any Azure administrator or engineer.In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
-
-#### Pre-requisites for this task
-
-An Azure account, a storage account, an azure blob container (Complete Exercise 1 - Task 1 & Task 2 & Task3).  The following steps outline available security features to help you configure your Blob storage to be secured.
-
-#### Steps
+### Task 1: Configure storage account to use a customer-managed key stored in a Key Vault
 
 By default, storage accounts encrypt the data using Microsoft-managed keys. You can continue using these Microsoft-managed keys for data encryption, or you can manage encryption using your keys.
 
@@ -19,6 +13,12 @@ If you choose to use your own encryption keys, you have two options, and you can
 Use a customer-managed key. These keys must be stored in an Azure Key Vault.
 
 Use a customer-provided key. These keys are used for Blob storage operations. A client who makes read or write requests against Blob storage can use an encryption key on the request. This method provides granular control over how blob data is encrypted and decrypted.
+
+#### Pre-requisites for this task
+
+An Azure account, a storage account, an azure blob container (Complete Exercise 1 - Task 1 & Task 2 & Task3).  The following steps outline available security features to help you configure your Blob storage to be secured.
+
+#### Steps
 
 To configure a storage account to use a customer-managed key stored in a Key Vault:
 
@@ -88,9 +88,13 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 ![image](../media/life15.png)
 
 
-#### To secure your blob storage you can configure Shared Access Signatures (SAS)
+### Task 2: To secure your blob storage you can configure Shared Access Signatures (SAS)
 
 Shared access signatures work through a signed URI that includes a token and a set of query parameters. The token determines which resources the client can access. To create a shared access signature:
+
+#### Pre-requisites for this task
+
+Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
 
 #### Steps to configure shared access signatures as follows:
 
@@ -122,9 +126,13 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 By providing the SAS, you can control what resources they have access to, what permissions they have on those resources, and how long they have access to the resources.
 
-#### Enable backup and Soft delete
+### Task 3: Enable backup and Soft delete
 
 By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
+
+#### Pre-requisites for this task
+
+Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2**
 
 #### Steps
 
@@ -139,7 +147,7 @@ By enabling Soft delete you can protect your data from accidental deletion, from
 4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
 Save your changes.
 
-#### Configure Backup for Azure Blob Storage
+### Task 4: Configure Backup for Azure Blob Storage
 
 Azure Blob backup is configured at the storage account level. As a result, operational backup protects all blobs in the storage account.
 
@@ -147,7 +155,11 @@ Using the Backup Center, you can configure backup for multiple storage accounts.
 
 Before Configuring backup, the storage account should have a Backup vault and Storage account backup contributor role.
 
-#### To configure the Backup vault please follow below steps:
+#### Pre-requisites for this task
+
+Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3**
+
+#### Steps:
 
 A backup vault is a management entity that stores recovery points that have been created over time and provides an interface for performing backup operations. These include on-demand backups, restores, and the creation of backup policies.
 
@@ -185,7 +197,13 @@ A backup vault is a management entity that stores recovery points that have been
 
 After creating the backup vault, you need to configure the storage account backup conrtibutor role.
 
-#### To configure the Storage account backup contributor role please follow below steps:
+### Task 5: Configure the Storage account backup contributor role 
+
+#### Pre-requisites for this task
+
+Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
+
+#### Steps:
 
 1. In the storage account that needs to be protected, navigate to the Access Control (IAM) tab on the left navigation pane.
 
@@ -219,9 +237,13 @@ After creating the backup vault, you need to configure the storage account backu
 
 ![image](../media/role7.png)
 
-#### Steps to configure Backup
+### Task 6: Configure Backup
 
-#### Using Backup Center
+#### Pre-requisites for this task
+
+Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
+
+#### Steps
 
 To start configuring backup:
 
