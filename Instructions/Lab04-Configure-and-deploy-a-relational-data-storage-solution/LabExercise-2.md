@@ -8,6 +8,8 @@ In this task, you will configure Server firewall and database firewall to Advent
 
 #### Pre-requisites for this task
 
-
+An Azure account, a resource group and an Azure SQL Database.
 
 #### Steps:
+
+1. Select tge
