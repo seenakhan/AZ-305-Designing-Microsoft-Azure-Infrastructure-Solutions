@@ -39,7 +39,7 @@
 1. Now, you will see two tabs in the edge browser, close the first tab named with Microsoft Edge.
 
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the **username** available on the **Environment details** and click on **Next**.       
-1. Now enter the password and click on Sign in.
+1. Now enter the **Password** available on the **Environment details**  and click on Sign in.
   
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
