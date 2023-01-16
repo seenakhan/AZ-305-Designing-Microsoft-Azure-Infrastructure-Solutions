@@ -65,15 +65,41 @@ In this task, you will create three management groups under the management group
 
 Complete Task 1.
 
-1. Go to the Azure Portal, Select Management Groups, review the Overview, click on the management group which you have created in the previous task.
+1. On the Management Group page, please select **+ Create**
 
-![image](../media/magr2.png)
+![image](../media/man10.png)
 
-2. Repeat step 4 to Step 6 from Task 1 to create three more management groups
+2. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
 
-3. After completing the creation of management groups, go to the parent management group whihc you have created on the first task, and click on it. In the Overview section you can see the other three management groups.
+  | Section | Values |
+  | Management Group ID | **IT-Contoso** |
+  | Management group display name* | **IT-Contoso** |
 
-![image](../media/magr3.png)
+![image](../media/man11.png)
+
+3. On the maangement groups page, overview section, you can see the newly created child management group named **IT-Contoso**.
+
+4. Add a child group by clicking on the elipsis **(...)** on the right side of the newly created child management group named **IT-Contoso**.
+
+![image](../media/man12.png)
+
+5. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
+
+  | Section | Values |
+  | Management Group ID | **IT-Support-c** |
+  | Management group display name* | **IT-Support-c** |
+
+![image](../media/man13.png)
+
+6. By using step 4 and step 5, please add another child management group with the following details:
+
+  | Section | Values |
+  | Management Group ID | **IT-Service-c** |
+  | Management group display name* | **IT-Service-c** |
+
+7. Expand the **IT-Contoso** management group, you can see the newly created child management groups.
+
+![image](../media/man14.png)
 
 #### Task 3: Assign subscriptions to management groups
 
@@ -89,5 +115,41 @@ You can add subscriptions to the management groups that you created.
 
 1. From the Azure portal, open Management Groups and select the management group for your subscription.
 
-2. 
+2. Expand the Subscriptions under Tenant Root Group on the Mangement groups page.
+
+![image](../media/man15.png)
+
+3. Click on elipsis **(...)** on the right side of the first subscription listed, then click on **Move**.
+
+![image](../media/man16.png)
+
+4. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by using the step 3.
+
+5. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
+
+![image](../media/man17.png)
+
+#### Task 4: iv.	Assign policies and governance to management groups
+
+
+
+#### Pre-requisites for this task
+
+Complete Task 1 and Task 2
+
+#### Steps:
+
+1. Go to search box and enter policy, then select **Policy** from the list.
+
+![image](../media/pol1.png)
+
+2. Select Assignments on the left side of the Azure Policy page and then click on the elipsis **(...)** of scope. 
+**Note: An assignment is a policy that has been assigned to take place within a specific scope.**
+
+3. On the Scope side screen, please select **IT-Contoso** management group.
+
+4. After selecting the scope please select **Assign Policy**.
+
+
+
 
