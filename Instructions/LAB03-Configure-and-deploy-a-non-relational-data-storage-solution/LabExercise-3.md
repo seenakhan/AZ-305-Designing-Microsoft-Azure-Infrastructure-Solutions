@@ -1,14 +1,15 @@
 ## Instructions
 
-## Exercise 3
+## Exercise 3: Setup Azure File and access from a Virtual machine
+
+In this exercise, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
 
 ### Task 1: Setup Azure File and access from a Virtual machine
 
-In this task, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
+Azure Files provides fully managed cloud file shares that can be accessed via the industry standard Server Message Block (SMB) or Network File System (NFS) protocols.
+In this task, you are going to configure a file share and configure a virtual machine to access the file share.
 
 #### Pre-requisites for this task
-
-Azure Files provides fully managed cloud file shares that can be accessed via the industry standard Server Message Block (SMB) or Network File System (NFS) protocols.
 
 An Azure account, a storage account (Complete Task 1). The following steps outline only one of many possible, viable approaches.
 
@@ -48,7 +49,7 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](../media/files8.png)
 
-9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure VM with Windows Server 2019 Datacenter. IN azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
+9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure VM with Windows Server 2019 Datacenter. In azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
 
 ![image](../media/files9.png)
 
