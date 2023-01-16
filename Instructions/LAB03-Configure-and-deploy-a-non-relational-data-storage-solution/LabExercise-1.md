@@ -4,7 +4,7 @@
 
 ### Task 1: Create an Azure Storage account
 
-In this task, you will learn how to use Azur portal to create an azure storage account.
+In this task, you will learn how to use Azure portal to create an azure storage account.
 
 #### Pre-requisites for this task
 
