@@ -94,7 +94,7 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 #### Pre-requisites for this task
 
-Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
+Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
 
 #### Steps to configure shared access signatures as follows:
 
@@ -132,7 +132,7 @@ By enabling Soft delete you can protect your data from accidental deletion, from
 
 #### Pre-requisites for this task
 
-Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2**
+Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2**
 
 #### Steps
 
@@ -147,7 +147,7 @@ Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1
 4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
 Save your changes.
 
-### Task 4: Configure Backup for Azure Blob Storage
+### Task 4: Configure Backup Vault
 
 Azure Blob backup is configured at the storage account level. As a result, operational backup protects all blobs in the storage account.
 
@@ -157,7 +157,7 @@ Before Configuring backup, the storage account should have a Backup vault and St
 
 #### Pre-requisites for this task
 
-Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3**
+Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3**
 
 #### Steps:
 
@@ -169,7 +169,7 @@ A backup vault is a management entity that stores recovery points that have been
 
 ![image](../media/bvault1.png)
 
-3. On the Backup vaults page, select Add.
+3. On the Backup vaults page, select Create.
 
 ![image](../media/bvault2.png)
 
@@ -179,7 +179,7 @@ A backup vault is a management entity that stores recovery points that have been
 
 6. Now choose your Storage redundancy. Storage redundancy cannot be changed after protecting items to the vault. We recommend that if you're using Azure as a primary backup storage endpoint, continue to use the default Globally-redundant setting.
 
-**Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs. Learn more about geo and local redundancy.**
+**Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs.**
 
 ![image](../media/back5.png)
 
@@ -201,7 +201,7 @@ After creating the backup vault, you need to configure the storage account backu
 
 #### Pre-requisites for this task
 
-Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
+Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
 
 #### Steps:
 
@@ -241,7 +241,7 @@ Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1
 
 #### Pre-requisites for this task
 
-Complete **Complete Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
+Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
 
 #### Steps
 
