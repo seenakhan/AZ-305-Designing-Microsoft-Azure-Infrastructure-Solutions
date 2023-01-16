@@ -14,25 +14,46 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
 1. Log into the Azure portal.
 
-2. Select All services > Management + governance.
+2. Select **All Services** and select **Azure Active Directory**.
 
-3. Select Management Groups.
+![image](../media/man1a.png)
 
-![image](../media/magr.png)
+3. On the Azure Active Directory page, please select **Properties** under **Manage tab**, then select **Yes** for **Access management for Azure resources**. 
 
-4. Select + Create. If the Create button is not visible, please select start using management groups 
+![image](../media/man2.png)
 
-5. Enter the management group id and display name, then click submit.
+4. Please go to **Home** tab and search for **Management Groups**, then select **Management Groups** from the list.
 
-![image](../media/magr1a.png)
+![image](../media/man3.png)
+
+5. On the Management Groups page, in the Overview section, please select the Tenant Root group.
+
+![image](../media/man4.png)
+
+6. On the Tenant Root Group page, please select **Acces Control**, then select **+ Add** and then select **Add Role Assignment**.
+
+![image](../media/man5.png)
+
+7. On the Add Role Assignment Page, please select **Owner** and select **Next**.
+
+![image](../media/man6.png)
+
+8. On the Add Role Assignment Page, under Members tab, please select **+Select members**. Then on the Select members side screen, please select the current user name and then select **Select** button.
+
+![image](../media/man7.png)
+
+9. After selecting the user, please select **Review + Assign**.
+
+![image](../media/man8.png)
+
+10. Once completed the assignment, you can see the current user having **owner** role under **Access Control** section on the Tenant Root Group page. 
+
+**Now you can create child management groups and assign subscriptions to each group**.
 
 **Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
 
 **The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
 
-6. Navigate to the Management Groups blade. Review the **Overview** information and note that the new Management Group has been created. 
-
-![image](../media/magr2.png)
 
 #### Task 2: Create Child Management Groups
 
