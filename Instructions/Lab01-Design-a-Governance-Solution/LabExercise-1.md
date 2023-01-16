@@ -48,6 +48,8 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
 10. Once completed the assignment, you can see the current user having **owner** role under **Access Control** section on the Tenant Root Group page. 
 
+![image](../media/man9.png)
+
 **Now you can create child management groups and assign subscriptions to each group**.
 
 **Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
