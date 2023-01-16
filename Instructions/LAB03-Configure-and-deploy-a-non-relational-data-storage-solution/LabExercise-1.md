@@ -110,7 +110,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](../media/str11.png)
 
-3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. 
+3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. Please upload some image files, if its not available in the pictures folder, you can download from internet and use that files to upload to the block blob.
 
 ![image](../media/str12a.png)
 
