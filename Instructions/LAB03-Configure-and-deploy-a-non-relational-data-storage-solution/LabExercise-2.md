@@ -4,11 +4,11 @@
 
 ### Task 1: Secure blob storage and enable backup and soft delete
 
-In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
+Securing access to your Blob storage is a critical step for any Azure administrator or engineer.In this task, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2 & Task3). Securing access to your Blob storage is a critical step for any Azure administrator or engineer. The following steps outline available security features to help you configure your Blob storage to be secured.
+An Azure account, a storage account, an azure blob container (Complete Exercise 1 - Task 1 & Task 2 & Task3).  The following steps outline available security features to help you configure your Blob storage to be secured.
 
 #### Steps
 
@@ -40,7 +40,7 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
         
         | Settings | Values |
         |  -- | -- |
-        | Name | **A unique name is required. For this quickstart, we use contoso-vault3.** |
+        | Name | **A unique name is required. For this quickstart, we used here contoso-vault3. You can use any other name with alphanumerics ** |
         | Subscription | **Choose a subscription** |
         | Resource group | **Select the previously created resource group** |       
         | Region | **choose a location (East US where your storage account located)**|           
