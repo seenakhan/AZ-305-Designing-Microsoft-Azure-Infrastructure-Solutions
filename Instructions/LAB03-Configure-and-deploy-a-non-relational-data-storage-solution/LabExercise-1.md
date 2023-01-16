@@ -14,21 +14,19 @@ An Azure account
 
 1. Double click on the Edge browser icon from the desktop.
 
-2. Enter the login credentials. For credentials, please see the environment details tab on the lab guide.
+2. Enter the **login credentials**. For credentials, please see the environment details tab on the lab guide.
 
-3. Once the portal opened completely, click on all services on the left portal menu and select storage accounts
+3. Once the portal opened completely, click on **All services** on the left portal menu and select storage accounts
 
 ![image](../media/str1.png)
 
-4. On the storage accounts page please select create, 
+4. On the storage accounts page please select **create**. 
 
 ![image](../media/str2.png)
 
 5. Create a Storage account page will open. You can see the options for your new storage account are organized into tabs in the Create a storage account page.
 
-6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the basic tab, select the subscription, if the default subscription is not using, then create a new resource group.
-
-![image](../media/str3.png)
+6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **basic tab**, select the subscription, if the default subscription is not using, then select the **resource group**.
 
 7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
@@ -144,7 +142,7 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 ![image](../media/str8.png)
 
-5. Select Static website to display the configuration page for static websites under data management section.
+5. Select **Static website** to display the configuration page for static websites under **data management** section.
 
 6. Select Enabled to enable static website hosting for the storage account.
 
@@ -174,7 +172,14 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ![image](../media/str20.png)
 
-14. Open index.html in the editor, paste the following text into the file, and save it:
+14. Open index.html in the editor, paste the following html script into the file, and save it:
+
+    <!DOCTYPE html>
+    <html>
+    <body>
+      <h1>Hello World!</h1>
+    </body>
+    </html>
 
 ![image](../media/str21.png)
 
@@ -182,9 +187,16 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 16. Open 404.html in the editor, paste the following text into the file, and save it:
 
+    <!DOCTYPE html>
+    <html>
+    <body>
+    <h1>404</h1>
+    </body>
+    </html>
+
 ![image](../media/str22.png)
 
-17. Click on the Azure logo where you will be asked to log in. Once you have authenticated to Azure with the extension, right-click on the $web storage container under  —>  –> Blob Containers as you can see below. You’ll then see an option to Deploy to Static Website. Select that option.
+17. Click on the Azure logo where you will be asked to log in. Once you have authenticated to Azure with the extension, expand the **Storage accounts**, then expand the storage account you have created, then expand **Blob containers**, then right-click on the **$web** storage container. You’ll see an option to **Deploy to Static Website via Azure storage**. Select that option.
 
 ![image](../media/str23.png)
 
