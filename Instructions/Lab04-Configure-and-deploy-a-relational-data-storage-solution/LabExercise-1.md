@@ -115,7 +115,7 @@ An Azure account, a resource group
     | Login | **contosoadmin** |
     | Password | **Contoso@123** |
 
-![image](../media/db15.png)
+![image](../media/db15a.png)
 
 21. Expand the databases on the **Object explorer** you can see the database named adventureworkscontoso which configure in the azure sql database.
 
