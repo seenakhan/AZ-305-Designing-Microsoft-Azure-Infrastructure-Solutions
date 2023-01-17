@@ -58,7 +58,7 @@ Complete Exercise 1, Exercise 2 - Task 1.
 
 2. Go to the Azure portal, on the **adventureworkscontoso** database page, copy the **server name**.
 
-![](../media/fire9.ng)
+ ![image](../media/fire9.png)
 
 3. Back to the SSMS window, on the **Connect to server** box, please paste the server name copied from the azure portal on the server name property.
 
