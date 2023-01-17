@@ -76,6 +76,6 @@ An Azure account, a resource group
 
 13. Once the deployment completed, please select **Go to Resource**.
 
-**You can see the adventureworkscontoso database. To query the tables fro viewing data, you need to configure the firewalls. We are going to do the configurations of the firewall on Exercise 2.**
+**You can see the adventureworkscontoso database. To query the tables for viewing data, you need to configure the firewalls. We are going to do the configurations of the firewall on Exercise 2.**
 
 **Please dont cleanup the resources as we need it for next exercises.**
