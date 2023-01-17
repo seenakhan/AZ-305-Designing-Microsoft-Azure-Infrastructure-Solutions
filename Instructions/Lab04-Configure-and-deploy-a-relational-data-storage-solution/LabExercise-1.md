@@ -76,22 +76,6 @@ An Azure account, a resource group
 
 13. Once the deployment completed, please select **Go to Resource**.
 
-14. On the **adventureworkscontoso** database page please select **Query Editor**, then enter the following details:
+**You can see the adventureworkscontoso database. To query the tables fro viewing data, you need to configure the firewalls. We are going to do the configurations of the firewall on Exercise 2.**
 
-    | Settings | Values |
-    |  -- | -- |      
-    | Login | **contosoadmin** |
-    | Password | **Contoso@123** |
-    
-![image](../media/db11.png)  
- 
- 15. After opening the Query editor, please expand tables and right click on **SalesLT.Product** table, then select **Select Top 1000 rows**.
-
-![image](../media/db12.png) 
- 
- 16. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
-
-![image](../media/db13.png) 
-
-
-**In this exercise, you have configured an Azure SQL Database and queried it through SQL Server Management Studio (SSMS). Please dont cleanup the resources as we need it for next exercises.**
+**Please dont cleanup the resources as we need it for next exercises.**
