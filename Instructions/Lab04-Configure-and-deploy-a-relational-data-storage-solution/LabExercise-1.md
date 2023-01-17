@@ -62,6 +62,8 @@ An Azure account, a resource group
 
 8. For **Firewall rules**, set **Add current client IP address** to **Yes**. Leave **Allow Azure services and resources to access this server** set to **No**. 
 
+**Note : Azure stores the firewall rules in the master database. It allows a maximum of 128 server-level firewall rules for an Azure server. If you enable the option – Allow Azure Services and resources to access this server, it is considered a single server firewall rule.**
+
 ![image](../media/db7.png) 
 
 9. Under **Connection policy**, choose the **Default connection policy**, and leave the **Minimum TLS version** at the default of **TLS 1.2**.
