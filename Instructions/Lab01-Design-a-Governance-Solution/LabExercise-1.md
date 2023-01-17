@@ -71,7 +71,8 @@ Complete Task 1.
 
 2. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
 
-  | Section | Values |
+  | Settings | Values |
+  |  -- | -- |
   | Management Group ID | **IT-Contoso** |
   | Management group display name* | **IT-Contoso** |
 
@@ -85,7 +86,8 @@ Complete Task 1.
 
 5. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
 
-  | Section | Values |
+  | Settings | Values |
+  |  -- | -- |
   | Management Group ID | **IT-Support-c** |
   | Management group display name* | **IT-Support-c** |
 
@@ -93,7 +95,8 @@ Complete Task 1.
 
 6. By using step 4 and step 5, please add another child management group with the following details:
 
-  | Section | Values |
+  | Settings | Values |
+  |  -- | -- |
   | Management Group ID | **IT-Service-c** |
   | Management group display name* | **IT-Service-c** |
 
