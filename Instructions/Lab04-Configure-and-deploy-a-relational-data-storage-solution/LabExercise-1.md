@@ -123,4 +123,4 @@ An Azure account, a resource group
 
 ![image](../media/db16.png)
 
-In this exercise, you have configure an Azure SQL Database and query it through SQL Server Management Studio (SSMS). Please dont cleanup the resources as we need it for next exercises.
+In this exercise, you have configured an Azure SQL Database and queried it through SQL Server Management Studio (SSMS). Please dont cleanup the resources as we need it for next exercises.
