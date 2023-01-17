@@ -58,35 +58,25 @@ An Azure account, a resource group
     
 ![image](../media/db6a.png) 
 
-7. On the **Networking** tab, for **Connectivity method**, select **Public endpoint**.
+7. On the **Networking** tab, review the default settings and go to **Security** tab.
 
-8. For **Firewall rules**, set **Add current client IP address** to **Yes**. Leave **Allow Azure services and resources to access this server** set to **No**. 
+8. Select **Next: Security** at the bottom of the page, then keep the default settings as it is.
 
-**Note : Azure stores the firewall rules in the master database. It allows a maximum of 128 server-level firewall rules for an Azure server. If you enable the option – Allow Azure Services and resources to access this server, it is considered a single server firewall rule.**
+9. Select **Next: Additional settings** at the bottom of the page.
 
-![image](../media/db7.png) 
-
-9. Under **Connection policy**, choose the **Default connection policy**, and leave the **Minimum TLS version** at the default of **TLS 1.2**.
-
-![image](../media/db8.png) 
-
-10. Select **Next: Security** at the bottom of the page, then keep the default settings as it is.
-
-11. Select **Next: Additional settings** at the bottom of the page.
-
-12. On the **Additional settings** tab, in the **Data source** section, select **Sample** for Use existing data and click **Ok** on the **AdventureWorksLT** dialogue box. Instead of an empty blank database, this creates an AdventureWorksLT sample database with tables and data to query and experiment with.
+10. On the **Additional settings** tab, in the **Data source** section, select **Sample** for Use existing data and click **Ok** on the **AdventureWorksLT** dialogue box. Instead of an empty blank database, this creates an AdventureWorksLT sample database with tables and data to query and experiment with.
 
 ![image](../media/db9.png)
 
-13. After selecting AdventureWorksLT sample database, please select **Review + Create**.
+11. After selecting AdventureWorksLT sample database, please select **Review + Create**.
 
 ![image](../media/db10.png)
 
-14. After validation completed successfully, please select **Create**.
+12. After validation completed successfully, please select **Create**.
 
-15. Once the deployment completed, please select **Go to Resource**.
+13. Once the deployment completed, please select **Go to Resource**.
 
-16. On the **adventureworkscontoso** database page please select **Query Editor**, then enter the following details:
+14. On the **adventureworkscontoso** database page please select **Query Editor**, then enter the following details:
 
     | Settings | Values |
     |  -- | -- |      
@@ -95,34 +85,13 @@ An Azure account, a resource group
     
 ![image](../media/db11.png)  
  
- 17. After opening the Query editor, please expand tables and right click on **SalesLT.Product** table, then select **Select Top 1000 rows**.
+ 15. After opening the Query editor, please expand tables and right click on **SalesLT.Product** table, then select **Select Top 1000 rows**.
 
 ![image](../media/db12.png) 
  
- 18. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
+ 16. After executing the query, you can see the T-SQL statement on the query pane and the list of products in the result pane.
 
 ![image](../media/db13.png) 
 
-19. CLick on **Start** on the desktop of the virtual machine, then expand **Microsoft SQL Server Tools18**, then select **Microsoft SQL Server Management Studio 18**.
 
-![image](../media/db14.png)
-
-20. After opening **SSMS** on the **Connect to server** box, please enter the following details and click **Connect**.
-
-    | Settings | Values |
-    |  -- | -- |      
-    | Servertype | **Database Engine** |
-    | Servername | **contososerv.database.windows.net** |
-    | Authentication | **SQL Server Authentication** |
-    | Login | **contosoadmin** |
-    | Password | **Contoso@123** |
-
-![image](../media/db15a.png)
-
-21. Expand the databases on the **Object explorer** you can see the database named adventureworkscontoso which configure in the azure sql database.
-
-22. Expand the **adventureworks** database, then expand tables, right click on the table named **SalesLT.Product** and click on **Select top 100 rows**.
-
-![image](../media/db16.png)
-
-In this exercise, you have configured an Azure SQL Database and queried it through SQL Server Management Studio (SSMS). Please dont cleanup the resources as we need it for next exercises.
+**In this exercise, you have configured an Azure SQL Database and queried it through SQL Server Management Studio (SSMS). Please dont cleanup the resources as we need it for next exercises.**
