@@ -107,7 +107,7 @@ In this task, you will assign subscriptions to the newly created management grou
 
 #### Pre-requisites for this task
 
-Complete Task 1 and Task 2
+Complete Task 1 & Task 2
 
 #### Steps:
 
@@ -129,13 +129,13 @@ You can add subscriptions to the management groups that you created.
 
 ![image](../media/man17.png)
 
-#### Task 4: iv.	Assign policies and governance to management groups
+#### Task 4: Assign policies and governance to management groups
 
-
+The first step in enforcing Azure Policy compliance is to assign a policy definition. A policy definition specifies how a policy is enforced and what effect it has. In this task, use the built-in policy definition Inherit a tag from the resource group if missing to add the specified tag and its value from the parent resource group to new or updated resources that are missing the tag.
 
 #### Pre-requisites for this task
 
-Complete Task 1 and Task 2
+Complete Task 1 & Task 2 & Task 3
 
 #### Steps:
 
