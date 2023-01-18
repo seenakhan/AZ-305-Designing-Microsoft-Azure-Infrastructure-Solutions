@@ -132,7 +132,9 @@ You can add subscriptions to the management groups that you created.
 
 ![image](../media/man17.png)
 
-###
+In this exercise you have created three child management groups and add subscriptions on it.
+
+#### Please do not clear the resources as it will need for the next exercise.
 
 
 
