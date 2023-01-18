@@ -1,8 +1,8 @@
-## Instructions
+# Instructions
 
-### Exercise 1
+## Exercise 1
 
-#### Task 1: Create Management Groups
+### Task 1: Create Management Groups
 
 In this task, you will create a Management Group via the Azure portal.
 
@@ -57,7 +57,7 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 **The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
 
 
-#### Task 2: Create Child Management Groups
+### Task 2: Create Child Management Groups
 
 In this task, you will create three management groups under the management group you have created in the previous task via Azure Portal.
 
@@ -104,7 +104,7 @@ Complete Task 1.
 
 ![image](../media/man14.png)
 
-#### Task 3: Assign subscriptions to management groups
+### Task 3: Assign subscriptions to management groups
 
 In this task, you will assign subscriptions to the newly created management groups via Azure Portal.
 
@@ -132,39 +132,7 @@ You can add subscriptions to the management groups that you created.
 
 ![image](../media/man17.png)
 
-#### Task 4: Assign policies and governance to management groups
-
-The first step in enforcing Azure Policy compliance is to assign a policy definition. A policy definition specifies how a policy is enforced and what effect it has. In this task, use the built-in policy definition Inherit a tag from the resource group if missing to add the specified tag and its value from the parent resource group to new or updated resources that are missing the tag.
-
-#### Pre-requisites for this task
-
-Complete Task 1 & Task 2 & Task 3
-
-#### Steps:
-
-1. Go to search box and enter policy, then select **Policy** from the list.
-
-![image](../media/pol1.png)
-
-2. Select **Assignments** on the left side of the Azure Policy page and then click on the elipsis **(...)** of scope. 
-**Note: An assignment is a policy that has been assigned to take place within a specific scope.**
-
-![image](../media/pol2.png)
-
-3. On the **Assign Policy** page under **Basic** tab for **Scope** section please click on the elipsis **(...)** towards the right side of the scope. 
-
-![image](../media/pol3.png)
-
-4. On the Scope side screen, please select **IT-Contoso** under **Management Group**.
-
-
-
-  | Section | Values |
-  | ------- | ------ |
-  | Scope | **IT-Contoso** |
-
-4. After selecting the scope please select **Assign Policy**.
-
+###
 
 
 
