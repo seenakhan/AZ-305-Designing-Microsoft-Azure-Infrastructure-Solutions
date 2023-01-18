@@ -18,9 +18,9 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
 ![image](../media/man1a.png)
 
-3. On the Azure Active Directory page, please select **Properties** under **Manage tab**, then select **Yes** for **Access management for Azure resources**. 
+3. On the Azure Active Directory page, please select **Properties** under **Manage tab**, then select **Yes** for **Access management for Azure resources**, then select **Save**. 
 
-![image](../media/man2.png)
+![image](../media/man2a.png)
 
 4. Please go to **Home** tab and search for **Management Groups**, then select **Management Groups** from the list.
 
@@ -146,10 +146,20 @@ Complete Task 1 & Task 2 & Task 3
 
 ![image](../media/pol1.png)
 
-2. Select Assignments on the left side of the Azure Policy page and then click on the elipsis **(...)** of scope. 
+2. Select **Assignments** on the left side of the Azure Policy page and then click on the elipsis **(...)** of scope. 
 **Note: An assignment is a policy that has been assigned to take place within a specific scope.**
 
-3. On the Scope side screen, please select **IT-Contoso** management group.
+![image](../media/pol2.png)
+
+3. On the **Assign Policy** page under **Basic** tab for **Scope** section please click on the elipsis **(...)** towards the right side of the scope. 
+
+![image](../media/pol3.png)
+
+4. 
+
+  | Section | Values |
+  | ------- | ------ |
+  | Scope | **IT-Contoso** |
 
 4. After selecting the scope please select **Assign Policy**.
 
