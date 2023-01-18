@@ -155,7 +155,9 @@ Complete Task 1 & Task 2 & Task 3
 
 ![image](../media/pol3.png)
 
-4. 
+4. On the Scope side screen, please select **IT-Contoso** under **Management Group**.
+
+
 
   | Section | Values |
   | ------- | ------ |
