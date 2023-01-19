@@ -16,26 +16,21 @@ Complete Exercise 1
 
 ![image](../media/pol1.png)
 
-2. Select **Assignments** on the left side of the Azure Policy page and then click on the elipsis **(...)** of scope. 
-**Note: An assignment is a policy that has been assigned to take place within a specific scope.**
+2. Select **Assignments** on the left side of the Azure Policy page and then select **Assign Policy**.
+      
+      **Note: An assignment is a policy that has been assigned to take place within a specific scope.**
 
 ![image](../media/pol2.png)
 
-3. On the **Assign Policy** page under **Basic** tab for **Scope** section please click on the elipsis **(...)** towards the right side of the scope. 
+3. On the **Assign Policy** page under **Basic** tab for **Scope** section you can see the default subscription selected or else please select the default subscription. 
 
-![image](../media/pol3.png)
-
-4. On the Scope side screen, please select **IT-Contoso** under **Management Group**.
-
-![image](../media/pol4.png)
-
-5. Please click on **Exclusions** elipsis **(...)** towards the right side of hte exclusions.
+4. Please click on **Exclusions** elipsis **(...)** towards the right side of the exclusions.
 
 ![image](../media/pol5.png)
 
-6. On the Exclusions Select the Management group **IT-Service** and then select **Add to selected scope** and then **Save**.
+6. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
 
-![image](../media/pol6.png)
+![image](../media/pol6a.png)
 
 7. Please click on **Policy Definitions** elipsis **(...)**.
 
