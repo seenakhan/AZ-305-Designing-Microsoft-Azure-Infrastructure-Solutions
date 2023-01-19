@@ -1,6 +1,6 @@
-## Instructions
+# Instructions
 
-## Exercise 2: Enable AAD authentication and query the DB.
+## Exercise 2: Enable AAD authentication and query the Database.
 
 In this Exercise, you will configure Server firewall and database firewall to Adventureworks database and connect it. 
 
