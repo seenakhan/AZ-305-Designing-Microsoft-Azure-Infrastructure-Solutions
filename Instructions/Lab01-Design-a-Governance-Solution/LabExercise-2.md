@@ -135,6 +135,18 @@ Complete Exercise 1, Exercise 2 -  Task 1
 
 1. Click **Overview** and click **Delete** on the top of the storage account blade. When prompted for the confirmation, in the **Delete storage account** blade, type the name of the storage account to confirm and click **Delete**. 
 
+In the Azure portal, navigate back to the **Management groups** blade. 
+
+1. On the **Management groups** blade, select the **ellipsis** icon next to your subscription under the **IT-Service-c & IT-Support-c & IT-Contoso** management groups and select **Move** to move the subscription to the **Tenant Root management group**.
+
+   >**Note**: It is likely that the target management group is the **Tenant Root management group**, unless you created a custom management group hierarchy before running this lab.
+   
+1. Select **Refresh** to verify that the subscription has successfully moved to the **Tenant Root management group**.
+
+1. Navigate back to the **Management groups** blade, click the **ellipsis** icon to the right of the management groups and click **Delete**.
+  >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
+
+
 #### Review
 
 In this lab, you have:
