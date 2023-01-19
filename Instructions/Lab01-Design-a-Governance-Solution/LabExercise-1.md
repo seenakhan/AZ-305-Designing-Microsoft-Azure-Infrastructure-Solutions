@@ -58,11 +58,11 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
 ![image](../media/man9.png)
 
-**Now you can create child management groups and assign subscriptions to each group**.
+>**Now you can create child management groups and assign subscriptions to each group**.
 
-**Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
+>**Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
 
-**The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
+>**The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
 
 
 ### Task 2: Create Child Management Groups
