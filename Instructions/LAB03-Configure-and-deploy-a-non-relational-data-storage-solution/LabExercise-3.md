@@ -146,7 +146,7 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
 ### Clean up resources
 
-When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.
+>**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
 
 1. Select Home and then Resource groups.
 
@@ -157,4 +157,9 @@ When you're done, delete the resource group. Deleting the resource group deletes
 3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
 
 4. Enter the name of the resource group, and then select Delete.
+    
+#### Review
 
+In this lab, you have:
+
+- Setup an Azure File and access from a Virtual machine.
