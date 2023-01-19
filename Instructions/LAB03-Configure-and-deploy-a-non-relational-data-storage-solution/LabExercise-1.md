@@ -188,13 +188,15 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 16. Open 404.html in the editor, paste the following text into the file, and save it:
 
-   ``` <!DOCTYPE html>
+   ```<!DOCTYPE html>
     <html>
     <body>
     <h1>404</h1>
     </body>
     </html>
     ```
+
+
 ![image](../media/str22.png)
 
 17. Click on the Azure logo where you will be asked to log in. Once you have authenticated to Azure with the extension, expand the **Storage accounts**, then expand the storage account you have created, then expand **Blob containers**, then right-click on the **$web** storage container. You’ll see an option to **Deploy to Static Website via Azure storage**. Select that option.
