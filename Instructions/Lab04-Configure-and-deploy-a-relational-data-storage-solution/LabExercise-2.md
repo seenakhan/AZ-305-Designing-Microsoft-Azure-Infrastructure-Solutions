@@ -1,12 +1,17 @@
-## Instructions
+# Instructions
 
-## Exercise 2: Enable Firewall rules and connect to DB.
+## Exercise 2: Enable Firewall rules and connect to Database.
 
-In this Exercise, you will configure Server firewall and database firewall to Adventureworks database and connect it. 
+In this exercise, you will configure Server firewall and database firewall to Adventureworks database and connect it. 
+
+In this exercise, you will:
+
++ Task 1: Set up server-level firewall rules using Azure Portal.
++ Task 2: Setup database firewall rules.
 
 ### Task 1: Set up server-level firewall rules using Azure Portal
 
-In this task you will copnfigure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
+In this task you will configure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
 
 #### Pre-requisites for this task
 
@@ -82,6 +87,16 @@ Complete Exercise 1, Exercise 2 - Task 1.
 
  ![](../media/fire11.png)
  
- **If any server failover happens adventureworkscontoso database will retain the data.**
+ >**If any server failover happens adventureworkscontoso database will retain the data.**
 
-**Please dont cleanup the resources as we need it for next exercises.**
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Configured server-level firewall rules using Azure Portal.
++ Configured database firewall rules.
+
