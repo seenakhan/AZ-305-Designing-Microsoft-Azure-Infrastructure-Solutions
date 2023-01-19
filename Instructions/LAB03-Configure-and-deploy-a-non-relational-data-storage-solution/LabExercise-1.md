@@ -207,7 +207,7 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 ![image](../media/str24.png)
 
-19. Visual Studio Code will then deploy those files as your static page and return a success message to you. Please select  Browse to website button.Or Once the files have been uploaded, navigate to the primary endpoint you received earlier.
+19. Visual Studio Code will then deploy those files as your static page and return a success message to you. Please select  **Browse to website button** Once the files have been uploaded, navigate to the primary endpoint you received earlier.
 
 ![image](../media/str25.png)
 
@@ -244,3 +244,15 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 ![image](../media/life5.png)
 
 If you are not seeing newly created lifecycle management policy please select the lifecycle management and select refresh.
+
+### Cleanup resources
+    
+   >**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module**.
+    
+#### Review
+
+In this lab, you have:
+
+- Created a Storage account
+- Configured a static website to access the blob container
+- Applied Lifecycle Management policy
