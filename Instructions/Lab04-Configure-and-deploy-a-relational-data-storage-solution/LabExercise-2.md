@@ -9,6 +9,8 @@ In this exercise, you will:
 + Task 1: Set up server-level firewall rules using Azure Portal.
 + Task 2: Setup database firewall rules.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Set up server-level firewall rules using Azure Portal
 
 In this task you will configure Server firewall. Azure SQL Server is protected by server-level firewall rules. As a result, it applies to all underlying Azure SQL Databases. Before reaching the Azure server or database, each connection must pass through the firewall.
