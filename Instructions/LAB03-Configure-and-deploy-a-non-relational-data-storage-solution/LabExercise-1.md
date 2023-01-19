@@ -227,15 +227,15 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 #### Steps
 
-1. Go to Lifecycle management under Data management of the storage account created on the previous task. Please select Add rule.
+1. Go to **Lifecycle management** under **Data management** of the storage account created on the previous task. Please select **Add rule**.
 
 ![image](../media/life2.png)
 
-2. On the Add a rule page please enter the rule name as Testrule and keep the default settings as it is and select Next
+2. On the **Add a rule** page please enter the **rule name** as **Testrule** and keep the default settings as it is and select **Next**
 
 ![image](../media/life3a.png)
 
-3. On the Add a rule page, under the Base blob tab, enter the following settings as per the image below: and please select add button.
+3. On the Add a rule page, under the **Base blob** tab, enter the following settings as per the image below: and please select **add** button.
 
 ![image](../media/life4.png)
 
