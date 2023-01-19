@@ -4,6 +4,12 @@
 
 In this exercise, you are going to deploy an Azure SQl database. 
 
+In this exercise, you will:
+
++ Task 1: Create a single database with Adventure Works pre-loaded.
+
+### Estimated Timing: 60 minutes
+
 ### Task 1: Create a single database with Adventure Works pre-loaded
 
 In this task, you will learn how to use Azur portal to create a single database with Adventure works sample database
