@@ -15,33 +15,33 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 #### Steps
 
-1. To select the storage account go to all services and select storage account.
+1. To select the storage account go to **All services** and select **Storage accounts**.
 
 ![image](../media/files3a.png)
 
-2. From the list of storage accounts select the storage account whihc you have created on the previous task.
+2. From the list of storage accounts select the storage account which you have created on the previous task.
 
 ![image](../media/files3.png)
 
-2. Select the file shares under data storage pane and select + File share option.
+2. Select the **File shares** under data storage pane and select **+ File share** option.
 
 ![image](../media/files2.png)
 
-3. On the New file share side screen enter the name as contosofiles, then the tier keep as Transaction optimized and select Create button.
+3. On the **New file share** side screen enter the name as **contosofiles**, then the tier keep as **Transaction optimized** and select **Create** button.
 
 ![image](../media/files4.png)
 
-4. Create a new txt file called welcome.txt on your local machine by opening notepad.
+4. Create a new text file called welcome.txt (any name you can choose) on your local machine by opening notepad.
 
 5. Select the newly created file share.
 
 ![image](../media/files5.png)
 
-6. On the overview section, select Upload option.
+6. On the **Overview** section, select **Upload** option.
 
 ![image](../media/files6.png)
 
-7. On the Upload files side screen, please select browse button and then select the text file which you created on the previous step and select upload.
+7. On the Upload files side screen, please select **browse** button and then select the text file which you created on the previous step and select upload.
 
 ![image](../media/files7.png)
 
@@ -49,15 +49,15 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](../media/files8.png)
 
-9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure VM with Windows Server 2019 Datacenter. In azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
+9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure Virtual machine with Windows Server 2019 Datacenter. In azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
 
 ![image](../media/files9.png)
 
-10. On the Virtual machines page, please select Create.
+10. On the Virtual machines page, please select **Create**.
 
 ![image](../media/files10.png)
 
-11. On the Create a Virtual machine page under Basics tab, please enter the following details:
+11. On the Create a Virtual machine page under **Basics** tab, please enter the following details:
 
     | Settings | Values |
     |  -- | -- |
@@ -84,23 +84,23 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](../media/files13a.png)
 
-13. After entering all the details on Basics tab please switch to Disks tab and enter the details as per the below image:
+13. After entering all the details on Basics tab please switch to **Disks** tab and enter the details as per the below image:
 
 ![image](../media/files14.png)
 
-14. Switch to the Networking tab to ensure **RDP (3389)** is selected in section **Select inbound ports**.
+14. Switch to the **Networking** tab to ensure **RDP (3389)** is selected in section **Select inbound ports**.
 
-15. Switch to the Monitoring tab and Select Disable option for Boot diagnostics under Diagnostics section.
+15. Switch to the **Monitoring** tab and Select **Disable option for Boot diagnostics** under **Diagnostics section**.
 
 ![image](../media/files15.png)
  
 16. Leave the remaining values on the defaults and then click the **Review + create** button at the bottom of the page.
 
-17. After successfully completed the validation, please select Create.
+17. After successfully completed the validation, please select **Create**.
 
 ![image](../media/files16.png)
 
-18.Once the deployment completed, please select Go to resources.
+18.Once the deployment completed, please select **Go to resources**.
 
 ![image](../media/files17.png)
 
@@ -116,21 +116,21 @@ An Azure account, a storage account (Complete Task 1). The following steps outli
 
 ![image](../media/files19.png)
 
-22. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd123!**. 
+22. On the **Windows Security** window, sign in using the Admin Credentials you used when creating your Virtual machine **azureuser** and the password **Pa$$w0rd123!**. 
 
 ![image](../media/files20.png)
 
-23. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+23. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed Virtual machine. You should connect successfully.
 
 ![image](../media/files21.png)
 
-A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up (click "x" at top right). You should see the blue background of your virtual machine. **Congratulations!** You have deployed and connected to a Virtual Machine running Windows Server. Please dont close the vm window.
+A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up (click "x" at top right). You should see the blue background of your virtual machine. **Congratulations!** You have deployed and connected to a Virtual Machine running Windows Server. Please dont close the virtual machine window.
 
 24. In the Azure portal, navigate to the storage account which you created on the previous task and select fileshares and select **contosofiles**.
 
 ![image](../media/files22.png)
 
-25. On the overview section, please select connect.
+25. On the overview section, please select **Connect.**
 
 ![image](../media/files23.png)
 
@@ -138,11 +138,11 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
 ![image](../media/files24.png)
 
-27. In the VM, open PowerShell and paste in the contents of the Notepad, then press enter to run the command. It should map the drive. You have successfully mapped the drive.
+27. In the Virtual machine, open PowerShell and paste in the contents of the Notepad, then press enter to run the command. It should map the drive. You have successfully mapped the drive.
 
 ![image](../media/files25.png)
 
-28. Open the **File explorer** in the virtual machine and double click on contosofiles, you can see the text file created on fileshares named **contosofiles** in azure portal.
+28. Open the **File explorer** in the virtual machine and double click on **contosofiles**, you can see the text file created on fileshares named **contosofiles** in azure portal.
 
 ### Clean up resources
 
