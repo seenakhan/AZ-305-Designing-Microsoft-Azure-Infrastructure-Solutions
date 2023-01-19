@@ -1,8 +1,15 @@
 ## Instructions
 
-## Exercise 2: Assign policies and governance to management groups
+## Exercise 2: Manage Governance via Azure Policy
 
-### Task 1: Enforce tagging via an Azure policy
+In this Exercise, you will have:
+
++ Task 1: Create an Assignment through an Azure built-in Policy
++ Task 2: Applying the Policy definition to a Storage account.
+
+## Estimated timing: 30 minutes
+
+### Task 1: Create an Assignment through an Azure built-in Policy
 
 In this task, you will assign the built-in *Require a tag and its value on resources* policy to the resource group. 
 
