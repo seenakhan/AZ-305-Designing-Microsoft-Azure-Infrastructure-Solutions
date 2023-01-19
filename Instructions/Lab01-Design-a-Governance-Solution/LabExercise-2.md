@@ -1,10 +1,10 @@
 ## Instructions
 
-### Exercise 2
+## Exercise 2: Assign policies and governance to management groups
 
-#### Task 1: Assign policies and governance to management groups
+### Task 1: Enforce tagging via an Azure policy
 
-The first step in enforcing Azure Policy compliance is to assign a policy definition. A policy definition specifies how a policy is enforced and what effect it has. In this task, use the built-in policy definition Inherit a tag from the resource group if missing to add the specified tag and its value from the parent resource group to new or updated resources that are missing the tag.
+In this task, you will assign the built-in *Require a tag and its value on resources* policy to the resource group. 
 
 #### Pre-requisites for this task
 
@@ -60,12 +60,13 @@ Complete Exercise 1
 
 15. On the Assignments section, you can see the newly created **Assignment**.
 
-#### Task 2: Create a Storage account
+#### Task 2: Applying the Policy definition to a Storage account.
 
+In this task you are going to create a storage account by using the resource group which you have applied the Policy assignment.Then you will check the Policy assigment validation.
 
 #### Pre-requisites for this task
 
-Complete Exercise 1
+Complete Exercise 1, Exercise 2 -  Task 1
 
 #### Steps:
 
@@ -107,8 +108,29 @@ Complete Exercise 1
 
 9. You have successfully created the storage account now.
 
-     
+      **Note : If you want to check with the excluded resource group from policy assignment, you can create another storage account by using the same steps, but by selecting the excluded resource group.**    
 
+### Task 3: Clean up resources
 
+   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
+   
+   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
+
+1. In the portal, search for and select **Policy**.
+
+1. In the **Authoring** section, click **Assignments**, click the ellipsis icon to the right of the assignment you created in the previous task and click **Delete assignment**. 
+
+1. In the portal, search for and select **Storage accounts**.
+
+1. In the list of storage accounts, select the resource group corresponding to the storage account you created in the last task of this lab. Select **Tags** and click **Delete** (Trash can to the right) to the **Role:Infra** tag and press **Apply**. 
+
+1. Click **Overview** and click **Delete** on the top of the storage account blade. When prompted for the confirmation, in the **Delete storage account** blade, type the name of the storage account to confirm and click **Delete**. 
+
+#### Review
+
+In this lab, you have:
+
+- Created and assigned a built in policy via the Azure portal
+- Enforced tagging  and checked the validation via an Azure policy
 
   
