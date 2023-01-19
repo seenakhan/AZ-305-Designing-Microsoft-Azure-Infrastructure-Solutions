@@ -33,7 +33,36 @@ Complete Exercise 1
 
 ![image](../media/pol5.png)
 
-6. 
+6. On the Exclusions Select the Management group **IT-Service** and then select **Add to selected scope** and then **Save**.
 
+![image](../media/pol6.png)
+
+7. Please click on **Policy Definitions** elipsis **(...)**.
+
+8. On the **Available Definitions** sidescreen take a moment to browse through the list of built-in policy definitions that are available for you to use.
+
+9. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
+
+![image](../media/pol7.png)
+
+10. By selecting the policy definition, the assignment name also filled automatically.
+
+11. Click on **Next** at the bottom, review the **Advanced** tab and leave the default settings as it is.
+
+12. Click on **Next** at the bottom, under the **Parameters** tab please enter the following details:
+
+    | Tag name | **Managementgrp** |
+    | -------- | ----------------- |
+    | Tag value | **IT-Support-c** |
+    
+![image](../media/pol9.png)    
+
+11. Leave the default settings of other options as it is.
+
+12. Please select **Review + Create**.
+
+![image](../media/pol8.png) 
+
+13.
 
   
