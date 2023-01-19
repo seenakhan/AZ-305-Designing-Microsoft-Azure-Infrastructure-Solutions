@@ -84,6 +84,12 @@ An Azure account, a resource group
 
 13. Once the deployment completed, please select **Go to Resource**.
 
-**You can see the adventureworkscontoso database. To query the tables for viewing data, you need to configure the firewalls. We are going to do the configurations of the firewall on Exercise 2.**
+### Clean up resources
 
-**Please dont cleanup the resources as we need it for next exercises.**
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Deployed an Azure SQL database.
