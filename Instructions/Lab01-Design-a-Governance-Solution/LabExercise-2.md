@@ -9,7 +9,7 @@ In this Exercise, you will have:
 + Task 1: Create an Assignment through an Azure built-in Policy
 + Task 2: Applying the Policy definition to a Storage account.
 
-## Estimated timing: 45 minutes
+## Estimated timing: 60 minutes
 
 ### Task 1: Create an Assignment through an Azure built-in Policy
 
