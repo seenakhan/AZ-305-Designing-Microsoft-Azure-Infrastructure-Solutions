@@ -32,7 +32,7 @@ An Azure account
 
 ![image](../media/str1.png)
 
-4. On the storage accounts page please select **create**. 
+4. On the storage accounts page please select **Create**. 
 
 ![image](../media/str2.png)
 
@@ -42,9 +42,9 @@ An Azure account
 
 7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
-8. Select the region option as East US
+8. Select the **Region** option as **East US**
 
-9. On the performance options: Select standard
+9. On the **Performance** options: Select **Standard**
 
 10. Select Geo-Redundant storage on the redundancy option
 
