@@ -1,6 +1,14 @@
 # Instructions
 
-## Exercise 1
+## Exercise 1: Create Management Groups and assign Subscriptions
+
+In this exercise you will create three management groups and assign subscriptions to each management groups via Azure portal.
+
+In this Exercise, you will have:
+
++ Task 1: Create Management Groups.
++ Task 2: Create Child Management Groups.
++ Task 3: Assign subscriptions to management groups
 
 ### Task 1: Create Management Groups
 
@@ -134,7 +142,15 @@ You can add subscriptions to the management groups that you created.
 
 In this exercise you have created three child management groups and add subscriptions on it.
 
-#### Please do not clear the resources as it will need for the next exercise.
+### Clean up resources
 
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
 
+#### Review
+
+In this lab, you have:
+
+- Created Management Groups.
+- Created Child Management Groups.
+- Assigned subscriptions to management groups
 
