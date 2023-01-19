@@ -26,13 +26,13 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
     Create a Key Vault if you don’t have an existing one available. Check out the following quickstart on creating a key vault using the Azure portal.
 
-    1. Open Azure portal, in the Search box, enter Key Vault.
+    1. Open Azure portal, in the Search box, enter **Key Vault**.
     
     2. From the results list, choose Key Vault.
     
     ![image](../media/life6.png)
     
-    3. On the Key Vault section, choose Create.
+    3. On the Key Vault section, choose **Create**.
 
     ![image](../media/life7.png)
     
@@ -51,19 +51,19 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
     ![image](../media/life9.png)
     
-    6. After the validation completed, please select Create.
+    6. After the validation completed, please select **Create**.
 
-    7. Once the deployment complete, please select Go to resource button.
+    7. Once the deployment complete, please select **Go to resource** .
    
    Take note of the two properties listed below:
 
-   **Vault Name: In the example, this is contoso-vault3. You will use this name for other steps.**
+   >**Vault Name: In the example, this is contoso-vault3. You will use this name for other steps.**
       
-   **Vault URI: In the example, this is https://contoso-vault3.vault.azure.net/. Applications that use your vault through its REST API must use this URI.**
+   >**Vault URI: In the example, this is https://contoso-vault3.vault.azure.net/. Applications that use your vault through its REST API must use this URI.**
       
     At this point, your Azure account is the only one authorized to perform operations on this new vault
 
-3. In the storage account, navigate to Security + Networking, then choose Encryption.
+3. In the storage account, navigate to **Security + Networking**, then choose **Encryption**.
 
 4. For Encryption type, select the radio button for Customer-managed keys.
 
@@ -71,19 +71,19 @@ To configure a storage account to use a customer-managed key stored in a Key Vau
 
 ![image](../media/life11.png)
 
-6. In the Select a key page, select the subscription, key store type, and key vault to store the customer-managed encryption key. If you have an existing key stored in the key vault, select the key from the dropdown. Otherwise, select Create a new key
+6. In the Select a key page, select the **Subscription**, **key store type**, and **key vault** to store the customer-managed encryption key. If you have an existing key stored in the key vault, select the key from the dropdown. Otherwise, select **Create a new key**
 
 ![image](../media/life12.png)
 
-7. On the Create a Key page, select Generate for the options dropdown list, enter name as contosostr345-key, keep the default settings as it is and please select Create button.
+7. On the Create a Key page, select Generate for the options dropdown list, enter name as **contosostr345-key**, keep the default settings as it is and please select **Create** button.
 
 ![image](../media/life13.png)
 
-8. In the Select a key window, ensure the newly created key is selected in the Key dropdown, then click Select.
+8. In the Select a key window, ensure the newly created key is selected in the Key dropdown, then click **Select**.
 
 ![image](../media/life14.png)
 
-9. Back in the Encryption settings, click Save.
+9. Back in the **Encryption** settings, click **Save**.
 
 ![image](../media/life15.png)
 
@@ -100,7 +100,7 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
 
 1. Navigate to the storage account in the Azure portal.
 
-2. In the storage account, navigate to Security + networking, then choose Shared access signature.
+2. In the storage account, navigate to **Security + networking**, then choose **Shared access signature**.
 
 ![image](../media/life16.png)
 
@@ -116,7 +116,7 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
 
 7. Finally, choose which access key to sign the shared access signature. If you revoke the access key, any shared access signature created from the access key is invalidated.
 
-8. Once you configured all the options, then select Generate SAS and connection string.
+8. Once you configured all the options, then select **Generate SAS and connection string**.
 
 ![image](../media/life18.png)
 
@@ -126,7 +126,7 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
 
 By providing the SAS, you can control what resources they have access to, what permissions they have on those resources, and how long they have access to the resources.
 
-### Task 3: Enable backup and Soft delete
+### Task 3: Enable Soft delete
 
 By enabling Soft delete you can protect your data from accidental deletion, from the following steps you can easily configure soft delete for your blob storage.
 
@@ -136,16 +136,16 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2
 
 #### Steps
 
-1. In the Azure portal, navigate to your storage account which you created on previous task.
+1. In the Azure portal, navigate to your storage account which you have created on previous task.
 
-2. Locate the Data Protection option under Data management.
+2. Locate the **Data Protection** option under **Data management**.
 
-3. In the Recovery section, select Turn on soft delete for blobs.
+3. In the **Recovery** section, select **Turn on soft delete for blobs**.
 
 ![image](../media/life20.png)
 
 4. Specify a retention period between 1 and 365 days. Microsoft recommends a minimum retention period of seven days. In this example provide 7 days.
-Save your changes.
+**Save** your changes.
 
 ### Task 4: Configure Backup Vault
 
@@ -163,31 +163,31 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2
 
 A backup vault is a management entity that stores recovery points that have been created over time and provides an interface for performing backup operations. These include on-demand backups, restores, and the creation of backup policies.
 
-1. Type Backup vaults in the search box.
+1. Type **Backup vaults** in the search box.
 
-2. Under Services, select Backup vaults.
+2. Under Services, select **Backup vaults**.
 
 ![image](../media/bvault1.png)
 
-3. On the Backup vaults page, select Create.
+3. On the **Backup vaults** page, select **Create**.
 
 ![image](../media/bvault2.png)
 
-4. Make sure the correct subscription is selected under Project details on the Basics tab, then select the resource group which you have created on the previous task.
+4. Make sure the subscription is selected under Project details on the Basics tab, then select the resource group which you have created on the previous task.
 
-5. Under Instance details, type myVault for the Backup vault name and choose your region of choice, in this case East US for your Region.
+5. Under Instance details, type **myVault** for the Backup vault name and choose your region of choice, in this case **East US** for your Region.
 
 6. Now choose your Storage redundancy. Storage redundancy cannot be changed after protecting items to the vault. We recommend that if you're using Azure as a primary backup storage endpoint, continue to use the default Globally-redundant setting.
 
-**Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs.**
+>**Note : If you don't use Azure as a primary backup storage endpoint, choose Locally redundant, which reduces the Azure storage costs.**
 
 ![image](../media/back5.png)
 
-7. Please review the options and the values, and select Create button to create the backup vault.
+7. Please review the options and the values, and select **Create** button to create the backup vault.
 
 ![image](../media/back6.png)
 
-8. Please select Go to resource, to view the newly created backup vault.
+8. Please select **Go to resource**, to view the newly created backup vault.
 
 ![image](../media/bvault3.png)
 
@@ -205,35 +205,35 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 
-1. In the storage account that needs to be protected, navigate to the Access Control (IAM) tab on the left navigation pane.
+1. In the **Storage account** that needs to be protected, navigate to the **Access Control (IAM)** tab on the left navigation pane.
 
-2. Select Add role assignments to assign the required role.
+2. Select **Add role assignments** to assign the required role.
 
 ![image](../media/role1.png)
 
 3. In the Add role assignment pane:
 
-4. Under Role, choose Storage Account Backup Contributor.
+4. Under Role, choose **Storage Account Backup Contributor**.
 
 ![image](../media/role2.png)
 
-5. Under Members tab, on the Assign access to option, choose User, group or service principal and select Next button.
+5. Under **Members** tab, on the **Assign access to** option, choose User, group or service principal and select **Next** button.
 
 ![image](../media/role3.png)
 
-6. On the Members option, please select + Select members. Under Select members side screen, Please type name of the backup vault which you created on the previous task on the search box and select the back up vault by clicking on it.
+6. On the Members option, please select **+ Select members**. Under Select members side screen, Please type name of the backup vault which you created on the previous task on the search box and select the back up vault by clicking on it.
 
 ![image](../media/role4.png)
 
-7. After selecting the backup vault, please select Select option.
+7. After selecting the backup vault, please select **Select** option.
 
 ![image](../media/role5.png)
 
-8. Please select Next button, then select Review + Assign button.
+8. Please select **Next** button, then select Review **+ Assign** button.
 
 ![image](../media/role6.png)
 
-9. After completing the assigning process, please select role assignments tab and you can see the newly configured storage account backup contributor role
+9. After completing the assigning process, please select **Role assignments** tab and you can see the newly configured storage account backup contributor role
 
 ![image](../media/role7.png)
 
@@ -247,35 +247,35 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2
 
 To start configuring backup:
 
-1. Search for Backup Center in the search bar.
+1. Search for **Backup Center** in the search bar.
 
 ![image](../media/back1.png)
 
-2. Navigate to Overview -> +Backup.
+2. Navigate to **Overview -> +Backup**.
 
 ![image](../media/back2.png)
 
-3. From the DataSource type dropdown list Select Azure Blobs (Azure Storage) as the DataSource type and select continue button.
+3. From the **DataSource** type dropdown list Select **Azure Blobs (Azure Storage)** as the DataSource type and select **Continue** button.
 
 ![image](../media/back3.png)
 
-4. On the Basics tab, please select Select vault option.
+4. On the **Basics** tab, please select **Select vault option**.
 
 ![image](../media/back4a.png)
 
-5. Please select the backup vault, and select Select button from the Select a Vault side screen.
+5. Please select the Backup vault, and select **Select** button from the Select a Vault side screen.
 
 ![image](../media/back5.png)
 
-6. On the Configure Backup page, please select Create new for Backup policy option under Backup policy tab.
+6. On the Configure Backup page, please select **Create new for Backup policy** option under Backup policy tab.
 
 ![image](../media/back8a.png)
 
-7. On the Create Backup policy page, under Basics tab, please provide Policy name as backvaultp1 (you can provide any name) and select Review+Create button.
+7. On the Create Backup policy page, under Basics tab, please provide **Policy name** as **backvaultp1** (you can provide any name) and select **Review+Create** button.
 
 ![image](../media/back9.png)
 
-8. Please review the content, under Review+create tab and select Create button.
+8. Please review the content, under Review+create tab and select **Create** button.
 
 ![image](../media/back10.png)
 
@@ -283,7 +283,7 @@ To start configuring backup:
 
 ![image](../media/back11.png)
 
-10. On Configure Backup page, under Datasources tab, please select +Add/Edit boption.
+10. On **Configure Backup** page, under **Datasources** tab, please select **+Add/Edit** option.
 
 ![image](../media/back12.png)
 
@@ -296,7 +296,7 @@ Here, you can see the success status under Backup readiness tab, please select N
 
 ![image](../media/back14.png)
 
-13. After completing the review successfully, please select configure backup button.
+13. After completing the review successfully, please select **Configure backup** button.
 
 ![image](../media/back15.png)
 
@@ -314,7 +314,7 @@ In this lab, you have:
 
 - Configured storage account to use a customer-managed key stored in a Key Vault
 - Configured a Shared Access Signature 
-- Enabled Backup and Soft Delete
+- Enabled Backup Soft Delete
 - Configured a Backup vault
 - Configured the Storage account backup contributor role 
 - Configured Backup
