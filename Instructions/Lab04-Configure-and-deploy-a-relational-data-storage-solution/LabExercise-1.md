@@ -1,6 +1,8 @@
-## Instructions
+# Instructions
 
 ## Exercise 1: Configure and deploy a relational data storage solution 
+
+In this exercise, you are going to deploy an Azure SQl database. 
 
 ### Task 1: Create a single database with Adventure Works pre-loaded
 
