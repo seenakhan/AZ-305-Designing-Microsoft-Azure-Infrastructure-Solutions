@@ -174,12 +174,13 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 14. Open index.html in the editor, paste the following html script into the file, and save it:
 
-    <!DOCTYPE html>
+    ```<!DOCTYPE html>
     <html>
     <body>
       <h1>Hello World!</h1>
     </body>
     </html>
+    ```
 
 ![image](../media/str21.png)
 
@@ -187,12 +188,13 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
 16. Open 404.html in the editor, paste the following text into the file, and save it:
 
-    <!DOCTYPE html>
+   ``` <!DOCTYPE html>
     <html>
     <body>
     <h1>404</h1>
     </body>
     </html>
+    ```
 
 ![image](../media/str22.png)
 
