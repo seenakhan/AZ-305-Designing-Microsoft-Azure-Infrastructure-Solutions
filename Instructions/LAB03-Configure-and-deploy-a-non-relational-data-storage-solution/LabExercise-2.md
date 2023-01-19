@@ -304,3 +304,17 @@ Here, you can see the success status under Backup readiness tab, please select N
 
 ![image](../media/back16.png)
 
+### Cleanup resources
+    
+   >**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module**.
+    
+#### Review
+
+In this lab, you have:
+
+- Configured storage account to use a customer-managed key stored in a Key Vault
+- Configured a Shared Access Signature 
+- Enabled Backup and Soft Delete
+- Configured a Backup vault
+- Configured the Storage account backup contributor role 
+- Configured Backup
