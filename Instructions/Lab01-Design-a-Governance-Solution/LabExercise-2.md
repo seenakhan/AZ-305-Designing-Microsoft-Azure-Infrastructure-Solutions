@@ -2,6 +2,8 @@
 
 ## Exercise 2: Manage Governance via Azure Policy
 
+In this exercise you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
+
 In this Exercise, you will have:
 
 + Task 1: Create an Assignment through an Azure built-in Policy
