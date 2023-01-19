@@ -4,6 +4,17 @@
 
 Securing access to your Blob storage is a critical step for any Azure administrator or engineer.In this exercise, you will learn how to use the Azure portal to secure your blob storage and enable backup and soft delete.
 
+In this Exercise, you will have:
+
++ Task 1: Configure storage account to use a customer-managed key stored in a Key Vault.
++ Task 2: To secure your blob storage you can configure Shared Access Signatures (SAS).
++ Task 3: Enable Soft delete.
++ Task 4: Configure Backup Vault.
++ Task 5: Configure the Storage account backup contributor role.
++ Task 6: Configure Backup.
+
+## Estimated timing: 80 minutes
+
 ### Task 1: Configure storage account to use a customer-managed key stored in a Key Vault
 
 By default, storage accounts encrypt the data using Microsoft-managed keys. You can continue using these Microsoft-managed keys for data encryption, or you can manage encryption using your keys.
