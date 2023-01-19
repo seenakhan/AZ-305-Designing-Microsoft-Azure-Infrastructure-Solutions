@@ -26,38 +26,36 @@ Complete Exercise 1
 
 4. Please click on **Exclusions** elipsis **(...)** towards the right side of the exclusions.
 
-![image](../media/pol5.png)
-
-6. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
+5. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
 
 ![image](../media/pol6a.png)
 
-7. Please click on **Policy Definitions** elipsis **(...)**.
+6. Please click on **Policy Definitions** elipsis **(...)**.
 
-8. On the **Available Definitions** sidescreen take a moment to browse through the list of built-in policy definitions that are available for you to use.
+7. On the **Available Definitions** sidescreen take a moment to browse through the list of built-in policy definitions that are available for you to use.
 
-9. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
+8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
 
 ![image](../media/pol7.png)
 
-10. By selecting the policy definition, the assignment name also filled automatically.
+9. By selecting the policy definition, the assignment name also filled automatically.
 
-11. Click on **Next** at the bottom, review the **Advanced** tab and leave the default settings as it is.
+10. Click on **Next** at the bottom, review the **Advanced** tab and leave the default settings as it is.
 
-12. Click on **Next** at the bottom, under the **Parameters** tab please enter the following details:
+11. Click on **Next** at the bottom, under the **Parameters** tab please enter the following details:
 
-    | Tag name | **Managementgrp** |
+    | Tag name | **Role** |
     | -------- | ----------------- |
-    | Tag value | **IT-Support-c** |
+    | Tag value | **Owner** |
     
-![image](../media/pol9.png)    
+![image](../media/pol9a.png)    
 
-11. Leave the default settings of other options as it is.
+12. Leave the default settings of other options as it is.
 
-12. Please select **Review + Create**.
+13. Please select **Review + Create**.
 
 ![image](../media/pol8.png) 
 
-13.
+14.
 
   
