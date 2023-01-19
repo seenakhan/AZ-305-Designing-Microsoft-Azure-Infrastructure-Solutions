@@ -13,13 +13,10 @@ In order to improve management of Azure resources in Contoso, you have been task
 
 ## Objectives
 
-In this lab, we will:
+In this lab, you will:
 
-+ Task 1: Create Management Groups
-+ Task 2: Create Child Management Groups
-+ Task 3: Assign Subscriptions to management groups
-+ Task 4: Assign Policies and Governance to management groups
-+ Task 5: Review the cost data and explore the cost manager
++ Exercise 1: Create Management Groups and assign Subscriptions
++ Exercise 2: Manage Governance via Azure Policy
 
 ## Estimated timing: 30 minutes
 ## Architecture diagram
