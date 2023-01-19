@@ -4,6 +4,12 @@
 
 In this exercise, you will learn how to use the Azure portal to set up a file share and accessing it from a virtual machine.
 
+In this Exercise, you will have:
+
++ Task 1: Setup Azure File and access from a Virtual machine
+
+## Estimated timing: 60 minutes
+
 ### Task 1: Setup Azure File and access from a Virtual machine
 
 Azure Files provides fully managed cloud file shares that can be accessed via the industry standard Server Message Block (SMB) or Network File System (NFS) protocols.
