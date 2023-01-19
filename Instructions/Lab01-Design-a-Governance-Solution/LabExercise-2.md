@@ -25,7 +25,7 @@ Complete Exercise 1
 
 2. Select **Assignments** on the left side of the Azure Policy page and then select **Assign Policy**.
       
-      **Note: An assignment is a policy that has been assigned to take place within a specific scope.**
+      >**Note: An assignment is a policy that has been assigned to take place within a specific scope.**
 
 ![image](../media/pol2.png)
 
