@@ -10,6 +10,8 @@ In this Exercise, you will have:
 + Task 2: Create Child Management Groups.
 + Task 3: Assign subscriptions to management groups
 
+## Estimated timing: 45 minutes
+
 ### Task 1: Create Management Groups
 
 In this task, you will create a Management Group via the Azure portal.
