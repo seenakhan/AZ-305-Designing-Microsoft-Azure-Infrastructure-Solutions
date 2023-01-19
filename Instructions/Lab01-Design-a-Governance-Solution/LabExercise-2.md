@@ -54,8 +54,61 @@ Complete Exercise 1
 
 13. Please select **Review + Create**.
 
-![image](../media/pol8.png) 
+![image](../media/pol10.png) 
 
-14.
+14. After the validation, please select **Create**.
+
+15. On the Assignments section, you can see the newly created **Assignment**.
+
+#### Task 2: Create a Storage account
+
+
+#### Pre-requisites for this task
+
+Complete Exercise 1
+
+#### Steps:
+
+1. On the Azure portal, please select **All Services** and select **Storage accounts**.
+
+![image](../media/pol11.png)
+
+2. On the **Storage accounts** page, please select **+Create**.
+
+![image](../media/pol12.png)
+
+3. On the Storage account page, keep the default subscription selected, then please select a resource group included in the policy assignment from the resource group list.
+
+4. Please enter a name of the storage account on the **storage account name** and then click **Review**.
+
+    | Setting | Value |
+    | --- | --- |
+    | Storage account name | any globally unique combination of between 3 and 24 lower case letters and digits, starting with a letter |
+
+![image](../media/pol13.png)
+
+5. You can see the validation failed, and there is a validation error. Please click on the **validation error**, a side screen of error details will open. It shows the error happens due to the policy.
+
+![image](../media/pol14.png)
+
+6. On the same page, please select **Tags** tab and enter the following details and click **Review**:
+
+      | Name | **Role** |
+      | ---- | -------- |
+      | Value | **Owner** |
+ 
+ ![image](../media/pol15.png)
+      
+7. Now you can see the validation passed successfully.
+
+8. Please click **Create**.
+
+![image](../media/pol16.png)
+
+9. You have successfully created the storage account now.
+
+     
+
+
 
   
