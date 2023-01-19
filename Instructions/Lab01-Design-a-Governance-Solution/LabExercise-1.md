@@ -144,7 +144,7 @@ In this exercise you have created three child management groups and add subscrip
 
 ### Clean up resources
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
