@@ -23,7 +23,7 @@ Complete Exercise 1
 
 1. Go to search box and enter policy, then select **Policy** from the list.
 
-![image](../media/pol1.png)
+      ![image](../media/pol1.png)
 
 2. Select **Assignments** on the left side of the Azure Policy page and then select **Assign Policy**.
       
@@ -37,15 +37,15 @@ Complete Exercise 1
 
 5. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
 
-![image](../media/pol6a.png)
+      ![image](../media/pol6a.png)
 
 6. Please click on **Policy Definitions** elipsis **(...)**.
 
-7. On the **Available Definitions** sidescreen take a moment to browse through the list of built-in policy definitions that are available for you to use.
+7. On the **Available Definitions** side screen take a moment to browse through the list of built-in policy definitions that are available for you to use.
 
 8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
 
-![image](../media/pol7.png)
+      ![image](../media/pol7.png)
 
 9. By selecting the policy definition, the assignment name also filled automatically.
 
@@ -57,17 +57,19 @@ Complete Exercise 1
     | -------- | ----------------- |
     | Tag value | **Owner** |
     
-![image](../media/pol9a.png)    
+      ![image](../media/pol9a.png)    
 
 12. Leave the default settings of other options as it is.
 
 13. Please select **Review + Create**.
 
-![image](../media/pol10.png) 
+      ![image](../media/pol10.png) 
 
 14. After the validation, please select **Create**.
 
 15. On the Assignments section, you can see the newly created **Assignment**.
+
+      ![image](../media/pol10b.png)
 
 #### Task 2: Applying the Policy definition to a Storage account.
 
@@ -81,11 +83,11 @@ Complete Exercise 1, Exercise 2 -  Task 1
 
 1. On the Azure portal, please select **All Services** and select **Storage accounts**.
 
-![image](../media/pol11.png)
+      ![image](../media/pol11.png)
 
 2. On the **Storage accounts** page, please select **+Create**.
 
-![image](../media/pol12.png)
+      ![image](../media/pol12.png)
 
 3. On the Storage account page, keep the default subscription selected, then please select a resource group included in the policy assignment from the resource group list.
 
@@ -95,11 +97,11 @@ Complete Exercise 1, Exercise 2 -  Task 1
     | --- | --- |
     | Storage account name | any globally unique combination of between 3 and 24 lower case letters and digits, starting with a letter |
 
-![image](../media/pol13.png)
+      ![image](../media/pol13.png)
 
 5. You can see the validation failed, and there is a validation error. Please click on the **validation error**, a side screen of error details will open. It shows the error happens due to the policy.
 
-![image](../media/pol14.png)
+      ![image](../media/pol14.png)
 
 6. On the same page, please select **Tags** tab and enter the following details and click **Review**:
 
@@ -107,17 +109,17 @@ Complete Exercise 1, Exercise 2 -  Task 1
       | ---- | -------- |
       | Value | **Owner** |
  
- ![image](../media/pol15.png)
+      ![image](../media/pol15.png)
       
 7. Now you can see the validation passed successfully.
 
 8. Please click **Create**.
 
-![image](../media/pol16.png)
+      ![image](../media/pol16.png)
 
 9. You have successfully created the storage account now.
 
-      **Note : If you want to check with the excluded resource group from policy assignment, you can create another storage account by using the same steps, but by selecting the excluded resource group.**    
+    >**Note : If you want to check with the excluded resource group from policy assignment, you can create another storage account by using the same steps, but by selecting the excluded resource group.**    
 
 ### Task 3: Clean up resources
 
