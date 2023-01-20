@@ -27,7 +27,7 @@ Use a customer-provided key. These keys are used for Blob storage operations. A 
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account, an azure blob container (Complete Exercise 1 - Task 1 & Task 2 & Task3).  The following steps outline available security features to help you configure your Blob storage to be secured.
+An Azure account, a storage account, an azure blob container (Complete Exercise 1).  The following steps outline available security features to help you configure your Blob storage to be secured.
 
 #### Steps
 
@@ -105,7 +105,7 @@ Shared access signatures work through a signed URI that includes a token and a s
 
 #### Pre-requisites for this task
 
-Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1**
+Complete **Exercise 1 and Exercise 2 - Task 1**
 
 #### Steps to configure shared access signatures as follows:
 
@@ -143,7 +143,7 @@ By enabling Soft delete you can protect your data from accidental deletion, from
 
 #### Pre-requisites for this task
 
-Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2**
+Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2**
 
 #### Steps
 
@@ -168,7 +168,7 @@ Before Configuring backup, the storage account should have a Backup vault and St
 
 #### Pre-requisites for this task
 
-Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3**
+Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3**
 
 #### Steps:
 
@@ -212,7 +212,7 @@ After creating the backup vault, you need to configure the storage account backu
 
 #### Pre-requisites for this task
 
-Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
+Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4**
 
 #### Steps:
 
@@ -252,7 +252,7 @@ Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2
 
 #### Pre-requisites for this task
 
-Complete **Exercise 1 - Task 1 & Task 2 & Task3 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
+Complete **Exercise 1 and Exercise 2 - Task 1 & Task 2 & Task 3 & Task4 & Task 5**
 
 #### Steps
 
