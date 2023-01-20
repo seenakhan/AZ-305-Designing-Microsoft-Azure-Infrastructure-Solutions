@@ -235,7 +235,7 @@ In this task, you will learn how to use the Azure portal to Apply the lifecycle 
 
 An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select configuration under settings to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
 
-    ![image](../media/life1.png)
+   ![image](../media/life1.png)
 
 #### Steps
 
