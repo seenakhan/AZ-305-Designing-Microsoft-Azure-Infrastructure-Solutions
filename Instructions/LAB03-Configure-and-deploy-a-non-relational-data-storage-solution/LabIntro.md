@@ -27,7 +27,7 @@ In this lab, you will have:
 
 
 ## Estimated timing: 30 minutes
-## Architecture diagram
+## Solution Architecture
 
 ![image](../media/Lab3-Overview.png)
 
