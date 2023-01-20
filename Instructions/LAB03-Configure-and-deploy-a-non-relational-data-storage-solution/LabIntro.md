@@ -26,7 +26,7 @@ In this lab, you will have:
 + Exercise 3: Setup Azure File share and access from a Virtual machine
 
 
-## Estimated timing: 30 minutes
+## Estimated timing: 200 minutes
 ## Solution Architecture
 
 ![image](../media/Lab3-Overview.png)
