@@ -21,4 +21,4 @@ In this lab, you will:
 ## Estimated timing: 120 minutes
 ## Solution Architecture
 
-![image](../media/manarch1a.PNG)
+![image](../media/manarch1a.png)
