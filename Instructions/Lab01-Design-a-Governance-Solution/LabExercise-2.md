@@ -29,7 +29,7 @@ Complete Exercise 1
       
       >**Note: An assignment is a policy that has been assigned to take place within a specific scope.**
 
-![image](../media/pol2.png)
+      ![image](../media/pol2.png)
 
 3. On the **Assign Policy** page under **Basic** tab for **Scope** section you can see the default subscription selected or else please select the default subscription. 
 
