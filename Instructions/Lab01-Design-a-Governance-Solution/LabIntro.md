@@ -19,6 +19,6 @@ In this lab, you will:
 + Exercise 2: Manage Governance via Azure Policy
 
 ## Estimated timing: 120 minutes
-## Architecture diagram
+## Solution Architecture
 
-![image](../media/manarch.png)
+![image](../media/manarch1.png)
