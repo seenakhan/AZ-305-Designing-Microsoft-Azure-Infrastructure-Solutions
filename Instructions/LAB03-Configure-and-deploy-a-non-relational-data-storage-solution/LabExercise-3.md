@@ -17,7 +17,7 @@ In this task, you are going to configure a file share and configure a virtual ma
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Task 1). The following steps outline only one of many possible, viable approaches.
+An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The following steps outline only one of many possible, viable approaches.
 
 #### Steps
 
