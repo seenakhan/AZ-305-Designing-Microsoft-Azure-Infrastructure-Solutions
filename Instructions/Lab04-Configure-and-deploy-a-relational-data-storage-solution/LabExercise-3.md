@@ -30,31 +30,31 @@ Complete Exercise 1 & Exercise 2.
     
 6. You can see a **Login failed for the current user** error.
 
-    ![img](fire12.png)
+    ![img](../media/fire12.png)
     
 7. Go back to **contososerve** SQL server page and please select **Azure Active Directory**, then select **Set admin**.
 
-    ![img](aa1.png)
+    ![img](../media/aa1.png)
 
 8. On the **Azure Active Directory** side screen please enter the current user name on the search box and select from the below option. Then select the **Select** button from the bottom.
 
-    ![img](aa2.png)
+    ![img](../media/aa2.png)
     
 9. You can see under **Azure Active Directory Admin** section the current user add as an admin.    
 
-    ![img](aa3a.png)
+    ![img](../media/aa3a.png)
     
 10. On the same page please select **SQL databases**, then select **adventureworkscontoso** from the databases list.
 
-    ![img](aa4.png)
+    ![img](../media/aa4.png)
     
 11. On the **adventureworkscontoso** database page, please select **Query editor** and then click on the current user selected under **Azure Active Directory authentication**.
 
-    ![img](aa5.png)
+    ![img](../media/aa5.png)
     
 12. You can see the authentication completed suucessfully and can retreive the data from any table.
 
-    ![img](aa6.png) 
+    ![img](../media/aa6.png) 
     
 13. You can query the data by using SSMS with Azure Active Directory authentication. For that please open **SQL Server Management Studio**, (by clicking on the start button of the windows operating system and type SSMS).
 
@@ -68,4 +68,4 @@ Complete Exercise 1 & Exercise 2.
     | Login | **odl_user_XXXXXXX@dp203.cloudlabs.ai** (Enter the current user set as admin) |
     | Password | **XXXXXXXX** (Enter the password of the current user) |
 
-    ![img](aa7.png)  
+    ![img](../media/aa7.png)  
