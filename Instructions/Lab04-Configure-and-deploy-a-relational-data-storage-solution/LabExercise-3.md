@@ -69,3 +69,14 @@ Complete Exercise 1 & Exercise 2.
     | Password | **XXXXXXXX** (Enter the password of the current user) |
 
     ![img](../media/aa7.png)  
+
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Configured Azure Active Directory authentication for SQL Server via Azure Portal.
++ Queried the data using Azure Active Directory authentication.
