@@ -26,11 +26,11 @@ Complete Exercise 1 & Exercise 2.
 
 5. On the **adventureworkscontoso** database page, please select **Query editor** and then click on **Active Directory authentication** as the current user selected.
 
-    ![img](fire12.png)
+    ![img](../media/fire12.png)
     
 6. You can see a **Login failed for the current user** error.
 
-    ![img](../media/fire12.png)
+    ![img](../media/fire13.png)
     
 7. Go back to **contososerve** SQL server page and please select **Azure Active Directory**, then select **Set admin**.
 
