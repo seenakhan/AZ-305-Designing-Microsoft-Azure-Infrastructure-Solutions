@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 2: Enable Azure Active Directory authentication and query the Database.
+## Exercise 3: Enable Azure Active Directory authentication and query the Database.
 
 Each Azure server (which hosts SQL Database or Azure Synapse) starts with a single server administrator account that serves as the server's administrator. As an Azure AD account, create a second administrator account. This principal is created as a contained database user in the server's master database. Administrator accounts are members of the db owner role in all user databases and log in as the dbo user. If a server does not have an Azure Active Directory administrator, then Azure Active Directory logins and users receive a Cannot connect to server error.
 
