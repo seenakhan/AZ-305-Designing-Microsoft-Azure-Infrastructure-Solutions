@@ -40,7 +40,7 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa2.png)
     
-9. You can see under **Azure Active Directory Admin** section the current user add as an admin.    
+9. You can see under **Azure Active Directory Admin** section the current user add as an admin and then click **Save**.   
 
     ![img](../media/aa3a.png)
     
