@@ -70,6 +70,15 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa7.png)  
 
+15. After connecting the database, please expand **adventureworkscontoso** database and expand tables, then right click on any of the table and click on **Select top 1000 rows**.
+
+    ![img](../media/aa8.png)
+
+16. You can see the data retrieved succesfully.
+
+    ![img](../media/aa9.png)
+
+
 ### Clean up resources
 
 >**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
