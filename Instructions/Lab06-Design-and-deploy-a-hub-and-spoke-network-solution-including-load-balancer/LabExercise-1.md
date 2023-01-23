@@ -63,8 +63,28 @@ Complete Task 1.
   | Name | **contosonetmanager** |
   | Region | **East US** |
   
-5. For Scope, please select **Select scopes**, then on the Select scopes side screen, please select **Contoso-IT** management group, then click on **Add to selected scope** and click **Select**.
+5. For **Scope**, please select **Select scopes**, then on the Select scopes side screen, please select **Contoso-IT** management group, then click on **Add to selected scope** and click **Select**.
 
 ![img](../media/vn3.png)
 
-6. 
+6. For **Features**, please select **Connectivity** and **Security Admin**
+
+![img](../media/vn4.png)
+
+7. Once entered all the values, please select **Review + Create**.
+
+![img](../media/vn5.png)
+
+8. After completing the review, please select **Create**.
+
+9. Please click on **Go to resource** after comlpeting the deployment.
+
+10. You can see the newly created virtual network manager named **contosonetmanager**.
+
+![img](../media/vn6.png)
+
+
+
+
+
+
