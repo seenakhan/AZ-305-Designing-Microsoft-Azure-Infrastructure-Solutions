@@ -90,10 +90,10 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4- Task 1.
 
 6. Go to database named **adventureworkscontoso (contososervwest/adventureworkscontoso)** select **Replicas**, then you can see under **Primary** the name of the current database with server **contososervwest** having a **pending** status.
 
-  ![img](../media/re10.png)
+  ![img](../media/rep10.png)
 
 7. Please keep refresh the page and you can see the primary database status becomes **online**.
 
-![img](../media/re11.png)
+![img](../media/rep11.png)
 
 
