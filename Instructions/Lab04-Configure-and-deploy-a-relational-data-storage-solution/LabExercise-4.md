@@ -96,4 +96,13 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4- Task 1.
 
 ![img](../media/rep11.png)
 
+### Clean up resources
 
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Configured a replica of your primary database via azure portal.
++ Initiated a failover thereby you have seen the secondary database became primary.
