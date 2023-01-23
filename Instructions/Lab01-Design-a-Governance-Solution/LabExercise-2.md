@@ -121,7 +121,24 @@ Complete Exercise 1, Exercise 2 -  Task 1
 
     >**Note : If you want to check with the excluded resource group from policy assignment, you can create another storage account by using the same steps, but by selecting the excluded resource group.**    
 
-### Task 3: Clean up resources
+#### Task 3: Review the cost data and explore Cost Manager.
+
+Cost analysis works with various Azure account types. You must have at least read access to your Azure account to view cost data.
+You cannot use Cost Management features right away if you have a new subscription. It may take up to 48 hours for you to be able to use all Cost Management features.
+
+In this task, you are going to Get started in cost analysis, Select a cost view and View costs via Azure portal.
+
+#### Pre-requisites for this task
+
+You must have at least read access to your Azure account to view cost data.
+
+Complete Exercise 1, Exercise 2 -  Task 1 & Task 2
+
+#### Steps:
+
+1. 
+
+### Task 4: Clean up resources
 
    >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
    
