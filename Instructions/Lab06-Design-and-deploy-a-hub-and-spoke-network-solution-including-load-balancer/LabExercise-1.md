@@ -4,9 +4,12 @@
 
 Deploy a network manager instance with the defined scope and access you need.
 
-In this Exercise, you will grant Azure AD admin role to access your SQL server.
+In this Exercise, you will have:
 
-### Task 1: Create a management group
+  + Task 1: Create a Management group.
+  + Task 2: Create a Virtual Network Manager.
+
+### Task 1: Create a Management group
 
 In this task you are going to create a management group.
 
@@ -84,7 +87,16 @@ Complete Task 1.
 ![img](../media/vn6.png)
 
 
+### Clean up resources
 
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Created a management group.
++ Created a virtual network manager.
 
 
 
