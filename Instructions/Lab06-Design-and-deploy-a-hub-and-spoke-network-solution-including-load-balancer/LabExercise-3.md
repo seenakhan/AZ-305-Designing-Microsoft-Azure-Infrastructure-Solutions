@@ -48,7 +48,7 @@ Complete Exercise 1 & Exercise 2.
   
 ![img](../media/dyn5.png)
 
-8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy.
+8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy. If its not seeing please keep refresh.
 
 ![img](../media/dyn6.png)
 
