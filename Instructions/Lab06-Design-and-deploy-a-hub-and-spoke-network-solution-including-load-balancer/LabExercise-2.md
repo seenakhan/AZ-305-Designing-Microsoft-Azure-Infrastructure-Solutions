@@ -70,6 +70,8 @@ Complete Exercise 1.
   | Resource group | **contosovnet** |
   | Region | **East US** |
   
+  For the **IP Addresses** tab keep the default settings.
+  
  After completing this task, you deployed three virtual networks.
  
  ### Task 2: Deploy a virtual network gateway
@@ -89,3 +91,29 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 2. Please select **+ Create** on the **Virtual Network gateways**.
 
  ![img](../media/vnt5.png)
+ 
+ 3. On the **Basics** tab, enter or select the following settings, then click **Review + Create**.
+
+  | Section | Values |
+  | ------- | ------ |
+  | Subscription | **Default** Select the default subscription |
+  | Name | Enter **Contoso-Vnet-WestUS-GW** for the virtual network gateway name. |
+  | Region | **West US** |
+  | Gateway type| **VPN** |
+  | VPN type | **Route based** |
+  | SKU | **VpnGw1** |
+  | Generation | **Generation1** |
+  | Virtual network | **Contoso-Vnet-WestUS** |
+  | Gateway subnet address range | **Keep the default** |
+  | Public IP Address Type | **Standard** |
+  | Public Address | **Create new** |
+  | Public IP address name | **Contoso-Vnet-WestUS-GW-IP** |
+  
+  ![img](../media/vnt6.png)
+  ![img](../media/vnt7.png)
+  
+4.  After the validation passed successfully, please select **Create**.
+
+>**Note** : The deployment of a virtual network gateway can take about 30 minutes. You can move on to the next section while waiting for this deployment to complete.
+ 
+    
