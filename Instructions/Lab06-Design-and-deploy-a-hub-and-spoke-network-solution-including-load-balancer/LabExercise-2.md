@@ -26,7 +26,7 @@ Complete Exercise 1.
 
 2. Please select the **+ Create** on the **Virtual network** page.
 
-  ![img](/../media/vnt1.png)
+  ![img](../media/vnt1.png)
   
 3. On the **Create Virtual Network** page, please enter the following details on Basics tab:
 
@@ -37,15 +37,15 @@ Complete Exercise 1.
   | Name | **Contoso-Vnet-WestUS** |
   | Region | **West US** |
   
-  ![img](/../media/vnt2.png)
+  ![img](../media/vnt2.png)
   
 4. Go to **Next: IP Addresses**, then on the **IP Addresses** tab, please review the default IP addresses and subnet given.
   
-  ![img](/../media/vnt3.png)
+  ![img](../media/vnt3.png)
   
 5. Once the validation passed successfully, please click on **Create**.
 
- ![img](/../media/vnt4.png)
+ ![img](../media/vnt4.png)
  
 6. After completing the deployment, please select **Go to resource**.
 
@@ -88,4 +88,4 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
 2. Please select **+ Create** on the **Virtual Network gateways**.
 
- ![img](/../media/vnt5.png)
+ ![img](../media/vnt5.png)
