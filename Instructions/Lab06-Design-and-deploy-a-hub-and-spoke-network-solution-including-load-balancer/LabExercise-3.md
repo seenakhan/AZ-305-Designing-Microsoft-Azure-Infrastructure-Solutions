@@ -8,6 +8,8 @@ In this Exercise, you will have:
 
   + Task 1: Create a dynamic group.
 
+### Task 1: Create a dynamic group.
+
 #### Pre-requisites for this task
 
 Complete Exercise 1 & Exercise 2.
