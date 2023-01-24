@@ -1,9 +1,62 @@
 # Instructions
 
-## Exercise 3: Create security configuration for the hub and spoke network
+## Exercise 3: Create a dynamic network group
 
-You'll  set up security to block outbound network traffic to the internet on ports 80 and 443. 
+In this exercise you will set up a dynamic network group.
 
 In this Exercise, you will have:
-  + Task 1: Create security configuration.
-  + Task 2: Deploy the security admin configuration.
+
+  + Task 1: Create a dynamic group.
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 & Exercise 2.
+
+#### Steps:
+
+1. Go to your Azure Virtual Network Manager instance named **contosonetmanager**.
+
+2. On the **contosonetmanager** page, please select **Network groups**, then select **+ Create**.
+
+![img](../media/dyn1.png)
+
+3. On the **Create network group** side screen please enter the name as **contosonetworkgrp**.
+
+4. On the description please enter **This network group contain virtual networks in the East US region**, then click **Create**.
+
+![img](../media/dyn2.png)
+
+5. From the Network groups page, select the created network group to configure the network group.
+
+![img](../media/dyn3.png)
+
+6. On the Overview section of the **contosonetmanager/contosonetworkgrp** page, select **Create Azure Policy** under **Create policy to dynamically add members**.
+
+![img](../media/dyn4.png)
+
+7. On the **Create Azure Policy** page, select or enter the following information, then select **Save**.
+
+  | Section | Values |
+  | ------- | ------ |
+  | Policy name | Enter **VNetPolicy-a** in the text box. |
+  | Scope | Scope already selected, if its not, please select the current subscription. |
+  | Parameter | Select **Name** from the drop-down.|
+  | Operator | Select **Contains** from the drop-down. |
+  | Condition | Enter **EastUS** to dynamically add the two East US virtual networks into this network group. |
+  
+![img](../media/dyn5.png)
+
+8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy.
+
+![img](../media/dyn6.png)
+
+ ### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Deployed dynamic network group.
++ Added an azure policy to dynamically add the networks into the group.
