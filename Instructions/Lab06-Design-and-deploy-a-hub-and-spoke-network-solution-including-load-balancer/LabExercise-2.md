@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 2: Create a hub and spoke network
+## Exercise 2: Create virtual networks and deploy a virtual network gateway
 
 In this exercise, you will use Azure Virtual Network Manager to create a hub and spoke network topology. The hub virtual network will then have a virtual network gateway installed to allow resources in the spoke virtual networks to communicate with remote networks via VPN. 
 
@@ -116,4 +116,14 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
 >**Note** : The deployment of a virtual network gateway can take about 30 minutes. You can move on to the next section while waiting for this deployment to complete.
  
-    
+ ### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Deployed three virtual networks.
++ Deployed a Virtual Network gateway.
+ 
