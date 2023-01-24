@@ -8,10 +8,7 @@ In this Exercise, you will have:
 
   + Task 1: Create virtual networks.
   + Task 2: Deploy a virtual network gateway.
-  + Task 3: Create a dynamic network group.
-  + Task 4: Create a hub and spoke connectivity configuration.
-  + Task 5: Deploy the connectivity configuration.
-
+   
 ### Task 1: Create virtual networks
 
 In this task you are going to create three virtual networks. One will be in the West US region and the other two will be in the East US region.
