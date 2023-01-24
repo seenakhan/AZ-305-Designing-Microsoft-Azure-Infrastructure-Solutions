@@ -8,7 +8,7 @@ In this Exercise, you will have:
 
   + Task 1: Create a Virtual Network Manager.
 
-### Task 2: Create a Virtual Network manager
+### Task 1: Create a Virtual Network manager
 
 In this task you are going to create a virtual Network manager.
 
