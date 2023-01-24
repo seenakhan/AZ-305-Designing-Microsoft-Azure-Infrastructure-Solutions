@@ -57,4 +57,26 @@ Complete Exercise 1 & Exercise 2 & Exercise 3
  
  7. Select **Next: Review + create** > and then create the connectivity configuration.
   
+You have Created a hub and spoke connectivity configuration, now you are going to deploy the connectivity configuration.
+
+### Task 2: Deploy the connectivity configuration
+
+Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway.
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
+
+#### Steps:
+
+1. On the **contosonetmanager** page, please select **Deployments**, then select **Deploy configuration**.
+
+![img](../media/hub7.png)
+
+2. On the **Deploy a configuration** page, Select **Include connectivity configurations** (If its already selected please leave in that state) in your goal state and **HubA** as the Connectivity configurations setting. Then select **West US** and **East US** as the target regions and select **Next**.
+
+![img](../media/hub8.png)
+
+3. Select **Deploy**. You should now see the deployment show up in the list for those regions. The deployment of the configuration can take several minutes to complete
+
 
