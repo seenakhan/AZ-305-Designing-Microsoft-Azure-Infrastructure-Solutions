@@ -80,3 +80,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
 3. Select **Deploy**. You should now see the deployment show up in the list for those regions. The deployment of the configuration can take several minutes to complete
 
 ![img](../media/hub9.png)
+
+
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Created a hub and spoke connectivity configuration.
++ Deployed the connectivity configuration.
