@@ -301,3 +301,32 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 ![img](../media/nat14.png)
 
+You have successfully tested the Load balancer.
+
+### Clean up resources
+
+   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
+   
+   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
+
+   >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
+
+1. Select Home and then Resource groups.
+
+2. Select the resource group you want to delete.
+
+3. If the lock is restricted to delete the resource group, please go to the Locks under settings tab of the resource group and select delete.
+
+3. Select Delete resource group. A window opens and displays a warning about the resources that will be deleted with the resource group.
+
+4. Enter the name of the resource group, and then select Delete.
+    
+#### Review
+
+In this lab, you have:
+
+- Deployed a Load balancer.
+- Configured a Nat gateway.
+- Created two virtual machines.
+- Install IIS on the newly created virtual machine.
+- Tested the Load balancer.
