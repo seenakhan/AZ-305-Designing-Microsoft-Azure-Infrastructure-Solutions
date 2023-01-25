@@ -253,22 +253,51 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 ![img](../media/nat10.png)
 
 
-5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following script:
+5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following scripts:
 
-  ```# Install IIS server role
+In the PowerShell Window, run the following commands to:
+
+Install the IIS server
+Remove the default iisstart.htm file
+Add a new iisstart.htm file that displays the name of the VM:
+
+  ```powershell
+  # Install IIS server role
  Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
  # Remove default htm file
  Remove-Item  C:\inetpub\wwwroot\iisstart.htm
 
  # Add a new htm file that displays server name
- Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)```
+ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
+ ```
+
+![img](../media/nat11.png)
+
+6. Close the Bastion session with contosoVM1.
+
+ 
+ ### Task 5: Test the load balancer
 
 
 
+#### Pre-requisites for this task
 
+Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
 
+#### Steps:
 
+1. In the search box at the top of the page, enter Public IP. Select Public IP addresses in the search results.
 
+2. In Public IP addresses, select contosoPublicIP.
 
+![img](../media/nat12.png)
+
+3. Copy the IP address. Paste the public IP into the address bar of your browser. 
+
+![img](../media/nat13.png)
+
+4. The custom VM page of the IIS Web server is displayed in the browser.
+
+![img](../media/nat14.png)
 
