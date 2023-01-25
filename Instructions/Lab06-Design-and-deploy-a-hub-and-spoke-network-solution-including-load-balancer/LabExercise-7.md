@@ -33,7 +33,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 2. In the **Load balancer** page, select **+ Create**.
 
-![img](../media/lb1.png)
+    ![img](../media/lb1.png)
 
 3. In the **Basics** tab of the **Create load balancer** page, enter or select the following information:
 
