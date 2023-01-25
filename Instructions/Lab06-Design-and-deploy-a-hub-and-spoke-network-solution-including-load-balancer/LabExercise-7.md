@@ -244,13 +244,25 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 ![img](../media/nat8a.png)
 
-3. Select **Deploy Bastion**.
+3. Select **Deploy Bastion**. It will take several minutes to deploy bastion.
 
 ![img](../media/nat9.png)
 
-4. 
+4. After completing the deployment please enter contosoVM1 username : **azureuser** and password: **Pa$$w0rd123!**, and keep **authentication type** as **Password** then select **connect**. 
+
+![img](../media/nat10.png)
 
 
+5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following script:
+
+  ```# Install IIS server role
+ Install-WindowsFeature -name Web-Server -IncludeManagementTools
+
+ # Remove default htm file
+ Remove-Item  C:\inetpub\wwwroot\iisstart.htm
+
+ # Add a new htm file that displays server name
+ Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)```
 
 
 
