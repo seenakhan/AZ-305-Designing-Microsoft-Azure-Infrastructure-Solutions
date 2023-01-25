@@ -76,3 +76,14 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5- Task 1
 You should now see the deployment show up in the list for the selected region. The deployment of the configuration can take several minutes to complete.
 
 ![img](../media/secu10.png)
+
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Created security configuration.
++ Deployed the security admin configuration.
