@@ -50,6 +50,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5
     | ------- | ------ |
     | Subscription | Select the default subscription |
     | Resource group | **contosovnet** |
+    | Virtual machine name | **contosotest** |
     | Region | **East US** |
     | Image | **Windows Server 2019 Datacenter - x64 Gen2** |
     | VM Architecture | **X64** |
@@ -71,11 +72,27 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5
 
 6. After Validation passed successfully, please select **create**.
 
+7. Once completed the deployment, please go to the **contosotest** virtual machine created in **Contoso-Vnet-EastUS** and select **Networking** under **Settings**. Select **Outbound port rules** and you'll see the security admin rule applied.
 
+![img](../media/ver9.png)  
+
+8. Select the network interface name.
   
-  
-  
+ ![img](../media/ver10.png)  
+
+9. Please select **Effective Routes** under **Help** to see the routes for the virtual network peerings. The 10.1.0.0/16 route with the next hop of VNetGlobalPeering is the route to the hub virtual network. The 10.3.0.0/16 route with the next hop of ConnectedGroup is route to the other spoke virtual network. All spokes virtual network will be in a ConnectedGroup when Transitivity is enabled.
+
+![img](../media/ver11.png) 
+
+
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
++ Verified from a Virtual network.
++ Verified from a Virtual machine.
     
-    
-
-
