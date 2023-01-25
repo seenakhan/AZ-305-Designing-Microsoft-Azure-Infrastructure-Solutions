@@ -105,6 +105,157 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 You can see the newly created Load balancer named **ContosoLB**.
 
+   
+### Task 2: Create NAT gateway
+
+In this task, you'll create a NAT gateway for outbound internet access for resources in the virtual network. 
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
+
+#### Steps:
+
+1. In the search box at the top of the portal, enter **NAT gateway**. Select **NAT gateways** in the search results.
+
+2. In NAT gateways, select **+ Create**.
+
+![img](../media/nat1.png)
+
+3. In Create network address translation (NAT) gateway, enter or select the following information:
+
+  | Section | Values |
+  | ------- | ------ |
+  | Subscription | Default subscription |
+  | Resource group | Select **contosovnet** |
+  | NAT gateway name | **contosoNatGateway** |
+  | Region | **East US** |
+  | Availability zone | **None** |
+  | Idle timeout (minutes) | **15** |
+
+![img](../media/nat2.png)
+
+4. Select the **Outbound IP** tab or select **Next: Outbound IP** at the bottom of the page.
+
+5. In **Outbound IP**, select **Create a new public IP address** next to Public IP addresses.
+  
+![img](../media/nat3.png)
+
+6. Enter contosoNATgatewayIP in Name, then select **Ok**.
+
+![img](../media/nat4.png)
+
+7. Select the **Subnet** tab or select the **Next: Subnet** button at the bottom of the page
+
+8. In **Virtual network** in the Subnet tab, select **contoso-Vnet-EastUS**, then select **default** under **Subnet name**.
+
+9. Select the **Review + create** button at the bottom of the page.
+
+10. Select **Create**.
+
+11. After completing the deployment, please select **Go to resource**.
+
+You can see the **contosoNatGateway** under the **Resources** list of **contosovnet** resource group's **Overview** section.
+
+### Task 3: Create virtual machines
+
+In this task, you'll create two Virtual machines (contosoVM1 and contosoVM2) in two different zones (Zone 1, and Zone 2).
+
+These VMs are added to the backend pool of the load balancer that was created earlier. 
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
+
+#### Steps:
+
+1. In the search box at the top of the portal, enter **Virtual machine**. Select **Virtual machines** in the search results.
+
+2. In Virtual machines, select **+ Create > Azure virtual machine**.
+
+3. In **Create a virtual machine**, enter or select the following values in the **Basics** tab:
+
+  | Section | Values |
+  | ------- | ------ |
+  | Subscription | Default subscription |
+  | Resource group | Select **contosovnet** |
+  | Virtual machine name | **contosoVM1** |
+  | Region | **East US** |
+  | Availability Options | Select **Availability zones** |
+  | Availability zone | Select **Zone 1** |
+  | Security type | Select **Standard** |
+  | Image | Select **Windows Server 2019 Datacenter-X64-Gen2** |
+  | Azure Spot instance | Leave the default of unchecked. |
+  | Size | Select **Standard_DS1-V2 - 1 -vcpu, 3.5 Gib memory** |
+  | User name | **azureuser** |
+  | Password | **Pa$$w0rd123!** |
+  | Confirm Passowrd | **Pa$$w0rd123!** |
+  | Public inbound ports | Select **None** |
+  
+ ![img](../media/nat5.png) 
+ ![img](../media/nat6.png)
+  
+4. Select **Next: Disks**, then for **OS Disk type** select **Standard SSD**, then Select the **Networking** tab or  **Next: Networking**.
+
+5. In the **Networking** tab, select or enter the following information:
+
+  | Section | Values |
+  | ------- | ------ |
+  | Virtual network | Select **contoso-Vnet-EastUS** |
+  | Subnet | Select **default** |
+  | Public IP | Select **None** |
+  | NIC network security group | Select **Advanced** |
+  | Configure network security group | Skip this setting until the rest of the settings are completed. Complete after **Select a backend pool**. |
+  | Delete NIC when VM is deleted | Leave the default of **unselected**. |
+  | Accelerated networking | Leave the default of **selected**. |
+  | Place this virtual machine behind an existing load balancing solution? | Select **Checked** |
+  | Load-balancing options | Select **Azure load balancer** |
+  | Select a load balancer | Select **contosoLB** |
+  | Select a backend pool | Select **contosoBackendPool** |
+  | After entered all options above please go to **Configure network security group** | Select **Create new**. In the Create network security group, enter **contosoNSG** in Name. Under Inbound rules, select **+Add an inbound rule**. On the side screen, Under Service, select **HTTP**. Under Priority, enter **100**. In Name, enter **contosoNSGRule**. Select **Add**. Select **OK** |
+  
+6. Select **Review + Create**, then select **Create**.
+
+You have created contosoVM1 virtual machine.
+
+7. Follow the steps 1 through 6 to create another VM with the following values and all the other settings the same as contosoVM1: 
+
+  | Section | Values |
+  | ------- | ------ |
+  | Virtual machine name | **contosoVM2** |
+  | Availability zone | **Zone 2** |
+  | Network security group | Select the existing **contosoNSG** |
+  
+  You have created contosoVM2 virtual machine.
+  
+ ### Task 4: Install IIS
+
+
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
+
+#### Steps:
+
+1. Select the Virtual machine contosoVM1.
+
+2. On the **Overview** page, select **Connect**, then **Bastion**.
+
+![img](../media/nat8a.png)
+
+3. Select **Deploy Bastion**.
+
+![img](../media/nat9.png)
+
+4. 
+
+
+
+
+
+
+
 
 
 
