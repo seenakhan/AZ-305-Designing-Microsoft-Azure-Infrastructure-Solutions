@@ -150,7 +150,7 @@ In this exercise you have created three child management groups and add subscrip
 
 #### Review
 
-In this lab, you have:
+In this exercise, you have:
 
 - Created Management Groups.
 - Created Child Management Groups.
