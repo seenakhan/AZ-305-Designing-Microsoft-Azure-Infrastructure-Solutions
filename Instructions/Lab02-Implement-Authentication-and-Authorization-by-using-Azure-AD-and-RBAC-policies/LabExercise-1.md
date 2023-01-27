@@ -8,6 +8,7 @@ In this lab, you will:
 
 + Task 1: Create and configure Azure AD users 
 + Task 2: Add Accessibility of Resources
++ Task 3: Add Custom RBAC roles
 
 ### Task 1: Create and configure Azure Active Directory users
 
@@ -139,8 +140,31 @@ After a few moments, the user is assigned the Virtual Machine Contributor role a
 
 ![img](../media/nres6.png)
 
+### Task 3: Add Custom RBAC roles
+
+Create a custom role in Azure Role-Based Access Control (RBAC) if none of the built-in roles meet your specific access needs. Custom roles can be created using Azure PowerShell, Azure Command-Line Interface (CLI), and the REST API. Just like built-in roles, custom roles can be assigned to users, groups, and applications at subscription, resource group, and resource scopes. Custom roles are stored in an Azure AD tenant and can be shared across all subscriptions that use that tenant as the Azure AD directory for the subsciption.
+
+#### Pre-requisites for this task
+
+Complete Task 1 & Task 2
+
+#### Steps:
+
+1. Go to the **ODL-AZ-305-M02B-XXXXXXX** resource group.
+
+2. On the resource group page, please select **Access control (IAM)**, then select **+Add**, then select **Add custom role**.
+
+![img](../media/custr1.png)
+
+3. On the **Create a custom role** page, under **Basics** tab,  please enter the following details and then select **Next** at the bottom.
+
+   | Section | Values |
+   | ------- | ------ |
+   | Name | **Virtual machine contributor** |
+   | Description | **This role is for monitoring and restarting the virtual machines on the resource group scope.** |
+   | Baseline permissions | Select **Start from scratch** |
+   
+ ![img](../media/custr1.png)  
 
 
 
-
-6. 
