@@ -41,11 +41,13 @@ An Azure account
 
 1. Go back to the **Users - All users** blade, and then click **+ New user**.
 
-1. Create a new user with the following settings (leave others with their defaults):
+![img](../media/nuse4.png)
+
+1. In the new user page please enter the following settings (leave others with their defaults) and select **Save**.
 
     | Setting | Value |
     | --- | --- |
-    | User name | **az104-01a-aaduser1** |
+    | User name | **az305-01a-aaduser1** |
     | Name | **az305-01a-aaduser1** |
     | Let me create the password | enabled |
     | Initial password | **Provide a secure password** |
@@ -54,3 +56,49 @@ An Azure account
     | Department | **IT** |
 
     >**Note**: **Copy to clipboard** the full **User Principal Name** (user name plus domain). You will need it later in this task.
+
+1. Refresh the users page you can see the newly created user named **az305-01a-aaduser1** click on it.
+
+1. In the **Manage** section, click **Assigned roles**, then click **+ Add assignment** button.
+
+![img](../media/nuse5.png)
+
+1. On the **Directory roles** side screen, please search for **User Administratoe** role and select the role, then select **Add**.
+
+![img](../media/nuse6.png)
+
+1. Keep refresh **Assigned roles** page , you can see the **User Administrator** role added successfully.
+
+![img](../media/nuse7.png)
+
+1. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choosing. 
+
+    >**Note**: Rather than typing the user name (including the domain name), you can paste the content of Clipboard.
+
+1. In the **InPrivate** browser window, in the Azure portal, search for and select **Azure Active Directory**.
+
+    >**Note**: While this user account can access the Azure Active Directory tenant, it does not have any access to Azure resources. This is expected, since such access would need to be granted explicitly by using Azure Role-Based Access Control. 
+
+1. In the **InPrivate** browser window, on the Azure AD blade, in the **Manage** section, click **Users**, and then click **+ New user**.
+
+![img](../media/nuse8.png)
+
+1. Create a new user with the following settings (leave others with their defaults):
+
+    | Setting | Value |
+    | --- | --- |
+    | User name | **az305-01a-aaduser2** |
+    | Name | **az305-01a-aaduser2** |
+    | Let me create the password | enabled |
+    | Initial password | **Provide a secure password** |
+    | Usage location | **United States** |
+    | Job title | **System Administrator** |
+    | Department | **IT** |
+
+1. You have successfully created the new user.
+
+![img](../media/nuse9.png)
+
+1. Sign out as the az305-01a-aaduser1 user from the Azure portal and close the InPrivate browser window.
+
+
