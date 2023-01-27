@@ -6,9 +6,8 @@ In order to allow Contoso users to authenticate by using Azure AD, you have been
 
 In this lab, you will:
 
-+ Task 1: Create and configure Azure AD users
-+ Task 2: Create Azure AD groups with assigned and dynamic membership
-+ Task 3: Manage Azure AD guest users (Optional - lab environment issue)
++ Task 1: Create and configure Azure AD users 
++ Task 2: Add Accessibility of Resources
 
 ### Task 1: Create and configure Azure Active Directory users
 
@@ -19,31 +18,32 @@ In this task you are going to create and configure Azure Active DIrectory users.
 An Azure account 
 
 #### Steps:
+
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. In the Azure portal, Go to **All Services** and select **Azure Active Directory**.
+2. In the Azure portal, Go to **All Services** and select **Azure Active Directory**.
 
    ![img](../media/use1.png)
 
-1. On the Azure Active Directory blade, scroll down to the **Manage** section, click **User settings**, and review available configuration options.
+3. On the Azure Active Directory blade, scroll down to the **Manage** section, click **User settings**, and review available configuration options.
 
    ![img](../media/nuse1.png)
 
-1. On the Azure Active Directory blade, in the **Manage** section, click **Users**, and then click your user account to display its **Profile** settings. 
+4. On the Azure Active Directory blade, in the **Manage** section, click **Users**, and then click your user account to display its **Profile** settings. 
 
    ![img](../media/nuse2.png)
 
-1. Click **Edit properties**, in the **Settings** section, and check the usage location is UNited States, if not set **Usage location** to **United States** and click **Save** to apply the change.
+5. Click **Edit properties**, in the **Settings** section, and check the usage location is UNited States, if not set **Usage location** to **United States** and click **Save** to apply the change.
 
    ![img](../media/nuse3.png)
 
     >**Note**: This is necessary in order to assign an Azure AD Premium P2 license to your user account later in this lab.
 
-1. Go back to the **Users - All users** blade, and then click **+ New user**.
+6. Go back to the **Users - All users** blade, and then click **+ New user**.
 
 ![img](../media/nuse4.png)
 
-1. In the new user page please enter the following settings (leave others with their defaults) and select **Save**.
+7. In the new user page please enter the following settings (leave others with their defaults) and select **Save**.
 
     | Setting | Value |
     | --- | --- |
@@ -57,33 +57,33 @@ An Azure account
 
     >**Note**: **Copy to clipboard** the full **User Principal Name** (user name plus domain). You will need it later in this task.
 
-1. Refresh the users page you can see the newly created user named **az305-01a-aaduser1** click on it.
+7. Refresh the users page you can see the newly created user named **az305-01a-aaduser1** click on it.
 
-1. In the **Manage** section, click **Assigned roles**, then click **+ Add assignment** button.
+8. In the **Manage** section, click **Assigned roles**, then click **+ Add assignment** button.
 
 ![img](../media/nuse5.png)
 
-1. On the **Directory roles** side screen, please search for **User Administratoe** role and select the role, then select **Add**.
+9. On the **Directory roles** side screen, please search for **User Administratoe** role and select the role, then select **Add**.
 
 ![img](../media/nuse6.png)
 
-1. Keep refresh **Assigned roles** page , you can see the **User Administrator** role added successfully.
+10. Keep refresh **Assigned roles** page , you can see the **User Administrator** role added successfully.
 
 ![img](../media/nuse7.png)
 
-1. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choosing. 
+11. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choosing. 
 
     >**Note**: Rather than typing the user name (including the domain name), you can paste the content of Clipboard.
 
-1. In the **InPrivate** browser window, in the Azure portal, search for and select **Azure Active Directory**.
+12. In the **InPrivate** browser window, in the Azure portal, search for and select **Azure Active Directory**.
 
     >**Note**: While this user account can access the Azure Active Directory tenant, it does not have any access to Azure resources. This is expected, since such access would need to be granted explicitly by using Azure Role-Based Access Control. 
 
-1. In the **InPrivate** browser window, on the Azure AD blade, in the **Manage** section, click **Users**, and then click **+ New user**.
+13. In the **InPrivate** browser window, on the Azure AD blade, in the **Manage** section, click **Users**, and then click **+ New user**.
 
 ![img](../media/nuse8.png)
 
-1. Create a new user with the following settings (leave others with their defaults):
+14. Create a new user with the following settings (leave others with their defaults):
 
     | Setting | Value |
     | --- | --- |
@@ -95,10 +95,52 @@ An Azure account
     | Job title | **System Administrator** |
     | Department | **IT** |
 
-1. You have successfully created the new user.
+15. You have successfully created the new user.
 
 ![img](../media/nuse9.png)
 
-1. Sign out as the az305-01a-aaduser1 user from the Azure portal and close the InPrivate browser window.
+16. Sign out as the az305-01a-aaduser1 user from the Azure portal and close the InPrivate browser window.
+
+### Task 2: Add Accessibility of Resources
+
+In this task you are going to resource accessibility to the user az305-01a-aaduser1.
+
+#### Pre-requisites for this task
+
+Complete Task 1 
+
+#### Steps:
+
+1. Go to Azure portal, search **Research groups** on the search box of the Home page and select **esource groups** from the list.
+
+2. Select the resource group named **ODL-AZ-305-M02B-XXXXXXX**.
+
+![img](../media/nres1.png)
+
+3. In the resource group page, please select **Access control (IAM)**, then select **+Add**, then select **Add role assignment**.
+
+![img](../media/nres2.png)
+
+4. In the **Add role assignment** page, please select **Virtual machine contributor** role by searching on the search bar and then select **Next** at the botom.
+
+![img](../media/nres3.png)
+
+5. In the **Members** tab, please select **+Select members**, then select the user **az305-01a-aaduser1**, and select **Select**.
+
+![img](../media/nres4.png)
+
+6. Please select **Review + Assign** at the bottom, review the role assignment settings
+
+![img](../media/nres5.png)
+
+7. Click **Review + assign** to assign the role.
+
+After a few moments, the user is assigned the Virtual Machine Contributor role at the **ODL-AZ-305-M02B-XXXXXXX** resource group scope.
+
+![img](../media/nres6.png)
 
 
+
+
+
+6. 
