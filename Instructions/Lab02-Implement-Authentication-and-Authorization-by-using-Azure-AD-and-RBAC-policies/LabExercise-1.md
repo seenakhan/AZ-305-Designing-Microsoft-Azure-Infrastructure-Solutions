@@ -142,7 +142,7 @@ After a few moments, the user is assigned the Virtual Machine Contributor role a
 
 ### Task 3: Add Custom RBAC roles
 
-Create a custom role in Azure Role-Based Access Control (RBAC) if none of the built-in roles meet your specific access needs. Custom roles can be created using Azure PowerShell, Azure Command-Line Interface (CLI), and the REST API. Just like built-in roles, custom roles can be assigned to users, groups, and applications at subscription, resource group, and resource scopes. Custom roles are stored in an Azure AD tenant and can be shared across all subscriptions that use that tenant as the Azure AD directory for the subsciption.
+Create a custom role in Azure Role-Based Access Control (RBAC) if none of the built-in roles meet your specific access needs. Custom roles can be created using Azure PowerShell, Azure Command-Line Interface (CLI), and the REST API. Just like built-in roles, custom roles can be assigned to users, groups, and applications at subscription, resource group, and resource scopes.
 
 #### Pre-requisites for this task
 
@@ -160,11 +160,45 @@ Complete Task 1 & Task 2
 
    | Section | Values |
    | ------- | ------ |
-   | Name | **Virtual machine contributor** |
+   | Name | **Virtual machine operator** |
    | Description | **This role is for monitoring and restarting the virtual machines on the resource group scope.** |
    | Baseline permissions | Select **Start from scratch** |
    
- ![img](../media/custr1.png)  
+ ![img](../media/custr2.png)  
+
+4. Go to **JSON** tab, and click on **Edit**.
+
+![img](../media/custr3a.png)  
+
+5. Please enter the following JSON script inside the **action** section, then click **Save**.
+
+   ```JSON
+         "Microsoft.Storage/*/read",
+          "Microsoft.Network/*/read",
+          "Microsoft.Compute/*/read",
+          "Microsoft.Compute/virtualMachines/start/action",
+          "Microsoft.Compute/virtualMachines/restart/action",
+          "Microsoft.Authorization/*/read",
+          "Microsoft.ResourceHealth/availabilityStatuses/read",
+          "Microsoft.Resources/subscriptions/resourceGroups/read",
+          "Microsoft.Insights/alertRules/*",
+          "Microsoft.Insights/diagnosticSettings/*",
+          "Microsoft.Support/*"
+   ```
+   
+   ![img](../media/custr4a.png)  
+   
+6. Please select **Review + assign**, then click **Create**.
+
+ ![img](../media/custr5.png) 
+
+7. You will get a message saying that **You have successfully created the custom role Virtual machine operator.** please click **OK** to that message.
+
+8. On the **Role** tab please search **virtual machine operator**, you can see the custom role listed.
+
+![img](../media/custr6.png)
+
+
 
 
 
