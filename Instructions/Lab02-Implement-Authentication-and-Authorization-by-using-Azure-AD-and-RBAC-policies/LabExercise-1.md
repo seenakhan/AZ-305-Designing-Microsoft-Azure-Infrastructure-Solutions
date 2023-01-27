@@ -104,7 +104,7 @@ An Azure account
 
 ### Task 2: Add Accessibility of Resources
 
-In this task you are going to resource accessibility to the user az305-01a-aaduser1.
+In this task you are going to give resource accessibility to the user az305-01a-aaduser1.
 
 #### Pre-requisites for this task
 
@@ -130,7 +130,7 @@ Complete Task 1
 
 ![img](../media/nres4.png)
 
-6. Please select **Review + Assign** at the bottom, review the role assignment settings
+6. Please select **Review + Assign** at the bottom, review the role assignment settings.
 
 ![img](../media/nres5.png)
 
@@ -198,7 +198,36 @@ Complete Task 1 & Task 2
 
 ![img](../media/custr6.png)
 
+9. Select **+Add**, then select **Add role assignment**. You are going to assign the custom role to the user **az305-01a-aaduser1**.
 
+10. In the **Add role assignment** page, on the **Role** tab, please select **Virtual machine operator** by searching on the search bar.
 
+![img](../media/custr7.png)
+
+11. on the **Members** tab, please select **+Select members**.
+
+12. On the **Select members** side screen please select **az305-01a-aaduser1** user and select **Select**.
+
+![img](../media/custr8.png)
+
+13. Please select **Review + Assign** at the bottom, review the role assignment settings
+
+14. Click **Review + assign** to assign the role.
+
+15. Take an **In private window** for Azure portal and login with the user **az305-01a-aaduser1**, then go to the resource group **ODL-AZ-305-M02B-XXXXXXX** and select the virtual machine from the over view section. You can see the option to connect and restart the virtual machines are enabled.
+
+![img](../media/custr9.png)
+
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this lab, you have:
+
+- Created and configured Azure AD users.
+- Provide accessibility to the resources.
+- configured a custom role and provide the accessiblity of it to the user.
 
 
