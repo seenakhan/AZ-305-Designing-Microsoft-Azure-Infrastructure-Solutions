@@ -37,7 +37,8 @@ An Azure account
   | Name | **contosonetmanager** |
   | Region | **East US** |
   
-    ![img](../media/vn2a.png) 
+   
+   ![img](../media/vn2a.png) 
   
 5. For **Scope**, please select **Select scopes**, then on the Select scopes side screen, please select **subscription** , then click on **Add to selected scope** and click **Select**.
 
