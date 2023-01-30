@@ -53,7 +53,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3
   
   Leave the **Global Mesh** unchecked. This setting isn't required as both spokes are in the same region.
  
-    ![img](../media/hub6.png)
+   ![img](../media/hub6.png)
  
  7. Select **Next: Review + create** > and then create the connectivity configuration.
   
