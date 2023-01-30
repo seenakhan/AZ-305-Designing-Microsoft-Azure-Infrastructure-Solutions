@@ -255,24 +255,24 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following scripts:
 
-In the PowerShell Window, run the following commands to:
+    In the PowerShell Window, run the following commands to:
 
-Install the IIS server
-Remove the default iisstart.htm file
-Add a new iisstart.htm file that displays the name of the VM:
+    + Install the IIS server
+    + Remove the default iisstart.htm file
+    + Add a new iisstart.htm file that displays the name of the VM:
 
-   ```powershell
-   # Install IIS server role
-  Install-WindowsFeature -name Web-Server -IncludeManagementTools
+    ```powershell
+    # Install IIS server role
+    Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
-  # Remove default htm file
-  Remove-Item  C:\inetpub\wwwroot\iisstart.htm
+    # Remove default htm file
+    Remove-Item  C:\inetpub\wwwroot\iisstart.htm
 
-  # Add a new htm file that displays server name
-  Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
-  ```
+    # Add a new htm file that displays server name
+    Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
+    ```
 
-  ![img](../media/nat11.png)
+    ![img](../media/nat11.png)
 
 6. Close the Bastion session with contosoVM1.
 
