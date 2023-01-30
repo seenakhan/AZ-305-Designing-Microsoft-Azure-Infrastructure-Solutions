@@ -30,15 +30,15 @@ An Azure account
 
 4. On the **Create a network manager** page, under **Basics** tab please enter the following details:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Subscription | **The default subscription** |
-  | Resource group | **contosoRG** (Create a new resource group by clicking on **Create new** on the Resource group section.) |
-  | Name | **contosonetmanager** |
-  | Region | **East US** |
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | **The default subscription** |
+    | Resource group | **contosoRG** (Create a new resource group by clicking on **Create new** on the Resource group section.) |
+    | Name | **contosonetmanager** |
+    | Region | **East US** |
   
    
-   ![img](../media/vn2a.png) 
+    ![img](../media/vn2a.png) 
   
 5. For **Scope**, please select **Select scopes**, then on the Select scopes side screen, please select **subscription** , then click on **Add to selected scope** and click **Select**.
 
