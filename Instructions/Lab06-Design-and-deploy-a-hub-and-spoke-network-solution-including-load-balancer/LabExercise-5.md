@@ -73,7 +73,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5- Task 1
 
 3. Please select **Review + Deploy**, then select **Deploy**.
 
-You should now see the deployment show up in the list for the selected region. The deployment of the configuration can take several minutes to complete.
+    You should now see the deployment show up in the list for the selected region. The deployment of the configuration can take several minutes to complete.
 
     ![img](../media/secu10.png)
 
