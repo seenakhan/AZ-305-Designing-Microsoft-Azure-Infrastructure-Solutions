@@ -22,11 +22,11 @@ An Azure account
 
 2. On the **Home** page please enter **Network managers** on the search box, then select **Network managers** from the below list.
 
-  ![img](../media/vn1.png)
+    ![img](../media/vn1.png)
   
 3. On the Network managers page please select **+ Create**.
 
-![img](../media/vn2.png)
+    ![img](../media/vn2.png)
 
 4. On the **Create a network manager** page, under **Basics** tab please enter the following details:
 
@@ -37,19 +37,19 @@ An Azure account
   | Name | **contosonetmanager** |
   | Region | **East US** |
   
- ![img](../media/vn2a.png) 
+   ![img](../media/vn2a.png) 
   
 5. For **Scope**, please select **Select scopes**, then on the Select scopes side screen, please select **subscription** , then click on **Add to selected scope** and click **Select**.
 
-![img](../media/scop1.png)
+   ![img](../media/scop1.png)
 
 6. For **Features**, please select **Connectivity** and **Security Admin**
 
-![img](../media/vn4.png)
+   ![img](../media/vn4.png)
 
 7. Once entered all the values, please select **Review + Create**.
 
-![img](../media/vn5.png)
+   ![img](../media/vn5.png)
 
 8. After completing the review, please select **Create**.
 
@@ -57,7 +57,7 @@ An Azure account
 
 10. You can see the newly created virtual network manager named **contosonetmanager**.
 
-![img](../media/vn6.png)
+     ![img](../media/vn6.png)
 
 
 ### Clean up resources
