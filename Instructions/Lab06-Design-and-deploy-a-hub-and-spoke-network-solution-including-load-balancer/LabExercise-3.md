@@ -20,37 +20,37 @@ Complete Exercise 1 & Exercise 2.
 
 2. On the **contosonetmanager** page, please select **Network groups**, then select **+ Create**.
 
-![img](../media/dyn1.png)
+    ![img](../media/dyn1.png)
 
 3. On the **Create network group** side screen please enter the name as **contosonetworkgrp**.
 
 4. On the description please enter **This network group contain virtual networks in the East US region**, then click **Create**.
 
-![img](../media/dyn2.png)
+    ![img](../media/dyn2.png)
 
 5. From the Network groups page, select the created network group to configure the network group.
 
-![img](../media/dyn3.png)
+    ![img](../media/dyn3.png)
 
 6. On the Overview section of the **contosonetmanager/contosonetworkgrp** page, select **Create Azure Policy** under **Create policy to dynamically add members**.
 
-![img](../media/dyn4.png)
+    ![img](../media/dyn4.png)
 
 7. On the **Create Azure Policy** page, select or enter the following information, then select **Save**.
 
-  | Section | Values |
-  | ------- | ------ |
-  | Policy name | Enter **VNetPolicy-a** in the text box. |
-  | Scope | Scope already selected, if its not, please select the current subscription. |
-  | Parameter | Select **Name** from the drop-down.|
-  | Operator | Select **Contains** from the drop-down. |
-  | Condition | Enter **EastUS** to dynamically add the two East US virtual networks into this network group. |
+    | Section | Values |
+    | ------- | ------ |
+    | Policy name | Enter **VNetPolicy-a** in the text box. |
+    | Scope | Scope already selected, if its not, please select the current subscription. |
+    | Parameter | Select **Name** from the drop-down.|
+    | Operator | Select **Contains** from the drop-down. |
+    | Condition | Enter **EastUS** to dynamically add the two East US virtual networks into this network group. |
   
-![img](../media/dyn5.png)
+    ![img](../media/dyn5.png)
 
 8. Under **Settings**, select **Group Members** to view the membership of the group based on the conditions defined in Azure Policy. If its not seeing please keep refresh.
 
-![img](../media/dyn6.png)
+    ![img](../media/dyn6.png)
 
  ### Clean up resources
 
