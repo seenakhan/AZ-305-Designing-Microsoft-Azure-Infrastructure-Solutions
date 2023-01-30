@@ -2,7 +2,7 @@
 
 ## Exercise 7: Create a Load Balancer and Test the Load balancer
 
-In this exercise, you will use Azure Virtual Networks created on the previous exercise. Deploy a load blanacer 
+In this exercise, you will use Azure Virtual Networks created on the previous exercise to deploy a load balancer. 
 
 In this Exercise, you will have:
 
@@ -37,15 +37,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 3. In the **Basics** tab of the **Create load balancer** page, enter or select the following information:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Subscription | **Default** Select the default subscription |
-  | Resource group | Select **contosovnet** |
-  | Name | Enter **contosoLB** for the Load balancer name. |
-  | Region | **East US** |
-  | SKU | Leave the default **Standard**. |
-  | Type | Select **Public** |
-  | Tier | Leave the default **Regional** |
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | **Default** Select the default subscription |
+    | Resource group | Select **contosovnet** |
+    | Name | Enter **contosoLB** for the Load balancer name. |
+    | Region | **East US** |
+    | SKU | Leave the default **Standard**. |
+    | Type | Select **Public** |
+    | Tier | Leave the default **Regional** |
     
   
 4. Select Next: Frontend IP configuration at the bottom of the page.
@@ -82,20 +82,20 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 20. In **Add load balancing rule** side screen, please enter or select the following information:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Name | **contosoHTTPRule** |
-  | Frontend IP address | Select **contosoIP** |
-  | Backend pool | Select **contosoBackendPool** |
-  | Protocol | Select TCP |
-  | Port | Enter 80 |
-  | Backend port | Enter 80 |
-  | Health probe | Select **Create new**. In Name, enter **contosoHealthProbe**. Select **TCP** in Protocol. Leave the rest of the defaults, and select OK. |
-  | Session persistence | Select **None** |
-  | Idle timeout (minutes) | Enter or select 15 |
-  | TCP reset | Select **Enabled** |
-  | Floating IP | Select **Disabled** |
-  | Outbound source network address translation (SNAT) | Leave the default of **(Recommended) Use outbound rules to provide backend pool members access to the internet** |
+    | Section | Values |
+    | ------- | ------ |
+    | Name | **contosoHTTPRule** |
+    | Frontend IP address | Select **contosoIP** |
+    | Backend pool | Select **contosoBackendPool** |
+    | Protocol | Select TCP |
+    | Port | Enter 80 |
+    | Backend port | Enter 80 |
+    | Health probe | Select **Create new**. In Name, enter **contosoHealthProbe**. Select **TCP** in Protocol. Leave the rest of the defaults, and select OK. |
+    | Session persistence | Select **None** |
+    | Idle timeout (minutes) | Enter or select 15 |
+    | TCP reset | Select **Enabled** |
+    | Floating IP | Select **Disabled** |
+    | Outbound source network address translation (SNAT) | Leave the default of **(Recommended) Use outbound rules to provide backend pool members access to the internet** |
   
 21. Select **Add** on the **Add load balancing rule** side screen.
 
@@ -120,30 +120,30 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 2. In NAT gateways, select **+ Create**.
 
-![img](../media/nat1.png)
+    ![img](../media/nat1.png)
 
 3. In Create network address translation (NAT) gateway, enter or select the following information:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Subscription | Default subscription |
-  | Resource group | Select **contosovnet** |
-  | NAT gateway name | **contosoNatGateway** |
-  | Region | **East US** |
-  | Availability zone | **None** |
-  | Idle timeout (minutes) | **15** |
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | Default subscription |
+    | Resource group | Select **contosovnet** |
+    | NAT gateway name | **contosoNatGateway** |
+    | Region | **East US** |
+    | Availability zone | **None** |
+    | Idle timeout (minutes) | **15** |
 
-![img](../media/nat2.png)
+    ![img](../media/nat2.png)
 
 4. Select the **Outbound IP** tab or select **Next: Outbound IP** at the bottom of the page.
 
 5. In **Outbound IP**, select **Create a new public IP address** next to Public IP addresses.
   
-![img](../media/nat3.png)
+    ![img](../media/nat3.png)
 
 6. Enter contosoNATgatewayIP in Name, then select **Ok**.
 
-![img](../media/nat4.png)
+    ![img](../media/nat4.png)
 
 7. Select the **Subnet** tab or select the **Next: Subnet** button at the bottom of the page
 
@@ -175,44 +175,44 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 3. In **Create a virtual machine**, enter or select the following values in the **Basics** tab:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Subscription | Default subscription |
-  | Resource group | Select **contosovnet** |
-  | Virtual machine name | **contosoVM1** |
-  | Region | **East US** |
-  | Availability Options | Select **Availability zones** |
-  | Availability zone | Select **Zone 1** |
-  | Security type | Select **Standard** |
-  | Image | Select **Windows Server 2019 Datacenter-X64-Gen2** |
-  | Azure Spot instance | Leave the default of unchecked. |
-  | Size | Select **Standard_DS1-V2 - 1 -vcpu, 3.5 Gib memory** |
-  | User name | **azureuser** |
-  | Password | **Pa$$w0rd123!** |
-  | Confirm Passowrd | **Pa$$w0rd123!** |
-  | Public inbound ports | Select **None** |
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | Default subscription |
+    | Resource group | Select **contosovnet** |
+    | Virtual machine name | **contosoVM1** |
+    | Region | **East US** |
+    | Availability Options | Select **Availability zones** |
+    | Availability zone | Select **Zone 1** |
+    | Security type | Select **Standard** |
+    | Image | Select **Windows Server 2019 Datacenter-X64-Gen2** |
+    | Azure Spot instance | Leave the default of unchecked. |
+    | Size | Select **Standard_DS1-V2 - 1 -vcpu, 3.5 Gib memory** |
+    | User name | **azureuser** |
+    | Password | **Pa$$w0rd123!** |
+    | Confirm Passowrd | **Pa$$w0rd123!** |
+    | Public inbound ports | Select **None** |
   
- ![img](../media/nat5.png) 
- ![img](../media/nat6.png)
+    ![img](../media/nat5.png) 
+    ![img](../media/nat6.png)
   
 4. Select **Next: Disks**, then for **OS Disk type** select **Standard SSD**, then Select the **Networking** tab or  **Next: Networking**.
 
 5. In the **Networking** tab, select or enter the following information:
 
-  | Section | Values |
-  | ------- | ------ |
-  | Virtual network | Select **contoso-Vnet-EastUS** |
-  | Subnet | Select **default** |
-  | Public IP | Select **None** |
-  | NIC network security group | Select **Advanced** |
-  | Configure network security group | Skip this setting until the rest of the settings are completed. Complete after **Select a backend pool**. |
-  | Delete NIC when VM is deleted | Leave the default of **unselected**. |
-  | Accelerated networking | Leave the default of **selected**. |
-  | Place this virtual machine behind an existing load balancing solution? | Select **Checked** |
-  | Load-balancing options | Select **Azure load balancer** |
-  | Select a load balancer | Select **contosoLB** |
-  | Select a backend pool | Select **contosoBackendPool** |
-  | After entered all options above please go to **Configure network security group** | Select **Create new**. In the Create network security group, enter **contosoNSG** in Name. Under Inbound rules, select **+Add an inbound rule**. On the side screen, Under Service, select **HTTP**. Under Priority, enter **100**. In Name, enter **contosoNSGRule**. Select **Add**. Select **OK** |
+    | Section | Values |
+    | ------- | ------ |
+    | Virtual network | Select **contoso-Vnet-EastUS** |
+    | Subnet | Select **default** |
+    | Public IP | Select **None** |
+    | NIC network security group | Select **Advanced** |
+    | Configure network security group | Skip this setting until the rest of the settings are completed. Complete after **Select a backend pool**. |
+    | Delete NIC when VM is deleted | Leave the default of **unselected**. |
+    | Accelerated networking | Leave the default of **selected**. |
+    | Place this virtual machine behind an existing load balancing solution? | Select **Checked** |
+    | Load-balancing options | Select **Azure load balancer** |
+    | Select a load balancer | Select **contosoLB** |
+    | Select a backend pool | Select **contosoBackendPool** |
+    | After entered all options above please go to **Configure network security group** | Select **Create new**. In the Create network security group, enter **contosoNSG** in Name. Under Inbound rules, select **+Add an inbound rule**. On the side screen, Under Service, select **HTTP**. Under Priority, enter **100**. In Name, enter **contosoNSGRule**. Select **Add**. Select **OK** |
   
 6. Select **Review + Create**, then select **Create**.
 
@@ -220,17 +220,17 @@ You have created contosoVM1 virtual machine.
 
 7. Follow the steps 1 through 6 to create another VM with the following values and all the other settings the same as contosoVM1: 
 
-  | Section | Values |
-  | ------- | ------ |
-  | Virtual machine name | **contosoVM2** |
-  | Availability zone | **Zone 2** |
-  | Network security group | Select the existing **contosoNSG** |
+    | Section | Values |
+    | ------- | ------ |
+    | Virtual machine name | **contosoVM2** |
+    | Availability zone | **Zone 2** |
+    | Network security group | Select the existing **contosoNSG** |
   
   You have created contosoVM2 virtual machine.
   
  ### Task 4: Install IIS
 
-
+In this task you are going to install IIS server to the newly created virtual machine.
 
 #### Pre-requisites for this task
 
@@ -242,15 +242,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 2. On the **Overview** page, select **Connect**, then **Bastion**.
 
-![img](../media/nat8a.png)
+    ![img](../media/nat8a.png)
 
 3. Select **Deploy Bastion**. It will take several minutes to deploy bastion.
 
-![img](../media/nat9.png)
+    ![img](../media/nat9.png)
 
 4. After completing the deployment please enter contosoVM1 username : **azureuser** and password: **Pa$$w0rd123!**, and keep **authentication type** as **Password** then select **connect**. 
 
-![img](../media/nat10.png)
+    ![img](../media/nat10.png)
 
 
 5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following scripts:
@@ -261,25 +261,25 @@ Install the IIS server
 Remove the default iisstart.htm file
 Add a new iisstart.htm file that displays the name of the VM:
 
-  ```powershell
-  # Install IIS server role
- Install-WindowsFeature -name Web-Server -IncludeManagementTools
+   ```powershell
+   # Install IIS server role
+  Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
- # Remove default htm file
- Remove-Item  C:\inetpub\wwwroot\iisstart.htm
+  # Remove default htm file
+  Remove-Item  C:\inetpub\wwwroot\iisstart.htm
 
- # Add a new htm file that displays server name
- Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
- ```
+  # Add a new htm file that displays server name
+  Add-Content -Path "C:\inetpub\wwwroot\iisstart.htm" -Value $("Hello World from " + $env:computername)
+  ```
 
-![img](../media/nat11.png)
+  ![img](../media/nat11.png)
 
 6. Close the Bastion session with contosoVM1.
 
  
  ### Task 5: Test the load balancer
 
-
+In this task, you are going to test the load balnacer deployed on the previous tasks.
 
 #### Pre-requisites for this task
 
@@ -291,15 +291,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 2. In Public IP addresses, select contosoPublicIP.
 
-![img](../media/nat12.png)
+    ![img](../media/nat12.png)
 
 3. Copy the IP address. Paste the public IP into the address bar of your browser. 
 
-![img](../media/nat13.png)
+    ![img](../media/nat13.png)
 
 4. The custom VM page of the IIS Web server is displayed in the browser.
 
-![img](../media/nat14.png)
+    ![img](../media/nat14.png)
 
 You have successfully tested the Load balancer.
 
