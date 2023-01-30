@@ -2,7 +2,7 @@
 
 ## Exercise 3: Add App Registration for Access via Apps.
 
-In this exercise you are going to register an application with Azure Active Directory, which enables a user with Power Apps user account to connect to their Microsoft Dataverse environment from external client applications using OAuth authentication.
+In this exercise you are going to register an application with Azure Active Directory, which enables a user with Power Apps user account to connect to their Microsoft Dataverse environment from client applications using OAuth authentication.
 
 In this lab, you will:
 
@@ -53,6 +53,38 @@ An Azure account.
     | State | **Enabled** |
    
     ![img](../media/appr5.png)
+
+7. Select the **contosoapp-test**.
+
+    ![img](../media/appr6.png)
+
+9. Select **Manifest** tab, in the manifest editor, set the **allowPublicClient** property to **true** and click on **Save**.
+
+    ![img](../media/appr7.png)
+
+10. Select **API permissions** tab, click on **Add a permission**.
+
+    ![img](../media/appr8.png)
+
+11. On the **Request API permission**, please select **APIs my organization uses**, then search **dataverse** on the search bar, select **Dataverse**.
+
+    ![img](../media/appr9.png)
+
+12. Select **Delegated permissions** and check the **user_impersonation** option and click on **Add permissions**.
+
+    ![img](../media/appr10.png)
+
+This completes the registration of your application in Azure Active Directory.
+
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this lab, you have:
+
+- Created an application registration.
 
 
 
