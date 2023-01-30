@@ -51,9 +51,9 @@ Complete Exercise 1 & Exercise 2 & Exercise 3
     | Direct Connectivity| Select the checkbox for **Enable connectivity within network group**. This setting will allow spoke virtual networks in the network group in the same region to communicate with each other directly. |
     | Hub as gateway | Select the checkbox for Use **Hub as a gateway** |
   
-  Leave the **Global Mesh** unchecked. This setting isn't required as both spokes are in the same region.
+    Leave the **Global Mesh** unchecked. This setting isn't required as both spokes are in the same region.
  
-   ![img](../media/hub6.png)
+    ![img](../media/hub6.png)
  
  7. Select **Next: Review + create** > and then create the connectivity configuration.
   
