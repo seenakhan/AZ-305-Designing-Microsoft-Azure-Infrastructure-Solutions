@@ -2,7 +2,7 @@
 
 ## Exercise 4: Enable Security Default / Disable Security Defaults
 
-In this exercise you are going to Enable or disable the security defaults. Security defaults make it easier to help protect your organization from identity-related attacks with preconfigured security settings:
+In this exercise you are going to Enable or disable the security defaults. Security defaults make it easier to help protect your organization from identity-related attacks with preconfigured security settings. It enforces the following:
 
   - Requiring all users to register for Azure AD Multi-Factor Authentication.
   - Requiring administrators to do multifactor authentication.
