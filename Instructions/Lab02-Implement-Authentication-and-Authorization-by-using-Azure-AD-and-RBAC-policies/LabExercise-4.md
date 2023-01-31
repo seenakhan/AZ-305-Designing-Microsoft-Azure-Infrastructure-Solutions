@@ -28,7 +28,7 @@ An Azure account with security administrator, Conditional Access administrator, 
 
 2. Select **Properties**, then select **Manage Security defaults**.
 
-    ![img](../media/secr1a.png)
+    ![img](../media/secr1b.png)
 
 3. on the **Enable security defaults** side screen Set the Enable security defaults toggle to **Yes** then select **Save**.
 
