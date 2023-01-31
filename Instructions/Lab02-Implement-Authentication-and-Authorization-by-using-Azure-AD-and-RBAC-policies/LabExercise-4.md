@@ -52,3 +52,12 @@ You can see there is a message showing **skip for now (14 days until this is req
 
 You can see there is no message like **skip for now (14 days until this is required)**
 
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this lab, you have:
+
+- Enabled and disabled the security defaults.
