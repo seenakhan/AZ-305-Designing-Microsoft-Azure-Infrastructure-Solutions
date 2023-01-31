@@ -10,7 +10,7 @@ In this exercise you are going to Enable or disable the security defaults. Secur
   - Blocking legacy authentication protocols.
   - Protecting privileged activities like access to the Azure portal.
 
-In this lab, you will:
+In this exercise, you will:
 
 + Task 1: Enable Security Default
 
