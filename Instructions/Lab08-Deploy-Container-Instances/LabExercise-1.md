@@ -1,8 +1,8 @@
 # Instructions
 
-## Exercise 1: Create a Virtual Network Manager
+## Exercise 1: Create Azure COntainer instance
 
-Deploy a Network manager instance with the defined scope and access you need. You are going to use this Network manager for the deployment of hub and spoke network topology.
+In this exercise, you are going to deploy an Azure container instance and review the functionalities of it.
 
 In this Exercise, you will have:
 
