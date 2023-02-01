@@ -5,29 +5,17 @@
 
 In this Exercise, you will have:
 
-  + Task 1: Create a Virtual Network Manager.
+  + Task 1: Create an Azure Storage account.
+  + Task 2: Create a function app
 
-### Task 1: Create a Virtual Network manager
+### Task 1: Create an Azure Storage account
 
-In this task you are going to create a virtual Network manager.
 
 #### Pre-requisites for this task
 
 An Azure account
 
 #### Steps:
-
-
-### Exercise 1: Create Azure resources
-
-#### Task 1: Open the Azure portal
-
-1. On the taskbar, select the **Microsoft Edge** icon.
-1. In the browser window, browse to the Azure portal (<https://portal.azure.com>), and then sign in with the account you'll be using for this lab.
-
-    > **Note**: If this is your first time signing in to the Azure portal, you'll be offered a tour of the portal. If you prefer to skip the tour, select **Get Started** to begin using the portal.
-
-#### Task 2: Create an Azure Storage account
 
 1. In the Azure portal, use the **Search resources, services, and docs** text box to search for **Storage Accounts**, and then, in the list of results, select **Storage Accounts**.
 
@@ -66,7 +54,14 @@ An Azure account
 
 1. Open Notepad, and then paste the copied connection string value to Notepad. You'll use this value later in this lab.
 
-#### Task 3: Create a function app
+
+### Task 2: Create a function app
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 - Task 1
+
+#### Steps:
 
 1. On the Azure portal's navigation pane, select the **Create a resource** link.
 
