@@ -35,8 +35,6 @@ Completed Exercise 1
     func init --worker-runtime dotnet --force
     ```
 ![img](../media/servl8.png)
-
-> **Note**: You can review the documentation to [create a new project][azure-functions-core-tools-new-project] using the **Azure Functions Core Tools**.
     
 1. Close the **Windows Powershell** application.
 
