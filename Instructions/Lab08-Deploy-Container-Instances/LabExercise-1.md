@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 1: Create Azure COntainer instance
+## Exercise 1: Create Azure Container instance
 
 In this exercise, you are going to deploy an Azure container instance and review the functionalities of it.
 
