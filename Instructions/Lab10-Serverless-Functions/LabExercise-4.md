@@ -1,31 +1,53 @@
 # Instructions
+
 ## Exercise 4: Create a function that's triggered by an HTTP request
 
-#### Task 1: Create a schedule-triggered function
+In this exercise, you are going to create a function that runs automatically based on a fixed schedule.
 
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
+In this Exercise, you have
+
+    + Task 1: Create a schedule-triggered function
+    + Task 2: Observe function code
+    + Task 3: Observe function runs
+    + Task 4: Update the function integration configuration
+    + Task 5: Observe function runs
+
+### Task 1: Create a schedule-triggered function
+
+In this task, you are going to create a scheduled-triggered function
+
+#### Pre-requisites
+
+Completed Exercise 1 & Exercise 2 & Exercise 3
+
+#### Steps
+
+1.Open **Visual studio code** from the **Start** button, Open a new terminal.
+
+1.Run the following command to change the current directory to the **C:\AllFiles\func* directory:
 
     ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
+    cd C:\AllFiles\func
     ```
 
-1. From the command prompt, run the following command to use the **Azure Functions Core Tools** to create a new function named **Recurring**, using the **Timer trigger** template:
+1. On the terminal, run the following command to use the **Azure Functions Core Tools** to create a new function named **Recurring**, using the **Timer trigger** template:
 
     ```powershell
     func new --template "Timer trigger" --name "Recurring"
     ```
 
-    > **Note**: You can review the documentation to [create a new function][azure-functions-core-tools-new-function] using the **Azure Functions Core Tools**.
-    
-1. Close the currently running **Windows Terminal** application.
+You will get a message showing **The function "Recurring" was created successfully from the "Timer trigger" template.**  
 
 #### Task 2: Observe function code
 
-1. On the **Start** screen, select the **Visual Studio Code** tile.
-1. On the **File** menu, select **Open Folder**.
-1. In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func**, and then select **Select Folder**.
+#### Pre-requisites
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
+
+#### Steps
+
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **Recurring.cs** file.
+
 1. In the code editor, observe the implementation:
 
     ```csharp
@@ -48,29 +70,37 @@
 
 #### Task 3: Observe function runs
 
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
+In this task, you are observing the function run that occurs about every five minutes.
 
-    ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
-    ```
+#### Pre-requisites
 
-1. From the command prompt, run the following command to run the function app project:
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
+
+#### Steps
+
+1. From the terminal, run the following command to run the function app project:
 
     ```powershell
     func start --build
     ```
 
-    > **Note**: You can review the documentation to [start the function app project locally][azure-functions-core-tools-start-function] using the **Azure Functions Core Tools**.
+    
 1. Observe the function run that occurs about every five minutes. Each function run should render a simple message to the log.
+
 1. Close the currently running **Windows Terminal** application.
 
 #### Task 4: Update the function integration configuration
 
-1. On the **Start** screen, select the **Visual Studio Code** tile.
-1. On the **File** menu, select **Open Folder**.
-1. In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func**, and then select **Select Folder**.
+In this task, you are going to update the function by changing the schedule to run once every 30 seconds.
+
+#### Pre-requisites
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & Task 3
+
+#### Steps
+
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **Recurring.cs** file.
+
 1. In the code editor, observe the existing **Run** method signature:
 
     ```csharp
@@ -89,33 +119,37 @@
 
 #### Task 5: Observe function runs
 
-1. On the taskbar, select the **Windows Terminal** icon.
+In this task, you will observe the function runs every 30 seconds.
 
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\    \Starter\\func** directory:
+#### Pre-requisites
 
-    ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
-    ```
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & Task 3 & Task 4
 
-1. 1. From the command prompt, run the following command to run the function app project:
+#### Steps
+
+1. From the command prompt, run the following command to run the function app project:
 
     ```powershell
     func start --build
     ```
-    
-    > **Note**: You can review the documentation to [start the function app project locally][azure-functions-core-tools-start-function] using the **Azure Functions Core Tools**.
-    
+     
 1. Observe the function run that occurs about every 30 seconds. Each function run should render a simple message to the log.
 
 1. Close the currently running **Windows Terminal** application.
 
 1. Close the Visual Studio Code window.
 
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
+
 #### Review
 
-In this exercise, you created a function that runs automatically based on a fixed schedule.
+In this lab, you have:
 
-
-
+- Create a schedule-triggered function.
+- Observed it runs every 5 seconds.
+- Updated the function.
+- Observed it runs every 30 seconds.
 
 
