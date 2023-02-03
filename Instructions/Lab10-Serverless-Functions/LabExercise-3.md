@@ -68,10 +68,8 @@ No need to close the Terminal.
 
 #### Task 2: Write HTTP-triggered function code
 
-1. On the **Start** screen, select the **Visual Studio Code** tile.
-1. On the **File** menu, select **Open Folder**.
-1. In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func**, and then select **Select Folder**.
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **Echo.cs** file.
+
 1. In the code editor, observe the example implementation:
 
     ```csharp
@@ -108,6 +106,7 @@ No need to close the Terminal.
     ```
 
 1. Delete all the content within the **Echo.cs** file.
+
 1. Add the following lines of code to add **using directives** for the **Microsoft.AspNetCore.Mvc**, **Microsoft.Azure.WebJobs**, **Microsoft.AspNetCore.Http**, and **Microsoft.Extensions.Logging** namespaces:
 
     ```csharp
@@ -212,6 +211,9 @@ No need to close the Terminal.
         }
     }
     ```
+
+![img](../media/echo1.png)
+
 
 1. Select **Save** to save your changes to the **Echo.cs** file.
 
