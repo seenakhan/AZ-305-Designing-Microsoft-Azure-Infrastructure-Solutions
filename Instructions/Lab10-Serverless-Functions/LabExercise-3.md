@@ -219,32 +219,21 @@ No need to close the Terminal.
 
 #### Task 3: Test the HTTP-triggered function by using httprepl
 
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
-
-    ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
-    ```
-
 1. Run the following command to run the function app project:
 
     ```powershell
     func start --build
     ```
 
-    > **Note**: You can review the documentation to [start the function app project locally](https://docs.microsoft.com/azure/azure-functions/functions-develop-local) using the **Azure Functions Core Tools**.
-    
-1. On the taskbar, select the **Windows Terminal** icon again to open a new instance of the application. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** empty directory:
+    > **Note**: You can review the documentation to [start the function app project locally](https://docs.microsoft.com/azure/azure-functions/functions-develop-local) using the **Azure Functions Core Tools**.    
+
+1. Open a new Terminal, run the following command to install and start the **httprepl** tool, setting the base Uniform Resource Identifier (URI) to ``http://localhost:7071``:
 
     ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
-    ```
+    dotnet tool install --global Microsoft.dotnet-httprepl --version 3.1.0 
     
-1. From the command prompt, run the following command to install and start the **httprepl** tool, setting the base Uniform Resource Identifier (URI) to ``http://localhost:7071``:
-
-    ```powershell
-    dotnet tool install -g Microsoft.dotnet-httprepl
     httprepl http://localhost:7071
+    
     ```
 
     > **Note**: An error message is displayed by the **httprepl** tool. This message occurs because the tool is searching for a Swagger definition file to use to traverse the API. Because your function project doesn't produce a Swagger definition file, you'll need to traverse the API manually.
