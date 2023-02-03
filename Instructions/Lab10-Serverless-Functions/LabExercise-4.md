@@ -67,6 +67,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
         }
     }
     ```
+![img](../media/recur1.png)
 
 #### Task 3: Observe function runs
 
@@ -83,11 +84,9 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
     ```powershell
     func start --build
     ```
-
     
 1. Observe the function run that occurs about every five minutes. Each function run should render a simple message to the log.
 
-1. Close the currently running **Windows Terminal** application.
 
 #### Task 4: Update the function integration configuration
 
@@ -116,6 +115,8 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
     ```
 
 1. Select **Save** to save your changes to the **Recurring.cs** file.
+
+![img](../media/recur2.png)
 
 #### Task 5: Observe function runs
 
