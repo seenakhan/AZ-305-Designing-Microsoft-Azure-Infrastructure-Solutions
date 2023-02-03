@@ -279,6 +279,19 @@ No need to close the Terminal.
     exit
     ```
 
+You have successfully tested the HTTP-triggered function by using httprepl.
+
 1. Close all currently running instances of the **Windows Terminal** application.
 
+
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
+
 #### Review
+
+In this lab, you have:
+
+- Created an HTTP-triggered function.
+- Written HTTP-triggered function code.
+- Tested the HTTP-triggered function by using httprepl
