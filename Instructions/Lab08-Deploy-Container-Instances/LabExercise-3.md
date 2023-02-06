@@ -8,6 +8,7 @@ In this Exercise, you will have:
 
   + Task 1: Create two instances of a web app.
   + Task 2: Create a Front Door Profile.
+  + Task 3: View Azure Front Door in action
 
 ### Task 1: Create two instances of a web app.
 
@@ -102,16 +103,69 @@ An Azure account with an active subscription.
 ![img](../media/frnt3.png)    
 
 5. Wait for the resource to deploy, and then select **Go to resource**.
+
 6. On the Front Door resource in the Overview blade, locate the **Origin Groups**, select the origin group created
-7. To update the origin group select the name **default-origin-group** from the list. Select **Add an origin** and add the second Web App. Select Add and then select Update. 
+
+7. To update the origin group select the name **default-origin-group** from the list. Select **Add an origin** . On the Add an Origin side screen please enter the following details:
+    | Section | Values |
+    | ------- | ------ |
+    | Name | **contosowebaorigin2** |
+    | Origin type | Select **App services** ||
+    | Host name | **contosoweb-2** | 
+
+8. Select **Add** to add the second Web App, then select **Update**. 
+
+You hvae successfully updated the default origin.
+
+### Task 3: View Azure Front Door in action
+
+In this task, you are going to access the frontend host you created. 
+
+#### Pre-requisites for this task
+
+An Azure account with an active subscription.
+
+#### Steps
+
+1. On the Front Door resource in the Overview blade, locate the endpoint hostname that is created for your endpoint. Under **Properties** tab **Copy** this FQDN.
+
+![img](../media/frnt4.png)   
+
+2. In an Inprivate window, navigate to the Front Door endpoint FQDN. The default App Service page will be displayed.
+
+![img](../media/frnt5.png)   
+   
+3. To test instant global failover in action, try the following steps:
+
+4. Switch to the Azure portal, search for and select **App services**. 
+
+5. Select one of your web apps, then select **Stop**, and then select **Yes** to verify.
+
+ ![img](../media/frnt6.png)   
+
+6. Switch back to your Inprivate browser and enter the Url. This time, you should see an error message.
+
+   ![img](../media/frnt7.png) 
+
+   Congratulations! You have configured and tested an Azure Front Door.
+
+### Clean up resources
+
+   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
+   
+   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
 
 
+1. Select the resource group named **ODL-AZ-305M05C-XXXXX**
 
+2. Select the contosowebapps, contosoappserviceplan, contosofrontdoor then select delete from the top.
 
+    
+#### Review
 
+In this lab, you have:
 
-
-
-
-
+- Created two instances of a web app.
+- Created a Front Door Profile.
+- Viewed Azure Front Door in action
 
