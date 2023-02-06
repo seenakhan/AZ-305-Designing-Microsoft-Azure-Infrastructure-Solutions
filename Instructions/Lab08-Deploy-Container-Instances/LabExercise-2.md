@@ -99,7 +99,14 @@ Your YAML file will look like this:
 
 ![img](../media/yml8.png)
 
+10. Go to **Resource groups**, then select **ODL-AZ-305M05C-XXXXX**, on the **Overview** section you can see the container instance named **securetest**. please select the container instance.
+
+![img](../media/yml9.png)
+
+11. On the overview section, you can see the status as **Running**.
+
+![img](../media/yml10.png)
 
 
-
+11. 
 
