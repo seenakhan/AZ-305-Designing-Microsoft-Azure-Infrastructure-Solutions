@@ -1,8 +1,8 @@
 # Instructions
 
-## Exercise 2: Deploy a multi-container group using a YAML file
+## Exercise 2: Deploy Azure Container instance using a YAML file
 
-In this exercise, you are going to deploy a multi container group by using YAML file and review the functionalities of it.
+In this exercise, you are going to deploy an Azure Container instance by using YAML file and review the functionalities of it.
 
 In this Exercise, you will have:
 
@@ -78,12 +78,26 @@ In this task, you will create a new storage account.
     tags: null
     type: Microsoft.ContainerInstance/containerGroups
     ```
-8. 
+Let’s understand the script before executing it in the terminal for container deployment.
 
+  + location: It is the Azure region where we want to deploy the resources
+  + Container properties:
+      +  Define environment variables using key “name” and value “..”
+  + The azure container image for SQL Server
+  + Ports: Enter the SQL Server port number for communication. We will use the default port 1433 in this section.
+  + Specify CPU and MemoryInGB in the script for your container configuration
+  + The OS type: Linux, it should be as per the application image we specified in the script
+  + type: It is the Azure container type. Its value will be – Microsoft.CotainerInstance/containerGroups
 
+Your YAML file will look like this:
 
+![img](../media/yml7.png)
 
+8. Please enter the command **az container create --resource-group ODL-AZ-305M05C-XXXXX --file deploy-aci.yaml**
 
+9. You get JSON script output that shows the Azure Container instance is deployed successfully.
+
+![img](../media/yml8.png)
 
 
 
