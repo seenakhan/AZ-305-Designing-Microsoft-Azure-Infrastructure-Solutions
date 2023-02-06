@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 4: Create a function that's triggered by an HTTP request
+## Exercise 4: Create a function that triggers on a schedule
 
 In this exercise, you are going to create a function that runs automatically based on a fixed schedule.
 
