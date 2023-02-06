@@ -61,3 +61,14 @@ An Azure account
 
 The application is running successfully.
 
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
+    - Deployed a quickstart template.
+    - Verified the application is running.
+    
