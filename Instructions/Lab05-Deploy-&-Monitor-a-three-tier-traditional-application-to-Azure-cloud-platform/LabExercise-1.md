@@ -41,7 +41,7 @@ An Azure account
     
  4. After entering all the informations please select **Review + create**.    
     
- ![img](../media/depl4.png)      
+    ![img](../media/depl4.png)      
 
 5. After passing validation, please select **Create**.
 
@@ -57,7 +57,7 @@ An Azure account
 
 9. Take another tab of browser and paste the url of app service. You will get the default page of the App.
 
-![img](../media/depl7.png)
+    ![img](../media/depl7.png)
 
 The application is running successfully.
 
