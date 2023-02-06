@@ -43,12 +43,49 @@ In this task, you will create a new storage account.
 
 ![img](../media/yml5.png)
  
-4. On the **Review** tab, review the options that you selected during the previous steps.
+4. Please wait for sometime and let the **Bash** terminal open.
 
-5. Select **Create** to create the storage account by using your specified configuration.
+5. Please enter the command **code deploy-aci.yaml** to create an empty YAML file to write the scripts.
 
-    > **Note**: Wait for the creation task to complete before you proceed with this lab.    
+6. You can see an empty YAML file created in the name of **deploy-aci.yaml**.
 
-4. Please enter the command **code deploy-aci.yaml** to create an empty YAML file to write the scripts.
+![img](../media/yml6.png)
+
+7. Please copy the following YAML script to the **deploy-aci.yaml** file.
+
+    ```YAML
+    apiVersion: 2019-12-01
+    location: eastus
+    name: securetest
+    properties:
+    containers:
+    - name: mycontainer
+    properties:
+    environmentVariables:
+    - name: 'ACCEPT_EULA'
+    value: 'Y'
+    - name: 'MSSQL_SA_PASSWORD'
+    value: 'India@123'
+    image: mcr.microsoft.com/mssql/server:2019-CU12-ubuntu-20.04
+    ports:
+    - port: 1433
+    resources:
+    requests:
+    cpu: 2
+    memoryInGB: 2
+    osType: Linux
+    restartPolicy: Always
+    tags: null
+    type: Microsoft.ContainerInstance/containerGroups
+    ```
+8. 
+
+
+
+
+
+
+
+
 
 
