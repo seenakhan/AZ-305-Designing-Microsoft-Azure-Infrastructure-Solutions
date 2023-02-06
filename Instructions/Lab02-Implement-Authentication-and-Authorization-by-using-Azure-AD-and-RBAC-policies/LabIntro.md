@@ -1,10 +1,10 @@
-# Lab 03 - Implement Authentication and Authorization by using Azure Active Directory and RBAC policies
+# Lab 02 - Implement Authentication and Authorization by using Azure Active Directory and RBAC policies
 
 # Student lab manual
 
 ## Lab scenario
 
-In order to improve management of Azure users in Contoso organization, you have been tasked with implementing the following functionality:
+In order to improve management of Azure users, permissions and roles in Contoso organization, you have been tasked with implementing the following functionality:
 
 - Add a user and provide the accessibility of the resources. You will create a user and assigning permission to the user to access virtual machines, for that you are going to apply Azure RBAC policies. Cloud resource access management is a critical function for any organization that uses the cloud. Azure Role-Based Access Control (Azure RBAC) allows you to manage who has access to Azure resources, what those resources can do, and what areas they can access.
 
