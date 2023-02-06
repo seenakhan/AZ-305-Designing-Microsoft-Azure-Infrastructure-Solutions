@@ -37,4 +37,7 @@ In this lab, you will have:
 
 
 ## Estimated timing: 240 minutes
+
 ## Architecture diagram
+
+![img](../media/arch4.png)
