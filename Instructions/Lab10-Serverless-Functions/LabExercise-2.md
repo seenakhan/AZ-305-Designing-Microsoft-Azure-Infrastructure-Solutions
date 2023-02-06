@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 1: Create Azure resources
+## Exercise 2: Configure a local Azure Functions project
 
 In this exercise, you are going to create a local project that you'll use for Azure Functions development. 
 
