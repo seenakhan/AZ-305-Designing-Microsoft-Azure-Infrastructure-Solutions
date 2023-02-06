@@ -22,11 +22,11 @@ An Azure account
 
 1. Go to Azure Portal, enter **Custom deployment** on search bar, then select **Deploy a custom template**.
 
-![img](.../media/depl1.png)
+    ![img](../media/depl1.png)
 
 2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart templates dropdown, then select **Select template**.
 
-![img](.../media/depl2a.png)
+    ![img](../media/depl2a.png)
 
 3. Under **Basics** tab please enter the following details:
 
@@ -41,12 +41,21 @@ An Azure account
     
  4. After entering all the informations please select **Review + create**.    
     
- ![img](.../media/depl4.png)      
+ ![img](../media/depl4.png)      
 
 5. After passing validation, please select **Create**.
 
 6. The deployment will take 10 minutes to complete. After completing the deployment, please select **Go to resource group**
 
+7. On the **Overview** section of the resource group, please select the **App service** named **web-app-s2pyoh2dzq4fs-5d7046**.
 
+    ![img](../media/depl5.png)
 
+8. On the **Overview** section of the  resource group, please copy the Url of the App service.
+
+    ![img](../media/depl6.png)
+
+9. Take another tab of browser and paste the url of app service. You will get the default page of the App.
+
+![img](../media/depl7.png)
 
