@@ -30,4 +30,4 @@ In this lab, you will have:
 ## Estimated timing: 200 minutes
 ## Solution Architecture
 
-![img](..media/arch2.png)
+  ![img](../media/arch2.png)
