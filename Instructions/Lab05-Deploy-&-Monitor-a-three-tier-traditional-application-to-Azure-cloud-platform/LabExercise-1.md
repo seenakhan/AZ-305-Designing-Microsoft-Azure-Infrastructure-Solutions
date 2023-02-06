@@ -69,6 +69,6 @@ The application is running successfully.
 
 In this lab, you have:
 
-    - Deployed a quickstart template.
-    - Verified the application is running.
+   - Deployed a quickstart template.
+   - Verified the application is running.
     
