@@ -6,16 +6,15 @@ In this exercise, you are going to deploy an Azure Container instance by using Y
 
 In this Exercise, you will have:
 
-  + Task 1: Create a Storage account.
-  + Task 2: Review the functionality of the Azure Container Instance.
+  + Task 1: Deploy an Azure container instance by using YAML file.
+  
+### Task 1: Deploy an Azure container instance by using YAML file.
 
-### Task 1: Create a Storage account
-
-In this task, you will create a new storage account.
+In this task, you are going to deploy an Azure container instance by using YAML file.
 
 #### Pre-requisites for this task
 
-
+An Azure account.
 
 #### Steps:
 
@@ -26,8 +25,6 @@ In this task, you will create a new storage account.
 2. Please select **Show advanced settings**.
 
 ![img](../media/yml4a.png)
-
-
 
 3. On the **Create a Storage account** page please enter the following details and select **Review**.
     
@@ -108,5 +105,13 @@ Your YAML file will look like this:
 ![img](../media/yml10.png)
 
 
-11. 
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this lab, you have:
+
+- Deployed an Azure Container instance using YAML file.
 
