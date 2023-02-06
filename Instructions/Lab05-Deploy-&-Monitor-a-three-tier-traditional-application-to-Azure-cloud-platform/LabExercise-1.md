@@ -1,18 +1,18 @@
 # Instructions
 
-## Exercise 1: Deploy a three-tier solution on Azure 
+## Exercise 1: Deploy a Quickstart template on Azure 
 
-In this exercise, you are going to deploy a three-tier solution on Azure. 
+In this exercise, you are going to deploy a quickstart template on Azure. 
 
 In this exercise, you will:
 
-+ Task 1: Deploy a three-tier solution on Azure.
++ Task 1: Deploy a quickstart template on Azure.
 
 ### Estimated Timing: 60 minutes
 
-### Task 1: Deploy a three-tier solution on Azure.
+### Task 1: Deploy a quickstart template on Azure.
 
-In this task, you will learn how to use Azur portal to create a single database with Adventure works sample database
+In this task, you will learn how to use Azur portal to deploy a template by using Deploy a custom template.
 
 #### Pre-requisites for this task
 
@@ -58,4 +58,6 @@ An Azure account
 9. Take another tab of browser and paste the url of app service. You will get the default page of the App.
 
 ![img](../media/depl7.png)
+
+The application is running successfully.
 
