@@ -1,16 +1,20 @@
 # Instructions
 
-## Exercise 5: Create a function that integrates with other services
+## Exercise 5: Create a function that integrates with other services and Deploy Local project to an Azure function app
 
-In this exercise, you are going to create a local project that you'll use for Azure Functions development. 
+In this exercise, you are going to create a local project that you'll use for Azure Functions development and deploy the local project to an azure function app.
 
 In this Exercise, you will have:
 
-  + Task 1: Task 1: Upload sample content to Azure Blob Storage.
+  + Task 1: Upload sample content to Azure Blob Storage.
   + Task 2: Configure a connection string.
-  + Task 3: Build and validate a project
+  + Task 3: Build and validate a project.
+  + Task 4: Register Azure Storage Blob extensions.
+  + Task 5: Deploy using the Azure Functions Core Tools.
+  + Task 6: Validate deployment
 
-### Task 1: Task 1: Upload sample content to Azure Blob Storage
+
+### Task 1: Upload sample content to Azure Blob Storage
 
 #### Pre-requisites for this task
 
@@ -33,6 +37,25 @@ Completed Exercise 1
     | Name | Enter **content** |
     | Public access level | Select **Private (no anonymous access)** |
 
+![img](../media/azcn2.png)
+
+1. Open a Notepad, enter the following JSON script and save it as settings.json.
+
+    ```JSON
+    {
+    "version": "0.2.4",
+    "root": "/usr/libexec/mews_principal/",
+    "device": {
+        "id": "21e46d2b2b926cba031a23c6919"
+    },
+    "notifications": {
+        "email": "joseph.price@contoso.com",
+        "phone": "(425) 555-0162 x4151"
+    }
+    }
+    ```
+
+
 1. Return to the **Containers** section, and then select the recently created **content** container.
 1. On the **Container** blade, select **Upload**.
 1. In the **Upload blob** window, perform the following actions, and then select **Upload**:
@@ -40,18 +63,20 @@ Completed Exercise 1
     | Setting | Action |
     | -- | -- |
     | **Files** section  | Select the **Folder** icon |
-    | **File Explorer** window  | Browse to **Allfiles (F):\\Allfiles\\Labs\\02\\Starter**, select the **settings.json** file, and then select **Open** |
+    | **File Explorer** window  | Browse to the location where the file settings.json saved, select the **settings.json** file, and then select **Open** |
     | **Overwrite if files already exist** check box | Ensure that this check box is selected |
 
-      > **Note**: Wait for the blob to upload before you continue with this lab.
+![img](../media/azcn3.png)
+
+> **Note**: Wait for the blob to upload before you continue with this lab.
 
 #### Task 2: Create an HTTP-triggered function
 
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
+1. Open **Visual Studio Code**, open new terminal, if the current directory is not **C:\AllFiles\func**
+1. Run the following command to change the current directory to the **C:\AllFiles\func** directory:
 
     ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
+    cd C:\AllFiles\func
     ```
 
 1. From the command prompt, run the following command to use the **Azure Functions Core Tools** to create a new function named **GetSettingInfo**, using the **HTTP trigger** template:
@@ -59,15 +84,13 @@ Completed Exercise 1
     ```powershell
     func new --template "HTTP trigger" --name "GetSettingInfo"
     ```
+You have successfully created another C# file named **GetSettingInfo.cs**.
 
-    > **Note**: You can review the documentation to [create a new function][azure-functions-core-tools-new-function] using the **Azure Functions Core Tools**.
-1. Close the currently running **Windows Terminal** application.
+![img](../media/azcn4.png)
+  
 
 #### Task 3: Write HTTP-triggered and blob-inputted function code
 
-1. On the **Start** screen, select the **Visual Studio Code** tile.
-1. On the **File** menu, select **Open Folder**.
-1. In the **File Explorer** window that opens, browse to **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func**, and then select **Select Folder**.
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **GetSettingInfo.cs** file.
 1. In the code editor, observe the example implementation:
 
@@ -200,73 +223,55 @@ Completed Exercise 1
 
 1. Select **Save** to save your changes to the **GetSettingInfo.cs** file.
 
-#### Task 4: Register Azure Storage Blob extensions
+### Task 4: Register Azure Storage Blob extensions
 
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
-
-    ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
-    ```
-
-1. From the command prompt, run the following command to register the [Microsoft.Azure.WebJobs.Extensions.Storage](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage/) extension:
+1. On the terminal, run the following command to register the [Microsoft.Azure.WebJobs.Extensions.Storage](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage/) extension:
 
     ```powershell
     func extensions install --package Microsoft.Azure.WebJobs.Extensions.Storage --version 5.0.1
     ```
+Please wait for a while to complete the installation.
 
-1. Run the following command to build the .NET project and to validate the extensions were installed correctly:
+1. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
 
     ```powershell
     dotnet build
     ```
+You will get a Build succeeded message.
 
-1. Close all currently running instances of the **Windows Terminal** application.
+### Task 5: Deploy using the Azure Functions Core Tools
 
-#### Task 5: Test the function by using httprepl
-
-1. On the taskbar, select the **Windows Terminal** icon.
-1. Run the following command to change the current directory to the **Allfiles (F):\\Allfiles\\Labs\\02\\Starter\\func** directory:
+1. From terminal, run the following command to login to the Azure Command-Line Interface (CLI):
 
     ```powershell
-    cd F:\Allfiles\Labs\02\Starter\func
+    az login
     ```
 
-1. From the command prompt, run the following command to run the function app project:
+1. In the browser window, enter the name and password of the Microsoft or Azure Active Directory account you are using in this lab, and then select **Sign in**.
+1. Return to the currently open **Windows Terminal** window. Wait for the sign-in process to finish.
+1. From the terminal, run the following command to publish the function app project (replace the `<function-app-name>` placeholder with the name of the function app you created earlier in this lab):
 
     ```powershell
-    func start --build
+    func azure functionapp publish <function-app-name>
     ```
 
-    > **Note**: You can review the documentation to [start the function app project locally][azure-functions-core-tools-start-function] using the **Azure Functions Core Tools**.
-1. On the taskbar, select the **Windows Terminal** icon again to open a new instance of the **Windows Terminal** application.
-1. From the command prompt, run the following command to start the **httprepl** tool setting the base Uniform Resource Identifier (URI) to ``http://localhost:7071``:
+    > **Note**: For example, if your **Function App name** is **funclogicstudent**, your command would be ``func azure functionapp publish contosofunclogic``.
 
-    ```powershell
-    httprepl http://localhost:7071
-    ```
+1. Wait for the deployment to finalize before you move forward with the lab.
 
-    > **Note**: An error message is displayed by the **httprepl** tool. This message occurs because the tool is searching for a Swagger definition file to use to traverse the API. Because your function project doesn't produce a Swagger definition file, you'll need to traverse the API manually.
+### Task 6: Validate deployment
 
-1. When you receive the tool prompt, run the following command to browse to the relative **api** endpoint:
-
-    ```powershell
-    cd api
-    ```
-
-1. Run the following command to browse to the relative **getsettinginfo** endpoint:
-
-    ```powershell
-    cd getsettinginfo
-    ```
-
-1. Run the following command to run the **get** command for the current endpoint:
-
-    ```powershell
-    get
-    ```
-
-1. Observe the JSON content of the response from the function app, which should now include:
+1. On the taskbar, select the **Microsoft Edge** icon, and select the tab that displays the Azure portal (<https://portal.azure.com>).
+1. On the Azure portal's **navigation** pane, select the **Resource groups** link.
+1. On the **Resource groups** blade, select the **Serverless** resource group that you created previously in this lab.
+1. On the **Serverless** blade, select the **contosofunclogic** function app that you created previously in this lab.
+1. On the **Function App** blade, select the **Functions** option in the **Functions** section.
+1. On the **Functions** pane, select the existing **GetSettingInfo** function.
+1. In the **Function** blade, select the **Code + Test** option in the **Developer** section.
+1. In the function editor, select **Test/Run**.
+1. In the automatically displayed pane, in the **HTTP method** drop-down list, select **GET**.
+1. Select **Run** to test the function.
+1. In the **HTTP response content**, review the results of the test run. The JSON content should now include the following code:
 
     ```json
     {
@@ -282,14 +287,25 @@ Completed Exercise 1
     }
     ```
 
-1. Run the following command to exit the **httprepl** application:
+![img](../media/azcn5.png)
 
-    ```powershell
-    exit
-    ```
+### Clean up resources
 
-1. Close all currently running instances of the **Windows Terminal** application.
+   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
+   
+   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
+
+   
+1. Select the funaction app you have created, then select **Stop** from the top on the overview section. Then click on **Delete**. Enter the name of the function app to confirm the deletion and then click **Delete**.
+2. Select Home and then storage account.
+
+2. Select the Storage account named **contosofuncstor** then select **Delete**.
 
 #### Review
 
-In this exercise, you created a function that returns the content of a JSON file in Storage.
+In this lab, you have:
+
+- Created a Local project
+- Deployed local project into Azure function app.
+- Validated the project.
+
