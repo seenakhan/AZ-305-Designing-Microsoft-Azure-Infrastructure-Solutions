@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 1: Migrate SQL Server database to Azure
+## Exercise 1: Install and Configure SQL Server.
 
 In this exercise, you will:
 
