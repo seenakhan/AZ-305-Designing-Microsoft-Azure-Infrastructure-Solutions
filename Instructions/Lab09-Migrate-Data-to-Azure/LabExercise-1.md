@@ -53,12 +53,33 @@ An Azure account
 
 12. Please go to this link to [Download](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) **Adventure works Sample database**.
 
-  
+13. Scroll down, under **OLTP** tab select **AdventureWorks2019.bak**. Please wait for the download to complete. After completing the download please go to downloads folder and copy the file and open **C:\AllFiles** folder and paste it.
 
+14. Go to SSMS window, please right click **Databases** folder on the **Object Explorer** window, then select **Restore Database**.
 
+![img](../media/sql5.png)
 
+15. On the **Restore Database** window, please select **Device**, then select the **Ellipsis(...)** button.
 
+![img](../media/sql6.png)
 
+16. On **Select backup devices** window please select **Add**.
+
+![img](../media/sql7.png)
+
+17. On **Locate backup file** window, please select **C:\AllFiles**, then select **AdventureWorks2019.bak** backup, then click **Ok**.
+
+![img](../media/sql8.png)
+
+18. On **Select backup devices** window please select **Ok**. And on the **Restore Database** window, please select **Ok**.
+
+19. After a while you will get a window showing **Database Adventureworks 2019 restored successfully**. Please select ok.
+
+![img](../media/sql9.png)
+
+20. Go to SSMS, expand the **Databases**, you can see the **Adventureworks2019** database.
+
+![img](../media/sql10.png)
 
 
 
