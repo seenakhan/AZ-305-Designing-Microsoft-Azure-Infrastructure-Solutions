@@ -207,13 +207,13 @@ An Azure account
 
 10. To create the SQL scripts, select **Generate SQL scripts option**.
 
-![img](../media/datam11.png)
+    ![img](../media/datam11.png)
 
 11. On the **Script & Deploy schema** tab please select **Deploy schema**.
 
-![img](../media/datam12.png)
+    ![img](../media/datam12.png)
 
 12. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
 
-![img](../media/datam13.png)
+    ![img](../media/datam13.png)
 
