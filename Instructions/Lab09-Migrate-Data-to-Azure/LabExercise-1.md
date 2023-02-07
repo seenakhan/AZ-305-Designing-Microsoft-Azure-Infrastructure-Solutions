@@ -6,7 +6,7 @@ In this exercise, you will:
 
 + Task 1: Install and Configure SQL Server.
 + Task 2: Configure AdventureWorks database.
-+ Task 3: Migrating AdventureWorks database to Azure.
+
 
 ### Estimated Timing: 60 minutes
 
