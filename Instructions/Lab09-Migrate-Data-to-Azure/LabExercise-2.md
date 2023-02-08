@@ -266,4 +266,13 @@ You are going to migrate from on-premises database Adventureworks2019 table name
 
 ![img](../media/datab5.png)
 
+19. Go to Azure portal, open **contosodb1** database and select **Query editor**, enter username and password.
+
+20. Right click on **HumanResources.EmployeeDepartmentHistory** table and select **Select top 1000 rows**. You can see the data retrieved on the result pane.
+
+![img](../media/datab6.png)
+
+You have successfully migrated the data.
+
+
 
