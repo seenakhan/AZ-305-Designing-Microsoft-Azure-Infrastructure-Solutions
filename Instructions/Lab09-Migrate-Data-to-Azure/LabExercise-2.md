@@ -82,9 +82,9 @@ An Azure account, a resource group and an Azure SQL Database
 
 2. On the Networkinmg page, Please select **Selected Networks**. To add your current IP address to a new server-level firewall rule, select **+ Add your client IP**. This rule has the ability to open Port 1433 for a single IP address or a range of IP addresses, then select **Save**.
 
-3. Go to **contosodb1** database, select **Query Editor** provide the login as **contosoadmin** and Password **Contoso@123** then click **Ok**.
-
 ![img](../media/datas6.png)
+
+3. Go to **contosodb1** database, select **Query Editor** provide the login as **contosoadmin** and Password **Contoso@123** then click **Ok**.
 
 You have successfully logged into the contosodb1 database.
 
@@ -175,7 +175,7 @@ An Azure account
 
 13. Expand the Tables you can see there are no tables listed.
 
-### Task 3: Use Data Migration Assistant to migrate a sample schema
+### Task 3: Use Data Migration Assistant to migrate Schema and Data
 
 #### Steps
 
@@ -256,14 +256,19 @@ An Azure account
 
 ![img](../media/datab2.png)
 
+
 You are going to migrate from on-premises database Adventureworks2019 table named **HumanResources.EmployeeDepartmentHistory** data to Azure SQL database named **contosodb1** and the  table named **HumanResources.EmployeeDepartmentHistory**.
 
+16. Go to **Microsoft Data Migration Assistant** tool, then select **Migrate data**.
 
-### Task 4: Use Data Migration Assistant to migrate tables
+![img](../media/datab3.png)
 
-#### Steps
+17. On the **Select tables** tab, select **HumanResources.EmployeeDepartmentHistory** table, then select **Start data migration**. 
 
-1. 
+![img](../media/datab4.png)
 
+18. You will get a successfull message on **Migrate data** tab.
+
+![img](../media/datab5.png)
 
 
