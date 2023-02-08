@@ -61,5 +61,5 @@ An Azure account
   
 13. After successfully run the script, please got **Storage accounts** , then select **storcon13**, then select the **container** named **storcontainer223**. You can see the uploaded file **file.txt** there.
   
-
+![img](../media/strg6.png)
   
