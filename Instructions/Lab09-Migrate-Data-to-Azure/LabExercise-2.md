@@ -5,10 +5,10 @@
 In this exercise, you will:
 
 + Task 1: Create an Azure SQL database
-+ Task 1: Install the Data Migration Assistant (DMA) on Windows
-+ Task 2: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
-+ Task 3: Use Data Migration Assistant to migrate a sample schema
-+ Task 4: Create Azure Database Migration Service instance
++ Task 2: Set up server-level firewall rules using Azure Portal
++ Task 3: Install the Data Migration Assistant (DMA) on Windows
++ Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
++ Task 5: Use Data Migration Assistant to migrate Schema and Data
 
 ### Estimated Timing:  minutes
 
@@ -88,7 +88,7 @@ An Azure account, a resource group and an Azure SQL Database
 
 You have successfully logged into the contosodb1 database.
 
-### Task 2: Install the Data Migration Assistant (DMA) on Windows
+### Task 3: Install the Data Migration Assistant (DMA) on Windows
 
 In this task, you will learn how to install and configure Data Migration Assistant (DMA) on Windows.
 
@@ -118,7 +118,7 @@ An Azure account
 
 8. To complete install, select **Finish**.
 
-### Task 2: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
+### Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
 
 1. Select the **Start** button, type **Data Migration**, and then select **Microsoft Data Migration Assistant**.
 
@@ -175,15 +175,10 @@ An Azure account
 
 13. Expand the Tables you can see there are no tables listed.
 
-### Task 3: Use Data Migration Assistant to migrate Schema and Data
+### Task 5: Use Data Migration Assistant to migrate Schema and Data
 
 #### Steps
 
-1. Install **Azure Data Studio**. Please go to the link [here](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=redhat-install%2Credhat-uninstall), scroll down and select  **Azure Data Studio system installer for Windows.**
-
-2. Go to the Downloads folder and double click on **azzure-studio-windows-setup** file. Accept the agreement and click on **Next** to complete the installation.
-
-3. After the installation completed, please go to Azure portal and search for **Azure Data Migration service**
 1. Run **Microsoft Data Migration Assistant** tool, select the **+** New (+) icon, and enter the following details and then select **Create**.
 
     | Property | Value |
