@@ -169,19 +169,30 @@ An Azure account
 
 ![img](../media/datam7.png)
 
+11. Go to **contosodb1** database, then select **Query editor**
+
+12. Login with username as **contosoadmin** and Password as **Contoso@123**
+
+13. Expand the Tables you can see there are no tables listed.
+
 ### Task 3: Use Data Migration Assistant to migrate a sample schema
 
 #### Steps
 
+1. Install **Azure Data Studio**. Please go to the link [here](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&tabs=redhat-install%2Credhat-uninstall), scroll down and select  **Azure Data Studio system installer for Windows.**
+
+2. Go to the Downloads folder and double click on **azzure-studio-windows-setup** file. Accept the agreement and click on **Next** to complete the installation.
+
+3. After the installation completed, please go to Azure portal and search for **Azure Data Migration service**
 1. Run **Microsoft Data Migration Assistant** tool, select the **+** New (+) icon, and enter the following details and then select **Create**.
 
     | Property | Value |
     | --- | --- |
     | Project type | **Migration** |
-    | Project name | **Migration schema only SQL DB** |
+    | Project name | **contosodatamigration** |
     | Source server type | Select **SQL Server** |
     | Target server type | Select **Azure SQL Database** |
-    | Migration scope | Select **Schema only** |
+    | Migration scope | Select **Schema and Data** |
 
 ![img](../media/datam8.png)
 
@@ -216,4 +227,43 @@ An Azure account
 12. You have successfully migrated the schema, you can see the execution of all the schema queries are successfully completed.
 
     ![img](../media/datam13.png)
+
+
+13. Go to Azure portal and select the newly created database named **contosodb1**.  Go to the Query Editor and paste the below T-SQL script, then click on **Run** to create a table named **HumanResources.EmployeeDepartmentHistory**.
+
+    ```T-SQL
+    CREATE TABLE [HumanResources].[EmployeeDepartmentHistory](
+	[BusinessEntityID] [int] NOT NULL,
+	[DepartmentID] [smallint] NOT NULL,
+	[ShiftID] [tinyint] NOT NULL,
+	[StartDate] [date] NOT NULL,
+	[EndDate] [date] NULL,
+	[ModifiedDate] [datetime] NOT NULL,
+    CONSTRAINT [PK_EmployeeDepartmentHistory_BusinessEntityID_StartDate_DepartmentID] PRIMARY KEY CLUSTERED 
+    (
+	[BusinessEntityID] ASC,
+	[StartDate] ASC,
+	[DepartmentID] ASC,
+	[ShiftID] ASC
+    )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON         [PRIMARY]
+    ) ON [PRIMARY]
+    GO
+    ```
+
+![img](../media/datab1.png)
+
+15. You have successfully created the table named **HumanResources.EmployeeDepartmentHistory**. Expand the Tables and you can see the newly created table.
+
+![img](../media/datab2.png)
+
+You are going to migrate from on-premises database Adventureworks2019 table named **HumanResources.EmployeeDepartmentHistory** data to Azure SQL database named **contosodb1** and the  table named **HumanResources.EmployeeDepartmentHistory**.
+
+
+### Task 4: Use Data Migration Assistant to migrate tables
+
+#### Steps
+
+1. 
+
+
 
