@@ -1,6 +1,6 @@
 # Instructions
 
-## Exercise 1: Migrate SQL Server database to Azure
+## Exercise 2: Migrate SQL Server database to Azure
 
 In this exercise, you will:
 
