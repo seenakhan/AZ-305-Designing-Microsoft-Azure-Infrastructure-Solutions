@@ -109,3 +109,45 @@ In this task, you are going to add the website in the **East US** as primary end
     | Target resource type | Select **App Service** |
     | Target resource | Select **contoso-webapp-2** |
     | Priority | Select **2** |
+
+You have successfully added both the endpoints.
+
+### Task 4: Test Traffic Manager profile
+
+#### Steps: 
+
+1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Task.
+
+2. Copy the **DNS** name of the **contosotrafficmanager-1**.
+
+![img](../media/traf5.png)
+
+3. Open a new tab of your browser and enter the DNS name of your Traffic Manager profile to view your Web App's default website.
+
+![img](../media/traf6.png)
+
+You can see the Web app running successfully .
+
+To view Traffic Manager failover in action, disable your primary site:
+
+4. In the Traffic Manager Profile page, from the **Overview** section, select **contosoPrimaryEndpoint**.
+
+5. In **contosoPrimaryEndpoint**, select **Disabled** and then select **Save**.
+
+![img](../media/traf7.png)
+
+6. Close **contosoPrimaryEndpoint**. Notice that the status is Disabled now.
+
+![img](../media/traf8.png)
+
+7. Copy the DNS name of your Traffic Manager Profile from the preceding step to view the website in a new web browser session.
+
+![img](../media/traf6.png)
+
+Verify that the web app is still available.
+
+The primary endpoint isn't available, so you were routed to the failover endpoint.
+
+
+
+
