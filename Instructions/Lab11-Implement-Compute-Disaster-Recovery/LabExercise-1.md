@@ -166,7 +166,7 @@ In this task you are going to create two virtual networks. One will be in the We
 
 13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication.
 
-![img](../media/reco10.png)
+![img](../media/reco11.png)
 
 You have successfully enabled the replication for **contoso-vm-1**.
 
