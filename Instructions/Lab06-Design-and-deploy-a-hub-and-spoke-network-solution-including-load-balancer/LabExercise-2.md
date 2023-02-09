@@ -36,7 +36,7 @@ Complete Exercise 1.
   
     ![img](../media/vnt2.png)
   
-4. Go to **Next: IP Addresses**, then on the **IP Addresses** tab, please review the default IP addresses and subnet given.
+4. Go to **Next: IP Addresses**, then on the **IP Addresses** tab, please review the default IP addresses and subnet given, then select **Review + create**.
   
     ![img](../media/vnt3.png)
   
