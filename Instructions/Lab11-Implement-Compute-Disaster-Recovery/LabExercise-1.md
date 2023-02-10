@@ -164,7 +164,7 @@ In this task you are going to create two virtual networks. One will be in the We
 
 ![img](../media/reco9.png)
 
-13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication.
+13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
 
 ![img](../media/reco11.png)
 
