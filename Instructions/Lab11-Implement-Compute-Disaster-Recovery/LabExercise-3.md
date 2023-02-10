@@ -98,7 +98,7 @@ Complete Exercise 1 & Exercise 3 - Task 1
 
 7. After the failover, the Azure VM created in the target region appears in Virtual Machines. Make sure that the VM is running, and sized appropriately. 
 
-  **>Note**: If you want to use a different recovery point for the VM, select Change recovery point, on the Essentials page.
+  >**Note**: If you want to use a different recovery point for the VM, select Change recovery point, on the Essentials page.
   
 8. Go to the **Replicated items** section of the **contosovault1** Recovery service vault, please review the virtual machine **contoso-vm-1** status became **Failover completed**.
 
