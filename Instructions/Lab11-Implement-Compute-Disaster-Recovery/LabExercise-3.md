@@ -130,16 +130,21 @@ After failover, you reprotect the VM in the secondary region, so that it replica
 
 1. Make sure that VM Status is **Failover committed** before you start. Please select the virtaul machine **contoso-vm-1**.
 
+![img](../media/fa7.png)
 
 2. On the **Overview** section, Please select **Re-protect** by clicking on the **ellipsis(...)**.
 
+![img](../media/fa8.png)
 
 3. In Re-protect, verify the replication direction (secondary to primary region), and review the target settings for the primary region. Resources marked as new are created by Site Recovery as part of the reprotect operation. Please select **Ok** to start the reprotect process. The process sends initial data to the target location, and then replicates delta information for the VMs to the target.
 
-
+![img](../media/fa9.png)
 
 4. Monitor reprotect progress in the notifications.
 
+5. You have suucessfully protected the virtual machine on the secondary region.
+
+![img](../media/fa10.png)
 
 In this task, you failed over from the primary region to the secondary, and started replicating VMs back to the primary region. Now you can fail back from the secondary region to the primary.
 
