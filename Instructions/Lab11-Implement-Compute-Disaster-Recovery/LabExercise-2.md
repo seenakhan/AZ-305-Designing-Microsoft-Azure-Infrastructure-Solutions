@@ -78,7 +78,7 @@ In this task, Create a Traffic Manager profile that directs user traffic based o
  
  ![img](../media/traf3.png)
  
-After completing the deployment, please select **Go to resource**.
+After completing the deployment, you can see the **contosotrafficmanager-1**.
 
 ### Task 3: Add Traffic Manager endpoints
 
