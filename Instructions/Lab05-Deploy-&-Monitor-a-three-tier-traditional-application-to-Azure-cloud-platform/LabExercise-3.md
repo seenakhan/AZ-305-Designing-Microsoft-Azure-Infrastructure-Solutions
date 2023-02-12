@@ -7,7 +7,7 @@
 In this exercise, you will:
 
 + Task 1: Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers
-+ Task 2: Create and configure an Azure Log Analytics workspace and Azure Automation-based solutions
++ Task 2: Create and configure an Azure Automation-based solutions
 + Task 3: Review default monitoring settings of Azure Resources
 + Task 4: Collect and View Azure resource logs.
 ### Estimated Timing: 60 minutes
@@ -35,7 +35,7 @@ An Azure account
 
 You have successfully registered Microsoft.Insights and Microsoft.AlertsManagement resource providers
 
-### Task 2: Create and configure an Azure Log Analytics workspace and Azure Automation-based solutions
+### Task 2: Create and configure an Azure Automation-based solutions
 
 In this task, you will create and configure an Azure Log Analytics workspace and Azure Automation-based solutions
 
