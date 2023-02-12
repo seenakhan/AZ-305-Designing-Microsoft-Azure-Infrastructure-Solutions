@@ -124,7 +124,7 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
     >**Note**: Wait for the diagnostic settings extension to be installed. This might take about 3 minutes.
 
-3. Switch to the **Performance counters** tab of the **labvm-XXXXX| Diagnostic settings** blade and review the available counters.
+3. Switch to the **Performance counters** tab of the **labvm-XXXXX| Diagnostic settings** page and review the available counters.
 
 ![img](../media/mon14.png)
 
@@ -134,38 +134,51 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
 ![img](../media/mon15.png)
 
-5. On the **labvm-XXXXX** page, ensure **Azure Monitor agent (Recommended)** is selected, and then click **Configure**.  
+5. On the **Monitoring configuration** side screen, ensure **Azure Monitor agent (Recommended)** is selected, and then click **Configure**.  
+
+   ![img](../media/mon16.png)
 
     >**Note**: Do not wait for the operation to be completed, but instead proceed to the next step. The operation might take about 5 minutes.
 
-1. On the **az104-11-vm0 \| Logs** blade, in the **Monitoring** section, click **Metrics**.
+6. On the **labvm-XXXXX| Logs** page, in the **Monitoring** section, click **Metrics**.
 
-1. On the **az104-11-vm0 \| Metrics** blade, on the default chart, note that at this point, the **Metrics Namespace** drop-down list, in addition to the **Virtual Machine Host** entry includes also the **Guest (classic)** entry.
+7. On the **labvm-XXXXX| Metrics** page, on the default chart, note that at this point, the **Metrics Namespace** drop-down list, in addition to the **Virtual Machine Host** entry includes also the **Guest (classic)** entry.
+
+   ![img](../media/mon17.png)
 
     >**Note**: This is expected, since you enabled guest-level diagnostic settings. You also have the option to **Enable new guest memory metrics**.
 
-1. In the **Metrics Namespace** drop-down list, select  the **Guest (classic)** entry.
+8. In the **Metrics Namespace** drop-down list, select  the **Guest (classic)** entry.
 
-1. In the **Metric** drop-down list, review the list of available metrics.
+9. In the **Metric** drop-down list, review the list of available metrics.
 
     >**Note**: The list includes additional guest-level metrics not available when relying on the host-level monitoring only.
 
-1. In the **Metric** drop-down list, select **Memory\\Available Bytes**, in the **Aggregation** drop-down list, select **Max**, and review the resulting chart.
+10. In the **Metric** drop-down list, select **Memory\\Available Bytes**, in the **Aggregation** drop-down list, select **Max**, and review the resulting chart.
+
+#### Clean up resources
+
+>**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges.
+
+>**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
+
+1. Go to Resource groups, select **newres123**, then select **Delete**.
+
+#### Review
+
+In this lab, you have:
+
++ Registered the Microsoft.Insights and Microsoft.AlertsManagement resource providers
++ Created and configured an Azure Log Analytics workspace and Azure Automation-based solutions
++ Reviewed default monitoring settings of Azure virtual machines
++ Configured Azure virtual machine diagnostic settings
++ Reviewed Azure Monitor functionality
++ Reviewed Azure Log Analytics functionality
 
 
 
 
 
-
-1. Go to **App services**, select **web-app-XXXXX-XXXXXX** app service, Select **Diagnostic settings** under **Monitoring** section.
-
-![img](../media/mon11.png)
-
-2. In the **Diagnostic settings**, enter name as **contosoreslogs** please select all categories of logs and all metircs, then select **Save**.
-
-![img](../media/mon12.png)
-
-3. Select **Logs** under **Monitroing** section, then
 
 
 
