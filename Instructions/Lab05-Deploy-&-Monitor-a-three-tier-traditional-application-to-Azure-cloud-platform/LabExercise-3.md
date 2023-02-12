@@ -55,10 +55,9 @@ In this task, you will create and configure an Azure Log Analytics workspace and
     | Automation account name | **contosoautomation1** |
     | Region | the name of the Azure region determined based on [Workspace mappings documentation](https://docs.microsoft.com/en-us/azure/automation/how-to/region-mappings) |
 
-![img](../media/mon5a.png)
+   ![img](../media/mon5a.png)
 
-    >**Note**: Make sure that you specify the Azure region based on the [Workspace mappings documentation](https://docs.microsoft.com/en-us/azure/automation/how-to/region-mappings)
-
+   
     >**Note**: Wait for the deployment to complete. The deployment might take about 3 minutes.
 
 5. Click **Go to resource**.
