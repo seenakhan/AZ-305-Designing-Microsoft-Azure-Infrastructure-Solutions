@@ -55,7 +55,7 @@ An Azure account
 
 9. On the **Overview** section of the  resource group, please copy the Url of the App service.
 
-    ![img](../media/depl6.png)
+    ![img](../media/depl6a.png)
 
 10. Take another tab of browser and paste the url of app service. You will get the default page of the App.
 
