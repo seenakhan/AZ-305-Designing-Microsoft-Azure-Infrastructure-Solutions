@@ -37,7 +37,7 @@ An Azure account
     | Resource group | Select **Create new**, then enter the name **newres123**, then click **Ok**. |
     | Region |  **West US** |
     | Sql Administrator Login Name | **contososqladmin** |
-    | Sql Administrator Login Password | Select **Pa$$w0rd123!** |
+    | Sql Administrator Login Password | **Pa$$w0rd123!** |
     | V Nets | Enter **[{"name":"hub-vnet","addressPrefixes":["10.1.0.0/16"],"subnets":[{"name":"PrivateLinkSubnet","addressPrefix":"10.1.1.0/24","udrName":null,"nsgName":null,"delegations":null,"privateEndpointNetworkPolicies":"Disabled","privateLinkServiceNetworkPolicies":"Enabled"}]},{"name":"spoke-vnet","addressPrefixes":["10.2.0.0/16"],"subnets":[{"name":"AppSvcSubnet","addressPrefix":"10.2.1.0/24","udrName":null,"nsgName":null,"privateEndpointNetworkPolicies":"Enabled","privateLinkServiceNetworkPolicies":"Enabled","delegations":[{"name":"appservice","properties":{"serviceName":"Microsoft.Web/serverFarms"}}]}]}]** |
     
     
