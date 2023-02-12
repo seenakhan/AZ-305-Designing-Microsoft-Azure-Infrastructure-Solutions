@@ -47,11 +47,11 @@ An Azure account
 
 6. The deployment will take 10 minutes to complete. After completing the deployment, please select **Go to resource group**
 
-7. Please review all the resources deployed on the resource group **ODL-AZ-305M05-XXXXX**.
+7. Please review all the resources deployed on the resource group **newres123**.
 
-8. On the **Overview** section of the resource group, please select the **App service** named **web-app-s2pyoh2dzq4fs-5d7046**.
+8. On the **Overview** section of the resource group, please select the **App service** named **web-app-XXXXXXXX-XXXXXXXX**.
 
-    ![img](../media/depl5.png)
+    ![img](../media/depl5a.png)
 
 9. On the **Overview** section of the  resource group, please copy the Url of the App service.
 
