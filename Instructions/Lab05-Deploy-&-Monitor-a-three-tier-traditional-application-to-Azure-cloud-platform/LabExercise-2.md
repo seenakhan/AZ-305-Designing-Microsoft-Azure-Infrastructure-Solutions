@@ -1,1 +1,58 @@
+# Instructions
 
+## Exercise 2: Review High Availability Capabilities (Test Failover)
+
+In this exercise, you are going to deploy a quickstart template on Azure. 
+
+In this exercise, you will:
+
++ Task 1: Add Traffic Manager endpoints.
++ T
+
+### Estimated Timing: 60 minutes
+
+### Task 1: Deploy a quickstart template on Azure.
+
+In this task, you will learn how to use Azur portal to deploy a template by using Deploy a custom template.
+
+#### Pre-requisites for this task
+
+An Azure account
+
+#### Steps
+
+### Task 1: Add Traffic Manager endpoints
+
+In this task, you are going to add the website in the **East US** as primary endpoint to route all the user traffic. Add the website in **West US** as a failover endpoint. When the primary endpoint is unavailable, traffic automatically routes to the failover endpoint.
+
+#### Steps:
+
+1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
+
+![img](../media/trafp6.png)
+
+2. On the **Add Endpoint** side screen, please enter the following informations and then select **Add**.
+
+    | Section | Values |
+    | ------- | ------ |
+    | Type | Select **Azure endpoint**  |
+    | Name | Enter **contosoPrimaryEndpoint** |
+    | Target resource type | Select **App Service** |
+    | Target resource | Select **web-app-XXXXX-XXXX (West US)** |
+    | Priority | Select **1** |
+    
+![img](../media/trafp5.png)
+
+3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with these settings:
+
+    | Section | Values |
+    | ------- | ------ |
+    | Type | Select **Azure endpoint**  |
+    | Name | Enter **contosoFailoverEndpoint** |
+    | Target resource type | Select **App Service** |
+    | Target resource | Select **web-app-EastUS (East US)** |
+    | Priority | Select **2** |
+
+You have successfully added both the endpoints.
+
+    
