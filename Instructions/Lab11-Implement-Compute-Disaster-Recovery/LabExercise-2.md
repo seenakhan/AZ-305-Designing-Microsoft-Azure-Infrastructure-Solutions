@@ -39,7 +39,7 @@ In this task you are going to create two Web Apps. One will be in the West US re
     | Operating System | Select **Windows** |
     | Region | Select **East US**. |
     | Windows Plan | Select **Create new** and enter **contosoappplanEastUS** in the text box |
-    | Pricing plan |  
+    | Pricing plan | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1 vCPU)** |
 
 ![img](../media/traf1.png)
 
