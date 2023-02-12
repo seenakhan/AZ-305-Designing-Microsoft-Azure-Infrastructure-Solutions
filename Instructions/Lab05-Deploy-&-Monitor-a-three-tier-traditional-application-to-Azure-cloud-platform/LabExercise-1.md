@@ -7,6 +7,8 @@ In this exercise, you are going to deploy a quickstart template on Azure.
 In this exercise, you will:
 
 + Task 1: Deploy a quickstart template on Azure.
++ Task 2: Deploy an App service to another region.
++ Task 3: Deploy a Traffic Manager Profile.
 
 ### Estimated Timing: 60 minutes
 
@@ -62,6 +64,65 @@ An Azure account
     ![img](../media/depl7.png)
 
 The application is running successfully.
+
+### Task 2: Deploy an App service to another region
+
+1. Search for **Web Apps** on the **search** box of the **Home** page, then select **App services** from the list below.
+
+2. On the **App services** page, please select **+ Create**.
+
+3. On the **Create Web App** page please enter the following details on the **Basics** tab and then select **Next: Deployment>** at the bottom.
+
+    | Section | Values |
+    | ------- | ------ |
+    | Subscription | **Default** Select the default subscription |
+    | Resource group | Select **newres123** |
+    | Name | **web-app-EastUS** |
+    | Publish | **Code** |
+    | Runtime stack | Select **.Net 6 (LTS)** |
+    | Operating System | Select **Windows** |
+    | Region | Select **East US**. |
+    | Windows Plan | Select **Create new** and enter **contosoappplanEastUS1** in the text box |
+    | Pricing plan | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1 vCPU)** |
+
+ ![img](../media/webap1.png)
+
+4. On the **Deployment** tab review the default settings and select **Next: Networking>** at the bottom.
+
+5. On the **Networking** tab, please review the default settings and select **Next: Monitoring>** at the bottom.
+
+6. On the **Monitoring** tab, set **Enable Application Insights** to **No** and then select **Review + create**.
+
+ ![img](../media/webap2.png)
+
+7. After completing the validation, please select **Create**. After completing the deployment please select **Go to resource**.
+
+You have successfully deployed another web app.
+
+### Task 3: Deploy a Traffic Manager Profile
+
+#### Steps:
+
+1. Go to Home page, and search for **Traffic Manager Profile**, then select **Traffice Manager Profile** from the list.
+
+2. On the **Load balancing | Traffic Manager** page, please select **+ Create**.
+
+![img](../media/trafp1.png)
+
+3. On the **Create Traffic Manager Profile** page, please enter the following informations and then select **Create**. 
+
+    | Section | Values |
+    | ------- | ------ |
+    | Name | **contosotrafficmanager-1**  |
+    | Routing method | Select **Priority** |
+    | Subscription | **Default** Select the default subscription |
+    | Resource group | **newres123** |
+
+![img](../media/trafp2.png)
+
+After completing the deployment, you can see the **contosotrafficmanager-1**.
+
+![img](../media/trafp3.png)
 
 ### Clean up resources
 
