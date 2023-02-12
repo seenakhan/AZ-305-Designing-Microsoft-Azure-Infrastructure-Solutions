@@ -32,7 +32,7 @@ An Azure account
 
     | Section | Values |
     | ------- | ------ |
-    | Resource group | Select **newres123** |
+    | Resource group | Select **Create new**, then enter the name **newres123**, then click **Ok**. |
     | Region |  **West US** |
     | Sql Administrator Login Name | **contososqladmin** |
     | Sql Administrator Login Password | Select **Pa$$w0rd123!** |
