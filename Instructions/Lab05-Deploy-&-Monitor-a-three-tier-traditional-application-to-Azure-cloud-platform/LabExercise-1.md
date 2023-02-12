@@ -32,7 +32,7 @@ An Azure account
 
     | Section | Values |
     | ------- | ------ |
-    | Resource group | Select **ODL-AZ-305M05-XXXXX** |
+    | Resource group | Select **newres123** |
     | Region |  **West US** |
     | Sql Administrator Login Name | **contososqladmin** |
     | Sql Administrator Login Password | Select **Pa$$w0rd123!** |
@@ -41,7 +41,7 @@ An Azure account
     
  4. After entering all the informations please select **Review + create**.    
     
-    ![img](../media/depl4.png)      
+    ![img](../media/depl4a.png)      
 
 5. After passing validation, please select **Create**.
 
