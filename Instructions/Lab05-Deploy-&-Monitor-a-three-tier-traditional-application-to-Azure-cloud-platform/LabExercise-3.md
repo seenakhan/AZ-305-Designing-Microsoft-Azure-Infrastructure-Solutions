@@ -169,11 +169,10 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 In this lab, you have:
 
 + Registered the Microsoft.Insights and Microsoft.AlertsManagement resource providers
-+ Created and configured an Azure Log Analytics workspace and Azure Automation-based solutions
-+ Reviewed default monitoring settings of Azure virtual machines
-+ Configured Azure virtual machine diagnostic settings
-+ Reviewed Azure Monitor functionality
-+ Reviewed Azure Log Analytics functionality
++ Created and configured an Azure Automation-based solutions
++ Reviewed default monitoring settings of Azure resources
++ Collected and Viewed Azure resource logs
+
 
 
 
