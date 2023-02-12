@@ -7,7 +7,7 @@ In this exercise, you are going to deploy a quickstart template on Azure.
 In this exercise, you will:
 
 + Task 1: Add Traffic Manager endpoints.
-+ T
++ Task 2: Test Traffic Manager profile
 
 ### Estimated Timing: 60 minutes
 
@@ -41,7 +41,7 @@ In this task, you are going to add the website in the **East US** as primary end
     | Target resource | Select **web-app-XXXXX-XXXX (West US)** |
     | Priority | Select **1** |
     
-![img](../media/trafp5.png)
+![img](../media/trafp5a.png)
 
 3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with these settings:
 
@@ -55,4 +55,37 @@ In this task, you are going to add the website in the **East US** as primary end
 
 You have successfully added both the endpoints.
 
-    
+### Task 2: Test Traffic Manager profile
+
+#### Steps: 
+
+1. Go to the **Overview** section of the **Traffic Manager profile** that you created in the preceding Exercise.
+
+2. Copy the **DNS** name of the **contosotrafficmanager-1**.
+
+![img](../media/trafp7.png)
+
+3. Open a new tab of your browser and enter the DNS name of your Traffic Manager profile to view your Web App's default website.
+
+![img](../media/trafp8.png)
+
+You can see the Web app running successfully .
+
+To view Traffic Manager failover in action, disable your primary site:
+
+4. In the Traffic Manager Profile page, from the **Overview** section, select **contosoPrimaryEndpoint**.
+
+5. In **contosoPrimaryEndpoint**, select **Disabled** and then select **Save**.
+
+![img](../media/trafp9.png)
+
+6. Close **contosoPrimaryEndpoint**. Notice that the status is Disabled now.
+
+7. Copy the DNS name of your Traffic Manager Profile from the preceding step to view the website in a new web browser session.
+
+![img](../media/traf6.png)
+
+Verify that the web app is still available.
+
+The primary endpoint isn't available, so you were routed to the failover endpoint.
+
