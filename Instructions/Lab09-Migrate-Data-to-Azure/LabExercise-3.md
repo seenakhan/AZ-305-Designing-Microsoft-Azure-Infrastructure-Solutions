@@ -2,6 +2,8 @@
 
 ## Exercise 3: Migrate a blob data to Azure storage account.
 
+In this exercise you will create a storage account and upload a blob file by using powershell script.
+
 In this exercise, you will:
 
 + Task 1: Create an Azure Storage account and upload a blob file to azure storage by using Powershell script
