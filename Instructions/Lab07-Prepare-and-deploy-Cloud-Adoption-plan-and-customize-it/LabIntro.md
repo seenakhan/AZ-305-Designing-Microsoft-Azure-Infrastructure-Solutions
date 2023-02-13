@@ -15,8 +15,8 @@ The leases for the two external datacenters are set to expire in 18 months and t
 + CTO: The smaller of the two external datacenters houses IT assets, including the retail innovations team's experiments. In addition, that datacenter houses mainstreamed innovations that are now considered production IT assets. The CTO wants to ensure that the company continues to innovate while also properly supporting existing innovations.
 + Project managers: As part of the IT department, project managers ensure that projects are completed on time and within budget. They make certain that all relevant stakeholders are involved.
 + Team in charge of central operations or infrastructure: The datacenters are currently managed by the operations team. This group is in charge of hardware maintenance, operating systems, patch management, networking, and after-hours support. The majority of team members are familiar with the current infrastructure but lack coding experience. The vast majority have Microsoft qualifications in Windows Server.
-+ Developer: Tailwind Traders' in-house development team creates the website for the online store, which is hosted in its own datacenter.
-+ IT manager: The IT manager oversees the operations, development, and project management teams. This manager wishes to improve the IT department's performance, replace outdated servers, and make Tailwind Traders more competitive. Another goal is to make things easier for the operations team, which manages a variety of systems.
++ Developer: Contoso Traders' in-house development team creates the website for the online store, which is hosted in its own datacenter.
++ IT manager: The IT manager oversees the operations, development, and project management teams. This manager wishes to improve the IT department's performance, replace outdated servers, and make Contoso Traders more competitive. Another goal is to make things easier for the operations team, which manages a variety of systems.
 + Finance director: The finance director wishes to reduce budget costs wherever possible. This director is familiar with the IT department's capital expenditures and equipment.
 
 #### Common blockers
