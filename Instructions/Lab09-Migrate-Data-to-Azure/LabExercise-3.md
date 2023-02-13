@@ -70,9 +70,9 @@ An Azure account
 
    >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
 
-1. Select Home and then Resource groups.
+1. Select Home and then Resource group named **ODL-AZ-305M05D-XXXXXX-AZ305M05D**.
 
-2. Select the storage account named **contosostr2**, then delete it.
+2. Select the storage account named **contosostr2** and azure sql database named **contosodb1** then delete it.
    
 #### Review
 
