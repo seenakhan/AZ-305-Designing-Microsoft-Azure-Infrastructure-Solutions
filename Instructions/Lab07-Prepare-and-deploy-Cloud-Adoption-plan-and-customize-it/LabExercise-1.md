@@ -160,5 +160,10 @@ A Microsoft account
 
     ![img](../media/cld4.png)
 
+### Task 2: Assess the digital estate
 
+
+#### Steps: 
+
+1. 
 
