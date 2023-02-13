@@ -4,15 +4,12 @@
 
 In this exercise, you will:
 
-+ Task 1: Create an Azure Storage account
-+ Task 2: Set up server-level firewall rules using Azure Portal
-+ Task 3: Install the Data Migration Assistant (DMA) on Windows
-+ Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
-+ Task 5: Use Data Migration Assistant to migrate Schema and Data
++ Task 1: Create an Azure Storage account and upload a blob file to azure storage by using Powershell script
 
-### Estimated Timing:  minutes
 
-### Task 1: Create an Azure Storage account
+### Estimated Timing: 20 minutes
+
+### Task 1: Create an Azure Storage account and upload a blob file to azure storage by using Powershell script
 
 In this task, you will learn how to create an Azure Storage account via azure portal.
 
