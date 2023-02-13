@@ -154,12 +154,11 @@ A Microsoft account
       Please select : **Yes**, then select **View guidance**.
 
 
+10. Review the evaluation of your strategy, and select **guidance** tab that can help you improve your business case for cloud adoption.
 
+11. Scroll down and at the **Improve your results** section, please select **Recommendations** tab and expand each section by clicking on **Show more**. Please review it and you can document it in Microsoft word or Excel file.
 
-
-
-
-
+    ![img](../media/cld4.png)
 
 
 
