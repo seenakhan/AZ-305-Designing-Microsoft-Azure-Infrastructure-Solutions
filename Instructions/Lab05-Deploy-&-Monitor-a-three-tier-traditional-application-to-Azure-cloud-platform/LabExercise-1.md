@@ -2,7 +2,7 @@
 
 ## Exercise 1: Deploy a Quickstart template on Azure 
 
-In this exercise, you are going to deploy a quickstart template on Azure. 
+In this exercise, you are going to deploy a quickstart template on Azure and deploy a traffic manager profile.
 
 In this exercise, you will:
 
