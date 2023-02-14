@@ -344,3 +344,21 @@ Azure pricing tools help you manage cloud spend with transparency and accuracy, 
 - [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/): Estimate your expected monthly bill by using our pricing calculator. Track your actual account usage and bill at any time using the billing portal. Set up automatic email billing alerts to notify you if your spend goes above an amount you configure.
 
 - [Azure Cost Management + Billing](/azure/cost-management-billing/cost-management-billing-overview): Azure Cost Management + Billing is a cost management solution that helps you use and manage Azure and other cloud resources effectively. Collect cloud usage and billing data through application program interfaces (APIs) from Azure, Amazon Web Services, and Google Cloud Platform. With that data, gain full visibility into resource consumption and costs across cloud platforms in a single, unified view. Continuously monitor cloud consumption and cost trends. Track actual cloud spending against your budget to avoid overspending. Detect spending anomalies and usage inefficiencies. Use historical data to improve your forecasting accuracy for cloud usage and expenditures.
+
+### Task 3: Create a cloud adoption plan
+
+To deploy the cloud adoption plan, open the Azure DevOps demo generator. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
+
+1. Verify that the Selected Template field is set to Cloud Adoption Plan. If it isn't, select Choose template to choose the right template.
+
+2. Select your Azure DevOps organization from the Select Organization menu.
+
+3. Type a name for your new project. The cloud adoption plan has this name when it's deployed to your Azure DevOps tenant.
+
+4. Select Create Project to create a project in your tenant that's based on the strategy and plan template. A progress bar shows your progress toward the deployment of the project.
+
+5. When deployment is finished, select Navigate to project to see your new project.
+
+After you deploy your project plan, you can use Microsoft Excel to modify it. It's easier to create workloads or assets by using Microsoft Excel compared to the Azure DevOps browser experience.
+
+
