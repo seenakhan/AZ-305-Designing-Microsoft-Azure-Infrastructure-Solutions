@@ -85,7 +85,7 @@ The application is running successfully.
     | Windows Plan | Select **Create new** and enter **contosoappplanEastUS1** in the text box |
     | Pricing plan | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1 vCPU)** |
 
- ![img](../media/webap1.png)
+    ![img](../media/webap1.png)
 
 4. On the **Deployment** tab review the default settings and select **Next: Networking>** at the bottom.
 
@@ -93,7 +93,7 @@ The application is running successfully.
 
 6. On the **Monitoring** tab, set **Enable Application Insights** to **No** and then select **Review + create**.
 
- ![img](../media/webap2.png)
+    ![img](../media/webap2.png)
 
 7. After completing the validation, please select **Create**. After completing the deployment please select **Go to resource**.
 
@@ -107,7 +107,7 @@ You have successfully deployed another web app.
 
 2. On the **Load balancing | Traffic Manager** page, please select **+ Create**.
 
-![img](../media/trafp1.png)
+    ![img](../media/trafp1.png)
 
 3. On the **Create Traffic Manager Profile** page, please enter the following informations and then select **Create**. 
 
@@ -118,11 +118,11 @@ You have successfully deployed another web app.
     | Subscription | **Default** Select the default subscription |
     | Resource group | **newres123** |
 
-![img](../media/trafp2.png)
+    ![img](../media/trafp2.png)
 
 After completing the deployment, you can see the **contosotrafficmanager-1**.
 
-![img](../media/trafp3.png)
+    ![img](../media/trafp3.png)
 
 ### Clean up resources
 
