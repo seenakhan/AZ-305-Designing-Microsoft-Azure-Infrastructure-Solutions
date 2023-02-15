@@ -8,6 +8,8 @@ In this exercise, you will:
 
 + Task 1: Create an Azure Active Directory Conditional Access Policy
 
+### Estimated Timing: 45 minutes
+
 ### Task 1: Create an Azure Active Directory Conditional Access Policy
 
 In this task you are going to create a Conditional access policy to access Office 365 application.
