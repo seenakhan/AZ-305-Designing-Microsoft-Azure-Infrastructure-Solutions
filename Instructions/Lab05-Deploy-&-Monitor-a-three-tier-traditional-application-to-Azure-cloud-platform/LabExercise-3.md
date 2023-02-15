@@ -2,7 +2,7 @@
 
 ## Exercise 3: Monitor and assess the solutions and data in the Azure cloud platform
 
-
+In this exercise you are going to monitor azure resources deployed on previous exercises. 
 
 In this exercise, you will:
 
@@ -12,13 +12,13 @@ In this exercise, you will:
 + Task 4: Collect and View Azure resource logs.
 ### Estimated Timing: 60 minutes
 
-### Task 1: Deploy a quickstart template on Azure.
+### Task 1: Register the Microsoft.Insights and Microsoft.AlertsManagement resource providers
 
-In this task, you will learn how to use Azur portal to deploy a template by using Deploy a custom template.
+In this task, you will register two resource providers named Microsoft.Insights and Microsoft.AlertsManagement.
 
 #### Pre-requisites for this task
 
-An Azure account
+Completed Exercise 1 & Exercise 2
 
 #### Steps
 
@@ -31,20 +31,19 @@ An Azure account
 
    Register-AzResourceProvider -ProviderNamespace Microsoft.AlertsManagement
    ```
-![img](../media/mon1.png)
+   ![img](../media/mon1.png)
 
 You have successfully registered Microsoft.Insights and Microsoft.AlertsManagement resource providers
 
 ### Task 2: Create and configure an Azure Automation-based solutions
 
-In this task, you will create and configure an Azure Log Analytics workspace and Azure Automation-based solutions
-
+In this task, you will create and configure an Azure Automation-based solutions
 
 #### Steps:
 
 1. In the Azure portal, search for and select **Automation Accounts**, and on the **Automation Accounts** blade, click **+ Create**.
 
-![img](../media/mon4.png)
+   ![img](../media/mon4.png)
 
 2. On the **Create an Automation Account** blade, specify the following settings, and click **Review + Create** upon validation click **Create**:
 
@@ -74,7 +73,7 @@ In this task, you will create and configure an Azure Log Analytics workspace and
 
 8. On the Automation account blade, in the **Update Management** section, click **Update management** and click **Enable**.
 
-![img](../media/mon7.png)
+   ![img](../media/mon7.png)
 
     >**Note**: Wait for the installation to complete. This might take about 5 minutes.
 
@@ -92,7 +91,7 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 3. On the **labvm-XXXXX| Metrics** page, on the default chart, note that the only available **Metrics Namespace** is **Virtual Machine Host**.
 
-![img](../media/mon8.png) 
+   ![img](../media/mon8.png) 
 
 >**Note**: This is expected, since no guest-level diagnostic settings have been configured yet. You do have, however, the option of enabling guest memory metrics directly from the **Metrics Namespace** drop down-list. You will enable it later in this exercise.
 
@@ -102,13 +101,13 @@ In this task, you will review default monitoring settings of Azure virtual machi
 
 5. In the **Metric** drop-down list, select **Percentage CPU**, in the **Aggregation** drop-down list, select **Avg**, and review the resulting chart.
 
-![img](../media/mon9.png)
+   ![img](../media/mon9.png)
 
 6. Go to **App services**, select **web-app-XXXXX-XXXXXX** app service, Select **Metrics**. 
 
 7. In the **Metric** drop-down list, select **CPU Time**, in the **Aggregation** drop-down list, select **Sum**, and review the resulting chart.
 
-![img](../media/mon10.png)
+   ![img](../media/mon10.png)
 
 ### Task 4: Collect and View Azure resource logs
 
@@ -120,19 +119,19 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 
 2. On the **Overview** tab of the **labvm-XXXXX| Diagnostic settings** page, select a **Diagnostic storage account**, and then click **Enable guest-level monitoring**.
 
-![img](../media/mon13.png)
+   ![img](../media/mon13.png)
 
     >**Note**: Wait for the diagnostic settings extension to be installed. This might take about 3 minutes.
 
 3. Switch to the **Performance counters** tab of the **labvm-XXXXX| Diagnostic settings** page and review the available counters.
 
-![img](../media/mon14.png)
+   ![img](../media/mon14.png)
 
     >**Note**: By default, CPU, memory, disk, and network counters are enabled. You can switch to the **Custom** view for more detailed listing.
 
 4. On the **labvm-XXXXX** page, in the **Monitoring** section, click **Logs** and then click **Enable**.
 
-![img](../media/mon15.png)
+   ![img](../media/mon15.png)
 
 5. On the **Monitoring configuration** side screen, ensure **Azure Monitor agent (Recommended)** is selected, and then click **Configure**.  
 
@@ -172,17 +171,3 @@ In this lab, you have:
 + Created and configured an Azure Automation-based solutions
 + Reviewed default monitoring settings of Azure resources
 + Collected and Viewed Azure resource logs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
