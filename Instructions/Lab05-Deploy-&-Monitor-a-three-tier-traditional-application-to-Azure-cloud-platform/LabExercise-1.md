@@ -120,7 +120,7 @@ You have successfully deployed another web app.
 
     ![img](../media/trafp2.png)
 
-After completing the deployment, you can see the **contosotrafficmanager-1**.
+    After completing the deployment, you can see the **contosotrafficmanager-1**.
 
     ![img](../media/trafp3.png)
 
@@ -134,4 +134,6 @@ In this lab, you have:
 
    - Deployed a quickstart template.
    - Verified the application is running.
+   - Deployed an App service to another region.
+   - Depoyed a Traffic manager profile.
     
