@@ -27,6 +27,6 @@ In this lab, you will have:
 + Exercise 5: Create a function that integrates with other services and Deploy Local project to an Azure function app.
 
 
-## Estimated timing: 200 minutes
+## Estimated timing: 265 minutes
 ## Solution Architecture
 
