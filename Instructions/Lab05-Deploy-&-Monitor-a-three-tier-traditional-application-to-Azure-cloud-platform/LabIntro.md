@@ -22,6 +22,6 @@ In this lab, you will have:
 + Exercise 3: Monitor and assess the solutions and data in the Azure cloud platform
 
 
-## Estimated timing: 200 minutes
+## Estimated timing: 160 minutes
 ## Solution Architecture
 
