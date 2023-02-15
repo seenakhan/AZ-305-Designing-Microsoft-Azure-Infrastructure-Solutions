@@ -8,6 +8,8 @@ In this Exercise, you will have:
 
   + Task 1: Create a dynamic group.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create a dynamic group.
 
 #### Pre-requisites for this task
