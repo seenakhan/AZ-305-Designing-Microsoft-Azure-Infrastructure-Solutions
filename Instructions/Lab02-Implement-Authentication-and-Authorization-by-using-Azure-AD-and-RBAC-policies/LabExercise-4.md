@@ -14,6 +14,8 @@ In this exercise, you will:
 
 + Task 1: Enable Security Default
 
+### Estimated Timing: 25 minutes
+
 ### Task 1: Enable Security Default
 
 In this task you are going to enable the security defaults.
