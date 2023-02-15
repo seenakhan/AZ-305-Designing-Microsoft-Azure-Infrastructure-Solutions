@@ -20,7 +20,7 @@ In this task, you will learn how to use Azur portal to deploy a template by usin
 
 An Azure account
 
-#### Steps
+#### Steps:
 
 1. Go to Azure Portal, enter **Custom deployment** on search bar, then select **Deploy a custom template**.
 
@@ -67,6 +67,14 @@ The application is running successfully.
 
 ### Task 2: Deploy an App service to another region
 
+In this task, you are going to deploy another app service to a different region.
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 - Task 1
+
+#### Steps:
+
 1. Search for **Web Apps** on the **search** box of the **Home** page, then select **App services** from the list below.
 
 2. On the **App services** page, please select **+ Create**.
@@ -100,6 +108,12 @@ The application is running successfully.
 You have successfully deployed another web app.
 
 ### Task 3: Deploy a Traffic Manager Profile
+
+In this task, you are going to deploy a traffic manager profile.
+
+#### Pre-requisites for this task
+
+Complete Exercise 1 - Task 1 & Task 2
 
 #### Steps:
 
