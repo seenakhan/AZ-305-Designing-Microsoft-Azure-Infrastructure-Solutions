@@ -9,8 +9,11 @@ In this Exercise, you will have:
   + Task 2: Write HTTP-triggered function code.
   + Task 3: Test the HTTP-triggered function by using httprepl
 
-### Task 1: Initialize a function project
+### Estimated Timing: 45 minutes
 
+### Task 1: Create an HTTP-triggered function
+
+In this task, you will create an HTTP- triggered function.
 
 #### Pre-requisites for this task
 
@@ -27,16 +30,16 @@ Completed Exercise 1 & Exercise 2
     ```
 1. Install Azure functions extension by clicking on **Extension tab** on the left side and search **Azure** on the search box then click **Install** on **Azure functions**.
 
-![img](../media/echo2.png)
+    ![img](../media/echo2.png)
 
 
 1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
-![img](../media/echo3.png)
+    ![img](../media/echo3.png)
 
 1. Add a new file on the local project named **func** by clicking on **New file** button.
 
-![img](../media/echo4.png)
+    ![img](../media/echo4.png)
 
 1. Enter the name **global.json** and press **Enter**, you have created the file named global.json. Please enter the following code on it.
 
@@ -50,7 +53,7 @@ Completed Exercise 1 & Exercise 2
      }
     ```
 
-![img](../media/echo5.png)
+    ![img](../media/echo5.png)
 
 1. Open the termninal then run the following command to use the **Azure Functions Core Tools** to create a new function named **Echo** using the **HTTP trigger** template:
 
@@ -60,13 +63,21 @@ Completed Exercise 1 & Exercise 2
 
 1. You have successfully created the file named Echo.cs.
 
-![img](../media/echo6.png)
+    ![img](../media/echo6.png)
 
 >**Note:** If its asking of installing C# extension, please install. Or else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
 
 No need to close the Terminal.
 
 #### Task 2: Write HTTP-triggered function code
+
+In this task, you are going to write an HTTP-triggered function code.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1
+
+#### Steps:
 
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **Echo.cs** file.
 
@@ -212,12 +223,18 @@ No need to close the Terminal.
     }
     ```
 
-![img](../media/echo1.png)
+    ![img](../media/echo1.png)
 
 
 1. Select **Save** to save your changes to the **Echo.cs** file.
 
 #### Task 3: Test the HTTP-triggered function by using httprepl
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
+
+#### Steps:
 
 1. Run the following command to run the function app project:
 
