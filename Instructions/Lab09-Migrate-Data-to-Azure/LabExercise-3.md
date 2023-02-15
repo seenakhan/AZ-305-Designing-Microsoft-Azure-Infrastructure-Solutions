@@ -31,13 +31,13 @@ An Azure account
 
 3. Enter the following informations, then select **Create storage**.
 
-  | Section | values |
-  | ------- | ------ |
-  | Subscription | Select the default subscription |
-  | Resource group | Select **ODL-AZ-305M05D-XXXXXX-AZ305M05D** |
-  | Storage account name | **contosostr2** |
-  | Region | **East US** |
-  | File share | **contosofile1** |
+   | Section | values |
+   | ------- | ------ |
+   | Subscription | Select the default subscription |
+   | Resource group | Select **ODL-AZ-305M05D-XXXXXX-AZ305M05D** |
+   | Storage account name | **contosostr2** |
+   | Region | **East US** |
+   | File share | **contosofile1** |
 
 9. After opening Powershell terminal please enter the following script and press enter to create a file to upload to a block blob.
 
