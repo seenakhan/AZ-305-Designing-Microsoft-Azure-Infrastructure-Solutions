@@ -7,7 +7,7 @@ In this Exercise, you will have:
   + Task 1: Create a hub and spoke connectivity configuration
   + Task 2: Deploy the connectivity configuration
 
-### Estimated Timing: 80 minutes
+### Estimated Timing: 60 minutes
 
 ### Task 1: Create a hub and spoke connectivity configuration
 
