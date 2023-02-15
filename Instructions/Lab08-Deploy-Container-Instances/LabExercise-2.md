@@ -7,7 +7,9 @@ In this exercise, you are going to deploy an Azure Container instance by using Y
 In this Exercise, you will have:
 
   + Task 1: Deploy an Azure container instance by using YAML file.
-  
+
+### Estimated Timing: 45 minutes
+
 ### Task 1: Deploy an Azure container instance by using YAML file.
 
 In this task, you are going to deploy an Azure container instance by using YAML file.
