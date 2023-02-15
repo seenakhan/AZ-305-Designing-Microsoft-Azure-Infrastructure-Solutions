@@ -10,6 +10,8 @@ In this Exercise, you will have:
   + Task 2: Create a Front Door Profile.
   + Task 3: View Azure Front Door in action
 
+### Estimated Timing: 60 minutes
+
 ### Task 1: Create two instances of a web app.
 
 In this task, you are going to create two instances of a web application that run in different Azure regions. Both the web application instances run in Active/Active mode, so either one can take traffic. This configuration differs from an Active/Stand-By configuration, where one acts as a failover.
