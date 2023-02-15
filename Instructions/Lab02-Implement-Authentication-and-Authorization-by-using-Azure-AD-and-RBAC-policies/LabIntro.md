@@ -27,7 +27,7 @@ In this lab, you will have:
 + Exercise 5: Create an Azure Active Directory Conditional Access Policy
 
 
-## Estimated timing: 200 minutes
+## Estimated timing: 160 minutes
 ## Solution Architecture
 
   ![img](../media/arch2.png)
