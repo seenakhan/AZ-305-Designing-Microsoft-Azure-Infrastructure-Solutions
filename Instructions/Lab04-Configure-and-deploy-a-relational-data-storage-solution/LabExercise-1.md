@@ -22,11 +22,11 @@ An Azure account, a resource group
 
 1. Login into Azure portal and on the search box type SQL database, then please select the **SQL database** option from the list.
 
-![image](../media/db1.png)
+    ![image](../media/db1.png)
 
 2. Please select the **+ Create** button.
 
-![image](../media/db2.png)
+    ![image](../media/db2.png)
 
 3. Under **Basic** tab, please enter the following details:
 
@@ -36,11 +36,11 @@ An Azure account, a resource group
     | Resource group | **Select the resource group name from the dropdown list** |
     | Database name | **adventureworkscontoso** |
    
-![image](../media/db3.png) 
+    ![image](../media/db3.png) 
 
 4. For server, click **Create new**.
 
-![image](../media/db4.png) 
+    ![image](../media/db4.png) 
 
 5. On **Create SQL Database Server** page, please enter the following details:
 
@@ -53,7 +53,7 @@ An Azure account, a resource group
     | Password |  **Contoso@123** 
     | Confirm password | **Contoso@123** |    
     
-![image](../media/db5.png)     
+    ![image](../media/db5.png)     
 
 6. After creating the database server, please enter the following 
 
@@ -64,7 +64,7 @@ An Azure account, a resource group
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Geo-redundant backup storage** |
     
-![image](../media/db6a.png) 
+    ![image](../media/db6a.png) 
 
 7. On the **Networking** tab, review the default settings and go to **Security** tab.
 
@@ -74,11 +74,11 @@ An Azure account, a resource group
 
 10. On the **Additional settings** tab, in the **Data source** section, select **Sample** for Use existing data and click **Ok** on the **AdventureWorksLT** dialogue box. Instead of an empty blank database, this creates an AdventureWorksLT sample database with tables and data to query and experiment with.
 
-![image](../media/db9.png)
+    ![image](../media/db9.png)
 
 11. After selecting AdventureWorksLT sample database, please select **Review + Create**.
 
-![image](../media/db10.png)
+    ![image](../media/db10.png)
 
 12. After validation completed successfully, please select **Create**.
 
