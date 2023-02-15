@@ -9,7 +9,7 @@ In this Exercise, you will have:
   + Task 1: Create virtual networks.
   + Task 2: Deploy a virtual network gateway.
 
-### Estimated Timing: 120 minutes
+### Estimated Timing: 95 minutes
 
 ### Task 1: Create virtual networks
 
