@@ -69,7 +69,6 @@ An Azure account
 
 In this lab, you have:
 
-+ Created a management group.
 + Created a virtual network manager.
 
 
