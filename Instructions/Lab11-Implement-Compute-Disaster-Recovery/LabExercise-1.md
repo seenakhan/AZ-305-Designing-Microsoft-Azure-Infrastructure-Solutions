@@ -67,7 +67,7 @@ In this task, you will learn how to use Azure portal to create two virtual machi
 
 #### Pre-requisites for this task
 
-An Azure account
+Completed Exercise 1 - Task 1
 
 #### Steps
 
@@ -109,9 +109,11 @@ After completing this task, you deployed two virtual machines named **contoso-vm
 
 ### Task 3: Create a Recovery Services Vault
 
-In this task you are going to create two virtual networks. One will be in the West US region and the other will be in the East US region.
+In this task you are going to a Recovery service vault.
 
 #### Pre-requisites for this task
+
+Completed Exercise 1 - Task 1 & Task 2
 
 #### Steps:
 
