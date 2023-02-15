@@ -22,6 +22,6 @@ In this lab, you will have:
 + Exercise 3: Configure Front door profile and deploy App services in Azure
 
 
-## Estimated timing: 180 minutes
+## Estimated timing: 135 minutes
 ## Solution Architecture
 
