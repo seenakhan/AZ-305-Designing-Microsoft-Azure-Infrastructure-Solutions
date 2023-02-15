@@ -18,7 +18,7 @@ In this lab, you will:
 + Exercise 1: Create Management Groups and assign Subscriptions
 + Exercise 2: Manage Governance via Azure Policy
 
-## Estimated timing: 120 minutes
+## Estimated timing: 100 minutes
 ## Solution Architecture
 
    ![image](../media/solarch.png)
