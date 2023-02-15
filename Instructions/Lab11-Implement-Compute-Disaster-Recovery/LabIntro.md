@@ -1,4 +1,4 @@
-# Lab11 - 11.	Implement Compute Disaster Recovery
+# Lab11 - Implement Compute Disaster Recovery
 # Student lab manual
 
 ## Lab scenario
