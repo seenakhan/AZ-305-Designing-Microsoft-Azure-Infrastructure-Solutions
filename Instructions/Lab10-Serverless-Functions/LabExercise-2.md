@@ -96,7 +96,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
     ```
 You will get a build succeeded message on Powershell.
 
-    ![img](../media/servl11.png)
+   ![img](../media/servl11.png)
 
 
 ### Clean up resources
