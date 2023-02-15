@@ -18,7 +18,7 @@ In this task, you will learn how to create an Azure SQl database by using Azure 
 
 #### Pre-requisites for this task
 
-An Azure account
+Completed Exercise 1
 
 #### Steps
 
@@ -26,7 +26,7 @@ An Azure account
 
 2. On the SQL databases page, please select **+ Create**.
 
-![img](../media/datas1.png)
+   ![img](../media/datas1.png)
 
 3. On the **Create SQL Database** please enter the following informations.
 
@@ -36,9 +36,9 @@ An Azure account
     | Resource group | **ODL-AZ-305M05D-XXXXX-AZ-305M05D** |
     | Database name | **contosodb1** |
 
-![img](../media/datas2.png)
+    ![img](../media/datas2.png)
 
-4. 4. For server, click **Create new**.
+4. For server, click **Create new**.
 
 5. On **Create SQL Database Server** page, please enter the following details, then click **Ok**.
 
@@ -51,7 +51,7 @@ An Azure account
     | Password |  **Contoso@123** 
     | Confirm password | **Contoso@123** |    
 
-![img](../media/datas3.png)
+    ![img](../media/datas3.png)
 
 6. After creating the database server, please enter the following, then select **Review + create**. 
 
@@ -62,7 +62,7 @@ An Azure account
     | Compute + storage | **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage, zone redundant disabled)** |
     | Backup storage redundancy |  **Locally-redundant backup storage** |
 
-![img](../media/datas4.png)
+    ![img](../media/datas4.png)
 
 7. After the validation, please select **Create**.
 
@@ -72,17 +72,17 @@ In this task you will configure Server firewall. Azure SQL Server is protected b
 
 #### Pre-requisites for this task
 
-An Azure account, a resource group and an Azure SQL Database 
+Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps:
 
 1. Please select the database you have created on the previous task. Select **Set Server Firewall** on the **Overview** section.
 
-![img](../media/datas5.png)
+   ![img](../media/datas5.png)
 
 2. On the Networkinmg page, Please select **Selected Networks**. To add your current IP address to a new server-level firewall rule, select **+ Add your client IP**. This rule has the ability to open Port 1433 for a single IP address or a range of IP addresses, then select **Save**.
 
-![img](../media/datas6.png)
+   ![img](../media/datas6.png)
 
 3. Go to **contosodb1** database, select **Query Editor** provide the login as **contosoadmin** and Password **Contoso@123** then click **Ok**.
 
@@ -94,11 +94,10 @@ In this task, you will learn how to install and configure Data Migration Assista
 
 #### Pre-requisites for this task
 
-An Azure account
+Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps
-  
-
+ 
 1. Open up your web browser, and go to the download page for Microsoft Data Migration Assistant, please click [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
     
     > [!NOTE]
@@ -120,11 +119,17 @@ An Azure account
 
 ### Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
 
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3
+
+#### Steps:
+
 1. Select the **Start** button, type **Data Migration**, and then select **Microsoft Data Migration Assistant**.
 
 2. To create a new project, on the left, select **+**.
 
-![img](../media/datam1.png)
+    ![img](../media/datam1.png)
 
 3. On the **New** page, enter these values, and then select **Create**:
 
@@ -136,7 +141,7 @@ An Azure account
     | Source server type | SQL Server |
     | Target server type | Azure SQL Database |
     
-  ![img](../media/datam2.png)  
+    ![img](../media/datam2.png)  
 
 4. On the **Options** page, leave the default values, and then select **Next**.
 
@@ -149,25 +154,25 @@ An Azure account
     | Encrypt connection | Deselected |
     | Trust server certificate | Selected |
 
-![img](../media/datam3a.png) 
+    ![img](../media/datam3a.png) 
 
 6. On the **Add sources** page, select the **AdventureWorks** database, and then select **Add**.
 
-![img](../media/datam4.png) 
+    ![img](../media/datam4.png) 
 
 7. On the **Select sources** page, select **Start Assessment**.
 
 8. Review the SQL Server feature parity and compatibility issues found. Note how many feature parity issue there are.
 
-![img](../media/datam5.png) 
+    ![img](../media/datam5.png) 
 
 9. Go to SSMS, right click on the server name, then select **Properties**.
 
-![img](../media/datam6.png)
+    ![img](../media/datam6.png)
 
 10. On the **Server properties** window, select **Security**, then select **SQL Server and Windows Authentication** mode.
 
-![img](../media/datam7.png)
+    ![img](../media/datam7.png)
 
 11. Go to **contosodb1** database, then select **Query editor**
 
@@ -177,7 +182,11 @@ An Azure account
 
 ### Task 5: Use Data Migration Assistant to migrate Schema and Data
 
-#### Steps
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1 & Task 2 & Task 3 & Task 4
+
+#### Steps:
 
 1. Run **Microsoft Data Migration Assistant** tool, select the **+** New (+) icon, and enter the following details and then select **Create**.
 
@@ -189,11 +198,11 @@ An Azure account
     | Target server type | Select **Azure SQL Database** |
     | Migration scope | Select **Schema and Data** |
 
-![img](../media/datam8.png)
+    ![img](../media/datam8.png)
 
 2. On the Select Source tab, Select the server name **labvm-XXXXX\SQLEXPRESS**, then select **Windows Authentication** as Authentication type, then select **connect**. 
 
-![img](../media/datam9.png)
+    ![img](../media/datam9.png)
 
 3. Select **Adventureworks2019**, then select **Next**.
 
@@ -205,7 +214,7 @@ An Azure account
 
 7. Select **Connect**.
 
-![img](../media/datam10.png)
+     ![img](../media/datam10.png)
 
 8. Select **contosodb1** and then click on **Next**
 
@@ -245,32 +254,32 @@ An Azure account
     GO
     ```
 
-![img](../media/datab1.png)
+    ![img](../media/datab1.png)
 
 15. You have successfully created the table named **HumanResources.EmployeeDepartmentHistory**. Expand the Tables and you can see the newly created table.
 
-![img](../media/datab2.png)
+    ![img](../media/datab2.png)
 
 
 You are going to migrate from on-premises database Adventureworks2019 table named **HumanResources.EmployeeDepartmentHistory** data to Azure SQL database named **contosodb1** and the  table named **HumanResources.EmployeeDepartmentHistory**.
 
 16. Go to **Microsoft Data Migration Assistant** tool, then select **Migrate data**.
 
-![img](../media/datab3.png)
+    ![img](../media/datab3.png)
 
 17. On the **Select tables** tab, select **HumanResources.EmployeeDepartmentHistory** table, then select **Start data migration**. 
 
-![img](../media/datab4.png)
+    ![img](../media/datab4.png)
 
 18. You will get a successfull message on **Migrate data** tab.
 
-![img](../media/datab5.png)
+    ![img](../media/datab5.png)
 
 19. Go to Azure portal, open **contosodb1** database and select **Query editor**, enter username and password.
 
 20. Right click on **HumanResources.EmployeeDepartmentHistory** table and select **Select top 1000 rows**. You can see the data retrieved on the result pane.
 
-![img](../media/datab6.png)
+    ![img](../media/datab6.png)
 
 You have successfully migrated the data.
 
