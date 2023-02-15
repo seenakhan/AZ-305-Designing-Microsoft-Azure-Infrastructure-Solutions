@@ -9,6 +9,8 @@ In this Exercise, you will have:
   + Task 1: Deploy a Docker image by using the Azure Container Instance
   + Task 2: Review the functionality of the Azure Container Instance.
 
+### Estimated Timing:30 minutes
+
 ### Task 1: Deploy a Docker image by using the Azure Container Instance
 
 In this task, you will create a new container instance for the web application.
