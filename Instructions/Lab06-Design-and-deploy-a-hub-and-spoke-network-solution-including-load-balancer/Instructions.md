@@ -50,3 +50,11 @@
    
 1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
 
+1. Search for **Resource groups** on the search box.
+
+1. Please select the resource groups option from the list.
+
+1. Please click on the resource group.
+
+1. Review the resources available on the source group
+
