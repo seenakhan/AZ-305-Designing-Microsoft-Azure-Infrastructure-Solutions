@@ -9,6 +9,8 @@ In this lab, you will:
 + Task 1: Create and configure Azure AD users 
 + Task 2: Add Accessibility of Resources
 
+### Estimated Timing : 30 minutes
+
 ### Task 1: Create and configure Azure Active Directory users
 
 In this task you are going to create and configure Azure Active DIrectory users.
