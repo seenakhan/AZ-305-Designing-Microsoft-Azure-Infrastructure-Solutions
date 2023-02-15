@@ -6,11 +6,13 @@ In this exercise, you are going to create a function that runs automatically bas
 
 In this Exercise, you have
 
-    + Task 1: Create a schedule-triggered function
-    + Task 2: Observe function code
-    + Task 3: Observe function runs
-    + Task 4: Update the function integration configuration
-    + Task 5: Observe function runs
+   + Task 1: Create a schedule-triggered function
+   + Task 2: Observe function code
+   + Task 3: Observe function runs
+   + Task 4: Update the function integration configuration
+   + Task 5: Observe function runs
+
+### Estimated Timing: 45 minutes
 
 ### Task 1: Create a schedule-triggered function
 
@@ -20,7 +22,7 @@ In this task, you are going to create a scheduled-triggered function
 
 Completed Exercise 1 & Exercise 2 & Exercise 3
 
-#### Steps
+#### Steps:
 
 1.Open **Visual studio code** from the **Start** button, Open a new terminal.
 
@@ -39,6 +41,8 @@ Completed Exercise 1 & Exercise 2 & Exercise 3
 You will get a message showing **The function "Recurring" was created successfully from the "Timer trigger" template.**  
 
 #### Task 2: Observe function code
+
+In this task, you will review the function code.
 
 #### Pre-requisites
 
@@ -67,7 +71,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1
         }
     }
     ```
-![img](../media/recur1.png)
+        ![img](../media/recur1.png)
 
 #### Task 3: Observe function runs
 
@@ -77,7 +81,7 @@ In this task, you are observing the function run that occurs about every five mi
 
 Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2
 
-#### Steps
+#### Steps:
 
 1. From the terminal, run the following command to run the function app project:
 
@@ -96,7 +100,7 @@ In this task, you are going to update the function by changing the schedule to r
 
 Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & Task 3
 
-#### Steps
+#### Steps:
 
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **Recurring.cs** file.
 
@@ -116,7 +120,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 - Task 1 & Task 2 & 
 
 1. Select **Save** to save your changes to the **Recurring.cs** file.
 
-![img](../media/recur2.png)
+    ![img](../media/recur2.png)
 
 #### Task 5: Observe function runs
 
