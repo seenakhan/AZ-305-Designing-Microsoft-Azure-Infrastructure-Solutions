@@ -29,7 +29,7 @@ In this task, you are going to add the website in the **East US** as primary end
 
 1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
 
-![img](../media/trafp6.png)
+    ![img](../media/trafp6.png)
 
 2. On the **Add Endpoint** side screen, please enter the following informations and then select **Add**.
 
@@ -41,7 +41,7 @@ In this task, you are going to add the website in the **East US** as primary end
     | Target resource | Select **web-app-XXXXX-XXXX (West US)** |
     | Priority | Select **1** |
     
-![img](../media/trafp5a.png)
+    ![img](../media/trafp5a.png)
 
 3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with these settings:
 
@@ -63,11 +63,11 @@ You have successfully added both the endpoints.
 
 2. Copy the **DNS** name of the **contosotrafficmanager-1**.
 
-![img](../media/trafp7.png)
+    ![img](../media/trafp7.png)
 
 3. Open a new tab of your browser and enter the DNS name of your Traffic Manager profile to view your Web App's default website.
 
-![img](../media/trafp8.png)
+    ![img](../media/trafp8.png)
 
 You can see the Web app running successfully .
 
@@ -77,15 +77,27 @@ To view Traffic Manager failover in action, disable your primary site:
 
 5. In **contosoPrimaryEndpoint**, select **Disabled** and then select **Save**.
 
-![img](../media/trafp9.png)
+    ![img](../media/trafp9.png)
 
 6. Close **contosoPrimaryEndpoint**. Notice that the status is Disabled now.
 
 7. Copy the DNS name of your Traffic Manager Profile from the preceding step to view the website in a new web browser session.
 
-![img](../media/traf6.png)
+    ![img](../media/traf6.png)
 
 Verify that the web app is still available.
 
 The primary endpoint isn't available, so you were routed to the failover endpoint.
+
+### Clean up resources
+
+>**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+### Review
+
+In this lab, you have:
+
+   - Added Traffic manager endpoints.
+   - Tested Traffic manager profile.
+
 
