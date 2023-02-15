@@ -18,7 +18,7 @@ In this task you are going to create two virtual networks. One will be in the We
 
 #### Pre-requisites for this task
 
-
+An azure account
 
 #### Steps:
 
@@ -75,7 +75,7 @@ An Azure account
 
 2. On the Virtaul machines page please select **+ Create**, then select **Azure virtual machine**.
 
-  ![img](../media/vir1.png)
+    ![img](../media/vir1.png)
   
 3. On the **Create a Virtual machine** page please enter the following details on the **Basics** tab:
 
@@ -95,7 +95,7 @@ An Azure account
 
  4. Keep the default options for rest of the settings on the basic tab and select **Next: Disks>** at the bottom. Please select **Standard SSD(Locally-redundant storage)** for **OS disk type**, then select **Next: Networking>** at the bottom.
 
-![img](../media/vir3.png)
+    ![img](../media/vir3.png)
     
 5. On the **Networking** tab please review all the default settings and the values, also notice default value of **virtual network** as **Contoso-Vnet-EastUS**, then select **Review + create** at the bottom.
 
@@ -119,7 +119,7 @@ In this task you are going to create two virtual networks. One will be in the We
 
 2. On the **Recovery Service Vaults** page please select **+ Create**.
 
-![img](../media/reco1.png)
+    ![img](../media/reco1.png)
 
 3. On the **Create Recovery Services vault** page, please enter the following details on the **Basics** tab.
     
@@ -130,7 +130,7 @@ In this task you are going to create two virtual networks. One will be in the We
     | Virtual machine name  | **contosovault1** |
     | Region | **West US** |
     
-![img](../media/reco2.png)  
+    ![img](../media/reco2.png)  
     
 4. Please select **Review + create**, after the validation select **Create**. 
     
@@ -138,38 +138,49 @@ In this task you are going to create two virtual networks. One will be in the We
 
 6.  On the **contosovault1** page, at the **Overview** section, please select **+ Enable Site Recovery**.
 
-![img](../media/reco3.png)  
+    ![img](../media/reco3.png)  
     
 7. On the **Site recovery** section please select **Enable replication**.
 
-![img](../media/reco4.png)    
+    ![img](../media/reco4.png)    
     
 8. On the **Enable replication** page, please select the **Resource group** as **contosovnet** and then select **Next**.
 
-![img](../media/reco5.png)    
+    ![img](../media/reco5.png)    
 
 9. Please select **contoso-vm-1** under **Virtual machines** tab and then select **Next**.
 
-![img](../media/reco6.png)  
+    ![img](../media/reco6.png)  
 
 10. On the **Replication settings** tab, please review the default settings and the values, then select **Next**. 
 
-![img](../media/reco7.png) 
+    ![img](../media/reco7.png) 
 
 11. On the **Manage** tab, please review the default settings and the values, then select **Next**
 
-![img](../media/reco8.png) 
+    ![img](../media/reco8.png) 
 
 12. On the **Review** tab, please select **Enable replication**.
 
-![img](../media/reco9.png)
+    ![img](../media/reco9.png)
 
 13. It will take 5-7 minutes to complete the replication, please select **Replicated items** on **contosovault1** page. You can see the Virtual machine enabled for replication. Please keep refreshing as the status of replicated Virtual machine should be **0% Synchronized**.
 
-![img](../media/reco11.png)
+    ![img](../media/reco11.png)
 
 You have successfully enabled the replication for **contoso-vm-1**.
 
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this exercise, you have:
+
+- Created a Virtual network
+- Created two Virtual Machines.
+- Created a Recovery Services Vault and enable Replication.
 
 
 
