@@ -36,7 +36,7 @@ In this lab, you will have:
 + Exercise 5: Review the Adventureworks database cost and convert the database into elastic pool.
 
 
-## Estimated timing: 240 minutes
+## Estimated timing: 200 minutes
 
 ## Architecture diagram
 
