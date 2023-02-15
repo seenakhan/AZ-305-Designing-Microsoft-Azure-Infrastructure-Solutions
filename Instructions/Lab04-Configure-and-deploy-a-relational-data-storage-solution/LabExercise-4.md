@@ -9,6 +9,8 @@ In this Exercise, you will have:
   + Task 1: Configure Replica of Primary database
   + Task 2: Initiate a failover
 
+### Estimated Timing: 50 minutes
+
 ### Task 1: Configure Replica of Primary database
 
 In this task you are going to configure a replica of your primary database.
