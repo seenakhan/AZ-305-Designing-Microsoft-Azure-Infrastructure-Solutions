@@ -12,7 +12,7 @@ In this Exercise, you will have:
   + Task 4: Install IIS.
   + Task 5: Test the load balancer.
 
-### Estimated Timing: 80 minutes
+### Estimated Timing: 70 minutes
 
 ### Task 1: Create load balancer.
 
