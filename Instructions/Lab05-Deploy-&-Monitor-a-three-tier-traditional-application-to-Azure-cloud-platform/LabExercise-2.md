@@ -2,28 +2,22 @@
 
 ## Exercise 2: Review High Availability Capabilities (Test Failover)
 
-In this exercise, you are going to deploy a quickstart template on Azure. 
+In this exercise, you are going to review the test failover for two app services deployed on different regions.
 
-In this exercise, you will:
+In this exercise, you will have:
 
 + Task 1: Add Traffic Manager endpoints.
 + Task 2: Test Traffic Manager profile
 
-### Estimated Timing: 60 minutes
-
-### Task 1: Deploy a quickstart template on Azure.
-
-In this task, you will learn how to use Azur portal to deploy a template by using Deploy a custom template.
-
-#### Pre-requisites for this task
-
-An Azure account
-
-#### Steps
+### Estimated Timing : 45 minutes
 
 ### Task 1: Add Traffic Manager endpoints
 
 In this task, you are going to add the website in the **East US** as primary endpoint to route all the user traffic. Add the website in **West US** as a failover endpoint. When the primary endpoint is unavailable, traffic automatically routes to the failover endpoint.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1
 
 #### Steps:
 
@@ -56,6 +50,12 @@ In this task, you are going to add the website in the **East US** as primary end
 You have successfully added both the endpoints.
 
 ### Task 2: Test Traffic Manager profile
+
+In this task, you will do a test failover to test the traffic manager profile.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps: 
 
