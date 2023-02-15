@@ -7,6 +7,8 @@ In this Exercise, you will have:
   + Task 1: Create a hub and spoke connectivity configuration
   + Task 2: Deploy the connectivity configuration
 
+### Estimated Timing: 80 minutes
+
 ### Task 1: Create a hub and spoke connectivity configuration
 
 Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway.
@@ -61,7 +63,7 @@ You have Created a hub and spoke connectivity configuration, now you are going t
 
 ### Task 2: Deploy the connectivity configuration
 
-Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway.
+Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway. In this task, you are going to deploy the connectivity configuration.
 
 #### Pre-requisites for this task
 
