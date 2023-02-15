@@ -6,6 +6,8 @@ Each Azure server (which hosts SQL Database or Azure Synapse) starts with a sing
 
 In this Exercise, you will grant Azure AD admin role to access your SQL server.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Set the current user as Admin and Query the data by using Azure Active Directory Authentication
 
 In this task you are going to grant permission to SQL server created on previous exercise through Azure Active Directory.
