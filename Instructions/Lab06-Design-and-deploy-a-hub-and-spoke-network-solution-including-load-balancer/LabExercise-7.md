@@ -2,7 +2,7 @@
 
 ## Exercise 7: Create a Load Balancer and Test the Load balancer
 
-In this exercise, you will use Azure Virtual Networks created on the previous exercise to deploy a load balancer. 
+In this exercise, you will use Azure Virtual Networks created on the previous exercise to deploy a load balancer and test it.
 
 In this Exercise, you will have:
 
@@ -11,7 +11,9 @@ In this Exercise, you will have:
   + Task 3: Create virtual machines.
   + Task 4: Install IIS.
   + Task 5: Test the load balancer.
-   
+
+### Estimated Timing: 80 minutes
+
 ### Task 1: Create load balancer.
 
 In this task, you'll create a zone redundant load balancer that load balances virtual machines. With zone-redundancy, one or more availability zones can fail and the data path survives as long as one zone in the region remains healthy.
