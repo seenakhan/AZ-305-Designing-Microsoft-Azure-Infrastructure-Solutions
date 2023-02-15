@@ -2,14 +2,18 @@
 
 ## Exercise 1: Create Azure resources
 
+In this Exercise, you are going to create an Azure storage account and a function app.
 
 In this Exercise, you will have:
 
   + Task 1: Create an Azure Storage account.
   + Task 2: Create a function app
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create an Azure Storage account
 
+In this task, you will create an Azure storage account.
 
 #### Pre-requisites for this task
 
@@ -21,7 +25,7 @@ An Azure account
 
 1. On the **Storage accounts** blade, select **+ Create**.
 
-![img](../media/servl1.png)
+    ![img](../media/servl1.png)
 
 1. On the **Create a storage account** blade, on the **Basics** tab, perform the following actions, and then select **Review**:
 
@@ -36,7 +40,7 @@ An Azure account
 
     The following screenshot displays the configured settings in the **Create a storage account** blade.
 
- ![img](../media/servl2.png)   
+    ![img](../media/servl2.png)   
 
 1. On the **Review** tab, review the options that you selected during the previous steps.
 
@@ -50,7 +54,7 @@ An Azure account
 
 1. On the **Access keys** blade, select **Show keys**.
 
-![img](../media/servl3.png) 
+    ![img](../media/servl3.png) 
 
 1. Review any one of the keys, and then copy the value of either of the **Connection string** boxes to the clipboard
 
@@ -61,6 +65,8 @@ An Azure account
 
 ### Task 2: Create a function app
 
+In this task, you will create a function app.
+
 #### Pre-requisites for this task
 
 Completed Exercise 1 - Task 1
@@ -69,11 +75,11 @@ Completed Exercise 1 - Task 1
 
 1. On the Azure portal's search bar, please enter **function app**, then select **Function app** from the list.
 
-![img](../media/servl4.png) 
+    ![img](../media/servl4.png) 
 
 1. On the **Function App** blade, select **Create**.
 
-![img](../media/servl5.png) 
+    ![img](../media/servl5.png) 
 
 1. On the **Create Function App** blade, on the **Basics** tab, perform the following actions, and then select **Next: Hosting**:
 
@@ -91,7 +97,7 @@ Completed Exercise 1 - Task 1
 
     The following screenshot displays the configured settings in the **Create Function App** blade.
 
- ![img](../media/servl6.png)    
+    ![img](../media/servl6.png)    
 
 1. On the **Hosting** tab, perform the following actions, and then select **Review + create**:
 
@@ -99,7 +105,7 @@ Completed Exercise 1 - Task 1
     | -- | -- |
     | **Storage account** drop-down list | Select the **contosofuncstor** storage account |
     
-![img](../media/servl7.png)      
+    ![img](../media/servl7.png)      
 
 1. On the **Review + create** tab, review the options that you selected during the previous steps.
 
