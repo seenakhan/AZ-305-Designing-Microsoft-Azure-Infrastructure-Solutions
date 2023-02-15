@@ -20,7 +20,7 @@ In this task, you will register two resource providers named Microsoft.Insights 
 
 Completed Exercise 1 & Exercise 2
 
-#### Steps
+#### Steps:
 
 1. Select **Cloud shell** and on the cloud shell pane please select **Powershell** and then select  **Create storage**.
 
@@ -38,6 +38,10 @@ You have successfully registered Microsoft.Insights and Microsoft.AlertsManageme
 ### Task 2: Create and configure an Azure Automation-based solutions
 
 In this task, you will create and configure an Azure Automation-based solutions
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 - Task 1
 
 #### Steps:
 
@@ -81,7 +85,11 @@ After this you are going to review the default monitoring settings of azure reso
 
 ### Task 3: Review default monitoring settings of Azure Resources
 
-In this task, you will review default monitoring settings of Azure virtual machines
+In this task, you will review default monitoring settings of Azure virtual machine.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2
 
 #### Steps:
 
@@ -110,6 +118,10 @@ In this task, you will review default monitoring settings of Azure virtual machi
    ![img](../media/mon10.png)
 
 ### Task 4: Collect and View Azure resource logs
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 - Task 1 & Task 2 & Task 3
 
 #### Steps:
 
