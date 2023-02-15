@@ -2,14 +2,18 @@
 
 ## Exercise 5: Create security configuration and Deploy the security admin configuration
 
-
+A security admin configuration contains a set of rule collections. Each rule collection contains one or more security admin rules. You then associate the rule collection with the network groups that you want to apply the security admin rules to. In this exercise you will create security configuration and deploy security admin coniguration.
 
 In this Exercise, you will have:
 
   + Task 1: Create security configuration.
   + Task 2: Deploy the security admin configuration.
-   
+
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create security configuration
+
+In this task, you are going to create secuirty configuration for the virtual network manager created on the previous exercise.
 
 #### Pre-requisites for this task
 
@@ -58,6 +62,8 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
     ![img](../media/secu8.png)
 
 ### Task 2: Deploy the security admin configuration
+
+In this task, you are going to deploy the security admin configuration.
 
 #### Pre-requisites for this task
 
