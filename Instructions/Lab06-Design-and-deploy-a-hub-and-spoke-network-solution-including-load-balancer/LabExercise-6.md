@@ -8,8 +8,12 @@ In this Exercise, you will have:
 
   + Task 1: Verify from a Virtual network.
   + Task 2: Verify from a Virtual machine.
-   
+
+### Estimated Timing: 45 minutes
+
 ### Task 1: Verify from a Virtual network
+
+In this task, you are going to verify the hub and spoke virtual network connectivity from a virtual network.
 
 #### Pre-requisites for this task
 
