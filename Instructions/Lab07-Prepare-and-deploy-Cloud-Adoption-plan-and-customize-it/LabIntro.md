@@ -58,5 +58,5 @@ In this lab, you will have:
 + Exercise 1: Prepare and deploy Cloud Adoption plan and customize it
 
 
-## Estimated timing: 200 minutes
+## Estimated timing: 100 minutes
 ## Solution Architecture
