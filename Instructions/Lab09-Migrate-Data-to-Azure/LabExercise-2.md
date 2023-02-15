@@ -20,7 +20,7 @@ In this task, you will learn how to create an Azure SQl database by using Azure 
 
 Completed Exercise 1
 
-#### Steps
+#### Steps:
 
 1. In the home page of Azure portal, please enter **SQL database** on the search bar and select **SQL database** from the list.
 
@@ -96,7 +96,7 @@ In this task, you will learn how to install and configure Data Migration Assista
 
 Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
-#### Steps
+#### Steps:
  
 1. Open up your web browser, and go to the download page for Microsoft Data Migration Assistant, please click [here](https://www.microsoft.com/en-us/download/details.aspx?id=53595).
     
