@@ -8,7 +8,9 @@ In this Exercise, you will have:
 
   + Task 1: Create virtual networks.
   + Task 2: Deploy a virtual network gateway.
-   
+
+### Estimated Timing: 120 minutes
+
 ### Task 1: Create virtual networks
 
 In this task you are going to create three virtual networks. One will be in the West US region and the other two will be in the East US region.
@@ -75,7 +77,7 @@ Complete Exercise 1.
 
 Deploy a virtual network gateway into the hub virtual network. This virtual network gateway is required for the spokes to be able to use the hub as a gateway setting.
 
-In this task you are going to a virtual network gateway.
+In this task you are going to deploy a virtual network gateway.
 
 #### Pre-requisites for this task
 
