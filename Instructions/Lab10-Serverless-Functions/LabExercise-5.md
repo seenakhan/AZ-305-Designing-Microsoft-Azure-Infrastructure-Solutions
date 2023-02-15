@@ -13,12 +13,15 @@ In this Exercise, you will have:
   + Task 5: Deploy using the Azure Functions Core Tools.
   + Task 6: Validate deployment
 
+### Estimated Timing: 100 minutes
 
 ### Task 1: Upload sample content to Azure Blob Storage
 
+In this task, you will upload a JSON file.
+
 #### Pre-requisites for this task
 
-Completed Exercise 1
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4
 
 #### Steps:
 
@@ -28,7 +31,7 @@ Completed Exercise 1
 
 1. In the **Containers** section, select **+ Container**.
 
-![img](../media/azcn1.png)
+    ![img](../media/azcn1.png)
 
 1. In the **New container** side screen, perform the following actions, and then select **Create**:
 
@@ -37,7 +40,7 @@ Completed Exercise 1
     | Name | Enter **content** |
     | Public access level | Select **Private (no anonymous access)** |
 
-![img](../media/azcn2.png)
+    ![img](../media/azcn2.png)
 
 1. Open a Notepad, enter the following JSON script and save it as settings.json.
 
@@ -66,11 +69,19 @@ Completed Exercise 1
     | **File Explorer** window  | Browse to the location where the file settings.json saved, select the **settings.json** file, and then select **Open** |
     | **Overwrite if files already exist** check box | Ensure that this check box is selected |
 
-![img](../media/azcn3.png)
+    ![img](../media/azcn3.png)
 
 > **Note**: Wait for the blob to upload before you continue with this lab.
 
 #### Task 2: Create an HTTP-triggered function
+
+In this task, you will create an HTTP triggered function.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2
+
+#### Steps:
 
 1. Open **Visual Studio Code**, open new terminal, if the current directory is not **C:\AllFiles\func**
 1. Run the following command to change the current directory to the **C:\AllFiles\func** directory:
@@ -86,10 +97,16 @@ Completed Exercise 1
     ```
 You have successfully created another C# file named **GetSettingInfo.cs**.
 
-![img](../media/azcn4.png)
+    ![img](../media/azcn4.png)
   
 
 #### Task 3: Write HTTP-triggered and blob-inputted function code
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3
+
+#### Steps:
 
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **GetSettingInfo.cs** file.
 1. In the code editor, observe the example implementation:
@@ -225,6 +242,14 @@ You have successfully created another C# file named **GetSettingInfo.cs**.
 
 ### Task 4: Register Azure Storage Blob extensions
 
+In this task, you are going to register azure blob storage extension.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3
+
+#### Steps:
+
 1. On the terminal, run the following command to register the [Microsoft.Azure.WebJobs.Extensions.Storage](https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions.Storage/) extension:
 
     ```powershell
@@ -240,6 +265,12 @@ Please wait for a while to complete the installation.
 You will get a Build succeeded message.
 
 ### Task 5: Deploy using the Azure Functions Core Tools
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3 & Task 4
+
+#### Steps:
 
 1. From terminal, run the following command to login to the Azure Command-Line Interface (CLI):
 
@@ -260,6 +291,14 @@ You will get a Build succeeded message.
 1. Wait for the deployment to finalize before you move forward with the lab.
 
 ### Task 6: Validate deployment
+
+In this task, you are going to validate the deployment.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 1 & Task 2 & Task 3 & Task 4 & Task 5
+
+#### Steps:
 
 1. On the taskbar, select the **Microsoft Edge** icon, and select the tab that displays the Azure portal (<https://portal.azure.com>).
 1. On the Azure portal's **navigation** pane, select the **Resource groups** link.
@@ -287,7 +326,7 @@ You will get a Build succeeded message.
     }
     ```
 
-![img](../media/azcn5.png)
+    ![img](../media/azcn5.png)
 
 ### Clean up resources
 
