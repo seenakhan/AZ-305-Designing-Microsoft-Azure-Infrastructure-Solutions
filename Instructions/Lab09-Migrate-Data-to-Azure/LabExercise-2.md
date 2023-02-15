@@ -10,7 +10,7 @@ In this exercise, you will:
 + Task 4: Use the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
 + Task 5: Use Data Migration Assistant to migrate Schema and Data
 
-### Estimated Timing:  minutes
+### Estimated Timing: 100 minutes
 
 ### Task 1: Create an Azure SQL database
 
@@ -274,5 +274,17 @@ You are going to migrate from on-premises database Adventureworks2019 table name
 
 You have successfully migrated the data.
 
+### Clean up resources
 
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this exercise, you have:
+
+- Created an Azure SQL database
+- Configured server-level firewall rules using Azure Portal
+- Installed the Data Migration Assistant (DMA) on Windows
+- Used the Data Migration Assistant to prepare for migration from SQL Server to Azure SQL Database
+- Used Data Migration Assistant to migrate Schema and Data
 
