@@ -8,6 +8,8 @@ In this Exercise, you will have:
 
   + Task 1: Create a Virtual Network Manager.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create a Virtual Network manager
 
 In this task you are going to create a virtual Network manager.
