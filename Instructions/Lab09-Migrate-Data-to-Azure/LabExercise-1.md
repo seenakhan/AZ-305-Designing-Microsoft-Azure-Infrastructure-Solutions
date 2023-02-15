@@ -2,11 +2,12 @@
 
 ## Exercise 1: Install and Configure SQL Server.
 
+In this Exercise, you will install and configure SQL Server Express edition and will attach a sample database named Adventureworks2019.
+
 In this exercise, you will:
 
 + Task 1: Install and Configure SQL Server.
 + Task 2: Configure AdventureWorks database.
-
 
 ### Estimated Timing: 60 minutes
 
@@ -83,3 +84,15 @@ An Azure account
 ![img](../media/sql10.png)
 
 You have successfully configured SQL server and Adventureworks database.
+
+### Clean up resources
+
+>**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+
+#### Review
+
+In this exercise, you have:
+
+- Installed and Configured SQL Server Express edition.
+- Configured AdventureWorks database.
+
