@@ -11,6 +11,8 @@ In this Exercise you will have:
   + Task 1: Review the Cost estimate
   + Task 2: Convert the database into Elastic Pool.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Review the Cost Estimate.
 
 In this task you are going review the cost estimation of your database.
