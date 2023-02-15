@@ -9,6 +9,8 @@ In this lab, you will:
 + Task 1: Add Azure Active Directory roles to the new users.
 + Task 2: Add Custom RBAC roles.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Add Azure Active Directory roles to the new users
 
 In this task you are going to add Azure Active directory roles to the new users created on exercise 1..
