@@ -10,8 +10,11 @@ In this Exercise, you will have:
   + Task 2: Configure a connection string.
   + Task 3: Build and validate a project
 
+### Estimated Timing: 45 minutes
+
 ### Task 1: Initialize a function project
 
+In this task, you will initialize a function project.
 
 #### Pre-requisites for this task
 
@@ -34,11 +37,19 @@ Completed Exercise 1
     ```powershell
     func init --worker-runtime dotnet --force
     ```
-![img](../media/servl8.png)
+    ![img](../media/servl8.png)
     
 1. Close the **Windows Powershell** application.
 
 #### Task 2: Configure a connection string
+
+In this task, you will configure a connection string.
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1
+
+#### Steps:
 
 1. On the **Start** screen, select the **Visual Studio Code**.
 
@@ -46,7 +57,7 @@ Completed Exercise 1
 
 1. In the **File Explorer** window that opens, browse to **C:\AllFiles\func**, and then select **Select Folder**. If its ask for **DO you trust the authors of the files in this folder** please select **Yes, I trust the authors**
 
-![img](../media/servl9.png)
+    ![img](../media/servl9.png)
 
 1. On the **Explorer** pane of the **Visual Studio Code** window, open the **local.settings.json** file.
 
@@ -58,11 +69,17 @@ Completed Exercise 1
 
 1. Change the value of the **AzureWebJobsStorage** element to the **connection string** of the storage account that you recorded earlier in this lab.
 
-![img](../media/servl10.png)
+    ![img](../media/servl10.png)
 
 1. Save the **local.settings.json** file.
 
 #### Task 3: Build and validate a project
+
+#### Pre-requisites for this task
+
+Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
+
+#### Steps:
 
 1. On the taskbar, open **Windows Powershell**.
 
@@ -79,7 +96,7 @@ Completed Exercise 1
     ```
 You will get a build succeeded message on Powershell.
 
-![img](../media/servl11.png)
+    ![img](../media/servl11.png)
 
 
 ### Clean up resources
