@@ -8,6 +8,8 @@ In this lab, you will:
 
 + Task 1: Create an application registration.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create an application registration
 
 In this task you are going to create an application registration.
