@@ -22,11 +22,11 @@ An Azure account with security administrator, Conditional Access administrator, 
 
 1. Browse to **Azure Active Directory** then under **Manage** select **Security** then select **Conditional Access**.
 
-![img](../media/ca1.png)
+    ![img](../media/ca1.png)
 
 2. Select **New Policy**.
 
-![img](../media/ca2.png)
+    ![img](../media/ca2.png)
 
 3. On the **New Conditional access policy**, enter **Office application app policy** for **Name**.
 
@@ -36,7 +36,7 @@ Then, based on the applications used, you can define the scope of the Conditiona
 
 5. For Cloud apps or actions, select **No cloud apps, actions, or authentication contexts selected** then under **Include** tab select **Selected apps** then under **select** click **None** , then select **Office 365**, then select **Select** from the bottom.   
 
-![img](../media/ca3.png)
+    ![img](../media/ca3.png)
 
 The Conditions section allows IT administrators to further define the Conditional Access policy. You can apply the policy based on the following criteria under the Conditions section:
     + Device platforms—Apply the policy to selected operating systems
@@ -47,7 +47,7 @@ Here, we apply the policy based on the device platform being used. To do so, ple
 
 6. Select **) conditions selected** under **Conditions**, then select **Not configured** under **Device platforms**, then set **Configure** toggle to **Yes**, then under **Include** select **Any device** and then select **Done**.
 
-![img](../media/ca4.png)
+    ![img](../media/ca4.png)
 
 You can configure control over user access enforcement to block or grant access after applying the conditions you want to set for the Conditional Access policy. Many interesting settings can be applied to the Grant access option. These are some examples:
     + Require multi-factor authentication
@@ -59,7 +59,7 @@ We are setting the Grant access option and requiring multi-factor authentication
 
 7. Under **Grant** Select **0 controls selected** , then on the **Grant** side screen, please select **Grant Access**, then select **Require multifactor authentication**, then select **Select**.
 
-![img](../media/ca5.png)
+    ![img](../media/ca5.png)
 
 The Session configuration is the final section. There, you can limit user access to specific cloud applications by using session controls. There are the following options:
     + Use app enforced restrictions
@@ -77,11 +77,11 @@ Here we are not configuring session.
 
 9. Select **Create**.
 
-![img](../media/ca6.png)
+    ![img](../media/ca6.png)
 
 Now, you have created the conditional access policy named **Office application app policy**. You can see it on Conditional access policies page.
 
-![img](../media/ca7.png)
+    ![img](../media/ca7.png)
 
 10. You can test the conditional access policy by taking an in private window of your browser and enter http://portal.office.com then login with the credentials given in the Environment details.
 
