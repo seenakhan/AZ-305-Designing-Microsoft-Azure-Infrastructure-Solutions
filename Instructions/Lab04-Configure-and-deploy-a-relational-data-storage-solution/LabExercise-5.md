@@ -29,11 +29,11 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
 3. View the Accumulated costs there.
 
-![img](../media/costd1.png)
+    ![img](../media/costd1.png)
 
 4. You can change the view of cost analysis per resources and find out the cost per resources.
 
-![img](../media/costd2.png)
+    ![img](../media/costd2.png)
 
 ### Task 2: Convert the database into Elastic Pool.
 
@@ -60,15 +60,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
 4. On the **Create SQL Elastic pool** page under **Basic** tab, for **Compute + storage** option, please select **Configure elastic pool**.
 
-![img](../media/elast2.png) 
+    ![img](../media/elast2.png) 
 
 5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (for workloads with typical performance requirements)** then select **Apply**.
 
-![img](../media/elast3.png) 
+    ![img](../media/elast3.png) 
 
 6. On the **Create SQL Elastic pool** page, select **Review + Create**.
 
-![img](../media/elast4.png) 
+    ![img](../media/elast4.png) 
 
 7. After completing the validation please select **Create88.
 
@@ -76,27 +76,27 @@ It will take 2-3 minutes to complete the deployment.
 
 8. After completing the deployment please select **Go to resource**. The elastic pool dashboard displays resource configuration, elastic databases, and elastic database settings. As shown below, there is no database in the elastic pool.
 
-![img](../media/elast5.png) 
+    ![img](../media/elast5.png) 
 
 9. To add database, please select the **0 databases**.
 
 10. On the **Configure** page, under **Databases** tab, please select **+ Add databases**.
 
-![img](../media/elast6.png)
+    ![img](../media/elast6.png)
 
 11. On the **Add databases** side screen, please select **adventureworkscontoso** database, then select **Apply**.
 
-![img](../media/elast7.png)
+    ![img](../media/elast7.png)
 
 12. Now it shows the database **adventureworkscontoso** added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Please select **Save**.
 
-![img](../media/elast8.png)
+    ![img](../media/elast8.png)
 
 13. It starts a deployment to add Azure SQL Database into the elastic pool, and will take 2-3 minutes to complete the deployment. Please select **Go to resource** after completing the deployment.
 
 14. Select **Configure**, then under **Databases** tab, you can see the database **adventureworkscontoso** added.
 
-![img](../media/elast9.png)
+    ![img](../media/elast9.png)
 
 You have successfully added your database to the elastic pool.
 
