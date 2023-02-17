@@ -2,7 +2,7 @@
 
 ## Exercise 1: Deploy an Azure SQL database
 
-In this exercise, you are going to deploy an Azure SQL database. 
+Azure SQL Database is a fully managed platform as a service (PaaS) database engine that handles most database management functions like upgrading, patching, backups, and monitoring without the need for user intervention. Azure SQL Database is always running on the most recent stable version of the SQL Server database engine and a patched operating system, with 99.99% uptime. In this exercise, you are going to deploy an Azure SQL database. 
 
 In this exercise, you will:
 
