@@ -2,7 +2,7 @@
 
 ## Exercise 2: Enable Firewall rules and connect to Database.
 
-In this exercise, you will configure Server firewall and database firewall to Adventureworks database and connect it. 
+When you create a new server in Azure SQL Database, a server-level firewall prevents all access to the server's public endpoint. To retrieve data, in this exercise, you will configure Server firewall and database firewall to Adventureworks database and connect it. 
 
 In this exercise, you will:
 
