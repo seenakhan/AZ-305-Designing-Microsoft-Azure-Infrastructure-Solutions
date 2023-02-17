@@ -6,8 +6,9 @@ In this exercise you are going to add an assignment policy through an Azure buil
 
 In this Exercise, you will have:
 
-+ Task 1: Create an Assignment through an Azure built-in Policy
++ Task 1: Create an Assignment through an Azure built-in Policy.
 + Task 2: Applying the Policy definition to a Storage account.
++ Task 3: Review the cost data and explore Cost Manager.
 
 ## Estimated timing: 60 minutes
 
@@ -136,7 +137,15 @@ Complete Exercise 1, Exercise 2 -  Task 1 & Task 2
 
 #### Steps:
 
-1. 
+1. Go to Subscription, and select the default subscription, then select **Cost Analysis** under **Cost Management** section, you can see the accumulated costs for the subscription. 
+
+![image](../media/costm1.png)
+
+2. In the **Cost analysis**, please change the view to **Cost By Resource**, you can see the cost per resources in subscription scope.
+
+![image](../media/costm2.png)
+
+You can check the different views by clicking on the **Views** in cost analysis.
 
 ### Task 4: Clean up resources
 
