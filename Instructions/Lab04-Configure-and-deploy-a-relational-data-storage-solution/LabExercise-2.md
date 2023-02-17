@@ -31,7 +31,7 @@ An Azure account, a resource group and an Azure SQL Database (Complete Exercise 
 
     ![](../media/fire2a.png)
 
-**Note: You can also configure the firewall by selecting Add a firewall rule.**
+    >**Note** : **You can also configure the firewall by selecting Add a firewall rule.**
 
 4. Change the **Rule name** as **rule1** then choose **Save**. Port 1433 is now open on the server, and a server-level IP-based firewall rule for your current IP address is created.
 
