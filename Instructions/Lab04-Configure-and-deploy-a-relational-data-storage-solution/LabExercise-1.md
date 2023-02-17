@@ -1,8 +1,8 @@
 # Instructions
 
-## Exercise 1: Configure and deploy a relational data storage solution 
+## Exercise 1: Deploy an Azure SQL database
 
-In this exercise, you are going to deploy an Azure SQl database. 
+In this exercise, you are going to deploy an Azure SQL database. 
 
 In this exercise, you will:
 
