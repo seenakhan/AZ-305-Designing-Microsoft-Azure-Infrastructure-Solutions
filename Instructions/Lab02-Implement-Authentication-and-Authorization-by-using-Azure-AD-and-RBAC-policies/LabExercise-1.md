@@ -13,7 +13,7 @@ In this lab, you will:
 
 ### Task 1: Create and configure Azure Active Directory users
 
-In this task you are going to create and configure Azure Active DIrectory users.
+In this task you are going to create and configure Azure Active Directory users.
 
 #### Pre-requisites for this task
 
@@ -39,7 +39,7 @@ An Azure account
 
     ![img](../media/nuse3.png)
 
-    >**Note**: This is necessary in order to assign an Azure AD Premium P2 license to your user account later in this lab.
+    >**Note**: This is necessary to assign an Azure AD Premium P2 license to your user account later in this lab.
 
 6. Go back to the **Users - All users** blade, and then click **+ New user**.
 
@@ -49,7 +49,7 @@ An Azure account
 
     | Setting | Value |
     | --- | --- |
-    | User name | **az305-01a-aaduser1** |
+    | Username | **az305-01a-aaduser1** |
     | Name | **az305-01a-aaduser1** |
     | Let me create the password | enabled |
     | Initial password | **Provide a secure password** |
@@ -82,7 +82,7 @@ Complete Task 1
 
     ![img](../media/nres2.png)
 
-4. In the **Add role assignment** page, please select **Virtual machine contributor** role by searching on the search bar and then select **Next** at the botom.
+4. In the **Add role assignment** page, please select **Virtual machine contributor** role by searching on the search bar and then select **Next** at the bottom.
 
     ![img](../media/nres3.png)
 
@@ -103,7 +103,7 @@ Complete Task 1
 
 ### Clean up resources
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+>**Note: Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
