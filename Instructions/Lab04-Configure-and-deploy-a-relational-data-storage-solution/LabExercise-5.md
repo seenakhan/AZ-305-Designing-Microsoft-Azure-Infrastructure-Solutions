@@ -2,7 +2,7 @@
 
 ## Exercise 5: Review the Database Cost and Convert the Database into elastic pool.
 
-You can see the estimated costs in the portal as you begin using Azure SQL Database. Costs for Azure SQL Database are only a portion of the monthly costs in your Azure bill. The elastic pools in Azure DBs provide a cost-effective solution for fluctuating usage demands. With resource pooling, these elastic pools can configure multiple SQL databases. As a result, you have the freedom to build a high-end database server that your databases can use based on their workload requirements. These elastic pools allow you to reduce costs for multiple databases without sacrificing performance.
+You can see the estimated costs in the portal as you begin using Azure SQL Database. Costs for Azure SQL Database are only a portion of the monthly costs in your Azure bill. You will configure SQL elastic pool. The elastic pools in Azure DBs provide a cost-effective solution for fluctuating usage demands. With resource pooling, these elastic pools can configure multiple SQL databases. As a result, you have the freedom to build a high-end database server that your databases can use based on their workload requirements. These elastic pools allow you to reduce costs for multiple databases without sacrificing performance.
 
 In this Exercise, you will review the cost estimation of the database and conver the database into elastic pool.
 
