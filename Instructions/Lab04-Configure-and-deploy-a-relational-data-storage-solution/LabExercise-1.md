@@ -33,7 +33,7 @@ An Azure account, a resource group
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Select the resource group name from the dropdown list** |
+    | Resource group | **Select the resource group name ODL-AZ-305M04B-XXXXX from the dropdown list** |
     | Database name | **adventureworkscontoso** |
    
     ![image](../media/db3.png) 
