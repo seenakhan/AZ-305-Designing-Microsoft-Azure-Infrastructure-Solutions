@@ -1,8 +1,6 @@
-# Instructions
-
 ## Exercise 2: Assign Active Directory Role & Custom RBAC.
 
-In order to allow Contoso users to authenticate by using Azure AD, you have been tasked to provide Azure Active Directory roles  and custom RBAC roles to the new users.
+In order to allow Contoso users to authenticate by using Azure AD, you have been tasked to provide Azure Active Directory roles and custom RBAC roles to the new users.
 
 In this lab, you will:
 
@@ -13,11 +11,11 @@ In this lab, you will:
 
 ### Task 1: Add Azure Active Directory roles to the new users
 
-In this task you are going to add Azure Active directory roles to the new users created on exercise 1..
+In this task you are going to add Azure Active directory roles to the new users created on exercise 1.
 
 #### Pre-requisites for this task
 
-Complete Exercixe 1.
+Complete Exercise 1.
 
 #### Steps:
 
@@ -27,21 +25,21 @@ Complete Exercixe 1.
 
     ![img](../media/nuse5.png)
 
-3. On the **Directory roles** side screen, please search for **User Administratoe** role and select the role, then select **Add**.
+3. On the **Directory roles** side screen, please search for **User Administrator** role and select the role, then select **Add**.
 
     ![img](../media/nuse6.png)
 
-4. Keep refresh **Assigned roles** page , you can see the **User Administrator** role added successfully.
+4. Keep refresh **Assigned roles** page, you can see the **User Administrator** role added successfully.
 
     ![img](../media/nuse7.png)
 
 5. Open an **InPrivate** browser window and sign in to the [Azure portal](https://portal.azure.com) using the newly created user account. When prompted to update the password, change the password to a secure password of your choosing. 
 
-    >**Note**: Rather than typing the user name (including the domain name), you can paste the content of Clipboard.
+    >**Note**: Rather than typing the username (including the domain name), you can paste the content of Clipboard.
 
 6. In the **InPrivate** browser window, in the Azure portal, search for and select **Azure Active Directory**.
 
-    >**Note**: While this user account can access the Azure Active Directory tenant, it does not have any access to Azure resources. This is expected, since such access would need to be granted explicitly by using Azure Role-Based Access Control. 
+    >**Note**: While this user account can access the Azure Active Directory tenant, it does not have any access to Azure resources. This is expected since such access would need to be granted explicitly by using Azure Role-Based Access Control. 
 
 7. In the **InPrivate** browser window, on the Azure AD blade, in the **Manage** section, click **Users**, and then click **+ New user**.
 
@@ -51,7 +49,7 @@ Complete Exercixe 1.
 
     | Setting | Value |
     | --- | --- |
-    | User name | **az305-01a-aaduser2** |
+    | Username  | **az305-01a-aaduser2** |
     | Name | **az305-01a-aaduser2** |
     | Let me create the password | enabled |
     | Initial password | **Provide a secure password** |
@@ -81,7 +79,7 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
     ![img](../media/custr1.png)
 
-3. On the **Create a custom role** page, under **Basics** tab,  please enter the following details and then select **Next** at the bottom.
+3. On the **Create a custom role** page, under **Basics** tab, please enter the following details and then select **Next** at the bottom.
 
    | Section | Values |
    | ------- | ------ |
@@ -91,7 +89,7 @@ Complete Exercise 1 & Exercise 2 - Task 1.
    
     ![img](../media/custr2.png)  
 
-4. Go to **JSON** tab, and click on **Edit**.
+4. Go to **JSON** tab and click on **Edit**.
 
     ![img](../media/custr3a.png)  
 
@@ -139,7 +137,7 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
 14. Click **Review + assign** to assign the role.
 
-15. Take an **In private window** for Azure portal and login with the user **az305-01a-aaduser1**, then go to the resource group **ODL-AZ-305-M02B-XXXXXXX** and select the virtual machine from the over view section. You can see the option to connect and restart the virtual machines are enabled.
+15. Take an **In private window** for Azure portal and login with the user **az305-01a-aaduser1**, then go to the resource group **ODL-AZ-305-M02B-XXXXXXX** and select the virtual machine from the overview section. You can see the option to connect and restart the virtual machines are enabled.
 
     ![img](../media/custr9.png)
     
