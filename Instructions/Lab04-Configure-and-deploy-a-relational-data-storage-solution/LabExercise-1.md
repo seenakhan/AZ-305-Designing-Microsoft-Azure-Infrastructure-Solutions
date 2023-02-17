@@ -12,7 +12,7 @@ In this exercise, you will:
 
 ### Task 1: Create an Azure SQL database with Adventure Works pre-loaded
 
-In this task, you will learn how to use Azur portal to create a single database with Adventure works sample database
+In this task, you will learn how to use Azure portal to create a single database with Adventure works sample database
 
 #### Pre-requisites for this task
 
