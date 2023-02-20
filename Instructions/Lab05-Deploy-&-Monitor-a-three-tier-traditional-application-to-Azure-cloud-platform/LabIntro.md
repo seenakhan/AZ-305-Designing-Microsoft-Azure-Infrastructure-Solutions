@@ -7,7 +7,7 @@ With the move to the cloud, many teams have adopted agile development methods. T
 
 To meet these challenges in your design for Contoso Traders, you're investigating how to automate deployments by using the practice of infrastructure as code. So you are going to deploy a custom template by using Azure portal.
 
-- Deploy a Quickstart template on Azure. Azure Quickstart Templates is a collection of templates contributed by the community. You can use the sample templates to help you create your own templates. In this tutorial, you will discover a website resource definition and incorporate it into your own template. It takes 12 minutes to complete this instruction.
+- Deploy a Quickstart template on Azure. Azure Quickstart Templates is a collection of templates contributed by the community. You can use the sample templates to help you create your own templates. In this lab, you will discover a website resource definition and incorporate it into your own template. It takes 12 minutes to complete this instruction.
 
 - Review High Availability Capabilities (Test Failover). You perform a test failover to validate your replication and disaster recovery strategy, ensuring that no data is lost or downtime occurs. A test failure has no effect on ongoing replication or your production environment.
 
