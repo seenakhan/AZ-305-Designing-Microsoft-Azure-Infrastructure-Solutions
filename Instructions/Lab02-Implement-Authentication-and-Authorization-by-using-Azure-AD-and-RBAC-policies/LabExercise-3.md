@@ -4,13 +4,15 @@
 
 In this exercise you are going to register an application with Azure Active Directory, which enables a user with Power Apps user account to connect to their Microsoft Dataverse environment from client applications using OAuth authentication.
 
-In this lab, you will:
+In this exercise, you will:
 
 + Task 1: Create an application registration.
 
 ### Estimated Timing: 30 minutes
 
 ### Task 1: Create an application registration
+
+App registration is a way to reserve an application in AAD (Azure Active Directory), to integrate an application with Azure, you must register it in the App Registration.
 
 In this task you are going to create an application registration.
 
