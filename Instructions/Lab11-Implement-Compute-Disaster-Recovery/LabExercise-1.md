@@ -2,7 +2,7 @@
 
 ## Exercise 1: Setup Azure Site Recovery 
 
-In this exercise, you are going to deploy a quickstart template on Azure. 
+In this exercise, you are going to deploy a Azure site recovery. Azure Site Recovery offers disaster recovery and resilience for apps and workloads running on on-premises machines or Azure IaaS VMs. When there is an outage, Site Recovery orchestrates replication and handles failover to Azure. It also handles Azure recovery to your primary site. 
 
 In this exercise, you will:
 
