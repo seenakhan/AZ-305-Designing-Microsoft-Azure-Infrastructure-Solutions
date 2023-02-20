@@ -2,6 +2,7 @@
 
 ## Exercise 1: Deploy a Quickstart template on Azure 
 
+Azure Quickstart Templates is a collection of templates contributed by the community. You can use the sample templates to help you create your own templates.
 In this exercise, you are going to deploy a quickstart template on Azure and deploy a traffic manager profile.
 
 In this exercise, you will:
