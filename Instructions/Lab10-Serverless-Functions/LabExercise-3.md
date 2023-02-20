@@ -3,7 +3,7 @@
 
 In this exercise, you are going to create a basic function that echoes the content sent through an HTTP POST request. 
 
-In this Exercise, you will have:
+In this exercise, you will have:
 
   + Task 1: Create an HTTP-triggered function.
   + Task 2: Write HTTP-triggered function code.
