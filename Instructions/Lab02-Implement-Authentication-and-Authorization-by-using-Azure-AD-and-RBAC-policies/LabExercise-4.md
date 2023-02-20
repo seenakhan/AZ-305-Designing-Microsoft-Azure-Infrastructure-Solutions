@@ -34,7 +34,7 @@ An Azure account with security administrator, Conditional Access administrator, 
 
 3. On the **Security defaults** side screen, set the Security defaults to **Enabled** from the drop down and then select **Save**.
 
-    ![img](../media/secr1.png)
+    ![img](../media/L2E4T1S3.png)
 
  Now your Security defaults are enabled.
  
@@ -46,9 +46,11 @@ You can see there is a message showing **skip for now (14 days until this is req
 
 5. To disable the Security defaults please repeat step 1 and step 2. On the **Security defaults** side screen, set the Security defaults to **Disabled** from the drop down then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
 
-![img](../media/secr3.png)
+![img](../media/L2E4T1S5.png)
 
 6. A pop-up will appear about the confirmation to disable the Security defaults, select **Disable**. 
+
+![img](../media/L2E4T1S6.png)
 
 7. Test again with Office 365 login by taking an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
 
