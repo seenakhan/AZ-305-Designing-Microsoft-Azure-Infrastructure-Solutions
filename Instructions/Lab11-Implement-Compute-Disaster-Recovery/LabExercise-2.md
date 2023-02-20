@@ -2,7 +2,7 @@
 
 ## Exercise 2: Setup Traffic Manager
 
-In this exercise, you are going to deploy a Traffic Manager. 
+In this exercise, you are going to deploy a Traffic Manager. Azure Traffic Manager allows you to manage traffic distribution across your application endpoints. Any Internet-facing service hosted inside or outside of Azure is an endpoint.
 
 In this exercise, you will:
 
