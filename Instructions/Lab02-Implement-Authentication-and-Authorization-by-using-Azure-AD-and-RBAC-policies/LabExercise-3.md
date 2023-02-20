@@ -58,7 +58,7 @@ An Azure account.
    
     ![img](../media/appr5.png)
 
-7. Select the **contosoapp-test**.
+7. Once the **Scope** is added, go to **Active Directory**, then select **App registrations**. Select the **contosoapp-test**.
 
     ![img](../media/appr6.png)
 
@@ -79,10 +79,6 @@ An Azure account.
     ![img](../media/appr10.png)
 
 This completes the registration of your application in Azure Active Directory.
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
