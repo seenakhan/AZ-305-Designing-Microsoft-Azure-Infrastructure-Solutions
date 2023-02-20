@@ -4,7 +4,7 @@
 
 In order to allow Contoso users to authenticate by using Azure AD, you have been tasked with provisioning users and group accounts. 
 
-In this lab, you will:
+In this exercise, you will:
 
 + Task 1: Create and configure Azure AD users 
 + Task 2: Add Accessibility of Resources
