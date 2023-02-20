@@ -4,7 +4,7 @@
 
 In this exercise, you are going to deploy an Azure container instance and review the functionalities of it.
 
-In this Exercise, you will have:
+In this exercise, you will have:
 
   + Task 1: Deploy a Docker image by using the Azure Container Instance
   + Task 2: Review the functionality of the Azure Container Instance.
