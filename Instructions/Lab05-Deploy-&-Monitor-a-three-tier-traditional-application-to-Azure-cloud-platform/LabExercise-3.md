@@ -2,7 +2,7 @@
 
 ## Exercise 3: Monitor and assess the solutions and data in the Azure cloud platform
 
-In this exercise you are going to monitor azure resources deployed on previous exercises. 
+Azure Monitor collects and aggregates the data from every layer and component of your system into a common data platform. In this exercise you are going to monitor azure resources deployed on previous exercises. 
 
 In this exercise, you will:
 
