@@ -32,7 +32,7 @@ An Azure account with security administrator, Conditional Access administrator, 
 
     ![img](../media/secr1b.png)
 
-3. on the **Enable security defaults** side screen Set the Enable security defaults toggle to **Yes** then select **Save**.
+3. On the **Security defaults** side screen, set the Security defaults to **Enabled** from the drop down and then select **Save**.
 
     ![img](../media/secr1.png)
 
@@ -44,19 +44,17 @@ You can see there is a message showing **skip for now (14 days until this is req
 
 ![img](../media/secr2.png)
 
-5. To disable the Security defaults please repeat step 1 and step 2, then on the **Enable security defaults** side screen Set the Enable security defaults toggle to **No** then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
+5. To disable the Security defaults please repeat step 1 and step 2. On the **Security defaults** side screen, set the Security defaults to **Disabled** from the drop down then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
 
 ![img](../media/secr3.png)
 
-6. Test again with Office 365 login by taking an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
+6. A pop-up will appear about the confirmation to disable the Security defaults, select **Disable**. 
+
+7. Test again with Office 365 login by taking an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
 
 ![img](../media/secr4.png)
 
 You can see there is no message like **skip for now (14 days until this is required)**
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
