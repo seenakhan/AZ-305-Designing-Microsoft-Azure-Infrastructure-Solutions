@@ -127,9 +127,9 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
     ![img](../media/custr7.png)
 
-11. on the **Members** tab, please select **+Select members**.
+11. On the **Members** tab, please select **+Select members**.
 
-12. On the **Select members** side screen please select **az305-01a-aaduser1** user and select **Select**.
+12. On the **Select members** side screen, please select **az305-01a-aaduser1** user and select **Select**.
 
     ![img](../media/custr8.png)
 
@@ -140,10 +140,6 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 15. Take an **In private window** for Azure portal and login with the user **az305-01a-aaduser1**, then go to the resource group **ODL-AZ-305-M02B-XXXXXXX** and select the virtual machine from the overview section. You can see the option to connect and restart the virtual machines are enabled.
 
     ![img](../media/custr9.png)
-    
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
