@@ -25,4 +25,4 @@ In this lab, you will have:
 ## Estimated timing: 135 minutes
 ## Solution Architecture
 
-    ![](../media/archlab8.png)
+   ![](../media/archlab8.png)
