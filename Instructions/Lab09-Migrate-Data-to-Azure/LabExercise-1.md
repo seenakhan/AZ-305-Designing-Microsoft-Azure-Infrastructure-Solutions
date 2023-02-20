@@ -2,7 +2,7 @@
 
 ## Exercise 1: Install and Configure SQL Server.
 
-In this Exercise, you will install and configure SQL Server Express edition and will attach a sample database named Adventureworks2019.
+In this exercise, you will install and configure SQL Server Express edition and will attach a sample database named Adventureworks2019.
 
 In this exercise, you will:
 
