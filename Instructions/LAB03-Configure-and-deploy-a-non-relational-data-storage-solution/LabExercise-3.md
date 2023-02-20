@@ -55,7 +55,7 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
     ![image](../media/files8.png)
 
-9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure Virtual machine with Windows Server 2019 Datacenter. In azure portal on the search bar please enter virtual machines and select virtual machines from the options listed.
+9. You've already created an Azure storage account and a file share with one file. Next, to represent the on-premises server, create an Azure Virtual machine with Windows Server 2019 Datacenter. In azure portal on the search bar please enter virtual machines and select **Virtual machines** from the options listed.
 
     ![image](../media/files9.png)
 
@@ -108,9 +108,9 @@ An Azure account, a storage account (Complete Exercise 1 & Exercise 2). The foll
 
 18.Once the deployment completed, please select **Go to resources**.
 
-    ![image](../media/files17.png)
+   ![image](../media/files17.png)
 
-19. On the ContosoVm virtual machine page, at the overview section, please select Connect.
+19. On the ContosoVm virtual machine page, at the **Overview** section, please select **Connect**.
 
     ![image](../media/files18.png)
 
@@ -140,7 +140,7 @@ A new Virtual Machine (contosoVm) will launch inside your Lab. Close the Server 
 
     ![image](../media/files23.png)
 
-26. Select a drive letter then click on show script, then copy the contents of the show script and paste it in a Notepad.
+26. Select a drive letter then click on **Show Script**, then copy the contents of the how script and paste it in a Notepad.
 
     ![image](../media/files24.png)
 
