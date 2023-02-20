@@ -2,7 +2,7 @@
 
 ## Exercise 2: Configure a local Azure Functions project
 
-In this exercise, you are going to create a local project that you'll use for Azure Functions development. 
+In this exercise, you are going to create a local project which will use for Azure functions development. 
 
 In this Exercise, you will have:
 
