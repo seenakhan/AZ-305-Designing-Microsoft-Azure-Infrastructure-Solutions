@@ -100,11 +100,6 @@ Complete Task 1
 
     ![img](../media/nres6.png)
 
-
-### Clean up resources
-
->**Note: Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
-
 #### Review
 
 In this lab, you have:
