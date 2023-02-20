@@ -56,7 +56,7 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
    ![image](../media/man8.png)
 
-10. Once completed the assignment, you can see the current user having **owner** role under **Access Control** section on the Tenant Root Group page. 
+10. Upon assignment, you can see the current user having **Owner** role under **Access Control** section on the Tenant Root Group page. 
 
    ![image](../media/man9b.png)
 
@@ -103,7 +103,7 @@ Complete Task 1.
 
    ![image](../media/man13.png)
 
-6. By using step 4 and step 5, please add another child management group with the following details:
+6. By referring to step 4 and step 5, please add another child management group with the following details:
 
   | Settings | Values |
   |  -- | -- |
@@ -136,11 +136,13 @@ You can add subscriptions to the management groups that you created.
 
    ![image](../media/man16.png)
 
-4. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by using the step 3.
-
-5. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
+4. In **Move** window, select **IT-Contoso (IT-Contoso)** management group from drop down and click on **Save**.
 
    ![image](../media/man17.png)
+
+5. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by referring to step 3 & 4.
+
+6. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
 
 In this exercise you have created three child management groups and add subscriptions on it.
 
