@@ -2,6 +2,8 @@
 
 ## Exercise 2: Migrate SQL Server database to Azure
 
+In this exercise you are going to migrate SQL server database to Azure by using Data Migration Assistant.
+
 In this exercise, you will:
 
 + Task 1: Create an Azure SQL database
@@ -14,7 +16,7 @@ In this exercise, you will:
 
 ### Task 1: Create an Azure SQL database
 
-In this task, you will learn how to create an Azure SQl database by using Azure portal.
+In this task, you will learn how to create an Azure SQL database by using Azure portal.
 
 #### Pre-requisites for this task
 
