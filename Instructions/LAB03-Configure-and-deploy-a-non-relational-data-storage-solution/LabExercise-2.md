@@ -270,7 +270,7 @@ To start configuring backup:
 
     ![image](../media/back3.png)
 
-4. On the **Basics** tab, please select **Select vault option**.
+4. On the **Basics** tab, please select **Select vault** option.
 
     ![image](../media/back4a.png)
 
@@ -314,10 +314,6 @@ Here, you can see the success status under Backup readiness tab, please select N
 14. Please wait for completing the configuration process, then select Vaults option under Manage pane on the Backup center page, you can see the backup vault successfully configured.
 
     ![image](../media/back16.png)
-
-### Cleanup resources
-    
-   >**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module**.
     
 #### Review
 
