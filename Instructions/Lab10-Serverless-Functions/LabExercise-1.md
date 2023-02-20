@@ -2,7 +2,7 @@
 
 ## Exercise 1: Create Azure resources
 
-In this Exercise, you are going to create an Azure storage account and a function app.
+In this Exercise, you are going to create an Azure storage account and a function app. Azure Functions are best suited for small apps with events that can function independently of other websites.
 
 In this Exercise, you will have:
 
