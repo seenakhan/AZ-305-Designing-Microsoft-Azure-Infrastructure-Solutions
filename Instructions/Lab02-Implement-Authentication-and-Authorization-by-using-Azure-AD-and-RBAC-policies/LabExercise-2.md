@@ -2,7 +2,7 @@
 
 In order to allow Contoso users to authenticate by using Azure AD, you have been tasked to provide Azure Active Directory roles and custom RBAC roles to the new users.
 
-In this lab, you will:
+In this exercise, you will:
 
 + Task 1: Add Azure Active Directory roles to the new users.
 + Task 2: Add Custom RBAC roles.
