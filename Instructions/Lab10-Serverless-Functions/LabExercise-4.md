@@ -4,7 +4,7 @@
 
 In this exercise, you are going to create a function that runs automatically based on a fixed schedule.
 
-In this Exercise, you have
+In this exercise, you have
 
    + Task 1: Create a schedule-triggered function
    + Task 2: Observe function code
