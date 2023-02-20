@@ -144,11 +144,8 @@ You can add subscriptions to the management groups that you created.
 
 6. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
 
-In this exercise you have created three child management groups and add subscriptions on it.
+7. In this exercise you have created three child management groups and added subscriptions to it.
 
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 
@@ -157,4 +154,3 @@ In this exercise, you have:
 - Created Management Groups.
 - Created Child Management Groups.
 - Assigned subscriptions to management groups
-
