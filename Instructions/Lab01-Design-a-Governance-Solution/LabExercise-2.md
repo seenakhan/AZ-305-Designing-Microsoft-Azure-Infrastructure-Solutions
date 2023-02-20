@@ -22,7 +22,7 @@ Complete Exercise 1
 
 #### Steps:
 
-1. Go to search box and enter policy, then select **Policy** from the list.
+1. Go to search box and type policy, then select **Policy** from the list.
 
       ![image](../media/pol1.png)
 
@@ -36,7 +36,7 @@ Complete Exercise 1
 
 4. Please click on **Exclusions** elipsis **(...)** towards the right side of the exclusions.
 
-5. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
+5. On the Exclusions side screen Select the Resource group named similar to **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
 
       ![image](../media/pol6a.png)
 
@@ -44,9 +44,9 @@ Complete Exercise 1
 
 7. On the **Available Definitions** side screen take a moment to browse through the list of built-in policy definitions that are available for you to use.
 
-8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
+8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Add**.
 
-      ![image](../media/pol7.png)
+      ![image](../media/E2T1S8.png)
 
 9. By selecting the policy definition, the assignment name also filled automatically.
 
