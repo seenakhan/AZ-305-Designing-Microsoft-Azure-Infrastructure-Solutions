@@ -12,7 +12,7 @@ In this exercise, you will have:
 
 ### Task 1: Create a hub and spoke connectivity configuration
 
-Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with Use the hub as a gateway enabled and there is no gateway.
+Before deploying the connectivity configuration, ensure that the virtual network gateway has been successfully deployed. The deployment will fail if you deploy a hub and spoke configuration with **Use the hub as a gateway enabled and there is no gateway**.
 
 #### Pre-requisites for this task
 
