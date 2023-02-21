@@ -15,7 +15,7 @@ In this exercise, you will:
 
 ### Task 1: Deploy a quickstart template on Azure.
 
-In this task, you will learn how to use Azur portal to deploy a template by using Deploy a custom template.
+In this task, you will learn how to use Azure portal to deploy a template by using Deploy a custom template.
 
 #### Pre-requisites for this task
 
@@ -27,7 +27,7 @@ An Azure account
 
     ![img](../media/depl1.png)
 
-2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart templates dropdown, then select **Select template**, then select **Basics** tab.
+2. On the **Custom deployment** page please select template source as **Quickstart templates**, Select **demos/web-app-regional-vnet-private-endpoint-sql-storage** from the Quickstart template dropdown, then select **Select template**.
 
     ![img](../media/depl2a.png)
 
@@ -35,20 +35,21 @@ An Azure account
 
     | Section | Values |
     | ------- | ------ |
-    | Resource group | Select **Create new**, then enter the name **newres123**, then click **Ok**. |
+    | Resource group | Select **Create new**, enter the name **newres123**, then click **Ok**. |
     | Region |  **West US** |
     | Sql Administrator Login Name | **contososqladmin** |
     | Sql Administrator Login Password | **Pa$$w0rd123!** |
     | V Nets | Enter **[{"name":"hub-vnet","addressPrefixes":["10.1.0.0/16"],"subnets":[{"name":"PrivateLinkSubnet","addressPrefix":"10.1.1.0/24","udrName":null,"nsgName":null,"delegations":null,"privateEndpointNetworkPolicies":"Disabled","privateLinkServiceNetworkPolicies":"Enabled"}]},{"name":"spoke-vnet","addressPrefixes":["10.2.0.0/16"],"subnets":[{"name":"AppSvcSubnet","addressPrefix":"10.2.1.0/24","udrName":null,"nsgName":null,"privateEndpointNetworkPolicies":"Enabled","privateLinkServiceNetworkPolicies":"Enabled","delegations":[{"name":"appservice","properties":{"serviceName":"Microsoft.Web/serverFarms"}}]}]}]** |
     
+    >**Note:** If you are unable to see the entire value for V Nets option then please zoom out the broswer tab of your machine. 
     
- 4. After entering all the informations please select **Review + create**.    
+ 4. Select **Review + create**.    
     
     ![img](../media/depl4a.png)      
 
 5. After passing validation, please select **Create**.
 
-6. The deployment will take 10 minutes to complete. After completing the deployment, please select **Go to resource group**
+6. The deployment will take 10 minutes to complete. After completing the deployment, please select **Go to resource group**.
 
 7. Please review all the resources deployed on the resource group **newres123**.
 
@@ -56,13 +57,15 @@ An Azure account
 
     ![img](../media/depl5a.png)
 
-9. On the **Overview** section of the  resource group, please copy the Url of the App service.
+9. On the **Overview** section of the  resource group, please copy the **URL** of the App service.
 
     ![img](../media/depl6a.png)
 
-10. Take another tab of browser and paste the url of app service. You will get the default page of the App.
+10. Open another tab of browser and paste the URL of app service. You will get the default page of the App.
 
     ![img](../media/depl7.png)
+    
+    >**Note**: It might take few minutes to load the page.
 
 The application is running successfully.
 
@@ -76,11 +79,11 @@ Complete Exercise 1 - Task 1
 
 #### Steps:
 
-1. Search for **Web Apps** on the **search** box of the **Home** page, then select **App services** from the list below.
+1. In the Azure portal, search for **Web Apps** on the **search** box of the **Home** page, then select **App Services** from the list below.
 
-2. On the **App services** page, please select **+ Create**.
+2. On the **App Services** page, select **+ Create**.
 
-3. On the **Create Web App** page please enter the following details on the **Basics** tab and then select **Next: Deployment>** at the bottom.
+3. On the **Create Web App** page, enter the following details on the **Basics** tab and then select **Next: Deployment>** at the bottom.
 
     | Section | Values |
     | ------- | ------ |
@@ -104,7 +107,7 @@ Complete Exercise 1 - Task 1
 
     ![img](../media/webap2.png)
 
-7. After completing the validation, please select **Create**. After completing the deployment please select **Go to resource**.
+7. After completing the validation, select **Create**. After completing the deployment, select **Go to resource**.
 
 You have successfully deployed another web app.
 
@@ -120,7 +123,7 @@ Complete Exercise 1 - Task 1 & Task 2
 
 1. Go to Home page, and search for **Traffic Manager Profile**, then select **Traffice Manager Profile** from the list.
 
-2. On the **Load balancing | Traffic Manager** page, please select **+ Create**.
+2. On the **Traffic Manager** page, please select **+ Create**.
 
     ![img](../media/trafp1.png)
 
@@ -134,14 +137,10 @@ Complete Exercise 1 - Task 1 & Task 2
     | Resource group | **newres123** |
 
     ![img](../media/trafp2.png)
-
-    After completing the deployment, you can see the **contosotrafficmanager-1**.
+    
+4.  Once the deployment is succeeded, click on **Refresh** to see the **contosotrafficmanager-1**.
 
     ![img](../media/trafp3.png)
-
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 
