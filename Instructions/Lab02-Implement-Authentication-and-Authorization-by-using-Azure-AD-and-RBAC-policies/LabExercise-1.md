@@ -35,7 +35,7 @@ An Azure account
 
     ![img](../media/nuse2.png)
 
-5. Click **Edit properties**, in the **Settings** section, and check the usage location is UNited States, if not set **Usage location** to **United States** and click **Save** to apply the change.
+5. Click **Edit properties**, in the **Settings** section, and check the usage location is United States, if not set **Usage location** to **United States** and click **Save** to apply the change.
 
     ![img](../media/nuse3.png)
 
@@ -74,7 +74,7 @@ Complete Task 1
 
 1. Go to Azure portal, search **Resource groups** on the search box of the Home page and select **Resource groups** from the list.
 
-2. Select the resource group named **ODL-AZ-305-M02B-XXXXXXX**.
+2. Select the resource group named **ODL-AZ-305M02B-XXXXXXX**.
 
     ![img](../media/nres1.png)
 
@@ -99,11 +99,6 @@ Complete Task 1
    After a few moments, the user is assigned the Virtual Machine Contributor role at the **ODL-AZ-305-M02B-XXXXXXX** resource group scope.
 
     ![img](../media/nres6.png)
-
-
-### Clean up resources
-
->**Note: Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 

@@ -81,7 +81,7 @@ Here we are not configuring session.
 
 Now, you have created the conditional access policy named **Office application app policy**. You can see it on Conditional access policies page.
 
-    ![img](../media/ca7.png)
+   ![img](../media/ca7.png)
 
 10. You can test the conditional access policy by taking an in private window of your browser and enter http://portal.office.com then login with the credentials given in the Environment details.
 
