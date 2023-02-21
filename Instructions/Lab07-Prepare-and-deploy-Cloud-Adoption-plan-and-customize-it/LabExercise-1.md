@@ -345,7 +345,7 @@ Azure pricing tools help you manage cloud spend with transparency and accuracy, 
 
 ### Task 3: Create a cloud adoption plan
 
-To deploy the cloud adoption plan, open the Azure DevOps demo generator. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
+To deploy the cloud adoption plan, open the [Azure DevOps demo generator](https://azuredevopsdemogenerator.azurewebsites.net/). Please create a free account on it, if you are not having an account. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
 
 1. Verify that the Selected Template field is set to Cloud Adoption Plan. If it isn't, select Choose template to choose the right template.
 
