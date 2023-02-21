@@ -41,7 +41,7 @@ In this task you are going to create a SQL elastic pool and convert the database
 
 #### Pre-requisites for this task
 
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
+1. Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
 #### Steps:
 

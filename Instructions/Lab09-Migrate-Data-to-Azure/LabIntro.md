@@ -27,3 +27,5 @@ In this lab, you will have:
 
 ## Estimated timing: 200 minutes
 ## Solution Architecture
+
+  ![](../media/archlab9.png)
