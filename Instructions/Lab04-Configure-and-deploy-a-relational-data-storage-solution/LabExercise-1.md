@@ -42,7 +42,7 @@ An Azure account, a resource group
 
     ![image](../media/db4.png) 
 
-5. On **Create SQL Database Server** page, please enter the following details:
+5. On **Create SQL Database Server** page, please enter the following details and click on **Ok**
 
     | Settings | Values |
     |  -- | -- |      
@@ -55,7 +55,7 @@ An Azure account, a resource group
     
     ![image](../media/db5.png)     
 
-6. After creating the database server, please enter the following 
+6. After creating the database server, please enter the following and click on **Next : Networking >**
 
     | Settings | Values |
     |  -- | -- |      
@@ -66,7 +66,7 @@ An Azure account, a resource group
     
     ![image](../media/db6a.png) 
 
-7. On the **Networking** tab, review the default settings and go to **Security** tab.
+7. On the **Networking** tab, review the default settings.
 
 8. Select **Next: Security** at the bottom of the page, then keep the default settings as it is.
 
@@ -84,12 +84,7 @@ An Azure account, a resource group
 
 13. Once the deployment completed, please select **Go to Resource**.
 
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 
-In this lab, you have:
-
-+ Deployed an Azure SQL database.
+In this lab, you have deployed an Azure SQL database.
