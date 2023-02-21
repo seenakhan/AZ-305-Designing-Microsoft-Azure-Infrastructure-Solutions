@@ -19,7 +19,7 @@ In this task you are going review the cost estimation of your database.
 
 #### Pre-requisites for this task
 
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
+Complete Exercise 1, Exercise 2, Exercise 3 & Exercise 4.
 
 #### Steps:
 
@@ -39,15 +39,11 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
 In this task you are going to create a SQL elastic pool and convert the database into Elastic Pool.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
-
 #### Steps:
 
-1. Go to Azure portal, home page and then search elastic pool on the search bar, select **SQL elastic pools** from the list.
+1. Go to Azure portal home page and then search elastic pool in search bar, select **SQL elastic pools** from the list.
 
-2. On the **SQL elastic pools** page please select **Create**.
+2. On the **SQL elastic pools** page, select **Create**.
 
 3. On the **Create SQL Elastic pool** page under **Basic** tab please enter the following informations:
 
@@ -64,13 +60,13 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
 5. On the **Configure** page, under **Pool settings**, for **Service tier** please select **Standard (for workloads with typical performance requirements)** then select **Apply**.
 
-    ![img](../media/elast3.png) 
+    ![img](../media/L4E5T2S5.png) 
 
 6. On the **Create SQL Elastic pool** page, select **Review + Create**.
 
     ![img](../media/elast4.png) 
 
-7. After completing the validation please select **Create88.
+7. After completing the validation please select **Create**.
 
 It will take 2-3 minutes to complete the deployment.
 
@@ -88,11 +84,11 @@ It will take 2-3 minutes to complete the deployment.
 
     ![img](../media/elast7.png)
 
-12. Now it shows the database **adventureworkscontoso** added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Please select **Save**.
+12. Now it shows the database **adventureworkscontoso** added to the elastic pool, it lists the database into the option – Ready to be added to this pool. Now click on **Save**.
 
     ![img](../media/elast8.png)
 
-13. It starts a deployment to add Azure SQL Database into the elastic pool, and will take 2-3 minutes to complete the deployment. Please select **Go to resource** after completing the deployment.
+13. It starts a deployment to add Azure SQL Database into the elastic pool, and will take 2-3 minutes to complete the deployment. Select **Go to resource** after completing the deployment.
 
 14. Select **Configure**, then under **Databases** tab, you can see the database **adventureworkscontoso** added.
 
@@ -100,16 +96,6 @@ It will take 2-3 minutes to complete the deployment.
 
 You have successfully added your database to the elastic pool.
 
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
- 
-
-1. Select Home and then Resource groups.
-
-2. Select the resource group then select the resources you have created inthis lab, Sql database, Sql server, elastic pool, then select Delete
     
 #### Review
 
@@ -117,5 +103,3 @@ In this lab, you have:
 
 - Reviewed the cost analysis in the subscription scope.
 - Deployed Sql elastic pool and added Sql database into the elastic pool.
-
-
