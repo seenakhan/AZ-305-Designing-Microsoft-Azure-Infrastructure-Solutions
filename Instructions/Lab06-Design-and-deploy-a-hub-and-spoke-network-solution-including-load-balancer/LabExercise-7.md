@@ -33,7 +33,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 1. In the search box at the top of the portal, enter **Load balancer**. Select **Load balancers** in the search results.
 
-2. In the **Load balancer** page, select **+ Create**.
+2. In the **Load balancers** page, select **+ Create**.
 
     ![img](../media/lb1.png)
 
@@ -50,13 +50,13 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
     | Tier | Leave the default **Regional** |
     
   
-4. Select Next: Frontend IP configuration at the bottom of the page.
+4. Select **Next: Frontend IP configuration >** at the bottom of the page.
 
 5.  In **Frontend IP configuration**, select **+ Add a frontend IP configuration**.
 
 6. On the **Add Frontend IP Configuration** side screen, Enter **contosoIP** in Name box, Select **IPv4** for the IP version, then Select **IP address** for the IP type.
 
-7. Select Create new in Public IP address.
+7. Select **Create new** in Public IP address.
 
 8. In Add a public IP address, enter **contosopublicIP** for Name.
 
@@ -66,7 +66,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 11. Select Add.
 
-12. Select **Next: Backend pools** at the bottom of the page.
+12. Select **Next: Backend pools >** at the bottom of the page.
 
 13. In the **Backend pools** tab, select **+ Add a backend pool**.
 
@@ -78,7 +78,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 17. Select **Save**.
 
-18. Select **Next: Inbound rules** at the bottom of the page.
+18. Select **Next: Inbound rules >** at the bottom of the page.
 
 19. Under **Load balancing rule** in the Inbound rules tab, select **+ Add a load balancing rule**.
 
@@ -101,9 +101,9 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
   
 21. Select **Add** on the **Add load balancing rule** side screen.
 
-22. Select the **Review + create** button at the bottom of the **Create load blanacer**page, then select **Create**.
+22. Select the **Review + create** button at the bottom of the **Create load blanacer** page. Once the validation is passed click on **Create**.
 
-23. After completing the deployment, please select **Go to resource**.
+23. After deployement is succeeded, select **Go to resource**.
 
 You can see the newly created Load balancer named **ContosoLB**.
 
@@ -111,10 +111,6 @@ You can see the newly created Load balancer named **ContosoLB**.
 ### Task 2: Create NAT gateway
 
 In this task, you'll create a NAT gateway for outbound internet access for resources in the virtual network. 
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
 
 #### Steps:
 
@@ -124,7 +120,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
     ![img](../media/nat1.png)
 
-3. In Create network address translation (NAT) gateway, enter or select the following information:
+3. In **Create network address translation (NAT) gateway**, enter or select the following information:
 
     | Section | Values |
     | ------- | ------ |
@@ -137,25 +133,25 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
     ![img](../media/nat2.png)
 
-4. Select the **Outbound IP** tab or select **Next: Outbound IP** at the bottom of the page.
+4. Select the **Outbound IP** tab or select **Next: Outbound IP >** at the bottom of the page.
 
 5. In **Outbound IP**, select **Create a new public IP address** next to Public IP addresses.
   
     ![img](../media/nat3.png)
 
-6. Enter contosoNATgatewayIP in Name, then select **Ok**.
+6. Enter **contosoNATgatewayIP** in Name, then select **Ok**.
 
     ![img](../media/nat4.png)
 
-7. Select the **Subnet** tab or select the **Next: Subnet** button at the bottom of the page
+7. Select the **Subnet** tab or select the **Next: Subnet >** button at the bottom of the page
 
-8. In **Virtual network** in the Subnet tab, select **contoso-Vnet-EastUS**, then select **default** under **Subnet name**.
+8. In **Virtual network** in the Subnet tab, select **contoso-Vnet-EastUS** and click on **default** under **Subnet name**.
 
 9. Select the **Review + create** button at the bottom of the page.
 
-10. Select **Create**.
+10. Once the validation is passed, select **Create**.
 
-11. After completing the deployment, please select **Go to resource**.
+11. After the deployment is succeeded, select **Go to resource**.
 
 You can see the **contosoNatGateway** under the **Resources** list of **contosovnet** resource group's **Overview** section.
 
@@ -164,10 +160,6 @@ You can see the **contosoNatGateway** under the **Resources** list of **contosov
 In this task, you'll create two Virtual machines (contosoVM1 and contosoVM2) in two different zones (Zone 1, and Zone 2).
 
 These VMs are added to the backend pool of the load balancer that was created earlier. 
-
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
 
 #### Steps:
 
@@ -197,7 +189,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
     ![img](../media/nat5.png) 
     ![img](../media/nat6.png)
   
-4. Select **Next: Disks**, then for **OS Disk type** select **Standard SSD**, then Select the **Networking** tab or  **Next: Networking**.
+4. Select **Next: Disks >**, then for **OS Disk type** select **Standard SSD**, then select the **Networking** tab or  **Next: Networking >**.
 
 5. In the **Networking** tab, select or enter the following information:
 
@@ -209,12 +201,12 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
     | NIC network security group | Select **Advanced** |
     | Configure network security group | Skip this setting until the rest of the settings are completed. Complete after **Select a backend pool**. |
     | Delete NIC when VM is deleted | Leave the default of **unselected**. |
-    | Accelerated networking | Leave the default of **selected**. |
+    | Enable accelerated networking | Leave the default of **selected**. |
     | Place this virtual machine behind an existing load balancing solution? | Select **Checked** |
     | Load-balancing options | Select **Azure load balancer** |
     | Select a load balancer | Select **contosoLB** |
     | Select a backend pool | Select **contosoBackendPool** |
-    | After entered all options above please go to **Configure network security group** | Select **Create new**. In the Create network security group, enter **contosoNSG** in Name. Under Inbound rules, select **+Add an inbound rule**. On the side screen, Under Service, select **HTTP**. Under Priority, enter **100**. In Name, enter **contosoNSGRule**. Select **Add**. Select **OK** |
+    | After entered all options above please go to **Configure network security group** | Select **Create new**. In the Create network security group, enter **contosoNSG** in Name. Under Inbound rules, select **+Add an inbound rule**. On the side screen, under Service, select **HTTP**. Under Priority, enter **100**. In Name, enter **contosoNSGRule**. Select **Add**. Select **OK** |
   
 6. Select **Review + Create**, then select **Create**.
 
@@ -234,13 +226,9 @@ You have created contosoVM1 virtual machine.
 
 In this task you are going to install IIS server to the newly created virtual machine.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
-
 #### Steps:
 
-1. Select the Virtual machine contosoVM1.
+1. Select the Virtual machine **contosoVM1**.
 
 2. On the **Overview** page, select **Connect**, then **Bastion**.
 
@@ -250,12 +238,12 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
     ![img](../media/nat9.png)
 
-4. After completing the deployment please enter contosoVM1 username : **azureuser** and password: **Pa$$w0rd123!**, and keep **authentication type** as **Password** then select **connect**. 
+4. Once the deployment is completed, enter contosoVM1 username : **azureuser**, password: **Pa$$w0rd123!**, and keep **authentication type** as **Password** then select **connect**. 
 
     ![img](../media/nat10.png)
 
 
-5. Once contosoVM1 opens in the browser, please open the Powershell and enter the following scripts:
+5. Once contosoVM1 opens in the browser, please open the **Powershell** and enter the following scripts:
 
     In the PowerShell Window, run the following commands to:
 
@@ -283,19 +271,15 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exerci
 
 In this task, you are going to test the load balnacer deployed on the previous tasks.
 
-#### Pre-requisites for this task
-
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 & Exercise 6.
-
 #### Steps:
 
-1. In the search box at the top of the page, enter Public IP. Select Public IP addresses in the search results.
+1. In the search box at the top of the page, enter Public IP. Select **Public IP addresses** in the search results.
 
-2. In Public IP addresses, select contosoPublicIP.
+2. In Public IP addresses, select **contosoPublicIP**.
 
     ![img](../media/nat12.png)
 
-3. Copy the IP address. Paste the public IP into the address bar of your browser. 
+3. Copy the **IP address** and paste the it into the address bar of your browser. 
 
     ![img](../media/nat13.png)
 
@@ -307,9 +291,7 @@ You have successfully tested the Load balancer.
 
 ### Clean up resources
 
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
+   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost. Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
 
    >**When you're done, delete the resource group. Deleting the resource group deletes the storage account, the Azure file share, virtual machine and any other resources that you deployed inside the resource group.**
 
