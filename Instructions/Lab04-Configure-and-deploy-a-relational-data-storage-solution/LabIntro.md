@@ -6,7 +6,7 @@
 
 As a cloud architect at contoso organization, you have been tasked to create a sample AdvetureWorks database and configure firewalls and Azure Active directory to access the database server. Also configure the geo-replication and test the failover. After completing all these tasks you need to review the database cost and convert database into elastic pool. 
 
-- Create a single database with Adventure Works pre-loaded. In Azure SQL Database, you can create a single database using the Azure portal, a PowerShell script, or an Azure CLI script. In this example we are usiong azure portal to create the database. The database is then queried using the Azure portal's Query editor.
+- Create a single database with Adventure Works pre-loaded. In Azure SQL Database, you can create a single database using the Azure portal, a PowerShell script, or an Azure CLI script. In this example we are using Azure portal to create the database. The database is then queried using the Azure portal's Query editor.
 
 - Enable Firewall rules and connect to DB. Azure SQL Databases have two types of firewalls:
 
@@ -19,7 +19,7 @@ You are going to configure both server level and database level firewalls.
 - Enable AAD authentication and query the DB. Azure Active Directory (Azure AD) authentication allows you to connect to your SQL resource using Azure AD identities. 
 You can manage the identities of database users and other Microsoft services in one place with Azure AD authentication. Central ID management unifies database user management and simplifies permission management.
 
-- Enable Geo Replication & Test Failover. You are going to configure an active Geo-replicationa and test the failover for Azure SQL database. So for that you will need the following resource to configure active geo-replication via the Azure portal:
+- Enable Geo Replication & Test Failover. You are going to configure an active Geo-replication and test the failover for Azure SQL database. So for that you will need the following resource to configure active geo-replication via the Azure portal:
 
 A database in Azure SQL Database: The primary database that you want to replicate to a different geographical region.
 
