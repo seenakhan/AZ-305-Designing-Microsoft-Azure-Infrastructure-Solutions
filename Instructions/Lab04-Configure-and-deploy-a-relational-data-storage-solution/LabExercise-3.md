@@ -22,11 +22,11 @@ Complete Exercise 1 & Exercise 2.
 
 #### Steps:
 
-1. Go to Azure portal.
+1. Login to Azure portal if you have logged out.
 
 2. Please search for SQL servers on the search box of the home page and then select SQL server from the list.
 
-3. Please select the SQL Server which you created on the previous exercise (in this example it would be **contososerve**).
+3. Please select the SQL Server which you created in previous exercise (in this example it would be **contososerve**).
 
 4. Please go to SQL databases under settings and select **adventureworkscontoso** database from the list.
 
@@ -42,15 +42,15 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa1.png)
 
-8. On the **Azure Active Directory** side screen please enter the current user name on the search box and select from the below option. Then select the **Select** button from the bottom.
+8. On the **Azure Active Directory** side screen please enter the current user name in search box and select from the list. Then click on **Select** button at bottom.
 
     ![img](../media/aa2.png)
     
-9. You can see under **Azure Active Directory Admin** section the current user add as an admin and then click **Save**.   
+9. Verify under **Azure Active Directory Admin** section that the current user added as an admin and then click **Save**.   
 
     ![img](../media/aa3a.png)
     
-10. On the same page please select **SQL databases**, then select **adventureworkscontoso** from the databases list.
+10. On left side please select **SQL databases**, then select **adventureworkscontoso** from the databases list.
 
     ![img](../media/aa4.png)
     
@@ -84,10 +84,6 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa9.png)
 
-
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 
