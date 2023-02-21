@@ -38,3 +38,4 @@ In this lab, you will have:
 ## Estimated timing: 360 minutes
 ## Solution Architecture
 
+  ![](../media/archlab6.png)
