@@ -43,6 +43,16 @@ In this task you are going to create a SQL elastic pool and convert the database
 
 1. Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4.
 
+2. Remove the Secondary database from the replica.
+
+    1. In the Azure portal, browse to the primary database **adventureworkscontoso**.
+
+    2. Select **Replicas** section, then in the Geo replicas list, select the database **adventureworkscontoso** to remove from the geo-replication partnership, select the ellipsis(...), and then select **Stop replication**.
+    
+  ![img](../media/rerpl1.png)
+
+Immediately it will remove the replication and the database will become standalone database.
+
 #### Steps:
 
 1. Go to Azure portal, home page and then search elastic pool on the search bar, select **SQL elastic pools** from the list.
