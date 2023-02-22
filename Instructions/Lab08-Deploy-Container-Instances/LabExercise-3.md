@@ -16,13 +16,9 @@ In this Exercise, you will have:
 
 In this task, you are going to create two instances of a web application that run in different Azure regions. Both the web application instances run in Active/Active mode, so either one can take traffic. This configuration differs from an Active/Stand-By configuration, where one acts as a failover.
 
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
-
 #### Steps
 
-1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
+1. Sign in to the [Azure portal](https://portal.azure.com/).
 
 2. On the Azure home page, using the global search type **WebApp** and select **App Services** under services.
 
@@ -40,11 +36,11 @@ An Azure account with an active subscription.
    | Operating System | Select **Windows**.                                          |
    | Region           | Select **East US**.                                       |
    | Windows Plan     | Select **Create new** and enter **contosoappserviceplan1** in the text box. |
-   | SKU and size     | Select **Standard S1 100 total ACU, 1.75 GB memory**.        |
+   | SKU and size     | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1vCPU)**.        |
 
 ![img](../media/weba1.png)
 
-5. Review the Summary, and then select **Create**.  
+5. Select **Review + create**, review the Summary, and then select **Create**.  
 
    ‎It might take several minutes for the deployment to complete.
 
@@ -64,11 +60,11 @@ An Azure account with an active subscription.
    | Operating System | Select **Windows**.                                          |
    | Region           | Select **Central US**.                                          |
    | Windows Plan     | Select **Create new** and enter **contosoappserviceplan2** in the text box. |
-   | SKU and size     | Select **Standard S1 100 total ACU, 1.75 GB memory**.        |
+   | SKU and size     | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1vCPU)**.        |
 
 9. Select **Review + create**, review the Summary, and then select **Create**.   
-   ‎It might take several minutes for the deployment to complete.
 
+    ‎It might take several minutes for the deployment to complete.
 
 ### Task 2: Create Front Door profile.
 
@@ -170,4 +166,3 @@ In this lab, you have:
 - Created two instances of a web app.
 - Created a Front Door Profile.
 - Viewed Azure Front Door in action
-
