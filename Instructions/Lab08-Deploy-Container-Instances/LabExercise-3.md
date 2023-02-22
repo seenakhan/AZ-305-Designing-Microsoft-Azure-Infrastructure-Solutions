@@ -70,13 +70,9 @@ In this task, you are going to create two instances of a web application that ru
 
 In this task, you are going to create an Azure Front Door profile using the Azure portal.
 
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
-
 #### Steps
 
-1. Go to the **Azure portal**, in the Home page please enter **Front Door and CDN Profiles** on the Search bar, then please select **Front Door and CDN Profiles** from the list.
+1. Go to the **Azure portal**, in global search type **Front Door and CDN Profiles** in the Search bar, then please select **Front Door and CDN Profiles** from the list.
 
 ![img](../media/frnt1.png)
 
@@ -86,7 +82,7 @@ An Azure account with an active subscription.
 
 ![img](../media/frnt2.png)
 
-4. On the **Create a Front Door Profile** please enter the following informations, then Select **Review + create**.
+4. On the **Create a Front Door Profile** please enter the following informations, then click on **Review + create** and then **Create**.
 
     | Section | Values |
     | ------- | ------ |
@@ -104,7 +100,7 @@ An Azure account with an active subscription.
 
 6. On the Front Door resource in the Overview blade, locate the **Origin Groups**, select the origin group created
 
-7. To update the origin group select the name **default-origin-group** from the list. Select **Add an origin** . On the Add an Origin side screen please enter the following details:
+7. To update the origin group select the name **default-origin-group** from the list. Click on **Add an origin** within the pop-up screen on right side. On the Add an Origin side screen please enter the following details:
     | Section | Values |
     | ------- | ------ |
     | Name | **contosowebaorigin2** |
@@ -118,10 +114,6 @@ You hvae successfully updated the default origin.
 ### Task 3: View Azure Front Door in action
 
 In this task, you are going to access the frontend host you created. 
-
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
 
 #### Steps
 
@@ -146,17 +138,6 @@ An Azure account with an active subscription.
    ![img](../media/frnt7.png) 
 
    Congratulations! You have configured and tested an Azure Front Door.
-
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-
-1. Select the resource group named **ODL-AZ-305M05C-XXXXX**
-
-2. Select the contosowebapps, contosoappserviceplan, contosofrontdoor then select delete from the top.
 
     
 #### Review
