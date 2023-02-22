@@ -14,10 +14,6 @@ In this Exercise, you will have:
 
 In this task, you are going to deploy an Azure container instance by using YAML file.
 
-#### Pre-requisites for this task
-
-An Azure account.
-
 #### Steps:
 
 1. Go to Azure portal, from the top please select **Cloud shell**. Then select **Bash**
@@ -52,31 +48,31 @@ An Azure account.
 
 7. Please copy the following YAML script to the **deploy-aci.yaml** file.
 
-    ```YAML
-    apiVersion: 2019-12-01
-    location: eastus
-    name: securetest
-    properties:
-    containers:
-    - name: mycontainer
-    properties:
-    environmentVariables:
-    - name: 'ACCEPT_EULA'
-    value: 'Y'
-    - name: 'MSSQL_SA_PASSWORD'
-    value: 'India@123'
-    image: mcr.microsoft.com/mssql/server:2019-CU12-ubuntu-20.04
-    ports:
-    - port: 1433
-    resources:
-    requests:
-    cpu: 2
-    memoryInGB: 2
-    osType: Linux
-    restartPolicy: Always
-    tags: null
-    type: Microsoft.ContainerInstance/containerGroups
-    ```
+```YAML
+apiVersion: 2019-12-01
+location: eastus
+name: securetest
+properties:
+ containers:
+ - name: mycontainer
+   properties:
+     environmentVariables:
+      - name: 'ACCEPT_EULA'
+        value: 'Y'
+      - name: 'MSSQL_SA_PASSWORD'
+        value: 'India@123'
+     image: mcr.microsoft.com/mssql/server:2019-CU12-ubuntu-20.04
+     ports:
+     - port: 1433
+     resources:
+       requests:
+        cpu: 2
+        memoryInGB: 2
+ osType: Linux
+ restartPolicy: Always
+tags: null
+type: Microsoft.ContainerInstance/containerGroups
+```
 Let’s understand the script before executing it in the terminal for container deployment.
 
   + location: It is the Azure region where we want to deploy the resources
@@ -92,7 +88,9 @@ Your YAML file will look like this:
 
 ![img](../media/yml7.png)
 
-8. Please enter the command **az container create --resource-group ODL-AZ-305M05C-XXXXX --file deploy-aci.yaml**
+8. Right click in the editor and click on **Save** to write the file and then **Quit** to exit from the editor.
+
+8. Now nter the command **az container create --resource-group ODL-AZ-305M05C-XXXXX --file deploy-aci.yaml**
 
 9. You get JSON script output that shows the Azure Container instance is deployed successfully.
 
@@ -107,13 +105,8 @@ Your YAML file will look like this:
 ![img](../media/yml10.png)
 
 
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
-
 #### Review
 
 In this lab, you have:
 
 - Deployed an Azure Container instance using YAML file.
-
