@@ -53,7 +53,7 @@ On the [getting-started page](https://learn.microsoft.com/en-us/azure/cloud-adop
 
 ## Objectives
 
-In this lab, you will have:
+In this lab, you will:
 
 + Exercise 1: Prepare and deploy Cloud Adoption plan and customize it
 
