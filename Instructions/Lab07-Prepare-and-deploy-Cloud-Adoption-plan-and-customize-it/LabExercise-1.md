@@ -15,10 +15,6 @@ In this Exercise, you will have:
 
 The Cloud Adoption Framework includes the Cloud Adoption Strategy Evaluator, which can assist you in evaluating your overall cloud adoption strategy. This assessment provides recommendations based on cloud economics principles to assist your organization in developing a strong business case and enabling successful cloud adoption.
 
-#### Pre-requisites for this task
-
-A Microsoft account
-
 #### Steps
 
  Strategy define business justification and expected adoption outcomes. The Cloud Adoption Strategy Evaluator evaluates your strategy posture in the following areas of the Strategy methodology:
@@ -28,19 +24,21 @@ A Microsoft account
    + Evaluating financial considerations
    + Technical considerations in creating a business case
 
-1. Please select **[Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/8fefc6d5-97ac-42b3-8e97-d82701e55bab/sessions/32525eb4-19c4-4d71-a803-a80a7d959850?mode=pre-assessment&id=8fefc6d5-97ac-42b3-8e97-d82701e55bab&session=32525eb4-19c4-4d71-a803-a80a7d959850)** to assesses your strategy posture across distinct areas. Please sign in with your microsoft account.
+1. Please select **[Cloud Adoption Strategy Evaluator](https://learn.microsoft.com/en-us/assessments/8fefc6d5-97ac-42b3-8e97-d82701e55bab/sessions/32525eb4-19c4-4d71-a803-a80a7d959850?mode=pre-assessment&id=8fefc6d5-97ac-42b3-8e97-d82701e55bab&session=32525eb4-19c4-4d71-a803-a80a7d959850)** to assess your strategy posture across distinct areas. 
+
+2. Please sign in with your personal microsoft account. If you don't have one, signup using the link **[Create Microsoft Account](https://account.microsoft.com/account)** and proceed.
 
 2. Select **Edit** and enter the name **Contoso Cloud Adoption Strategy Evaluator 2023**, then select **Save**, then select **Continue**.
 
    ![img](../media/cld1.png)
 
-3. On the **Choose your interests** section please select all options and then select **Start**.
+3. On the **Choose your interests** section, select all options and then select **Start**.
 
    ![img](../media/cld2.png)
    
    ![img](../media/cld3.png)
 
-4. On **Identifying your motivations** Please select the answers for each questions:
+4. On **Identifying your motivations** select the answers for each questions as below:
 
    1. How would you describe your cloud strategy?
       
@@ -71,17 +69,17 @@ A Microsoft account
       Please select : **No, I would like to document a strategy** then select **Next**
 
       
-
-5. On **Documenting business outcomes you expect** section, Please select the answers for each questions:
+5. On **Documenting business outcomes you expect** section, select the answers for each questions:
 
     1. What are the business outcomes driving your cloud transformation?
        
-       Please select : All of the options except None of the above, then select **Next**
+       Please select : All of the options except None of the above, then click on **Next**
     
     2. Do these outcomes have associated business drivers, KPIs, and necessary technical capabilities?
 
        Please select : **Yes** then select **Next**
-6. On **Financial considerations for you to evaluate** section, Please select the answers for each questions:    
+       
+6. On **Financial considerations for you to evaluate** section, select the answers for each questions:    
     
     1. Have you developed a financial model or performed an economic assessment that provides business justification for moving to the cloud?
 
@@ -91,7 +89,7 @@ A Microsoft account
 
        Please select : **Cost center model** then select **Next**
 
- 7. On **Technical Considerations in creating your business case** Please select the answers for each questions: 
+ 7. On **Technical Considerations in creating your business case**, select the answers for each questions as below: 
 
      1. Do you have an understanding of how your resources need to scale out depending on usage, utilization, and demand in a cloud context?
 
@@ -119,7 +117,7 @@ A Microsoft account
      
      7. Are you familiar with Azure Reservations and pay-as-you-go pricing models?
        
-       Please select : **Yes**
+        Please select : **Yes**
      
      8. Are you familiar with Azure Spot Virtual Machines and how they can help you save?
 
@@ -129,7 +127,7 @@ A Microsoft account
 
         Please select : **Yes**, then select **Next**.
         
-8. On **Organizational alignment and Skills Readiness Plans** section, Please select the answers for each questions:
+8. On **Organizational alignment and Skills Readiness Plans** section, select the answers for each questions as below:
 
    1. Do the appropriate people and teams have foundational level knowledge of cloud services and how those services are provided with Microsoft Azure?
 
@@ -143,7 +141,7 @@ A Microsoft account
 
       Please select : **Yes**, then select **Next**.
 
-9. On **Creating your business case** section, Please select the answers for each questions:
+9. On **Creating your business case** section, select the answers for each questions as below:
 
    1. Do you understand the key components of building a business case?
 
@@ -156,7 +154,7 @@ A Microsoft account
 
 10. Review the evaluation of your strategy, and select **guidance** tab that can help you improve your business case for cloud adoption.
 
-11. Scroll down and at the **Improve your results** section, please select **Recommendations** tab and expand each section by clicking on **Show more**. Please review it and you can document it in Microsoft word or Excel file.
+11. Scroll down and at the **Improve your results** section and select **Recommendations** tab and expand each section by clicking on **Show more**. Now review it and you can document it in Microsoft word or Excel file.
 
     ![img](../media/cld4.png)
 
@@ -349,7 +347,7 @@ Azure pricing tools help you manage cloud spend with transparency and accuracy, 
 
 To deploy the cloud adoption plan, open the Azure DevOps demo generator. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
 
-1. Verify that the Selected Template field is set to Cloud Adoption Plan. If it isn't, select Choose template to choose the right template.
+1. Verify that the Selected Template field is set to **Cloud Adoption Plan**. If it isn't, select **Choose template** and then choose **Cloud Adoption Plan** under **Cloud Adoption Framework** tab.
 
 2. Select your Azure DevOps organization from the Select Organization menu.
 
