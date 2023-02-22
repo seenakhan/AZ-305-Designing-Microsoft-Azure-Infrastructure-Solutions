@@ -49,7 +49,7 @@ In this task you are going to create a SQL elastic pool and convert the database
 
     2. Select **Replicas** section, then in the Geo replicas list, select the database **adventureworkscontoso** to remove from the geo-replication partnership, select the ellipsis(...), and then select **Stop replication**.
     
-   ![img](../media/rerpl.png)
+  ![img](../media/rerpl1.png)
 
 Immediately it will remove the replication and the database will become standalone database.
 
