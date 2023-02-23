@@ -22,9 +22,9 @@ Completed Exercise 1
 
 #### Steps:
 
-1. OPen **Windows Explorer**, then go to C://AllFiles. Create a **folder** named **func**.
+1. Open **Windows Explorer**, then go to **C:\AllFiles**. Create a **folder** named **func**.
 
-1. On the taskbar, open **Windows Powershell**.
+1. In search bar of your **labvm** search for **Windows Powershell** and open it.
 
 1. Run the following command to change the current directory to the **C:\AllFiles\func** empty directory:
 
@@ -51,7 +51,7 @@ Completed Exercise 1 & Exercise 2 - Task 1
 
 #### Steps:
 
-1. On the **Start** screen, select the **Visual Studio Code**.
+1. Launch the **Visual Studio Code** by double clicking on the icon on dekstop.
 
 1. On the **File** menu, select **Open Folder**.
 
@@ -81,7 +81,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 
-1. On the taskbar, open **Windows Powershell**.
+1. In search bar of your **labvm** search for **Windows Powershell** and open it.
 
 1. Run the following command to change the current directory to the **C:\AllFiles\func** empty directory:
 
@@ -97,11 +97,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 You will get a build succeeded message on Powershell.
 
    ![img](../media/servl11.png)
-
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
 
 #### Review
 

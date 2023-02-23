@@ -21,19 +21,19 @@ Completed Exercise 1 & Exercise 2
 
 #### Steps:
 
-1. Open **Visual studio code**, open the terminal
+1. Open **Visual studio code**, open the terminal.
 
 1. Run the following command to change the current directory to the **C:\AllFiles\func** directory:
 
     ```powershell
     cd C:\AllFiles\func
     ```
-1. Install Azure functions extension by clicking on **Extension tab** on the left side and search **Azure** on the search box then click **Install** on **Azure functions**.
+1. Install Azure functions extension by clicking on **Extension tab** on the left side and search **Azure** on the search box. After that click on **Install** on **Azure functions**.
 
     ![img](../media/echo2.png)
 
 
-1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
+1. After installing, please select **Sign In** for signing into Azure portal. If it ask for username and password, please enter the username and password provided on **Environment details** tab of the Lab guide. After a while you will get a message showing **You are signed in now and can close this page**. Please check the Azure tab of the Visual studio code you can see the default subscription of Azure. Please close the browser page.
 
     ![img](../media/echo3.png)
 
@@ -41,7 +41,7 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo4.png)
 
-1. Enter the name **global.json** and press **Enter**, you have created the file named global.json. Please enter the following code on it.
+1. Enter the name **global.json** and hit **Enter**, you have created the file named global.json. Enter the following code on it.
 
     ```JSON
     {
@@ -55,7 +55,7 @@ Completed Exercise 1 & Exercise 2
 
     ![img](../media/echo5.png)
 
-1. Open the termninal then run the following command to use the **Azure Functions Core Tools** to create a new function named **Echo** using the **HTTP trigger** template:
+1. Open the termninal, run the following command to use the **Azure Functions Core Tools** to create a new function named **Echo** using the **HTTP trigger** template:
 
     ```powershell
     func new --template "HTTP trigger" --name "Echo"
@@ -67,7 +67,7 @@ Completed Exercise 1 & Exercise 2
 
 >**Note:** If its asking of installing C# extension, please install. Or else please go to the Extension tab and type C# on the search box and install C# for Visual studio code.
 
-No need to close the Terminal.
+>**Note:** No need to close the Terminal.
 
 #### Task 2: Write HTTP-triggered function code
 
@@ -236,7 +236,7 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 
 #### Steps:
 
-1. Run the following command to run the function app project:
+1. In the terminal, run the following command to run the function app project:
 
     ```powershell
     func start --build
@@ -299,11 +299,6 @@ Completed Exercise 1 & Exercise 2 - Task 1 & Task 2
 You have successfully tested the HTTP-triggered function by using httprepl.
 
 1. Close all currently running instances of the **Windows Terminal** application.
-
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
 
 #### Review
 

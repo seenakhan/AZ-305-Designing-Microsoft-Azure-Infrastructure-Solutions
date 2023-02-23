@@ -46,7 +46,7 @@ An Azure account
 
 1. Select **Create** to create the storage account by using your specified configuration.
 
-    > **Note**: Wait for the creation task to complete before you proceed with this lab.
+    > **Note**: Wait for the deployment to complete before you proceed with this lab.
 
 1. On the **Overview** blade, select the **Go to resource** button to go to the blade of the newly created storage account.
 
@@ -56,7 +56,7 @@ An Azure account
 
     ![img](../media/servl3.png) 
 
-1. Review any one of the keys, and then copy the value of either of the **Connection string** boxes to the clipboard
+1. Review any one of the keys, and then copy the value of either of the **Connection string** to the clipboard
 
      > **Note**: It doesn't matter which connection string you choose. They are interchangeable.
 
@@ -73,7 +73,7 @@ Completed Exercise 1 - Task 1
 
 #### Steps:
 
-1. On the Azure portal's search bar, please enter **function app**, then select **Function app** from the list.
+1. In the Azure portal, enter **function app** in the search bar, then select **Function App** from the list.
 
     ![img](../media/servl4.png) 
 
@@ -111,11 +111,7 @@ Completed Exercise 1 - Task 1
 
 1. Select **Create** to create the function app by using your specified configuration.
 
-    > **Note**: Wait for the creation task to complete before you move forward with this lab.
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next Exercises of this module.**
+    > **Note**: Wait for the deployment to complete before you move forward with this lab.
 
 #### Review
 

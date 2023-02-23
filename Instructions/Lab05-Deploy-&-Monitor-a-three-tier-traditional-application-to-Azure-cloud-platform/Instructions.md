@@ -46,9 +46,9 @@
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
+1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on **No**.
    
-1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
 1. Search for **Resource groups** on the search box.
 
@@ -56,5 +56,5 @@
 
 1. Please click on the resource group.
 
-1. Review the resources available on the source group
+1. Review the resources available on the resource group.
 

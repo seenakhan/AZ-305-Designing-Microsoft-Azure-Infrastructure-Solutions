@@ -48,7 +48,7 @@
   
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
-1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
 1. Search for **Resource groups** on the search box.
 

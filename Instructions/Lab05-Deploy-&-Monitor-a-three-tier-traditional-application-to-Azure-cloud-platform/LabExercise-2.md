@@ -21,7 +21,7 @@ Completed Exercise 1
 
 #### Steps:
 
-1. In **Load balancing | Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
+1. In **Traffic Manager** page, please select **contosotrafficmanager-1**, in the **Settings** section, select **Endpoints**, and then select **+ Add**. 
 
     ![img](../media/trafp6.png)
 
@@ -35,9 +35,10 @@ Completed Exercise 1
     | Target resource | Select **web-app-XXXXX-XXXX (West US)** |
     | Priority | Select **1** |
     
+    
     ![img](../media/trafp5a.png)
 
-3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with these settings:
+3. To create a failover endpoint for your second Azure region, repeat steps 1 and 2 with below mentioned settings and select **Add**.
 
     | Section | Values |
     | ------- | ------ |
@@ -73,7 +74,7 @@ You can see the Web app running successfully .
 
 To view Traffic Manager failover in action, disable your primary site:
 
-4. In the Traffic Manager Profile page, from the **Overview** section, select **contosoPrimaryEndpoint**.
+4. In the **Traffic Manager Profile** page, from the **Overview** section, select **contosoPrimaryEndpoint**.
 
 5. In **contosoPrimaryEndpoint**, select **Disabled** and then select **Save**.
 
@@ -88,10 +89,6 @@ To view Traffic Manager failover in action, disable your primary site:
 Verify that the web app is still available.
 
 The primary endpoint isn't available, so you were routed to the failover endpoint.
-
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 
