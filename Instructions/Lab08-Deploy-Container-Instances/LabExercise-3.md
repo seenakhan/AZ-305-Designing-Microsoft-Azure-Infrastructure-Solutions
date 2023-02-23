@@ -109,7 +109,7 @@ In this task, you are going to create an Azure Front Door profile using the Azur
 
 8. Select **Add** to add the second Web App, then select **Update**. 
 
-You hvae successfully updated the default origin.
+You have successfully updated the default origin.
 
 ### Task 3: View Azure Front Door in action
 
@@ -117,11 +117,11 @@ In this task, you are going to access the frontend host you created.
 
 #### Steps
 
-1. On the Front Door resource in the Overview blade, locate the endpoint hostname that is created for your endpoint. Under **Properties** tab **Copy** this FQDN.
+1. On the **Front Door and CDN profiles** in the Overview blade, locate the **Endpoint hostname** that is created for your endpoint. Under **Properties** tab **Copy** this FQDN.
 
 ![img](../media/frnt4.png)   
 
-2. In an Inprivate window, navigate to the Front Door endpoint FQDN. The default App Service page will be displayed.
+2. In an In-private window, navigate to the Front Door endpoint FQDN you copied in previous step. The default App Service page will be displayed.
 
 ![img](../media/frnt5.png)   
    
@@ -129,11 +129,11 @@ In this task, you are going to access the frontend host you created.
 
 4. Switch to the Azure portal, search for and select **App services**. 
 
-5. Select one of your web apps, then select **Stop**, and then select **Yes** to verify.
+5. Select one of your web apps, select **Stop**, and then click on **Yes** to verify.
 
  ![img](../media/frnt6.png)   
 
-6. Switch back to your Inprivate browser and enter the Url. This time, you should see an error message.
+6. Switch back to your In-private browser and enter the Url. This time, you should see an error message.
 
    ![img](../media/frnt7.png) 
 

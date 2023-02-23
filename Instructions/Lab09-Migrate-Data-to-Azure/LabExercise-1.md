@@ -21,57 +21,57 @@ In this task, you will learn how to install and configure SQL Server express edi
 
     ![img](../media/sql1.png)
 
-2. After dwonloading it, please open the installer file from the downloads folder by double clicking on it.
+2. After dwonloading it, Open **File Explorer** and double click on the installer file from the **Downloads** folder to open it.
 
-3. Once the installer open please select **Basic** tab to install the SQL Server engine with default configuration.
+3. Once the installer open, select **Basic** tab to install the SQL Server engine with default configuration.
 
     ![img](../media/sql2.png)
 
-4. For Microsoft SQL Server License terms please select **Accept**.
+4. For Microsoft SQL Server License terms, select **Accept**.
 
     ![img](../media/sql3.png)
 
-5. For **Specify SQL Server Installation Location** please select the default.
+5. For **Specify SQL Server Installation Location**, select **Install**.
 
     ![img](../media/sql4.png)
 
-6. Thye installation will take 5-7 minutes to complete. After completing the installation please select close. If it ask for exiting from the installer please select **Yes**.
+6. The installation will take 5-7 minutes to complete. After completing the installation, select **Close**. Pop-up will appear asking to exit from **SQL Server Installer** then select **Yes**.
 
-7. Open SQL Server Management Studio from the start button.
+7. In the search bar of your **LabVM** search for **SQL Server Management Studio** and open it.
 
 8. For server type please select **Database Engine**.
 
-9. For Server name please select **Browse more**, then on the **Local servers** tab of the **Browse for Servers** window, please expand database engine, then select **LocalVm-XXXX\SQLEXPRESS**, then select **Ok**.
+9. For **Server name** select **Browse more** from the drop down, on the **Local servers** tab of the **Browse for Servers** window, expand **Database Engine**, then select **labvm-XXXX\SQLEXPRESS**, and click on **Ok**.
 
-10. For Authentication select **Windows Authentication**. Then select **Connect**.
+10. For **Authentication**, select **Windows Authentication** and click on **Connect**.
 
     You hvae successfully connected the SQL server now.
     
-11. Expand the server, expand the database you can see there is no user defined databases.
+11. Expand the server, under it expand the **Databases**, you can see there is no user defined database listed.
 
-12. Please go to this link to [Download](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) **Adventure works Sample database**.
+12. Visit the link to [Download](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms) **Adventure works Sample database**.
 
-13. Scroll down, under **OLTP** tab select **AdventureWorks2019.bak**. Please wait for the download to complete. After completing the download please go to downloads folder and copy the file and open **C:\AllFiles** folder and paste it.
+13. Scroll down, under **OLTP** tab select **AdventureWorks2019.bak**. Please wait for the download to complete. After completing the download go to **Downloads** folder. Copy the file and paste it in **C:\AllFiles** folder.
 
-14. Go to SSMS window, please right click **Databases** folder on the **Object Explorer** window, then select **Restore Database**.
+14. Go to SSMS window, right click **Databases** folder on the **Object Explorer** window, then select **Restore Database**.
 
     ![img](../media/sql5.png)
 
-15. On the **Restore Database** window, please select **Device**, then select the **Ellipsis(...)** button.
+15. On the **Restore Database** window, select **Device**, then click on the **Ellipsis(...)** button.
 
     ![img](../media/sql6.png)
 
-16. On **Select backup devices** window please select **Add**.
+16. On **Select backup devices** window, select **Add**.
 
     ![img](../media/sql7.png)
 
-17. On **Locate backup file** window, please select **C:\AllFiles**, then select **AdventureWorks2019.bak** backup, then click **Ok**.
+17. On **Locate backup file** window, select **C:\AllFiles**, then select **AdventureWorks2019.bak** backup. Click **Ok**.
 
     ![img](../media/sql8.png)
 
-18. On **Select backup devices** window please select **Ok**. And on the **Restore Database** window, please select **Ok**.
+18. On **Select backup devices** window select **Ok**. And on the **Restore Database** window, select **Ok**.
 
-19. After a while you will get a window showing **Database Adventureworks 2019 restored successfully**. Please select ok.
+19. After a while you will get a window showing **Database Adventureworks 2019 restored successfully**. Click on **Ok**.
 
     ![img](../media/sql9.png)
 
@@ -80,10 +80,6 @@ In this task, you will learn how to install and configure SQL Server express edi
     ![img](../media/sql10.png)
 
 You have successfully configured SQL server and Adventureworks database.
-
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 #### Review
 

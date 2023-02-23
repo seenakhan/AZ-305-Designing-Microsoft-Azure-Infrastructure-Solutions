@@ -9,11 +9,11 @@ Currently, the IT department is in charge of all management tasks for the compan
 
 In order to choose the best options to support the planned migrations of workloads on databases, you have been tasked with implementing the following functionality:
 
-- Install and Configure SQL Server. You are going to install SQL Server EXpress edition and configure it. Attach a sample database named Adventureworks2019.
+- Install and Configure SQL Server. You are going to install SQL Server Express edition and configure it. Attach a sample database named Adventureworks2019.
 
 - Migrate SQL Server database to Azure. Cloud migration and modernization is a continuous process that involves significant organizational change management spanning people, process, and technology. You can use Azure Database Migration Service to migrate the databases from a SQL Server instance to Azure SQL Database.
 
-- Migrate a blob data to Azure storage account. You will create and azure storage account and upload a blob file by using powershell script.
+- Migrate a blob data to Azure storage account. You will create azure storage account and upload a blob file by using powershell script.
 
 
 ## Objectives

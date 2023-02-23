@@ -42,11 +42,11 @@ Complete Exercise 1.
   
     ![img](../media/vnt3.png)
   
-5. Once the validation passed successfully, please click on **Create**.
+5. Once the validation passed successfully, click on **Create**.
 
     ![img](../media/vnt4.png)
  
-6. After completing the deployment, please select **Go to resource**.
+6. After completing the deployment, select **Go to resource**.
 
 7. Repeat steps 2-5 to create two more virtual networks into the same resource group with the following information:
 
@@ -87,11 +87,11 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
 1. Search for **Virtual network gateways** on the **search** box of the **Home** page, then select **Virtual network gateways** from the list below.
 
-2. Please select **+ Create** on the **Virtual Network gateways**.
+2. Select **+ Create** on the **Virtual Network gateways**.
 
     ![img](../media/vnt5.png)
  
- 3. On the **Basics** tab, enter or select the following settings, then click **Review + Create**.
+ 3. On the **Basics** tab, select the following settings, then click **Review + Create**.
 
      | Section | Values |
      | ------- | ------ |
@@ -107,17 +107,14 @@ Complete Exercise 1 & Exercise 2 - Task 1.
      | Public IP Address Type | **Standard** |
      | Public Address | **Create new** |
      | Public IP address name | **Contoso-Vnet-WestUS-GW-IP** |
+     | Enable active-active mode | **Disabled** | 
   
      ![img](../media/vnt6.png)
      ![img](../media/vnt7.png)
   
-4.  After the validation passed successfully, please select **Create**.
+4.  After the validation passed successfully, select **Create**.
 
 >**Note** : The deployment of a virtual network gateway can take about 30 minutes. You can move on to the next section while waiting for this deployment to complete.
- 
- ### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 

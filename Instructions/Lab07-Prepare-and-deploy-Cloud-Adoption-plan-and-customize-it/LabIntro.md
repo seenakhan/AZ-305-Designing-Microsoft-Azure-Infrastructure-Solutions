@@ -60,3 +60,6 @@ In this lab, you will:
 
 ## Estimated timing: 100 minutes
 ## Solution Architecture
+
+  ![](../media/archlab7.png)
+  

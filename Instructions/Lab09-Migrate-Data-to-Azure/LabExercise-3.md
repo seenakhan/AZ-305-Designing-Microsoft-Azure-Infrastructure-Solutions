@@ -25,7 +25,7 @@ An Azure account
 
    ![img](../media/strg4.png)
 
-2. Select **Powershell**, then select **Show Advanced settings**.
+2. Select **Powershell**, then click on **Show Advanced settings**.
 
    ![img](../media/strg2a.png)
 
@@ -39,26 +39,28 @@ An Azure account
    | Region | **East US** |
    | File share | **contosofile1** |
 
-9. After opening Powershell terminal please enter the following script and press enter to create a file to upload to a block blob.
+9. After opening Powershell terminal, enter the following script and hit enter to create a file to upload to a block blob.
+
+>**Note**: You will need to replace the **XXXXXX** with the **Deployment-ID** mentioned in environment tab and **subscription-ID** with actual **Subscription ID**.
 
   ```Powershell
      az storage account create --name storcon13 --resource-group ODL-AZ-305M05D-XXXXX-AZ305M05D --location EastUS --sku Standard_LRS --encryption-services blob
      
-     az role assignment create --role "Storage Blob Data Contributor" --assignee odl_user_XXXXXX@cloudlabsai.com --scope "/subscriptions/<subscription-ID>/providers/Microsoft.Storage/storageAccounts/storcon13"
+     az role assignment create --role "Storage Blob Data Contributor" --assignee odl_user_XXXXXX@cloudlabsai.com --scope "/subscriptions/subscription-ID/resourceGroups/ODL-AZ-305M05D-XXXXXX-AZ305M05D/providers/Microsoft.Storage/storageAccounts/storcon13"
    ```
 10. Open a notepade and type **Hello World**, then save it as **file.txt**.
 
-11. On the Powershell terminal click on **Upload** then select the file **file.txt** from the saved location, then Upload. You will get a message shows Successfully Uploaded.
+11. On the Powershell terminal, click on **Upload**, select the file **file.txt** from the saved location, then click on **Open** to upload the file. You will get a message shows Successfully Uploaded.
 
-12. On the Powershell terminal please enter the following script.
+12. On the Powershell terminal, run the following script.
 
   ```Powershell
   az storage container create --account-name storcon13 --name storcontainer123 --auth-mode login
   
-  az storage blob upload --account-name storcon13 --container-name storcontainer223 --name file.txt --file file.txt --auth-mode login
+  az storage blob upload --account-name storcon13 --container-name storcontainer123 --name file.txt --file file.txt --auth-mode login
   ```
   
-13. After successfully run the script, please got **Storage accounts** , then select **storcon13**, then select the **container** named **storcontainer223**. You can see the uploaded file **file.txt** there.
+13. Once the script execution is completed, go to **Storage accounts**. Select **storcon13**, then select the **Container** under **Data Storage** named **storcontainer123**. You can see the uploaded file **file.txt** there.
   
     ![img](../media/strg6.png)
   

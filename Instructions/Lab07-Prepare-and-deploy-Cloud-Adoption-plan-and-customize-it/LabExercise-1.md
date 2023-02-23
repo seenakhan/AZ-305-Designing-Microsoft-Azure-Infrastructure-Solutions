@@ -163,7 +163,7 @@ The Cloud Adoption Framework includes the Cloud Adoption Strategy Evaluator, whi
 
 #### Gather inventory data for a digital estate
 
-Developing an inventory is the first step for [digital estate planning](./index.md). In this process, a list of IT assets that support specific business functions are collected for later analysis and rationalization. This article assumes that a bottom-up approach to analysis is most appropriate for planning. For more information, see [Approaches to digital estate planning](./approach.md).
+Developing an inventory is the first step for digital estate planning. In this process, a list of IT assets that support specific business functions are collected for later analysis and rationalization. This article assumes that a bottom-up approach to analysis is most appropriate for planning. 
 
 #### Take inventory of a digital estate
 
@@ -187,7 +187,7 @@ After an inventory is compiled and validated, it can be rationalized. Inventory 
 
 #### Rationalize the digital estate
 
-Cloud rationalization is the process of evaluating assets to determine the best approach to hosting them in the cloud. After you've determined an [approach](./approach.md) and aggregated an [inventory](./inventory.md), cloud rationalization can begin. Cloud rationalization discusses the most common rationalization options.
+Cloud rationalization is the process of evaluating assets to determine the best approach to hosting them in the cloud. After you've determined an approach and aggregated an inventory, cloud rationalization can begin. Cloud rationalization discusses the most common rationalization options.
 
 #### Traditional view of rationalization
 
@@ -202,8 +202,6 @@ It's easy to understand rationalization when you visualize the traditional proce
 - What dependencies exist between assets? These questions are vital to the classification of the inventory.
 
 **Qualitative analysis:** The next set of decisions requires human intelligence in the form of qualitative analysis. Often, the questions that come up here are unique to the solution and can be answered only by business stakeholders and power users. These decisions typically delay the process, slowing things down considerably. This analysis generally consumes 40 to 80 FTE hours per application.
-
-For guidance about building a list of qualitative analysis questions, see [Approaches to digital estate planning](./approach.md).
 
 **Rationalization decision:** In the hands of an experienced rationalization team, the qualitative and quantitative data creates clear decisions. Unfortunately, teams with a high degree of rationalization experience are expensive to hire or take months to train.
 
@@ -233,7 +231,7 @@ In an incremental rationalization process, an agentless solution could be used f
 
 #### Quantitative analysis: Streamline decisions
 
-Regardless of the approach to inventory discovery, quantitative analysis can drive initial decisions and assumptions. This is especially true when trying to identify the first workload or when the goal of rationalization is a high-level cost comparison. In an incremental rationalization process, the cloud strategy team and the cloud adoption teams limit the [five Rs of rationalization](./5-rs-of-rationalization.md) to two concise decisions and only apply those quantitative factors. This streamlines the analysis and reduces the amount of initial data that's required to drive change.
+Regardless of the approach to inventory discovery, quantitative analysis can drive initial decisions and assumptions. This is especially true when trying to identify the first workload or when the goal of rationalization is a high-level cost comparison. In an incremental rationalization process, the cloud strategy team and the cloud adoption teams limit the five Rs of rationalization to two concise decisions and only apply those quantitative factors. This streamlines the analysis and reduces the amount of initial data that's required to drive change.
 
 For example, if an organization is in the midst of an IaaS migration to the cloud, you can assume that most workloads will either be retired or rehosted.
 
@@ -257,7 +255,7 @@ In a traditional on-premises environment, hosting small, unused assets seldom ca
 
 When you move to a cloud accounting model, retiring assets can produce significant savings in annual operating costs and up-front migration efforts.
 
-It's not uncommon for organizations to retire 20% or more of their digital estate after completing a quantitative analysis. We recommend conducting further qualitative analysis before taking action. After it's confirmed, retiring those assets can produce the first ROI victory of the cloud migration. This is often one of the biggest cost-saving factors. Therefore, the cloud strategy team should oversee the validation and retirement of assets, in parallel with execution of the [Migrate methodology](../migrate/index.md), to achieve an early financial win.
+It's not uncommon for organizations to retire 20% or more of their digital estate after completing a quantitative analysis. We recommend conducting further qualitative analysis before taking action. After it's confirmed, retiring those assets can produce the first ROI victory of the cloud migration. This is often one of the biggest cost-saving factors. Therefore, the cloud strategy team should oversee the validation and retirement of assets, in parallel with execution of the Migrate methodology, to achieve an early financial win.
 
 #### Program adjustments
 
@@ -289,7 +287,7 @@ The first workload is often deployed in an experimental environment with no oper
 
 #### Qualitative analysis
 
-The cloud adoption teams and the cloud strategy team can work together to analyze this small workload. This collaboration creates a controlled opportunity to create and test qualitative analysis criteria. The smaller population creates an opportunity to survey the affected users, and to complete a detailed qualitative analysis in a week or less. For common qualitative analysis factors, see the specific rationalization target in the [five Rs of rationalization](./5-rs-of-rationalization.md).
+The cloud adoption teams and the cloud strategy team can work together to analyze this small workload. This collaboration creates a controlled opportunity to create and test qualitative analysis criteria. The smaller population creates an opportunity to survey the affected users, and to complete a detailed qualitative analysis in a week or less. For common qualitative analysis factors, see the specific rationalization target in the five Rs of rationalization.
 
 #### Migration
 
@@ -335,17 +333,17 @@ After you've rationalized a digital estate, you can align it to equivalent costi
 
 Azure pricing tools help you manage cloud spend with transparency and accuracy, so you can make the most of Azure and other clouds. Providing the tools to monitor, allocate, and optimize cloud costs, empowers customers to accelerate future investments with confidence.
 
-- [Azure Migrate](/azure/migrate/migrate-services-overview): Azure Migrate is perhaps the most cost effective approach to cost model alignment. This tool allows for [digital estate inventory](./inventory.md), [limited rationalization](./rationalize.md), and cost calculations in one tool.
+- Azure Migrate: Azure Migrate is perhaps the most cost effective approach to cost model alignment. This tool allows for digital estate inventory, limited rationalization, and cost calculations in one tool.
 
 - [Total cost of ownership (TCO) calculator](https://azure.microsoft.com/pricing/tco/calculator/): Lower the total cost of ownership of your on-premises infrastructure with the Azure cloud platform. Use the Azure TCO calculator to estimate the cost savings you can realize by migrating your application workloads to Azure. Provide a brief description of your on-premises environment to get an instant report.
 
 - [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/): Estimate your expected monthly bill by using our pricing calculator. Track your actual account usage and bill at any time using the billing portal. Set up automatic email billing alerts to notify you if your spend goes above an amount you configure.
 
-- [Azure Cost Management + Billing](/azure/cost-management-billing/cost-management-billing-overview): Azure Cost Management + Billing is a cost management solution that helps you use and manage Azure and other cloud resources effectively. Collect cloud usage and billing data through application program interfaces (APIs) from Azure, Amazon Web Services, and Google Cloud Platform. With that data, gain full visibility into resource consumption and costs across cloud platforms in a single, unified view. Continuously monitor cloud consumption and cost trends. Track actual cloud spending against your budget to avoid overspending. Detect spending anomalies and usage inefficiencies. Use historical data to improve your forecasting accuracy for cloud usage and expenditures.
+- Azure Cost Management + Billing: Azure Cost Management + Billing is a cost management solution that helps you use and manage Azure and other cloud resources effectively. Collect cloud usage and billing data through application program interfaces (APIs) from Azure, Amazon Web Services, and Google Cloud Platform. With that data, gain full visibility into resource consumption and costs across cloud platforms in a single, unified view. Continuously monitor cloud consumption and cost trends. Track actual cloud spending against your budget to avoid overspending. Detect spending anomalies and usage inefficiencies. Use historical data to improve your forecasting accuracy for cloud usage and expenditures.
 
 ### Task 3: Create a cloud adoption plan
 
-To deploy the cloud adoption plan, open the Azure DevOps demo generator. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
+To deploy the cloud adoption plan, open the [Azure DevOps demo generator](https://azuredevopsdemogenerator.azurewebsites.net/). Please create a free account on it, if you are not having an account. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
 
 1. Verify that the Selected Template field is set to **Cloud Adoption Plan**. If it isn't, select **Choose template** and then choose **Cloud Adoption Plan** under **Cloud Adoption Framework** tab.
 
