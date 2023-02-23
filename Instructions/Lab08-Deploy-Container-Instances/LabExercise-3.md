@@ -16,13 +16,9 @@ In this Exercise, you will have:
 
 In this task, you are going to create two instances of a web application that run in different Azure regions. Both the web application instances run in Active/Active mode, so either one can take traffic. This configuration differs from an Active/Stand-By configuration, where one acts as a failover.
 
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
-
 #### Steps
 
-1. Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com/).
+1. Sign in to the [Azure portal](https://portal.azure.com/).
 
 2. On the Azure home page, using the global search type **WebApp** and select **App Services** under services.
 
@@ -40,11 +36,11 @@ An Azure account with an active subscription.
    | Operating System | Select **Windows**.                                          |
    | Region           | Select **East US**.                                       |
    | Windows Plan     | Select **Create new** and enter **contosoappserviceplan1** in the text box. |
-   | SKU and size     | Select **Standard S1 100 total ACU, 1.75 GB memory**.        |
+   | SKU and size     | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1vCPU)**.        |
 
 ![img](../media/weba1.png)
 
-5. Review the Summary, and then select **Create**.  
+5. Select **Review + create**, review the Summary, and then select **Create**.  
 
    ‎It might take several minutes for the deployment to complete.
 
@@ -64,23 +60,19 @@ An Azure account with an active subscription.
    | Operating System | Select **Windows**.                                          |
    | Region           | Select **Central US**.                                          |
    | Windows Plan     | Select **Create new** and enter **contosoappserviceplan2** in the text box. |
-   | SKU and size     | Select **Standard S1 100 total ACU, 1.75 GB memory**.        |
+   | SKU and size     | Select **Standard S1 (100 total ACU, 1.75 GB memory, 1vCPU)**.        |
 
 9. Select **Review + create**, review the Summary, and then select **Create**.   
-   ‎It might take several minutes for the deployment to complete.
 
+    ‎It might take several minutes for the deployment to complete.
 
 ### Task 2: Create Front Door profile.
 
 In this task, you are going to create an Azure Front Door profile using the Azure portal.
 
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
-
 #### Steps
 
-1. Go to the **Azure portal**, in the Home page please enter **Front Door and CDN Profiles** on the Search bar, then please select **Front Door and CDN Profiles** from the list.
+1. Go to the **Azure portal**, in global search type **Front Door and CDN Profiles** in the Search bar, then please select **Front Door and CDN Profiles** from the list.
 
 ![img](../media/frnt1.png)
 
@@ -90,7 +82,7 @@ An Azure account with an active subscription.
 
 ![img](../media/frnt2.png)
 
-4. On the **Create a Front Door Profile** please enter the following informations, then Select **Review + create**.
+4. On the **Create a Front Door Profile** please enter the following informations, then click on **Review + create** and then **Create**.
 
     | Section | Values |
     | ------- | ------ |
@@ -108,7 +100,7 @@ An Azure account with an active subscription.
 
 6. On the Front Door resource in the Overview blade, locate the **Origin Groups**, select the origin group created
 
-7. To update the origin group select the name **default-origin-group** from the list. Select **Add an origin** . On the Add an Origin side screen please enter the following details:
+7. To update the origin group select the name **default-origin-group** from the list. Click on **Add an origin** within the pop-up screen on right side. On the Add an Origin side screen please enter the following details:
     | Section | Values |
     | ------- | ------ |
     | Name | **contosowebaorigin2** |
@@ -122,10 +114,6 @@ You have successfully updated the default origin.
 ### Task 3: View Azure Front Door in action
 
 In this task, you are going to access the frontend host you created. 
-
-#### Pre-requisites for this task
-
-An Azure account with an active subscription.
 
 #### Steps
 
@@ -151,17 +139,6 @@ An Azure account with an active subscription.
 
    Congratulations! You have configured and tested an Azure Front Door.
 
-### Clean up resources
-
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going.
-
-
-1. Select the resource group named **ODL-AZ-305M05C-XXXXX**
-
-2. Select the contosowebapps, contosoappserviceplan, contosofrontdoor then select delete from the top.
-
     
 #### Review
 
@@ -170,4 +147,3 @@ In this lab, you have:
 - Created two instances of a web app.
 - Created a Front Door Profile.
 - Viewed Azure Front Door in action
-
