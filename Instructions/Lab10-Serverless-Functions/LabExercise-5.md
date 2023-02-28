@@ -97,7 +97,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
     ```
 You have successfully created another C# file named **GetSettingInfo.cs**.
 
-    ![img](../media/azcn4.png)
+   ![img](../media/azcn4.png)
   
 
 #### Task 3: Write HTTP-triggered and blob-inputted function code
