@@ -257,7 +257,7 @@ Completed Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4 & Exercise 5 - Task 
     ```
 Please wait for a while to complete the installation.
 
-1. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
+2. After that, run the following command to build the .NET project and to validate the extensions were installed correctly:
 
     ```powershell
     dotnet build
