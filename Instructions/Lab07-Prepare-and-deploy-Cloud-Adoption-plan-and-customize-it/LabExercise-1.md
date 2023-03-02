@@ -28,9 +28,9 @@ The Cloud Adoption Framework includes the Cloud Adoption Strategy Evaluator, whi
 
 2. Please sign in with your personal microsoft account. If you don't have one, signup using the link **[Create Microsoft Account](https://account.microsoft.com/account)** and proceed.
 
-2. Select **Edit** and enter the name **Contoso Cloud Adoption Strategy Evaluator 2023**, then select **Save**, then select **Continue**.
-
-   ![img](../media/cld1.png)
+2.  Click under the assesment name and enter the name **Contoso Cloud Adoption Strategy Evaluator 2023**
+  
+     ![img](../media/assesment.png)
 
 3. On the **Choose your interests** section, select all options and then select **Start**.
 
@@ -343,7 +343,7 @@ Azure pricing tools help you manage cloud spend with transparency and accuracy, 
 
 ### Task 3: Create a cloud adoption plan
 
-To deploy the cloud adoption plan, open the [Azure DevOps demo generator](https://azuredevopsdemogenerator.azurewebsites.net/). Please create a free account on it, if you are not having an account. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
+To deploy the cloud adoption plan, open the [Azure DevOps demo generator](https://azuredevopsdemogenerator.azurewebsites.net/). Click on sign in ,if you don't find an account,please create a free account on it. This tool deploys the template to your Azure DevOps tenant. This tool requires the following steps:
 
 1. Verify that the Selected Template field is set to **Cloud Adoption Plan**. If it isn't, select **Choose template** and then choose **Cloud Adoption Plan** under **Cloud Adoption Framework** tab.
 
