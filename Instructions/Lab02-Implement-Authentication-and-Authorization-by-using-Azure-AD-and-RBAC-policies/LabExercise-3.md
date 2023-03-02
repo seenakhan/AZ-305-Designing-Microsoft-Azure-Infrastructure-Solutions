@@ -41,6 +41,8 @@ An Azure account.
 4. On the **Overview** section of **contosoapp-test**, select **Application ID URI**.
 
     ![img](../media/appr3.png)
+    
+    **Note**:Under the Application ID URI if you don't find the link, click on "Add Application URI" and click on **set** and **save**. 
 
 5. Select **+ Add scope**.
 
