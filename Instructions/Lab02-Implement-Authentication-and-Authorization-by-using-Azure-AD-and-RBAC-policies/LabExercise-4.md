@@ -40,9 +40,9 @@ An Azure account with security administrator, Conditional Access administrator, 
  
 4.  Take an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
 
-You can see there is a message showing **skip for now (14 days until this is required)**. This means all users in your tenant must enroll in multifactor authentication (MFA) via Azure AD Multi-Factor Authentication. Users have 14 days to sign up for Azure AD Multi-Factor Authentication via the Microsoft Authenticator app or any app that supports OATH TOTP. After 14 days, the user is unable to sign in until registration is completed. After enabling security defaults, a user's 14-day period begins after their first successful interactive sign-in.
+You can see there is a message showing **You have 14 days until this is required**. This means all users in your tenant must enroll in multifactor authentication (MFA) via Azure AD Multi-Factor Authentication. Users have 14 days to sign up for Azure AD Multi-Factor Authentication via the Microsoft Authenticator app or any app that supports OATH TOTP. After 14 days, the user is unable to sign in until registration is completed. After enabling security defaults, a user's 14-day period begins after their first successful interactive sign-in.
 
-![img](../media/secr2.png)
+![img](../media/az-305mfa.png)
 
 5. To disable the Security defaults please repeat step 1 and step 2. On the **Security defaults** side screen, set the Security defaults to **Disabled** from the drop down then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
 
