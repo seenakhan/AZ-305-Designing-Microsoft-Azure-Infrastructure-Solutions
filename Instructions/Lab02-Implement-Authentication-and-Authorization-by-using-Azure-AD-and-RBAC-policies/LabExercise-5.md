@@ -36,7 +36,7 @@ Then, based on the applications used, you can define the scope of the Conditiona
 
 5. For Cloud apps or actions, select **No cloud apps, actions, or authentication contexts selected** then under **Include** tab select **Selected apps** then under **select** click **None** , then select **Office 365**, then select **Select** from the bottom.   
 
-    ![img](../media/grant.png)
+    ![img](../media/cloud.png)
 
 The Conditions section allows IT administrators to further define the Conditional Access policy. You can apply the policy based on the following criteria under the  Conditions section:
     + Device platforms—Apply the policy to selected operating systems
@@ -59,7 +59,7 @@ We are setting the Grant access option and requiring multi-factor authentication
 
 7. Under **Grant** Select **0 controls selected** , then on the **Grant** side screen, please select **Grant Access**, then select **Require multifactor authentication**, then select **Select**.
 
-    ![img](../media/ca5.png)
+    ![img](../media/grant.png)
 
 The Session configuration is the final section. There, you can limit user access to specific cloud applications by using session controls. There are the following options:
     + Use app enforced restrictions
