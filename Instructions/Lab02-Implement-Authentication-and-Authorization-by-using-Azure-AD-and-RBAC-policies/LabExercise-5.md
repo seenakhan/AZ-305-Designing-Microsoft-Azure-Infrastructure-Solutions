@@ -36,9 +36,9 @@ Then, based on the applications used, you can define the scope of the Conditiona
 
 5. For Cloud apps or actions, select **No cloud apps, actions, or authentication contexts selected** then under **Include** tab select **Selected apps** then under **select** click **None** , then select **Office 365**, then select **Select** from the bottom.   
 
-    ![img](../media/ca3.png)
+    ![img](../media/grant.png)
 
-The Conditions section allows IT administrators to further define the Conditional Access policy. You can apply the policy based on the following criteria under the Conditions section:
+The Conditions section allows IT administrators to further define the Conditional Access policy. You can apply the policy based on the following criteria under the  Conditions section:
     + Device platforms—Apply the policy to selected operating systems
     + Locations—Apply the policy based on the IP range the end user is logging in from
     + Client apps—Software the user is employing to access the cloud app
@@ -81,23 +81,13 @@ Here we are not configuring session.
 
 Now, you have created the conditional access policy named **Office application app policy**. You can see it on Conditional access policies page.
 
-   ![img](../media/ca7.png)
+    ![img](../media/ca7.png)
 
 10. You can test the conditional access policy by taking an in private window of your browser and enter http://portal.office.com then login with the credentials given in the Environment details.
 
 11. It will ask for configuring **Microsoft Authenticator**
 
-### Clean up resources
 
-   >**Note**: Remember to remove any newly created Azure resources that you no longer use. Removing unused resources ensures you will not see unexpected charges, although keep in mind that Azure policies do not incur extra cost.
-   
-   >**Note**:  Don't worry if the lab resources cannot be immediately removed. Sometimes resources have dependencies and take a longer time to delete. It is a common Administrator task to monitor resource usage, so just periodically review your resources in the Portal to see how the cleanup is going. 
-
-1. In the portal, Go to Azure Active Directory.
-
-1. Select users, then select users named **az305-01a-aaduser1** and  **az305-01a-aaduser2**, then click **Delete** from the top.
-
-1. Select **Security** on the Active directory page then select **Conditional access**, then select the **Office application app policy** then click on **Delete**.
 
 #### Review
 
