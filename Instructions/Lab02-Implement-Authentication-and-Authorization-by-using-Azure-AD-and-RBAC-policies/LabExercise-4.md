@@ -31,31 +31,29 @@ An Azure account with security administrator, Conditional Access administrator, 
 
     ![img](../media/secr1b.png)
 
-3. On the **Security defaults** side screen, set the Security defaults to **Enabled** from the drop down and then select **Save**.
+3. On the **Security defaults** side screen, set the Security defaults to **Enabled** from the drop down and then select **Save**. Now your Security defaults are enabled.
 
     ![img](../media/L2E4T1S3.png)
-
- Now your Security defaults are enabled.
  
 4.  Take an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
 
-You can see there is a message showing **You have 14 days until this is required**. This means all users in your tenant must enroll in multifactor authentication (MFA) via Azure AD Multi-Factor Authentication. Users have 14 days to sign up for Azure AD Multi-Factor Authentication via the Microsoft Authenticator app or any app that supports OATH TOTP. After 14 days, the user is unable to sign in until registration is completed. After enabling security defaults, a user's 14-day period begins after their first successful interactive sign-in.
+5. You can see there is a message showing **You have 14 days until this is required**. This means all users in your tenant must enroll in multifactor authentication (MFA) via Azure AD Multi-Factor Authentication. Users have 14 days to sign up for Azure AD Multi-Factor Authentication via the Microsoft Authenticator app or any app that supports OATH TOTP. After 14 days, the user is unable to sign in until registration is completed. After enabling security defaults, a user's 14-day period begins after their first successful interactive sign-in.
 
-![img](../media/az-305mfa.png)
+    ![img](../media/az-305mfa.png)
 
-5. To disable the Security defaults please repeat step 1 and step 2. On the **Security defaults** side screen, set the Security defaults to **Disabled** from the drop down then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
+6. To disable the Security defaults please repeat step 1 and step 2. On the **Security defaults** side screen, set the Security defaults to **Disabled** from the drop down then select any one of the option listed (here selected **My organization is using Conditional Access**), then select **Save**.
 
-![img](../media/L2E4T1S5.png)
+    ![img](../media/L2E4T1S5.png)
 
-6. A pop-up will appear about the confirmation to disable the Security defaults, select **Disable**. 
+7. A pop-up will appear about the confirmation to disable the Security defaults, select **Disable**. 
 
-![img](../media/L2E4T1S6.png)
+    ![img](../media/L2E4T1S6.png)
 
-7. Test again with Office 365 login by taking an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
+8. Test again with Office 365 login by taking an **In private window**, enter the link https://www.office.com/?auth=2 and login with the username and password provided in environment details.
 
-![img](../media/secr4.png)
+    ![img](../media/secr4.png)
 
-You can see there is no message like **skip for now (14 days until this is required)**
+9. You can see there is no message like **skip for now (14 days until this is required)**
 
 ## Review
 
