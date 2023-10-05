@@ -41,7 +41,7 @@ An Azure account.
 
     ![img](../media/appr3.png)
     
-    **Note**:Under the Application ID URI if you don't find the link, click on "Add Application URI" and click on **set** and **save**. 
+    >**Note**:Under the Application ID URI if you don't find the link, click on "Add Application URI" and click on **set** and **save**. 
 
 5. Select **+ Add scope**.
 
@@ -79,7 +79,7 @@ An Azure account.
 
     ![img](../media/appr10.png)
 
-This completes the registration of your application in Azure Active Directory.
+13. This completes the registration of your application in Azure Active Directory.
 
 ### Review
 
