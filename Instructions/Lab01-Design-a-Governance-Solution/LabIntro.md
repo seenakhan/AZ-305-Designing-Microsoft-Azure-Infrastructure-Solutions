@@ -1,5 +1,4 @@
 # Lab 01 - Design a Governance Solution
-# Student lab manual
 ## Lab scenario
 
 In order to improve management of Azure resources in Contoso, you have been tasked with implementing the following functionality:
@@ -13,10 +12,10 @@ In order to improve management of Azure resources in Contoso, you have been task
 
 ## Objectives
 
-In this lab, you will:
+After completing this lab, you will be able to:
 
-+ Exercise 1: Create Management Groups and assign Subscriptions
-+ Exercise 2: Manage Governance via Azure Policy
+ - Create Management Groups and assign Subscriptions
+ - Manage Governance via Azure Policy
 
 ## Estimated timing: 100 minutes
 ## Solution Architecture
