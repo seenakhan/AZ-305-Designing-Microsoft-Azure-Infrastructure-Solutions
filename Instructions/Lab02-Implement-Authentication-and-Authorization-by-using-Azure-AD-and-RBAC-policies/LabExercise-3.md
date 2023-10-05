@@ -1,10 +1,9 @@
-# Instructions
 
 ## Exercise 3: Add App Registration for Access via Apps.
 
 In this exercise you are going to register an application with Azure Active Directory, which enables a user with Power Apps user account to connect to their Microsoft Dataverse environment from client applications using OAuth authentication.
 
-In this exercise, you will:
+In this exercise, you will perform the following task:
 
 + Task 1: Create an application registration.
 
@@ -82,13 +81,13 @@ An Azure account.
 
 This completes the registration of your application in Azure Active Directory.
 
-#### Review
+### Review
 
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Created an application registration.
 
-
+## Proceed to Exercise 4
 
 
 
