@@ -21,3 +21,5 @@ After completing this lab, you will be able to:
 ## Solution Architecture
 
    ![image](../media/solarch.png)
+
+## Proceed to Exercise 1
