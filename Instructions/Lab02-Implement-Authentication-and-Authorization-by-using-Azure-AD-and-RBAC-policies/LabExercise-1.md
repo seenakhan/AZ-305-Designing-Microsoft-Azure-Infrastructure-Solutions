@@ -1,5 +1,3 @@
-# Instructions
-
 ## Exercise 1: Add a user and provide the accessibility of the resources.
 
 In order to allow Contoso users to authenticate by using Azure AD, you have been tasked with provisioning users and group accounts. 
