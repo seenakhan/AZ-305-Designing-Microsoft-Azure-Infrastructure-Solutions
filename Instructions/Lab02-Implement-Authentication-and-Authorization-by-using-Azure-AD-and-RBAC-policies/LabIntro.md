@@ -1,7 +1,5 @@
 # Lab 02 - Implement Authentication and Authorization by using Azure Active Directory and RBAC policies
 
-# Student lab manual
-
 ## Lab scenario
 
 In order to improve management of Azure users, permissions and roles in Contoso organization, you have been tasked with implementing the following functionality:
@@ -18,13 +16,13 @@ In order to improve management of Azure users, permissions and roles in Contoso 
 
 ## Objectives
 
-In this lab, you will have:
+After completing this lab, you will be able to:
 
-+ Exercise 1: Add a user and provide the accessibility of the resources.
-+ Exercise 2: Assign Active Directory Role & Custom RBAC.
-+ Exercise 3: Add App Registration for Access via Apps.
-+ Exercise 4: Enable Security Default / Disable Security Defaults
-+ Exercise 5: Create an Azure Active Directory Conditional Access Policy
+ - Add a user and provide the accessibility of the resources.
+ - Assign Active Directory Role & Custom RBAC.
+ - Add App Registration for Access via Apps.
+ - Enable Security Default / Disable Security Defaults
+ - Create an Azure Active Directory Conditional Access Policy
 
 
 ## Estimated timing: 160 minutes
