@@ -57,7 +57,7 @@ You can see there is a message showing **You have 14 days until this is required
 
 You can see there is no message like **skip for now (14 days until this is required)**
 
-### Review
+## Review
 
 In this exercise, you have completed the following:
 
