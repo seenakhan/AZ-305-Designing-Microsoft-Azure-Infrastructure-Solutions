@@ -2,9 +2,15 @@
 
 ## Exercise 3: Enable Azure Active Directory authentication and query the Database.
 
-Each Azure server (which hosts SQL Database or Azure Synapse) starts with a single server administrator account that serves as the server's administrator. As an Azure AD account, create a second administrator account. This principal is created as a contained database user in the server's master database. Administrator accounts are members of the db owner role in all user databases and log in as the dbo user. If a server does not have an Azure Active Directory administrator, then Azure Active Directory logins and users receive a Cannot connect to server error.
+Each Azure server (which hosts SQL Database) starts with a single server administrator account that serves as the server's administrator. As an Azure AD account, create a second administrator account. This principal is created as a contained database user in the server's master database. Administrator accounts are members of the db owner role in all user databases and log in as the dbo user. If a server does not have an Azure Active Directory administrator, then Azure Active Directory logins and users receive a Cannot connect to server error.
 
 In this Exercise, you will grant Azure AD admin role to access your SQL server.
+
+In this Exercise you will have:
+    
+  + Task 1: Set the current user as Admin and Query the data by using Azure Active Directory Authentication
+
+### Estimated Timing: 30 minutes
 
 ### Task 1: Set the current user as Admin and Query the data by using Azure Active Directory Authentication
 
@@ -16,11 +22,11 @@ Complete Exercise 1 & Exercise 2.
 
 #### Steps:
 
-1. Go to Azure portal.
+1. Login to Azure portal if you have logged out.
 
 2. Please search for SQL servers on the search box of the home page and then select SQL server from the list.
 
-3. Please select the SQL Server which you created on the previous exercise (in this example it would be **contososerve**).
+3. Please select the SQL Server which you created in previous exercise (in this example it would be **contososerve**).
 
 4. Please go to SQL databases under settings and select **adventureworkscontoso** database from the list.
 
@@ -36,15 +42,15 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa1.png)
 
-8. On the **Azure Active Directory** side screen please enter the current user name on the search box and select from the below option. Then select the **Select** button from the bottom.
+8. On the **Azure Active Directory** side screen please enter the current user name in search box and select from the list. Then click on **Select** button at bottom.
 
     ![img](../media/aa2.png)
     
-9. You can see under **Azure Active Directory Admin** section the current user add as an admin and then click **Save**.   
+9. Verify under **Azure Active Directory Admin** section that the current user added as an admin and then click **Save**.   
 
     ![img](../media/aa3a.png)
     
-10. On the same page please select **SQL databases**, then select **adventureworkscontoso** from the databases list.
+10. On left side please select **SQL databases**, then select **adventureworkscontoso** from the databases list.
 
     ![img](../media/aa4.png)
     
@@ -78,10 +84,6 @@ Complete Exercise 1 & Exercise 2.
 
     ![img](../media/aa9.png)
 
-
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 

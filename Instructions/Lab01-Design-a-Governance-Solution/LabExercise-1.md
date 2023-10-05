@@ -1,10 +1,9 @@
-# Instructions
 
 ## Exercise 1: Create Management Groups and assign Subscriptions
 
 In this exercise you will create three management groups and assign subscriptions to each management groups via Azure portal.
 
-In this Exercise, you will have:
+In this Exercise, you will perform the following tasks:
 
 + Task 1: Create Management Groups.
 + Task 2: Create Child Management Groups.
@@ -56,15 +55,15 @@ An Azure account. Any Azure AD user in the tenant can create a management group 
 
    ![image](../media/man8.png)
 
-10. Once completed the assignment, you can see the current user having **owner** role under **Access Control** section on the Tenant Root Group page. 
+10. Upon assignment, you can see the current user having **Owner** role under **Access Control** section on the Tenant Root Group page. 
 
-   ![image](../media/man9b.png)
+    ![image](../media/man9b.png)
 
->**Now you can create child management groups and assign subscriptions to each group**.
-
->**Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
-
->**The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
+      >**Now you can create child management groups and assign subscriptions to each group**.
+      
+      >**Note: The Management Group ID is the directory unique identifier that is used to submit commands on this management group. This identifier isn't editable after creation as it's used throughout the Azure system to identify this group. The root management group is automatically created with an ID that is the Azure Active Directory ID. For all other management groups, assign a unique ID.**
+      
+      >**The display name field is the name that is displayed within the Azure portal. A separate display name is an optional field when creating the management group and can be changed at any time.**
 
 
 ### Task 2: Create Child Management Groups
@@ -81,10 +80,10 @@ Complete Task 1.
 
 2. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
 
-  | Settings | Values |
-  |  -- | -- |
-  | Management Group ID | **IT-Contoso** |
-  | Management group display name* | **IT-Contoso** |
+     | Settings | Values |
+     |  -- | -- |
+     | Management Group ID | **IT-Contoso** |
+     | Management group display name* | **IT-Contoso** |
 
    ![image](../media/man11.png)
 
@@ -96,19 +95,19 @@ Complete Task 1.
 
 5. On the Create management group side screen, please enter the **Management Group ID** and **Management group display name**, then select **Submit**.
 
-  | Settings | Values |
-  |  -- | -- |
-  | Management Group ID | **IT-Support-c** |
-  | Management group display name* | **IT-Support-c** |
+     | Settings | Values |
+     |  -- | -- |
+     | Management Group ID | **IT-Support-c** |
+     | Management group display name* | **IT-Support-c** |
 
-   ![image](../media/man13.png)
+     ![image](../media/man13.png)
 
-6. By using step 4 and step 5, please add another child management group with the following details:
+6. By referring to step 4 and step 5, please add another child management group with the following details:
 
-  | Settings | Values |
-  |  -- | -- |
-  | Management Group ID | **IT-Service-c** |
-  | Management group display name* | **IT-Service-c** |
+     | Settings | Values |
+     |  -- | -- |
+     | Management Group ID | **IT-Service-c** |
+     | Management group display name* | **IT-Service-c** |
 
 7. Expand the **IT-Contoso** management group, you can see the newly created two child management groups.
 
@@ -136,23 +135,23 @@ You can add subscriptions to the management groups that you created.
 
    ![image](../media/man16.png)
 
-4. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by using the step 3.
-
-5. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
+4. In **Move** window, select **IT-Contoso (IT-Contoso)** management group from drop down and click on **Save**.
 
    ![image](../media/man17.png)
 
-In this exercise you have created three child management groups and add subscriptions on it.
+5. Add another two subscriptions to the child management groups of the **IT-Contoso** managament group by referring to step 3 & 4.
 
-### Clean up resources
+6. Expand the all the child managment groups which you created on this exercise and can see the subscriptions assigned to each management group.
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
+7. In this exercise you have created three child management groups and added subscriptions to it.
 
-#### Review
 
-In this exercise, you have:
+### Review
+
+In this exercise, you have completed the following:
 
 - Created Management Groups.
 - Created Child Management Groups.
 - Assigned subscriptions to management groups
 
+## Proceed to Exercise 2

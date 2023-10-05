@@ -9,19 +9,21 @@ In this Exercise, you will have:
   + Task 1: Configure Replica of Primary database
   + Task 2: Initiate a failover
 
+### Estimated Timing: 50 minutes
+
 ### Task 1: Configure Replica of Primary database
 
 In this task you are going to configure a replica of your primary database.
 
 #### Pre-requisites for this task
 
-Complete Exercise 1 & Exercise 2 & Exercise 3.
+Complete Exercise 1, Exercise 2 & Exercise 3.
 
 #### Steps:
 
 1. In the Azure portal, browse to the database that you have created on the previous exercise to set up for geo-replication.
 
-2. On the SQL Database page, select your database, scroll to Data management section, select Replicas, and then select Create replica.
+2. On the SQL Database page, select your database, scroll to Data management section, select **Replicas**, and then select **+ Create replica**.
 
     ![img](../media/rep1.png)
     
@@ -29,7 +31,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3.
 
     ![img](../media/rep2.png)
     
-4. For creating new server, please enter the following details:
+4. For creating new server, please enter the following details and then click on **Ok**:
 
     | Settings | Values |
     |  -- | -- |      
@@ -42,7 +44,7 @@ Complete Exercise 1 & Exercise 2 & Exercise 3.
 
     ![img](../media/rep3.png)
 
-5. After selecting the server, please go to **Compute + Storage** option to check whether it has the same database configuration of the primary database, if not please change the configuration by clicking on configure database and select the configuration of primary database (Here the primary database is  **adventureworkscontoso**). Please keep other options default values as it is.
+5. After providing the server details, under **Compute + Storage** option, check whether it has the same database configuration of the primary database which is **General Purpose (Standard-series (Gen5), 2 vCores, 32 GB storage)**, if not please change the configuration by clicking on configure database and select the configuration of primary database. Please keep other options default values as it is.
 
 6. Please Select **Review + Create**, then click **Create**.
 
@@ -70,15 +72,15 @@ In this task you are going to initiate a failover thereby your secondary databas
 
 #### Pre-requisites for this task
 
-Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4- Task 1.
+Complete Exercise 1, Exercise 2, Exercise 3 & Exercise 4- Task 1.
 
 #### Steps:
 
 1. Go to the Primary database in the azure portal.
 
-2. Scroll to Data management, and then select Replicas.
+2. Scroll to Data management section, and then select Replicas.
 
-3. In the Geo replicas list, select the secondary database you want to become the new primary, select the ellipsis **(...)** on the right side of the secondary database, and then select **Forced failover**.
+3. In the Geo replicas list, select the secondary database you want to enable as primary, select the ellipsis **(...)** on the right side of the secondary database, and then select **Forced failover**.
 
     ![img](../media/rep8.png)
  
@@ -88,17 +90,14 @@ Complete Exercise 1 & Exercise 2 & Exercise 3 & Exercise 4- Task 1.
 
 5. You will get a notification saying **Request submitted for failover replication**.
 
-6. Go to database named **adventureworkscontoso (contososervwest/adventureworkscontoso)** select **Replicas**, then you can see under **Primary** the name of the current database with server **contososervwest** having a **pending** status.
+6. Now under the database named **adventureworkscontoso (contososervwest/adventureworkscontoso)** select **Replicas**, then you can see under **Primary** the name of the current database with server **contososervwest** having a **pending** status.
 
   ![img](../media/rep10.png)
 
-7. Please keep refresh the page and you can see the primary database status becomes **online**.
+7. Please keep refreshing the page and you can see the primary database status becomes **Online**.
 
 ![img](../media/rep11.png)
 
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
 
 ### Review
 

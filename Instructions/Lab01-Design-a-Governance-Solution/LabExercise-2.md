@@ -1,13 +1,12 @@
-## Instructions
-
 ## Exercise 2: Manage Governance via Azure Policy
 
-In this exercise you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
+In this exercise, you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
 
-In this Exercise, you will have:
+In this exercise, you will perform the following tasks:
 
-+ Task 1: Create an Assignment through an Azure built-in Policy
++ Task 1: Create an Assignment through an Azure built-in Policy.
 + Task 2: Applying the Policy definition to a Storage account.
++ Task 3: Review the cost data and explore Cost Manager.
 
 ## Estimated timing: 60 minutes
 
@@ -21,7 +20,7 @@ Complete Exercise 1
 
 #### Steps:
 
-1. Go to search box and enter policy, then select **Policy** from the list.
+1. Go to search box and type policy, then select **Policy** from the list.
 
       ![image](../media/pol1.png)
 
@@ -35,7 +34,7 @@ Complete Exercise 1
 
 4. Please click on **Exclusions** elipsis **(...)** towards the right side of the exclusions.
 
-5. On the Exclusions side screen Select the Resource group **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
+5. On the Exclusions side screen Select the Resource group named similar to **ODL-AZ-305M02-838938** and then select **Add to selected scope** and then **Save**.
 
       ![image](../media/pol6a.png)
 
@@ -43,9 +42,9 @@ Complete Exercise 1
 
 7. On the **Available Definitions** side screen take a moment to browse through the list of built-in policy definitions that are available for you to use.
 
-8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Save**.
+8. On the search box please type **tag** and select **Require a tag and its value on resources** built in definition, then click **Add**.
 
-      ![image](../media/pol7.png)
+      ![image](../media/E2T1S8.png)
 
 9. By selecting the policy definition, the assignment name also filled automatically.
 
@@ -136,7 +135,15 @@ Complete Exercise 1, Exercise 2 -  Task 1 & Task 2
 
 #### Steps:
 
-1. 
+1. Go to Subscription, and select the default subscription, then select **Cost Analysis** under **Cost Management** section, you can see the accumulated costs for the subscription. 
+
+![image](../media/costm1.png)
+
+2. In the **Cost analysis**, please change the view to **Cost By Resource**, you can see the cost per resources in subscription scope.
+
+![image](../media/costm2.png)
+
+You can check the different views by clicking on the **Views** in cost analysis.
 
 ### Task 4: Clean up resources
 
@@ -163,12 +170,13 @@ In the Azure portal, navigate back to the **Management groups** blade.
 1. Select **Refresh** to verify that the subscription has successfully moved to the **Tenant Root management group**.
 
 1. Navigate back to the **Management groups** blade, click the **ellipsis** icon to the right of the management groups and click **Delete**.
-  >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
+
+   >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
 
 
 #### Review
 
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Created and assigned a built in policy via the Azure portal
 - Enforced tagging  and checked the validation via an Azure policy

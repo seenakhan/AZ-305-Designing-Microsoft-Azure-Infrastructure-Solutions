@@ -1,14 +1,17 @@
-# Instructions
 
 ## Exercise 3: Add App Registration for Access via Apps.
 
 In this exercise you are going to register an application with Azure Active Directory, which enables a user with Power Apps user account to connect to their Microsoft Dataverse environment from client applications using OAuth authentication.
 
-In this lab, you will:
+In this exercise, you will perform the following task:
 
 + Task 1: Create an application registration.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create an application registration
+
+App registration is a way to reserve an application in AAD (Azure Active Directory), to integrate an application with Azure, you must register it in the App Registration.
 
 In this task you are going to create an application registration.
 
@@ -37,6 +40,8 @@ An Azure account.
 4. On the **Overview** section of **contosoapp-test**, select **Application ID URI**.
 
     ![img](../media/appr3.png)
+    
+    >**Note**:Under the Application ID URI if you don't find the link, click on "Add Application URI" and click on **set** and **save**. 
 
 5. Select **+ Add scope**.
 
@@ -54,7 +59,7 @@ An Azure account.
    
     ![img](../media/appr5.png)
 
-7. Select the **contosoapp-test**.
+7. Once the **Scope** is added, go to **Active Directory**, then select **App registrations**. Select the **contosoapp-test**.
 
     ![img](../media/appr6.png)
 
@@ -74,19 +79,15 @@ An Azure account.
 
     ![img](../media/appr10.png)
 
-This completes the registration of your application in Azure Active Directory.
+13. This completes the registration of your application in Azure Active Directory.
 
-### Clean up resources
+### Review
 
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
-
-#### Review
-
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Created an application registration.
 
-
+## Proceed to Exercise 4
 
 
 

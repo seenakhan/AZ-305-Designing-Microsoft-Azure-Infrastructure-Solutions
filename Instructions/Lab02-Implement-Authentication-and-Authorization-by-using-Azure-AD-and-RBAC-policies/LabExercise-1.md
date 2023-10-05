@@ -1,17 +1,17 @@
-# Instructions
-
 ## Exercise 1: Add a user and provide the accessibility of the resources.
 
 In order to allow Contoso users to authenticate by using Azure AD, you have been tasked with provisioning users and group accounts. 
 
-In this lab, you will:
+In this exercise, you will perform the following tasks:
 
 + Task 1: Create and configure Azure AD users 
 + Task 2: Add Accessibility of Resources
 
+### Estimated Timing : 30 minutes
+
 ### Task 1: Create and configure Azure Active Directory users
 
-In this task you are going to create and configure Azure Active DIrectory users.
+In this task you are going to create and configure Azure Active Directory users.
 
 #### Pre-requisites for this task
 
@@ -33,11 +33,11 @@ An Azure account
 
     ![img](../media/nuse2.png)
 
-5. Click **Edit properties**, in the **Settings** section, and check the usage location is UNited States, if not set **Usage location** to **United States** and click **Save** to apply the change.
+5. Click **Edit properties**, in the **Settings** section, and check the usage location is United States, if not set **Usage location** to **United States** and click **Save** to apply the change.
 
     ![img](../media/nuse3.png)
 
-    >**Note**: This is necessary in order to assign an Azure AD Premium P2 license to your user account later in this lab.
+    >**Note**: This is necessary to assign an Azure AD Premium P2 license to your user account later in this lab.
 
 6. Go back to the **Users - All users** blade, and then click **+ New user**.
 
@@ -47,7 +47,7 @@ An Azure account
 
     | Setting | Value |
     | --- | --- |
-    | User name | **az305-01a-aaduser1** |
+    | Username | **az305-01a-aaduser1** |
     | Name | **az305-01a-aaduser1** |
     | Let me create the password | enabled |
     | Initial password | **Provide a secure password** |
@@ -72,7 +72,7 @@ Complete Task 1
 
 1. Go to Azure portal, search **Resource groups** on the search box of the Home page and select **Resource groups** from the list.
 
-2. Select the resource group named **ODL-AZ-305-M02B-XXXXXXX**.
+2. Select the resource group named **ODL-AZ-305M02B-XXXXXXX**.
 
     ![img](../media/nres1.png)
 
@@ -80,7 +80,7 @@ Complete Task 1
 
     ![img](../media/nres2.png)
 
-4. In the **Add role assignment** page, please select **Virtual machine contributor** role by searching on the search bar and then select **Next** at the botom.
+4. In the **Add role assignment** page, please select **Virtual machine contributor** role by searching on the search bar and then select **Next** at the bottom.
 
     ![img](../media/nres3.png)
 
@@ -98,14 +98,11 @@ Complete Task 1
 
     ![img](../media/nres6.png)
 
+## Review
 
-### Clean up resources
-
->**Note : Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
-
-#### Review
-
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Created and configured Azure AD users.
 - Provide accessibility to the resources.
+
+## Proceed to Exercise 2

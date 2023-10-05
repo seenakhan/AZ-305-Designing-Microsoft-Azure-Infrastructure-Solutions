@@ -38,10 +38,23 @@
 
 1. Now, you will see two tabs in the edge browser, close the first tab named with Microsoft Edge.
 
-1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the **username** available on the **Environment details** and click on **Next**.       
-1. Now enter the **Password** available on the **Environment details**  and click on Sign in.
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. In that enter the following **Email/Username** and then click on **Next**. 
+   
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+1. Enter the following **Password** and click on **Sign in**. 
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
   
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
-1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+
+1. Search for **Resource groups** on the search box.
+
+1. Please select the resource groups option from the list.
+
+1. Please click on the resource group.
+
+1. Review the resources available on the source group
 

@@ -8,6 +8,8 @@ In this Exercise, you will have:
 
   + Task 1: Create a Virtual Network Manager.
 
+### Estimated Timing: 30 minutes
+
 ### Task 1: Create a Virtual Network manager
 
 In this task you are going to create a virtual Network manager.
@@ -24,7 +26,7 @@ An Azure account
 
     ![img](../media/vn1.png)
   
-3. On the Network managers page please select **+ Create**.
+3. On the Network managers page, select **+ Create**.
 
     ![img](../media/vn2.png)
 
@@ -40,36 +42,30 @@ An Azure account
    
     ![img](../media/vn2a.png) 
   
-5. For **Scope**, please select **Select scopes**, then on the Select scopes side screen, please select **subscription** , then click on **Add to selected scope** and click **Select**.
+5. For **Scope**, click on **Select scopes**, then on the Select scopes side screen, please select **subscription**, then click on **Add to selected scope** and click **Select**.
 
    ![img](../media/scop1.png)
 
-6. For **Features**, please select **Connectivity** and **Security Admin**
+6. For **Features**, select **Connectivity** and **Security Admin**.
 
    ![img](../media/vn4.png)
 
-7. Once entered all the values, please select **Review + Create**.
+7. Once entered all the values, select **Review + Create**.
 
    ![img](../media/vn5.png)
 
-8. After completing the review, please select **Create**.
+8. After completing the review, select **Create**.
 
-9. Please click on **Go to resource** after comlpeting the deployment.
+9. Once the deployment is succeeded, click on **Go to resource**. 
 
 10. You can see the newly created virtual network manager named **contosonetmanager**.
 
      ![img](../media/vn6.png)
 
-
-### Clean up resources
-
->**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module.**
-
 ### Review
 
 In this lab, you have:
 
-+ Created a management group.
 + Created a virtual network manager.
 
 

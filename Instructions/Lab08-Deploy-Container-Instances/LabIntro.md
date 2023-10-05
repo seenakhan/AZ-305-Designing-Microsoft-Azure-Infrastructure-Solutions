@@ -9,13 +9,20 @@ Contoso is looking for a new platform to host its virtualized workloads. You ide
 
 - Reviewing the functionalities of Azure container instance. After deploying the container, start by viewing its logs with az container logs, and stream its standard out and standard error with az container attach. You can also view logs and events for container instances in the Azure portal, or send log and event data for container groups to Azure Monitor logs.
 
+- Deploy Azure Container instance using a YAML file. Azure Container Instances supports the deployment of multiple containers onto a single host using a container group. A container group is useful when building an application sidecar for logging, monitoring, or any other configuration where a service needs a second attached process. You are going to deploy an Azure Container instance by using YAML file and review the functionalities of it.
+
+- Configure Front door profile and deploy App services in Azure. You will create two Web App instances that are deployed in two different Azure regions. Both web application instances will run in Active/Active mode, so either one can service incoming traffic. This configuration differs from an Active/Stand-By configuration, where one acts as a failover. Azure Front Door is Microsoft's modern cloud Content Delivery Network (CDN) that provides global access for your users to your applications' static and dynamic web content. Azure Front Door delivers your content via Microsoft's global edge network, which includes hundreds of global and local points of presence (PoPs) located around the world near your enterprise and consumer end users.
+
 ## Objectives
 
 In this lab, you will have:
 
-+ Exercise 1: Create an Azure Container instance and reviewing it. 
++ Exercise 1: Create an Azure Container instance and reviewing it.
++ Exercise 2: Deploy Azure Container instance using a YAML file.
++ Exercise 3: Configure Front door profile and deploy App services in Azure
 
 
-## Estimated timing: 60 minutes
+## Estimated timing: 135 minutes
 ## Solution Architecture
 
+   ![](../media/archlab8.png)

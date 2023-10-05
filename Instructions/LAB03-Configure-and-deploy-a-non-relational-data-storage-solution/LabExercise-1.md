@@ -38,7 +38,7 @@ An Azure account
 
 5. Create a Storage account page will open. You can see the options for your new storage account are organized into tabs in the Create a storage account page.
 
-6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **basic tab**, select the subscription, if the default subscription is not using, then select the **resource group**.
+6. Basic tab shows a standard configuration of the basic properties for a new storage account. On the **Basics tab**, select the subscription, if the default subscription is not using, then select the **resource group**.
 
 7. For Storage account name option please provide any name with small letter alphabets and numbers.
 
@@ -86,7 +86,7 @@ An Azure account, a storage account (Complete Task 1)
 
 1. Navigate to your new storage account in the Azure portal.
 
-2. In the left menu for the storage account, scroll to the Data storage section, then select Containers.
+2. In the left menu for the storage account, scroll to the **Data storage** section, then select **Containers**.
 
 3. Select the + Container button.
 
@@ -96,7 +96,7 @@ An Azure account, a storage account (Complete Task 1)
 
 5. Set the level of public access to the container. The default level is Private (no anonymous access).
 
-6. Select Create to create the container.
+6. Select **Create** to create the container.
 
     ![image](../media/str10.png)
 
@@ -120,11 +120,11 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
     ![image](../media/str11.png)
 
-3. Select the Upload button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. Please upload some image files, if its not available in the pictures folder, you can download from internet and use that files to upload to the block blob.
+3. Select the **Upload** button to open the upload blade and browse your local file system to find a file to upload as a block blob ( you can upload multiple files). You can optionally expand the Advanced section to configure other settings for the upload operation. Please upload some image files, if its not available in the pictures folder, you can download from internet and use that files to upload to the block blob.
 
     ![image](../media/str12a.png)
 
-4. After entering all the details, please select the upload button to upload the blob.
+4. After entering all the details, please select the **Upload** button to upload the blob.
 
     ![image](../media/str13.png)
 
@@ -142,9 +142,9 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
 #### Steps
 
-1. Launch Visual Studio Code by double click on Vscode icon from desktop.
+1. Launch **Visual Studio Code** by double click on Vscode icon from desktop.
 
-2. On the toolbar, click Extensions. Search for Azure Storage, and select the Azure Storage extension from the list. Then click the Install button to install the extension.
+2. On the toolbar, click **Extensions**. Search for **Azure Storage**, and select the **Azure Storage extension** from the list. Then click the **Install** button to install the extension.
 
     ![image](../media/str15.png)
 
@@ -154,33 +154,33 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
     ![image](../media/str8.png)
 
-5. Select **Static website** to display the configuration page for static websites under **data management** section.
+5. Select **Static website** to display the configuration page for static websites under **Data Management** section.
 
 6. Select Enabled to enable static website hosting for the storage account.
 
-7. In the Index document name field, specify a default index page of index.html. The default index page is displayed when a user navigates to the root of your static website.
+7. In the **Index document name** field, specify a default index page of **index.html**. The default index page is displayed when a user navigates to the root of your static website.
 
-8. In the Error document path field, specify a default error page of 404.html. The default error page is displayed when a user attempts to navigate to a page that does not exist in your static website. Click Save.
+8. In the **Error document path** field, specify a default error page of **404.html**. The default error page is displayed when a user attempts to navigate to a page that does not exist in your static website. Click **Save**.
 
     ![image](../media/str16.png)
 
-9. The Azure portal now displays your static website endpoints (primary and secondary). Azure Storage automatically creates a container named $web. The $web container will contain the files for your static website.
+9. The Azure portal now displays your static website endpoints (primary and secondary). Azure Storage automatically creates a container named **$web**. The $web container will contain the files for your static website.
 
     ![image](../media/str17.png)
 
 Next, create a Hello World web page with Visual Studio Code and deploy it to the static website hosted in your Azure Storage account.
 
-10. Create an empty folder named mywebsite on your local file system.
+10. Create an empty folder named **mywebsite** on your local file system.
 
-11. Launch Visual Studio Code, and open the folder that you just created from the Explorer panel, by selecting open folder option.
+11. Launch Visual Studio Code, and open the folder that you just created from the **Explorer** panel, by selecting open folder option.
 
     ![image](../media/str18.png)
 
-12. Select Yes, I trust the authors Trust folder and enable all features.
+12. Select **Yes, I trust the authors** Trust folder and enable all features.
 
     ![image](../media/str19.png)
 
-13. Create the default index file in the mywebsite folder, by selecting Add file option and provide the name index.html in the name box.
+13. Create the default index file in the mywebsite folder, by selecting Add file option and provide the name **index.html** in the name box.
 
     ![image](../media/str20.png)
 
@@ -194,9 +194,9 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
     </html>
     ```
 
-    ![image](../media/str21.png)
+   ![image](../media/str21.png)
 
-15. Create the default error file and name it 404.html.
+15. Create the default error file and name it **404.html**.
 
 16. Open 404.html in the editor, paste the following text into the file, and save it:
 
@@ -211,7 +211,7 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
     ![image](../media/str22.png)
 
-17. Click on the Azure logo where you will be asked to log in. Once you have authenticated to Azure with the extension, expand the **Storage accounts**, then expand the storage account you have created, then expand **Blob containers**, then right-click on the **$web** storage container. You’ll see an option to **Deploy to Static Website via Azure storage**. Select that option.
+17. Click on the **Azure** logo where you will be asked to log in. Once you have authenticated to Azure with the extension, expand the **Subscription** then **Storage accounts**, under it expand the storage account you have created, then expand **Blob containers**, then right-click on the **$web** storage container. You’ll see an option to **Deploy to Static Website via Azure storage**. Select that option.
 
     ![image](../media/str23.png)
 
@@ -219,7 +219,7 @@ Next, create a Hello World web page with Visual Studio Code and deploy it to the
 
     ![image](../media/str24.png)
 
-19. Visual Studio Code will then deploy those files as your static page and return a success message to you. Please select  **Browse to website button** Once the files have been uploaded, navigate to the primary endpoint you received earlier.
+19. Visual Studio Code will then deploy those files as your static page and return a success message to you. Please select  **Browse to website button** once the files have been uploaded, navigate to the primary endpoint you received earlier.
 
     ![image](../media/str25.png)
 
@@ -233,7 +233,7 @@ In this task, you will learn how to use the Azure portal to Apply the lifecycle 
 
 #### Pre-requisites for this task
 
-An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select configuration under settings to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
+An Azure account, a storage account (Complete Task 1), an azure blob container (Complete Task 1 & Task 2). Before doing the steps to configure Lifecycle management policy, please go to the storage account created on the previous task and select **Configuration** under **Settings** to view the configuration of your storage account, which you are going to apply Lifecycle management policy.
 
    ![image](../media/life1.png)
 
@@ -243,11 +243,11 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
 
     ![image](../media/life2.png)
 
-2. On the **Add a rule** page please enter the **rule name** as **Testrule** and keep the default settings as it is and select **Next**
+2. On the **Add a rule** page please enter the **Rule name** as **Testrule** and keep the default settings as it is and select **Next**
 
     ![image](../media/life3a.png)
 
-3. On the Add a rule page, under the **Base blob** tab, enter the following settings as per the image below: and please select **add** button.
+3. On the Add a rule page, under the **Base blob** tab, enter the following settings as per the image below: and please select **Add** button.
 
     ![image](../media/life4.png)
 
@@ -256,10 +256,6 @@ An Azure account, a storage account (Complete Task 1), an azure blob container (
     ![image](../media/life5.png)
 
 If you are not seeing newly created lifecycle management policy please select the lifecycle management and select refresh.
-
-### Cleanup resources
-    
-   >**Please do not delete resources you deployed in this lab. You will reference them in the next lab of this module**.
     
 #### Review
 
