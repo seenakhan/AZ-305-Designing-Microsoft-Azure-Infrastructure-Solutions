@@ -1,10 +1,9 @@
-# Instructions
 
 ## Exercise 2: Assign Active Directory Role & Custom RBAC.
 
 In order to allow Contoso users to authenticate by using Azure AD, you have been tasked to provide Azure Active Directory roles and custom RBAC roles to the new users.
 
-In this exercise, you will:
+In this exercise, you will perform the following tasks:
 
 + Task 1: Add Azure Active Directory roles to the new users.
 + Task 2: Add Custom RBAC roles.
@@ -143,9 +142,11 @@ Complete Exercise 1 & Exercise 2 - Task 1.
 
     ![img](../media/custr9.png)
 
-#### Review
+### Review
 
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Assigned Azure AD roles and tested it.
 - Created custom RBAC roles and assigned it to the user.    
+
+## Proceed to Exercise 3
