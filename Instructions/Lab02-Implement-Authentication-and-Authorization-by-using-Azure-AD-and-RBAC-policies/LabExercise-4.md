@@ -1,4 +1,3 @@
-# Instructions
 
 ## Exercise 4: Enable Security Default / Disable Security Defaults
 
@@ -10,7 +9,7 @@ In this exercise you are going to Enable or disable the security defaults. Secur
   - Blocking legacy authentication protocols.
   - Protecting privileged activities like access to the Azure portal.
 
-In this exercise, you will:
+In this exercise, you will perform the following task:
 
 + Task 1: Enable Security Default
 
@@ -58,8 +57,10 @@ You can see there is a message showing **You have 14 days until this is required
 
 You can see there is no message like **skip for now (14 days until this is required)**
 
-#### Review
+### Review
 
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Enabled and disabled the security defaults.
+
+## Proceed to Exercise 5
