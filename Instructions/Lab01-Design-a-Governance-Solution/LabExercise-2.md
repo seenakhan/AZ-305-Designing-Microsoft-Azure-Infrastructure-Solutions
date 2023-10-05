@@ -1,10 +1,8 @@
-## Instructions
-
 ## Exercise 2: Manage Governance via Azure Policy
 
-In this exercise you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
+In this exercise, you are going to add an assignment policy through an Azure buil-in policy and enforcing it to a storage account.
 
-In this Exercise, you will have:
+In this exercise, you will perform the following tasks:
 
 + Task 1: Create an Assignment through an Azure built-in Policy.
 + Task 2: Applying the Policy definition to a Storage account.
@@ -172,12 +170,13 @@ In the Azure portal, navigate back to the **Management groups** blade.
 1. Select **Refresh** to verify that the subscription has successfully moved to the **Tenant Root management group**.
 
 1. Navigate back to the **Management groups** blade, click the **ellipsis** icon to the right of the management groups and click **Delete**.
-  >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
+
+   >**Note**: If you are unable to delete the **Tenant Root management group**, chances are that the **Azure Subscription** is under the resource group. You need to move **Azure Subscription** out of the **Tenant Root management group** and then delete the group.
 
 
 #### Review
 
-In this lab, you have:
+In this exercise, you have completed the following:
 
 - Created and assigned a built in policy via the Azure portal
 - Enforced tagging  and checked the validation via an Azure policy
